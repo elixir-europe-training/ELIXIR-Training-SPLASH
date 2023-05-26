@@ -1,13 +1,19 @@
-title: Website title
+title: ELIXIR Training SPLASH
 # This appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-topnav_title: Website title
+topnav_title: ELIXIR-Training-SPLASH
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
-
-description: "Example of ELIXIR toolkit theme as a remote jekyll theme"
+description: "ELIXIR Training SPLASH"
 # Metadata description of the website
-
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.26.0
+# add gtag:
+
+theme_variables:
+  # ELIXIR blue
+  theme_color: 205a86
+  topnav:
+    brand_logo: assets/img/white-orange-logo.png
+  #privacy_statement_url: https://www.biocommons.org.au/privacy
 
 exclude:
   - README.md
@@ -22,6 +28,11 @@ defaults:
       permalink: /:basename
       layout: "page"
       sidebar: main
+  -
+    scope:
+      path: "about"
+    values:
+      sidebar: about
 
 plugins:
   - jemoji
