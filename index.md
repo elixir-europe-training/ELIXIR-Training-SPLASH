@@ -1,6 +1,8 @@
 ---
-title: Index page
+title: Welcome to the ELIXIR Training SPLASH
+toc: false
 ---
 
+This resource presents the ELIXIR Training SPLASH.
 
-This page serves as a landing page.
+Skills, professional development, learning, assessment, support and help along the training life cycle.
