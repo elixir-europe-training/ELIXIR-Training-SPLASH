@@ -13,7 +13,7 @@ If you think something should be added, or if you find an error, bug or mistake,
 
 If you want to add content to this site, please do the following:
 
-1. Please let us know via GitHub [discussions]();
+1. Please let us know via GitHub [discussions](https://elixir-europe.org);
 2. Create your own fork of this GitHub repository;
 3. In your fork, create a branch with a concise name, that reflects its contents (e.g. `add/how-to-login-galaxy`);
 4. Use [`guide_template.md`](../guide_template.md) as a starting point to create your own `[guide_name].md`;
