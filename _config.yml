@@ -1,7 +1,7 @@
 title: ELIXIR Training SPLASH
 # This appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-topnav_title: ELIXIR-Training-SPLASH
+topnav_title: ELIXIR Training SPLASH
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
 description: "ELIXIR Training SPLASH"
 # Metadata description of the website
@@ -13,25 +13,33 @@ theme_variables:
   theme_color: 205a86
   topnav:
     brand_logo: assets/img/white-orange-logo.png
-  #privacy_statement_url: https://www.biocommons.org.au/privacy
+  #privacy_statement_url: https://elixir-europe.org/privacy
+  #fonts:
+  #  - https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap
+
+permalink: /:categories/:year/:month/:day/:title
 
 exclude:
   - README.md
   - vendor
-
+  - .gitignore
+  - var/
+  - Gemfile*
+  - LICENSE
+  
 defaults:
   -
     scope:
       path: ""
       type: "pages"
     values:
-      permalink: /:basename
       layout: "page"
       sidebar: main
   -
     scope:
       path: "about"
     values:
+      type: "pages"
       sidebar: about
 
 plugins:
