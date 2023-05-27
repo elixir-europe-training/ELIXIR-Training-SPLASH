@@ -1,7 +1,4 @@
+# see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme
 subitems:
   - title: Home
-    url: /index
-  - title: Example page
-    url: /example_page
-
-  
+    url: /
