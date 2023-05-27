@@ -1,24 +1,18 @@
-copyright: Copyright notice
-extra_line: 
+copyright: 'This site uses Cookies. We use cookies to help the website run effectively. To find out more, read our [Privacy](https://elixir-europe.org/privacy) and [Cookies](https://elixir-europe.org/cookies) statements.'
 columns:
   - type: image
-    image_width: 88px
-    width: 2
-    src: 'assets/img/main_logo.svg'
-    alt: Jekyll Bootstrap theme logo
+    image_width: 120px
+    width: 3
+    src: 'assets/img/white-orange-logo.png'
+    alt: ELIXIR logo
   - type: links
     width: 3
-    children: 
+    children:
       - url_text: Home
         url: /
-  - type: links
-    width: 3
-    children: 
-      - url_text: Example page
-        url: /example_page
-  - type: image
-    image_width: 88px
-    width: 2
-    src: 'assets/img/main_logo.svg'
-    alt: Jekyll Bootstrap theme logo
-
+      - url_text: About
+        url: /about/about
+      - url_text: Contributors
+        url: /about/contributors
+      - url_text: Acknowledgments
+        url: /about/acknowledgements
