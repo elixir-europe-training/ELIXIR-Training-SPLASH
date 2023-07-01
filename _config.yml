@@ -17,8 +17,6 @@ theme_variables:
   #fonts:
   #  - https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap
 
-permalink: /:categories/:year/:month/:day/:title
-
 exclude:
   - README.md
   - vendor
@@ -26,21 +24,28 @@ exclude:
   - var/
   - Gemfile*
   - LICENSE
-  
+
 defaults:
   -
     scope:
       path: ""
       type: "pages"
     values:
+      permalink: /:basename
       layout: "page"
       sidebar: main
   -
     scope:
-      path: "about"
+      path: "pages/about"
     values:
       type: "pages"
       sidebar: about
+  -
+    scope:
+      path: "pages/contribute"
+    values:
+      type: "pages"
+      sidebar: contribute
 
 plugins:
   - jemoji
