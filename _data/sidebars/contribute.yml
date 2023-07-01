@@ -1,0 +1,31 @@
+title: Contribute
+title_url: /how_to_contribute
+subitems:
+  - title: Ways to contribute
+    subitems:
+      - title: GitHub way
+        url: /github_way
+      - title: Git way (advanced)
+        url: /working_with_git
+  - title: Add new tool or resource
+    url: /tool_resource_update
+  - title: Style guide
+    url: /style_guide
+  - title: Copyright guidelines
+    url: /copyright
+  - title: Markdown cheat sheet
+    url: /markdown_cheat_sheet
+  - title: Page metadata
+    url: /page_metadata
+  - title: For editors
+    subitems:
+    - title: Editorial board guide
+      url: /editorial_board_guide
+    - title: Editors checklist
+      url: /editors_checklist
+    - title: Preview changes
+      url: /preview_changes
+  - title: Code of Conduct
+    url: /CODE_OF_CONDUCT
+  - title: List of page IDs
+    url: /website_overview
