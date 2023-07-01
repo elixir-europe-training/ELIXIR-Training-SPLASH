@@ -1,9 +1,21 @@
 title: About
-title_url: /about/
+title_url: /about
 subitems:
-  - title: How to contribute
-    url: /about/contributing
-  - title: Contributors
-    url: /about/contributors
-  - title: Acknowledgements
-    url: /about/acknowledgements
+  - title: Community
+    subitems:
+      - title: Contributors
+        url: /contributors
+      - title: Editorial board
+        url: /editorial_board
+      - title: Support
+        url: /support
+  - title: Contact
+    url: /contact
+  - title: News
+    url: /news
+  - title: Outreach
+    url: /outreach
+  - title: Accessibility
+    url: /accessibility
+  - title: Privacy
+    url: /privacy
