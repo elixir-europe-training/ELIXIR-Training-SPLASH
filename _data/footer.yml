@@ -11,8 +11,8 @@ columns:
       - url_text: Home
         url: /
       - url_text: About
-        url: /about/about
+        url: /about
       - url_text: Contributors
-        url: /about/contributors
+        url: /contributors
       - url_text: Acknowledgments
-        url: /about/acknowledgements
+        url: /contact
