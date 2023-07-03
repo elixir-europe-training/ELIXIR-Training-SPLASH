@@ -8,10 +8,6 @@ columns:
   - type: links
     width: 3
     children:
-      - url_text: Home
-        url: /
-      - url_text: About
-        url: /about
       - url_text: Contributors
         url: /contributors
       - url_text: Acknowledgments
