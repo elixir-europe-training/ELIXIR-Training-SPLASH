@@ -52,7 +52,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Tool assembly:** there are multiple tools in **one** assembly. The plural is "tool assemblies".
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
-TODO: define color scheme
+{% glossary TODO %}: define color scheme
 
 ## Graphic design
   * **White space:** make sure there is plenty of space so that the main elements stand out and the text does not appear overwhelming.
