@@ -6,6 +6,9 @@ topnav_title: ELIXIR Training SPLASH
 description: "ELIXIR Training SPLASH"
 # Metadata description of the website
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.26.0
+repository: elixir-europe-training/ELIXIR-Training-SPLASH
+
+
 # add gtag:
 
 theme_variables:
