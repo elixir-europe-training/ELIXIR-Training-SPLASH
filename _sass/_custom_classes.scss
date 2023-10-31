@@ -3,10 +3,44 @@
 //Example for highlighting the active page in the navigation:
 /*-----Top navigation-----*/
 
-.navbar-nav .nav-item > a {
+.navbar-nav .nav-item>a {
     &.active {
         color: $white;
         background-color: $primary;
         border-radius: $border-radius;
+    }
+}
+
+header {
+    .navbar {
+        .navbar-brand {
+            min-height: 54px;
+            position: relative;
+
+            img {
+                position: absolute;
+                height: 60px;
+                max-height: 60px;
+                max-width: unset;
+                top: -5px;
+            }
+        }
+    }
+}
+
+footer {
+    .copyright {
+        background-color: inherit;
+    }
+}
+
+
+#main { 
+    h1 {
+        font-weight: 700;
+
+        .ff-body {
+            font-weight: 500;
+        }
     }
 }
