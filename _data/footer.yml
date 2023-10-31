@@ -3,7 +3,7 @@ columns:
   - type: image
     image_width: 120px
     width: 3
-    src: 'assets/img/white-orange-logo.png'
+    src: 'assets/img/main_logo.svg'
     alt: ELIXIR logo
   - type: links
     width: 3

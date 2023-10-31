@@ -1,9 +1,9 @@
 title: ELIXIR Training SPLASH
 # This appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-topnav_title: ELIXIR Training SPLASH
+# topnav_title: ELIXIR Training SPLASH
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
-description: "ELIXIR Training SPLASH"
+# description: "ELIXIR Training SPLASH"
 # Metadata description of the website
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@2.3.0
 repository: elixir-europe-training/ELIXIR-Training-SPLASH
@@ -15,9 +15,10 @@ theme_variables:
   # ELIXIR blue
   theme_color: 205a86
   topnav:
-    brand_logo: assets/img/white-orange-logo.png
+    brand_logo: assets/img/main_logo.svg
   #privacy_statement_url: https://elixir-europe.org/privacy
-  #fonts:
+  fonts:
+    - https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap
   #  - https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap
 
 exclude:
