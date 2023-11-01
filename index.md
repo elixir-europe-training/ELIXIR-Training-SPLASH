@@ -7,7 +7,7 @@ sidebar: false
 
 {% include index/welcome.html %}
 
-<div class="row">
+<div class="row align-items-center">
     <div class="col-12 col-md-3">
         {% include index/roles-and-resources.html %}    
     </div>
