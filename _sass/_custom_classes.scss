@@ -71,3 +71,41 @@ footer {
         }
     }
 }
+
+.bg-orange {
+    background: $theme-orange;
+}
+
+.bg-green {
+    background: $theme-green;
+}
+
+.bg-blue {
+    background: $theme-blue;
+}
+
+.bg-red {
+    background: $theme-red;
+}
+
+.count {
+    position: relative;
+    overflow: hidden;
+
+    i {
+        left: 2rem;
+        top: 2rem;
+        position: absolute;
+        opacity: 0.5;
+        font-size: 5rem;
+        color: $white;
+    }
+
+    .count-number {
+        padding-left: 4rem;
+    }
+
+    .count-number-title {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,22 @@
+# Colors can be orange/blue/red/green
+# Icon can be any free icon from Font Awesome https://fontawesome.com/search?o=r&m=free
+
+- title: Trainers
+  number: 245
+  color: orange
+  icon: fas fa-person-chalkboard
+
+- title: Courses
+  number: 1126
+  color: blue
+  icon: fas fa-book
+
+- title: TMD
+  number: 87
+  color: red
+  icon: fas fa-database
+
+- title: Evaluations
+  number: 654
+  color: green
+  icon: fas fa-chart-simple
