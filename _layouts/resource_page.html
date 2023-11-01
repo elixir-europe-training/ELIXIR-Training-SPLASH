@@ -6,7 +6,7 @@ layout: default
         {%- if page.title %}
         {%- if page.type %}
         {%- assign subtitle = page.type | replace: "_", " " | capitalize %}
-        <h1 class="has-subtitle"><span class="d-block text-secondary fs-4 ff-body">{{subtitle}}</span><span class="visually-hidden">:</span> {%- if page.productUrl %}<a target="_blank" href={{ page.productUrl }}>{{page.title }}</a>{%- else %}{{page.title }}{%- endif %}
+        <h1 class="has-subtitle"><span class="d-block text-secondary fs-4 ff-body">{{subtitle}}</span><span class="visually-hidden">:</span> {%- if page.resourceUrl %}<a target="_blank" href={{ page.resourceUrl }}>{{page.title }}</a>{%- else %}{{page.title }}{%- endif %}
         {%- else %}
         <h1>{{ page.title }}
         {%- endif %}
@@ -25,20 +25,59 @@ layout: default
     </div>
     {%- endunless %}
     <div id="content" class="mb-5">
-        <!-- PRODUCT PAGE YML SECTIONS-->
-        <h3>Description</h3>
+        <!-- BLOCK 1-->
+        <h2>Description</h2>
         {{ page.description | markdownify }}
 
-        <h3>What can you do with {{ page.title }}</h3>
+        <h2>What can you do with {{ page.title }}</h2>
         {{ page.objective | markdownify }}
 
-        <h3>Our mission</h3>
+        <h2>Our mission</h2>
         {{ page.mission | markdownify }}
 
-        <h3>Benefit</h3>
+        <h2>Benefit</h2>
         {{ page.benefit | markdownify }}
 
+        <!-- BLOCK 2 -->
+        {%- unless page.licenses == nil or page.licenses == false %}
+        <h2>Licenses</h2>
+            {% for license in page.licenses %}
+                <div class="row">
+                    <div class="col-12">
+                        <a target="_blank" href={{license.url}}>{{license.name}}</a>
+                    </div>
+                </div>
+            {% endfor %}
+        {% endunless %}
+
+        {% include user-stories.html toolId=page.id %}
+
+        <!-- BLOCK 3 -->
+        {%- unless page.publications == nil or page.publications == false %}
+        <h2>Publications</h2>
+            {% for publication in page.publications %}
+                <div class="row">
+                    <div class="col-12">
+                        <a target="_blank" href={{publication.url}}>{{publication.title}}</a>
+                    </div>
+                </div>
+            {% endfor %}
+        {% endunless %}
+
+        {%- unless page.video == nil or page.video == false %}
+            <h2 class="visually-hidden">Video</h2>
+            <iframe class="mt-3" width="560" height="315" src={{ page.video }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        {% endunless %}
+
+        <!-- BLOCK 4 -->
         {{content}}
+
+        <!-- BLOCK 5 -->
+        <!-- CITATIONS -->
+        
+        <!-- BLOCK 6 -->
+
+
         {% include resource-table-page.html %}
         {% include related-pages.html %}
         {% include more-information-tiles.html %}
