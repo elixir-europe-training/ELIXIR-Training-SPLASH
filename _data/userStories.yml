@@ -1,0 +1,21 @@
+- author:
+    name: Sarah Mitchell
+    affiliation: Alpha Research Institute
+    imageUrl: https://i.pravatar.cc/150?u=sarah-mitchell
+  toolId: tess
+  story: |
+    As a new member of the scientific community at Alpha Research Institute, I require a user-friendly training tool that offers a personalized login, an intuitive dashboard, diverse multimedia resources, progress tracking, accessibility on both desktop and mobile devices, notifications for updates, a support feature, a feedback mechanism, and efficient training completion. I also need assurance of data security and privacy. With this tool, I aim to become a proficient and confident contributor to the research efforts at Alpha Research Institute while enjoying a seamless and engaging learning experience.
+- author:
+    name: Alex Williams
+    affiliation: Beta Science Foundation
+    imageUrl: https://i.pravatar.cc/150?u=alex-williams
+  toolId: tess  
+  story: |
+    As a new researcher at Beta Science Foundation, I require an intuitive training tool that offers a personalized login, clear progress tracking, and a variety of multimedia resources to accommodate different learning styles. I also need the tool to be accessible on both desktop and mobile devices, receive notifications for updates, and have a support feature for any questions or assistance. With this tool, I aim to become a proficient and knowledgeable contributor to the groundbreaking research conducted at Beta Science Foundation, all while ensuring the security and privacy of my data.
+- author:
+    name: Emily Johnson
+    affiliation: Gamma University
+    imageUrl: https://i.pravatar.cc/150?u=emily-johnson-2
+  toolId: ttt
+  story: |
+    As a recent addition to the academic team at Gamma University, I need an efficient training tool with a user-friendly interface, progress tracking, and diverse multimedia resources for a well-rounded learning experience. The tool should be accessible on both desktop and mobile devices, provide notifications for updates, have a support feature for any inquiries, and offer a feedback mechanism for continuous improvement. It is crucial that my personal data remains secure and private. With this tool, I aim to enhance my knowledge and teaching abilities, benefiting the academic community at Gamma University.

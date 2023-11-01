@@ -54,3 +54,20 @@ footer {
         }
     }
 }
+
+.carousel-user-stories {
+    background-color: #CA054D;
+
+    .carousel-item {
+        min-height: 250px;
+
+        .user-story {
+            font-size: 1.15rem;
+            font-style: italic;
+        }
+
+        .user-avatar {
+            height: 4rem;
+        }
+    }
+}
