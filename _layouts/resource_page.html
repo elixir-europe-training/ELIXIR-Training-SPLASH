@@ -1,0 +1,95 @@
+---
+layout: default
+---
+<main id="main" class="order-1">
+    <div id="intro">
+        {%- if page.title %}
+        {%- if page.type %}
+        {%- assign subtitle = page.type | replace: "_", " " | capitalize %}
+        <h1 class="has-subtitle"><span class="d-block text-secondary fs-4 ff-body">{{subtitle}}</span><span class="visually-hidden">:</span> {%- if page.resourceUrl %}<a target="_blank" href={{ page.resourceUrl }}>{{page.title }}</a>{%- else %}{{page.title }}{%- endif %}
+        {%- else %}
+        <h1>{{ page.title }}
+        {%- endif %}
+        {%- if site.theme_variables.github_buttons.position == "top" or site.theme_variables.github_buttons.position == nil %}
+        {% include github-buttons.html %}
+        {%- endif %}
+        </h1>
+        {%- endif %}
+        {%- if page.summary %}
+        <div class="summary">{{page.summary}}</div>
+        {%- endif %}
+    </div>
+    {%- unless page.toc == false %}
+    <div id="toc" class="text-muted sticky-xl-top">
+        {%- include toc.html %}
+    </div>
+    {%- endunless %}
+    <div id="content" class="mb-5">
+        <!-- BLOCK 1-->
+        <h2>Description</h2>
+        {{ page.description | markdownify }}
+
+        <h2>What can you do with {{ page.title }}</h2>
+        {{ page.objective | markdownify }}
+
+        <h2>Our mission</h2>
+        {{ page.mission | markdownify }}
+
+        <h2>Benefit</h2>
+        {{ page.benefit | markdownify }}
+
+        <!-- BLOCK 2 -->
+        {%- unless page.licenses == nil or page.licenses == false %}
+        <h2>Licenses</h2>
+            {% for license in page.licenses %}
+                <div class="row">
+                    <div class="col-12">
+                        <a target="_blank" href={{license.url}}>{{license.name}}</a>
+                    </div>
+                </div>
+            {% endfor %}
+        {% endunless %}
+
+        {% include user-stories.html toolId=page.id %}
+
+        <!-- BLOCK 3 -->
+        {%- unless page.publications == nil or page.publications == false %}
+        <h2>Publications</h2>
+            {% for publication in page.publications %}
+                <div class="row">
+                    <div class="col-12">
+                        <a target="_blank" href={{publication.url}}>{{publication.title}}</a>
+                    </div>
+                </div>
+            {% endfor %}
+        {% endunless %}
+
+        {%- unless page.video == nil or page.video == false %}
+            <h2 class="visually-hidden">Video</h2>
+            <iframe class="mt-3" width="560" height="315" src={{ page.video }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        {% endunless %}
+
+        <!-- BLOCK 4 -->
+        {{content}}
+
+        <!-- BLOCK 5 -->
+        <!-- CITATIONS -->
+        
+        <!-- BLOCK 6 -->
+
+
+        {% include resource-table-page.html %}
+        {% include related-pages.html %}
+        {% include more-information-tiles.html %}
+        {%- if page.page_id %}
+        {% include resource-table-all.html tag=page.page_id %}
+        {%- endif %}
+        {% include affiliation-tiles-page.html %}
+        {% include contributor-minitiles-page.html %}
+        {%- if site.theme_variables.github_buttons.position == "bottom" %}
+        <div id="github-buttons-wrapper" class="d-flex mt-5">
+        {% include github-buttons.html %}
+        </div>
+        {%- endif %}
+    </div>
+</main>
