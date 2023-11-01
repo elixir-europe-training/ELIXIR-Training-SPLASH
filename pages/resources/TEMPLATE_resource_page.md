@@ -1,6 +1,6 @@
 ---
-title: Product TEMPLATE
-productUrl: https://elixir-europe.org/ 
+title: Resource TEMPLATE
+resourceUrl: https://elixir-europe.org/ 
 description: |
   ##### This is a multiline 
 

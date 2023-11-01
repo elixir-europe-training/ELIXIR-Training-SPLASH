@@ -1,5 +1,5 @@
 ---
-title: Products
+title: Resources
 ---
 
 ## Creatus illi adsimulat tosta molliaque quid in

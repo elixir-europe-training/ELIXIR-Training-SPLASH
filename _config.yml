@@ -52,11 +52,11 @@ defaults:
       sidebar: contribute
   -
     scope:
-      path: "pages/products"
+      path: "pages/resources"
     values:
-      type: "product_page"
-      layout: "product_page"
-      sidebar: products
+      type: "resource_page"
+      layout: "resource_page"
+      sidebar: resources
 
 plugins:
   - jemoji
