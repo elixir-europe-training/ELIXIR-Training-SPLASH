@@ -35,7 +35,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      permalink: /:basename
+      permalink: "/:basename"
       layout: "page"
       sidebar: main
   -

@@ -5,7 +5,7 @@ subitems:
     url: /index
   - title: About
     url: /about
-  - title: Products
-    url: /Resources
+  - title: Resources
+    url: /resources
   - title: Contribute
     url: /how_to_contribute
