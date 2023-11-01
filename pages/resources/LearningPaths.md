@@ -1,6 +1,6 @@
 ---
 # MANDATORY FIELDS
-type: learning_paths_page # This property is mandatory and it should be product_page
+type: product_page # This property is mandatory and it should be product_page
 id: lps # This id should match with the testimonial ToolId
 title: Learning Paths
 resourceUrl: https://elixir-europe.org/
