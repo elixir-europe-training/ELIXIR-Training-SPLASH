@@ -41,8 +41,8 @@ mailingList: https://elixir-europe.org/focus-groups/mail-subscribe?list=FAIR%20T
 funding:
 logo: 
 screenshots:
-  - screenshot_example_1.png
-  - screenshot_example_2.png
+  - screenshot_fair_training_handbook1.png
+  - screenshot_fair_training_handbook2.png
 ---
 
 ## Make your SPLASH! (HIGHLIGHTS OF THE RESOURCE)
