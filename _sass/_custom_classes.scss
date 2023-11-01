@@ -45,7 +45,7 @@ footer {
 }
 
 
-#main { 
+#main {
     h1 {
         font-weight: 700;
 
@@ -100,7 +100,9 @@ footer {
     }
 
     .count-number {
-        padding-left: 4rem;
+        @include media-breakpoint-up(xl) {
+            padding-left: 4rem;
+        }
     }
 
     .count-number-title {
