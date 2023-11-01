@@ -50,6 +50,13 @@ defaults:
     values:
       type: "pages"
       sidebar: contribute
+  -
+    scope:
+      path: "pages/products"
+    values:
+      type: "product_page"
+      layout: "product_page"
+      sidebar: products
 
 plugins:
   - jemoji

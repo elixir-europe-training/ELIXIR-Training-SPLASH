@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<main id="main" class="order-1">
+    <div id="intro">
+        {%- if page.title %}
+        {%- if page.type %}
+        {%- assign subtitle = page.type | replace: "_", " " | capitalize %}
+        <h1 class="has-subtitle"><span class="d-block text-secondary fs-4 ff-body">{{subtitle}}</span><span class="visually-hidden">:</span> {%- if page.productUrl %}<a target="_blank" href={{ page.productUrl }}>{{page.title }}</a>{%- else %}{{page.title }}{%- endif %}
+        {%- else %}
+        <h1>{{ page.title }}
+        {%- endif %}
+        {%- if site.theme_variables.github_buttons.position == "top" or site.theme_variables.github_buttons.position == nil %}
+        {% include github-buttons.html %}
+        {%- endif %}
+        </h1>
+        {%- endif %}
+        {%- if page.summary %}
+        <div class="summary">{{page.summary}}</div>
+        {%- endif %}
+    </div>
+    {%- unless page.toc == false %}
+    <div id="toc" class="text-muted sticky-xl-top">
+        {%- include toc.html %}
+    </div>
+    {%- endunless %}
+    <div id="content" class="mb-5">
+        <!-- PRODUCT PAGE YML SECTIONS-->
+        <h3>Description</h3>
+        {{ page.description | markdownify }}
+
+        <h3>What can you do with {{ page.title }}</h3>
+        {{ page.objective | markdownify }}
+
+        <h3>Our mission</h3>
+        {{ page.mission | markdownify }}
+
+        <h3>Benefit</h3>
+        {{ page.benefit | markdownify }}
+
+        {{content}}
+        {% include resource-table-page.html %}
+        {% include related-pages.html %}
+        {% include more-information-tiles.html %}
+        {%- if page.page_id %}
+        {% include resource-table-all.html tag=page.page_id %}
+        {%- endif %}
+        {% include affiliation-tiles-page.html %}
+        {% include contributor-minitiles-page.html %}
+        {%- if site.theme_variables.github_buttons.position == "bottom" %}
+        <div id="github-buttons-wrapper" class="d-flex mt-5">
+        {% include github-buttons.html %}
+        </div>
+        {%- endif %}
+    </div>
+</main>
