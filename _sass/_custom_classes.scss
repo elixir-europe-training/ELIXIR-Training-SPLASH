@@ -11,8 +11,18 @@
     }
 }
 
+body {
+    padding-top: 5.5rem;
+}
+
 header {
     .navbar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+
         .navbar-brand {
             min-height: 54px;
             position: relative;
