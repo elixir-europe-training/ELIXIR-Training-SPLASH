@@ -5,7 +5,7 @@
 {% endif %}
 {% if userStories.size > 0 %}
     <h2>User Stories</h2>
-    <div id="carouselUserStories" class="carousel carousel-user-stories rounded slide">
+    <div id="carouselUserStories" class="carousel carousel-user-stories bg-primary rounded slide">
         <div class="carousel-indicators">
             {% assign maxIndex = userStories.size | minus: 1 %}
             {% for index in (0..maxIndex) %}
