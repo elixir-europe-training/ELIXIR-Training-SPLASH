@@ -16,6 +16,10 @@ sidebar: false
     </div>
 </div>
 
-{% include index/user-stories.html %}
+<div class="row mb-5">
+    <div class="col">
+        {% include user-stories.html %}
+    </div>
+</div>
 
 {% include index/splash-in-numbers.html %}
