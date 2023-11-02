@@ -19,40 +19,17 @@ licenses:
     icon: mit.png
     url: https://opensource.org/license/mit/
 publications:
-  - title: Publication example 1
-    url: https://elixir-europe.org/
-  - title: Publication example 2
-    url: https://elixir-europe.org/
-video: https://www.youtube.com/embed/Jd0e8_jPxik?si=RtMoHJc9k84kMQQ # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
-citations: |
-  ##### This is a multiline
-
-  * markdown
-  * example
-mailingList: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
+  - title: A framework to assess the quality and impact of bioinformatics training across ELIXIR
+    url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007976
 funding:
-  - name: Funder 1
-    logo: funder_example_1_logo.png
-    url: https://elixir-europe.org/ 
-  - name: Funder 2
-    logo: funder_example_2_logo.png
-    url: https://elixir-europe.org/
-logo: logo_example.png
+  - name: ELIXIR
+    logo: excelerate.png
+    url: https://elixir-europe.org/about-us/how-funded/eu-projects/excelerate
 screenshots:
-  - screenshot_example_1.png
-  - screenshot_example_2.png
+  - tango.png
 ---
 
 ## Make your SPLASH! (HIGHLIGHTS OF THE RESOURCE)
-
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Sed ac tellus dapibus, scelerisque magna tempor, facilisis eros.
-* Vestibulum id ante rhoncus orci maximus ultrices.
-* Suspendisse at massa pretium, gravida purus et, porttitor mauris.
-
-## MORE HIGHLIGHTS (HIGHLIGHTS OF THE RESOURCE)
 
 "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
 
