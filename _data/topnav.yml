@@ -3,9 +3,11 @@
 subitems:
   - title: Main
     url: /index
-  - title: About
-    url: /about
+  - title: Lifecycle
+    url: /lifecycle
   - title: Resources
     url: /resources
+  - title: About
+    url: /about
   - title: Contribute
     url: /how_to_contribute
