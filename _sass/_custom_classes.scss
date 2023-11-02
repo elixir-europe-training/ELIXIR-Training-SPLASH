@@ -118,3 +118,34 @@ footer {
 .narrow {
     height: 2px;
 }
+
+
+.lifecycle {
+    max-width: 700px;
+
+    .lifecycle-part {
+        transition: opacity 1s ease-in-out;
+        cursor: pointer;
+
+        &-hidden {
+            opacity: 0;
+        }
+
+        &:hover {
+            &>.lifecycle-part-circle {
+                $lifecycle-colors: $blue, $orange, $green, $aubergine, $red;
+
+                @each $lifecycle-color in $lifecycle-colors {
+                    &[fill="#{$lifecycle-color}"] {
+                        fill: mix($lifecycle-color, $white, 75%);
+                    }
+                }
+            }
+        }
+
+        .lifecycle-part-circle {
+            transition: fill 0.15s ease-in-out;
+        }
+    }
+
+}
