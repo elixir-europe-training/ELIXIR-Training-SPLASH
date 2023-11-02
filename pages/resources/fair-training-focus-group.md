@@ -7,19 +7,15 @@ resourceUrl: https://elixir-europe.org/focus-groups/fair-training
 description: |
   This Focus Group aims to apply the FAIR principles (Findable, Accessible, Interoperable and Reusable) in training. It includes members both from ELIXIR and the global community, working collaboratively to enhance data and resource accessibility, reusability, and interoperability through training efforts.
 
-  * markdown
-  * example
 What can you do with FAIR Training Focus Group: |
-  - Train scientists on implementing FAIR principles.
-  - Develop a catalog of FAIR-focused courses, materials, and curricula.
-  - Collaborate with related initiatives.
-  - Provide links to FAIR training materials and events in TeSS.
-  - FAIRify training materials and courses.
-  - Develop FAIR guidelines for training resources and support adoption.
-  - Enhance the FAIRness and discoverability of existing resources in TeSS.
+  * Train scientists on implementing FAIR principles.
+  * Develop a catalog of FAIR-focused courses, materials, and curricula.
+  * Collaborate with related initiatives.
+  * Provide links to FAIR training materials and events in TeSS.
+  * FAIRify training materials and courses.
+  * Develop FAIR guidelines for training resources and support adoption.
+  * Enhance the FAIRness and discoverability of existing resources in TeSS.
 
-  * markdown
-  * example 
 contributors: [FAIR Training Focus Group members]
 coordinators: [Fotis Psomopoulos, Geert Van Geest, Sara Morsey]
 contacts:
