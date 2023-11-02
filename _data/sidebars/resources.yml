@@ -1,8 +1,6 @@
 title: Resources
 title_url: /resources
 subitems:
-  - title: TEMPLATE
-    url: /TEMPLATE_resource_page
   - title: TeSS
     url: /tess
   - title: Tango
@@ -13,3 +11,7 @@ subitems:
     url: /fair-training-handbook
   - title: Learning Paths
     url: /learning-paths
+  - title: ELIXIR lesson template
+    url: /elixir-lesson-template
+  - title: E-learning
+    url: /elearning

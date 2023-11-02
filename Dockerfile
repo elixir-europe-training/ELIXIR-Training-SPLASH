@@ -8,5 +8,6 @@ WORKDIR /usr/src/app
 
 COPY Gemfile ./
 RUN gem install bundler:2.4.21 && bundle install
+RUN gem install racc -v 1.7.1
 
 EXPOSE 4000
