@@ -18,7 +18,7 @@ contacts:
     mail: allegra.via@uniroma1.it
   - name: Patricia Palagi
     mail: Patricia.Palagi@sib.swiss
-joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
+# joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 
 #OPTIONAL FIELDS
 mission: |
@@ -37,16 +37,11 @@ licenses:
     url: https://creativecommons.org/licenses/by/4.0/deed.en
   
 publications:
-
-Course design: Considerations for trainers – a Professional Guide. Via A, Palagi PM, Lindvall JM, Tractenberg RE, Attwood TK, The GOBLET Foundation et al. F1000Res. 2020 Nov 27.
-A new pan-European Train-the-Trainer programme for bioinformatics: pilot results on feasibility, utility and sustainability of learning. Via A, Attwood TK, Fernandes PL, Morgan SL, Schneider MV, Palagi PM, Rustici G, Tractenberg RE. Brief Bioinform. 2019 Mar 22;20(2):405-415
-The ELIXIR-EXCELERATE Train-the-Trainer pilot programme: empower researchers to deliver high-quality training. Morgan SL, Palagi PM, Fernandes PL, Koperlainen E, Dimec J, Marek D, Larcombe L, Rustici G, Attwood TK, Via A. F1000Res. 2017 Aug 24;6. pii: ELIXIR-1557
-
-  - title: "Course design: Considerations for trainers – a Professional Guide."
+  - title: "1. Course design: Considerations for trainers – a Professional Guide."
     url: https://f1000research.com/documents/9-1377
-  - title: "A new pan-European Train-the-Trainer programme for bioinformatics: pilot results on feasibility, utility and sustainability of learning."
+  - title: "2. A new pan-European Train-the-Trainer programme for bioinformatics: pilot results on feasibility, utility and sustainability of learning."
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6433894/
-  - title: "The ELIXIR-EXCELERATE Train-the-Trainer pilot programme: empower researchers to deliver high-quality training."
+  - title: "3. The ELIXIR-EXCELERATE Train-the-Trainer pilot programme: empower researchers to deliver high-quality training."
   - url: https://f1000research.com/articles/10.12688/f1000research.12332.1/doi
 video: https://youtu.be/6ZyGEz6kjnA?si=FkghIbbsGlPmyoqU # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
 citations: |
