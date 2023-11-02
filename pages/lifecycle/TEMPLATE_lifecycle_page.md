@@ -4,7 +4,7 @@ type: lifecycle_page # This property is mandatory and it should be product_page
 
 # MANDATORY FIELDS
 id: deliver # This id should match with the testimonials [deliver, design, develop, evaluate, plan]
-name: Delivering Training
+name: Lifecycle TEMPLATE
 description: |
   ##### This is a multiline 
 
@@ -16,25 +16,22 @@ pedagogy: |
 
   * markdown
   * example
-
 logistics: |
   ##### This is a multiline
 
   * markdown
   * example
-
 products: |
   ##### This is a multiline
 
   * markdown
   * example
-
 roles: |
   ##### This is a multiline
 
   * markdown
   * example
-
+  
 #OPTIONAL FIELDS
 references: |
   ##### This is a multiline

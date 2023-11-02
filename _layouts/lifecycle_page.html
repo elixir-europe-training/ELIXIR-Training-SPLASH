@@ -1,0 +1,81 @@
+---
+layout: default
+---
+<main id="main" class="order-1">
+    <div id="intro">
+        <h1>{{ page.name }}
+        {%- if site.theme_variables.github_buttons.position == "top" or site.theme_variables.github_buttons.position == nil %}
+          {% include github-buttons.html %}
+        {%- endif %}
+        </h1>
+    </div>
+    
+    <!-- STICKY RIGHT SIDEBAR -->
+    <div id="toc" class="text-muted sticky-xl-top">
+        {%- unless page.logo == nil or page.logo == false %}
+            <div class="text-center mb-3">
+                <img src="assets/img/logos/{{ page.logo }}">
+            </div>
+        {%- endunless %}
+
+        {%- unless page.toc == false %}
+            {%- include toc.html %}
+        {%- endunless %}
+
+    </div>
+
+    <!-- CONTENT -->
+    <div id="content" class="mb-5">
+        <!-- BLOCK 1-->
+        {%- unless page.description == nil or page.description == false %}
+            <h2>Description</h2>
+            {{ page.description | markdownify }}
+        {% endunless %}
+
+        {%- unless page.pedagogy == nil or page.pedagogy == false %}
+            <h2>Pedagogy</h2>
+            {{ page.pedagogy | markdownify }}
+        {% endunless %}
+
+        {%- unless page.logistics == nil or page.logistics == false %}
+            <h2>Logistics</h2>
+            {{ page.logistics | markdownify }}
+        {% endunless %}
+
+        {%- unless page.products == nil or page.products == false %}
+            <h2>Products</h2>
+            {{ page.products | markdownify }}
+        {% endunless %}
+
+        <!-- BLOCK 2 -->
+        {%- unless page.roles == nil or page.roles == false %}
+            <h2>Roles</h2>
+            {{ page.roles | markdownify }}
+        {% endunless %}
+
+        {%- unless page.references == nil or page.references == false %}
+            <h2>References</h2>
+            {{ page.references | markdownify }}
+        {% endunless %}
+
+
+        
+        <!-- BLOCK 4 -->
+        {{content}}
+        
+
+        {% include resource-table-page.html %}
+        {% include related-pages.html %}
+        {% include more-information-tiles.html %}
+        {%- if page.page_id %}
+        {% include resource-table-all.html tag=page.page_id %}
+        {%- endif %}
+        {% include affiliation-tiles-page.html %}
+        {% include contributor-minitiles-page.html %}
+        {%- if site.theme_variables.github_buttons.position == "bottom" %}
+        <div id="github-buttons-wrapper" class="d-flex mt-5">
+        {% include github-buttons.html %}
+        </div>
+        {%- endif %}
+    </div>
+</main>

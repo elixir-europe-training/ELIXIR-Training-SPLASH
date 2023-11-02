@@ -42,7 +42,8 @@ defaults:
     scope:
       path: "pages/lifecycle"
     values:
-      type: "pages"
+      type: "lifecycle_page"
+      layout: "lifecycle_page"
       sidebar: lifecycle
   -
     scope:
