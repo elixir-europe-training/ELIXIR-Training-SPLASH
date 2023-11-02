@@ -21,19 +21,5 @@ licenses:
 publications:
   - title: A framework to assess the quality and impact of bioinformatics training across ELIXIR
     url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007976
-funding:
-  - name: ELIXIR
-    logo: excelerate.png
-    url: https://elixir-europe.org/about-us/how-funded/eu-projects/excelerate
-screenshots:
+    screenshots:
   - tango.png
----
-
-## Make your SPLASH! (HIGHLIGHTS OF THE RESOURCE)
-
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Sed ac tellus dapibus, scelerisque magna tempor, facilisis eros.
-* Vestibulum id ante rhoncus orci maximus ultrices.
-* Suspendisse at massa pretium, gravida purus et, porttitor mauris.
