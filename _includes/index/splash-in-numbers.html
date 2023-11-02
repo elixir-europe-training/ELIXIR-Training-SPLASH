@@ -3,12 +3,12 @@
     {% assign numbers = site.data.index.numbers %}
     {% for number in numbers %}
     <div class="col-12 col-md-6 col-xl-3 mb-4">
-        <div class="count bg-{{ number.color}} rounded py-4">
+        <div class="count bg-{{ number.color}} rounded py-4 pe-5">
             <i class="{{ number.icon }}"></i>
-            <div class="count-number display-2 text-center text-white">
+            <div class="count-number display-3 text-end text-white">
                 {{ number.number }}
             </div>
-            <div class="count-number-title text-center text-white mt-1">
+            <div class="count-number-title text-end text-white mt-1">
                 {{ number.title }}
             </div>
         </div>
@@ -26,7 +26,7 @@
                 $(this).prop('Counter', 0).animate({
                     Counter: $(this).text()
                 }, {
-                    duration: 1000,
+                    duration: 2000,
                     step: function (now) {
                         $(this).text(Math.ceil(now));
                     }
