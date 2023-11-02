@@ -66,8 +66,8 @@ video: https://www.youtube.com/embed/6ZyGEz6kjnA?si=lIgsRruoX-1YZJJF # ONLY YOUT
 
 ## ELIXIR-GOBLET TtT HIGHLIGHTS
 * Community of Instructors
-* 
-
+* Courses
+* Materials
 
 
 ## ELIXIR-GOBLET TtT COURSE CORE TOPICS 
