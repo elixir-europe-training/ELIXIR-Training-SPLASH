@@ -3,3 +3,13 @@ title_url: /resources
 subitems:
   - title: TEMPLATE
     url: /TEMPLATE_resource_page
+  - title: TeSS
+    url: /tess
+  - title: Tango
+    url: /tango
+  - title: Train-the-Trainer
+    url: /train-the-trainer
+  - title: Fair Training
+    url: /fair
+  - title: Learning Paths
+    url: /learning-paths
