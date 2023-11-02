@@ -13,7 +13,7 @@ sidebar: false
 
 <div class="row mb-5">
     <div class="col">
-        {% include user-stories.html %}
+        {% include testimonials.html %}
     </div>
 </div>
 

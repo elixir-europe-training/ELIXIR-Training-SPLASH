@@ -1,6 +1,7 @@
 ---
 # DO NOT CHANGE FIELDS
 type: product_page # This property is mandatory and it should be product_page
+
 # MANDATORY FIELDS
 id: ttt # This id should match with the testimonials [ttt, tess, ]
 title: Resource TEMPLATE

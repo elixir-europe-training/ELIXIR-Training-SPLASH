@@ -1,7 +1,7 @@
 ---
 # MANDATORY FIELDS
 type: product_page # This property is mandatory and it should be product_page
-id: ttt # This id should match with the user-stories ToolId
+id: ttt # This id should match with the testimonial ToolId
 title: Resource TEMPLATE
 resourceUrl: https://elixir-europe.org/
 description: |
