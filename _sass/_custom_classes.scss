@@ -87,6 +87,10 @@ footer {
     background: $red;
 }
 
+.btn-blue {
+    @include button-variant($blue, $blue);
+}
+
 .row-banner {
     padding-top: 4rem;
     padding-bottom: 4rem;
