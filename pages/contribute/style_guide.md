@@ -12,7 +12,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * Use the words your readers would use. Think of the terms they would use when searching for their problem, and use those terms.
 
 ## Text
-  * **Acronyms:** use the [glossary file](_data/glossary.yml) and [these instructions](https://github.com/erikw/jekyll-glossary_tooltip#usage) to spell out acronyms in an accessible way.
+  * **Acronyms:** spell them out the first time.
   * **Ampersands:** do not use these in the main text or headings. It is fine to use them in menus, if you need to save space.
   * **Capitals:** do not use all capitals for emphasis or in headings.
   * **Data:** treat as singular ("Data is..."). (Whether "data" is singular or plural is contentious - see the [Wikipedia article](https://en.wikipedia.org/wiki/Data_(word)) and this [Guardian article](https://www.theguardian.com/news/datablog/2010/jul/16/data-plural-singular).)
@@ -52,7 +52,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Tool assembly:** there are multiple tools in **one** assembly. The plural is "tool assemblies".
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
-{% glossary TODO %}: define color scheme
+TODO: define color scheme
 
 ## Graphic design
   * **White space:** make sure there is plenty of space so that the main elements stand out and the text does not appear overwhelming.

@@ -28,7 +28,7 @@ This guide tells you how you can easily request and edit a page on this website.
 1. When you are happy with your first draft of the content, go to the “Propose changes” section at the end of the page and write a title and a brief explanation of your changes.
 1. Click on “Propose changes”.
    {% include image.html file="propose_changes_github.png" inline=true alt="Propose changes on GitHub" %}
-1. You are now redirected to the Pull Request ({% glossary PR %}) page. A "pull request" is a request to "pull" your changes into the website. Click on the "Create Pull Request" green button. Here you can choose to:
+1. You are now redirected to the Pull Request (PR) page. A "pull request" is a request to "pull" your changes into the website. Click on the "Create Pull Request" green button. Here you can choose to:
      * "Create draft pull request": choose this if you have not finished writing. Later on you can always click on "Ready for review" to switch to a normal pull request. You can find more information about draft pull requests in the [GitHub documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests).
      * "Create pull request": choose this if you have finished your text. Editors will then review your request.
        {% include image.html file="draft_pullrequest_github.png" inline=true alt="PrDraft pull request on GitHub" %}
