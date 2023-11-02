@@ -1,0 +1,11 @@
+- term: SPLASH
+  definition: Backronym for SPLASH (to be defined)
+  url: https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH/about
+- term: TODO
+  definition: Work to be done
+- term: PR
+  definition: Pull Request
+  url: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+- term: URL
+  definition: Uniform Resource Locator
+  url: https://en.wikipedia.org/wiki/URL
