@@ -5,22 +5,19 @@ id: ttt # This id should match with the user-stories ToolId
 title: ELIXIR-GOBLET Train the Trainer
 resourceUrl: https://elixir-europe.org/
 description: |
- One of the ELIXIR Training Platform’s objectives is to increase bioinformatics capacity and competency in Europe. This programme, established in collaboration with GOBLET, relies in the development of Train-the-Trainer (TtT) courses and materials, and fosters a network of trainers, the TtT instructor's community, to allow them to benefit from reciprocal support and exchange of experiences.  The programme aims to give instructors tools and tips for providing an enriching learning experience to trainees, irrespective of topic, and to include best-practice guidance on course and training material development. 
+ One of the ELIXIR Training Platform’s objectives is to increase bioinformatics capacity and competency in Europe. This programme, established in collaboration with GOBLET, relies in the development of Train-the-Trainer (TtT) courses and materials, and fosters a network of trainers, the TtT instructor's community, to allow them to benefit from reciprocal support and exchange of experiences.  
 
-  * markdown
-  * example
 objective: |
-  ##### This is a multiline
+ The programme objective is to give instructors tools and tips for providing an enriching learning experience to trainees, irrespective of topic, and to include best-practice guidance on course and training material development. 
 
-  * markdown
-  * example 
-contributors: [Alexander Botzki, Mihail Anton, Alexia Cardona]
-coordinators: [Alexia Cardona]
+contributors: [Piv Gopalasingam (EBI), Bruna Piereck (BE), Katarzyna Kamieniecka (UK), Krzysztof Poterlowicz (UK), Helena Schnitzer (DE), Lisanna Paladin (DE), Jessica Lindvall (SE), Piv Gopalasingam (EBI), Erin Calhoun (NO), Roland Krause (LU), Katharina Heil (Hub), Daniel Wibberg (DE), Renato Alves (DE)]
+]
+coordinators: [Allegra Via (IT), Patricia Palagi (CH)]
 contacts:
-  - name: Jona Doe
-    mail: jona.doe@example.org
-  - name: John Doe
-    mail: john.doe@example.org
+  - name: Allegra Via
+    mail: allegra.via@uniroma1.it
+  - name: Patricia Palagi
+    mail: Patricia.Palagi@sib.swiss
 joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 
 #OPTIONAL FIELDS
@@ -40,16 +37,21 @@ licenses:
     url: https://creativecommons.org/licenses/by/4.0/deed.en
   
 publications:
-  - title: Publication example 1
-    url: https://elixir-europe.org/
-  - title: Publication example 2
-    url: https://elixir-europe.org/
-video: https://www.youtube.com/embed/Jd0e8_jPxik?si=RtMoHJc9k84kMQQ # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
+
+Course design: Considerations for trainers – a Professional Guide. Via A, Palagi PM, Lindvall JM, Tractenberg RE, Attwood TK, The GOBLET Foundation et al. F1000Res. 2020 Nov 27.
+A new pan-European Train-the-Trainer programme for bioinformatics: pilot results on feasibility, utility and sustainability of learning. Via A, Attwood TK, Fernandes PL, Morgan SL, Schneider MV, Palagi PM, Rustici G, Tractenberg RE. Brief Bioinform. 2019 Mar 22;20(2):405-415
+The ELIXIR-EXCELERATE Train-the-Trainer pilot programme: empower researchers to deliver high-quality training. Morgan SL, Palagi PM, Fernandes PL, Koperlainen E, Dimec J, Marek D, Larcombe L, Rustici G, Attwood TK, Via A. F1000Res. 2017 Aug 24;6. pii: ELIXIR-1557
+
+  - title: "Course design: Considerations for trainers – a Professional Guide."
+    url: https://f1000research.com/documents/9-1377
+  - title: "A new pan-European Train-the-Trainer programme for bioinformatics: pilot results on feasibility, utility and sustainability of learning."
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6433894/
+  - title: "The ELIXIR-EXCELERATE Train-the-Trainer pilot programme: empower researchers to deliver high-quality training."
+  - url: https://f1000research.com/articles/10.12688/f1000research.12332.1/doi
+video: https://youtu.be/6ZyGEz6kjnA?si=FkghIbbsGlPmyoqU # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
 citations: |
   ##### This is a multiline
 
-  * markdown
-  * example
 mailingList: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 funding:
   - name: Funder 1
