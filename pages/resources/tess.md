@@ -10,8 +10,8 @@ description: |
 objective: |
   For training providers, TeSS provides opportunities to promote training events and news; for trainers, the portal offers an environment for sharing materials and event information; for trainees, it offers a convenient gateway via which to identify relevant training events and resources.
 
-contributors: [Alexander Botzki, Olivier Sand]
-coordinators: [Finn Baccal]
+contributors: [Alexander Botzki, Olivier Sand, Ivan Kuzmin, Alexia Cardona, Munazah Andrabi]
+coordinators: [Finn Bacall, Carole Goble, Hedi Peterson]
 contacts:
   - name: TeSS Support
     mail: tess-support@googlegroups.com
@@ -45,21 +45,3 @@ screenshots:
   - screenshot_tess_1.png
 
 ---
-
-## Make your SPLASH! (HIGHLIGHTS OF THE RESOURCE)
-
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Sed ac tellus dapibus, scelerisque magna tempor, facilisis eros.
-* Vestibulum id ante rhoncus orci maximus ultrices.
-* Suspendisse at massa pretium, gravida purus et, porttitor mauris.
-
-## MORE HIGHLIGHTS (HIGHLIGHTS OF THE RESOURCE)
-
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Sed ac tellus dapibus, scelerisque magna tempor, facilisis eros.
-* Vestibulum id ante rhoncus orci maximus ultrices.
-* Suspendisse at massa pretium, gravida purus et, porttitor mauris.
