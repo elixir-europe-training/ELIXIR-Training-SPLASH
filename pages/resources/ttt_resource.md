@@ -21,16 +21,17 @@ contacts:
 # joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 
 #OPTIONAL FIELDS
-mission: |
-  ##### This is a multiline
+#TO DISCUSS WITH PATRICIA
+#mission: |
+#  ##### This is a multiline
 
-  * markdown
-  * example
-benefit: |
+#  * markdown
+#  * example
+#benefit: |
   ##### This is a multiline
-
-  * markdown
-  * example
+#
+#  * markdown
+#  * example
 licenses:
   - name: CC BY 4.0 Deed
     icon: ccby.png
@@ -44,37 +45,34 @@ publications:
   - title: "3. The ELIXIR-EXCELERATE Train-the-Trainer pilot programme: empower researchers to deliver high-quality training."
   - url: https://f1000research.com/articles/10.12688/f1000research.12332.1/doi
 video: https://www.youtube.com/embed/6ZyGEz6kjnA?si=lIgsRruoX-1YZJJF # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
-citations: |
+
+#TO DISCUSS WITH PATRICIA
+#citations: |
   ##### This is a multiline
 
-mailingList: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
-funding:
-  - name: Funder 1
-    logo: funder_example_1_logo.png
-    url: https://elixir-europe.org/ 
-  - name: Funder 2
-    logo: funder_example_2_logo.png
-    url: https://elixir-europe.org/
-logo: logo_example.png
-screenshots:
-  - screenshot_example_1.png
-  - screenshot_example_2.png
+#mailingList: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
+#funding:
+#  - name: Funder 1
+#    logo: funder_example_1_logo.png
+#    url: https://elixir-europe.org/ 
+#  - name: Funder 2
+#    logo: funder_example_2_logo.png
+#    url: https://elixir-europe.org/
+#logo: logo_example.png
+#screenshots:
+#  - screenshot_example_1.png
+#  - screenshot_example_2.png
 ---
 
-## Make your SPLASH! (HIGHLIGHTS OF THE RESOURCE)
+## ELIXIR-GOBLET TtT HIGHLIGHTS
+* Community of Instructors
+* 
 
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
 
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Sed ac tellus dapibus, scelerisque magna tempor, facilisis eros.
-* Vestibulum id ante rhoncus orci maximus ultrices.
-* Suspendisse at massa pretium, gravida purus et, porttitor mauris.
 
-## MORE HIGHLIGHTS (HIGHLIGHTS OF THE RESOURCE)
+## ELIXIR-GOBLET TtT COURSE CORE TOPICS 
 
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Sed ac tellus dapibus, scelerisque magna tempor, facilisis eros.
-* Vestibulum id ante rhoncus orci maximus ultrices.
-* Suspendisse at massa pretium, gravida purus et, porttitor mauris.
+* Principles of learning and how they apply to training;
+* Training techniques for enhancing learner engagement and participation,
+* Design of engaging sessions, materials and courses;
+* Assessment and feedback in training.
