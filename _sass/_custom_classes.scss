@@ -87,10 +87,6 @@ footer {
     background: $red;
 }
 
-.btn-blue {
-    @include button-variant($blue, $blue);
-}
-
 .row-banner {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -192,4 +188,20 @@ footer {
         }
     }
 
+}
+
+.resource-icon {
+    width: 6rem;
+}
+
+.btn-resource {
+    @include button-outline-variant($blue);
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 1.25rem;
+
+    &:hover {
+        color: $white;
+        border-color: transparent;
+    }
 }
