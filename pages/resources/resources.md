@@ -1,7 +1,6 @@
 ---
 title: Resources
 ---
-
 <div class="row mb-5 py-5">
     <div class="col-3 text-center mb-5">
         <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-3">

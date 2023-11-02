@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 # MANDATORY FIELDS
 type: product_page # This property is mandatory and it should be product_page
 id: certification # This id should match with the testimonials ToolId
@@ -37,3 +38,21 @@ funding:
   - name: ELIXIR Programme
     logo: elixir.png
     url: https://elixir-europe.org/ 
+=======
+title: Training certification (Training courses & material)
+---
+
+## Mission
+
+## Benefit & Vision
+
+## Contact
+
+## Contribution
+
+## Testamonials
+
+## Additional information
+
+
+>>>>>>> 234d819 (Update and rename resources.md to certification.md)
