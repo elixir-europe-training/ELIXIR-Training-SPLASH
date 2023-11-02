@@ -14,24 +14,6 @@ objective: |
     * Evaluate the longer term impact that ELIXIR-badged training events have had on the work of training participants.
 contributors: []
 coordinators: []
-contacts:
-  - name: Jona Doe
-    mail: jona.doe@example.org
-  - name: John Doe
-    mail: john.doe@example.org
-joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
-
-#OPTIONAL FIELDS
-mission: |
-  ##### This is a multiline
-
-  * markdown
-  * example
-benefit: |
-  ##### This is a multiline
-
-  * markdown
-  * example
 licenses:
   - name: MIT
     icon: mit.png
