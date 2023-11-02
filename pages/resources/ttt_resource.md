@@ -43,7 +43,7 @@ publications:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6433894/
   - title: "3. The ELIXIR-EXCELERATE Train-the-Trainer pilot programme: empower researchers to deliver high-quality training."
   - url: https://f1000research.com/articles/10.12688/f1000research.12332.1/doi
-video: https://youtu.be/6ZyGEz6kjnA?si=FkghIbbsGlPmyoqU # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
+video: https://www.youtube.com/embed/6ZyGEz6kjnA?si=lIgsRruoX-1YZJJF # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
 citations: |
   ##### This is a multiline
 
