@@ -1,21 +1,15 @@
 ---
 # MANDATORY FIELDS
 type: product_page # This property is mandatory and it should be product_page
-id: ttt # This id should match with the testimonials ToolId
-title: Resource TEMPLATE
+id: lps # This id should match with the testimonial ToolId
+title: Learning Paths
 resourceUrl: https://elixir-europe.org/
 description: |
-  ##### This is a multiline 
-
-  * markdown
-  * example
+  A Learning Path is a selection of courses tied together for learners to progress through, mastering a particular subject or program.
 objective: |
-  ##### This is a multiline
-
-  * markdown
-  * example 
-contributors: [Alexander Botzki, Mihail Anton, Alexia Cardona]
-coordinators: [Alexia Cardona]
+  The main aim is to provide best practices and guidelines to help ...
+contributors: [Helena Schnitzer, Eva Alloza]
+coordinators: [Alexia Cardona, Loredana Le Pera, Jessica Lindvall]
 contacts:
   - name: Jona Doe
     mail: jona.doe@example.org
@@ -25,15 +19,9 @@ joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Commun
 
 #OPTIONAL FIELDS
 mission: |
-  ##### This is a multiline
-
-  * markdown
-  * example
+  The mission is to provide best practices and guidelines to help ...
 benefit: |
-  ##### This is a multiline
-
-  * markdown
-  * example
+  The benfit is to provide best practices and guidelines to help ...
 licenses:
   - name: CC BY 4.0 Deed
     icon: ccby.png
