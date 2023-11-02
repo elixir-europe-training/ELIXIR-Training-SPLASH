@@ -5,7 +5,7 @@ id: lps # This id should match with the testimonial ToolId
 title: Learning Paths
 resourceUrl: https://elixir-europe.org/
 description: |
-  A Learning Path is a selection of courses tied together for learners to progress through, mastering a particular subject or program.
+  Learning Paths are pathways that guide the learner through a set of learning courses/materials to be undertaken progressively to acquire the desired knowledge and skills on a subject. Establishing and implementing Learning Paths will facilitate the learning process in any professional trajectory and career path, in particular in the life sciences.
 objective: |
   The main aim is to provide best practices and guidelines to help ...
 contributors: [Helena Schnitzer, Eva Alloza]
