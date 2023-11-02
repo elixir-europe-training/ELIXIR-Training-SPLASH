@@ -2,20 +2,18 @@
 # MANDATORY FIELDS
 type: product_page # This property is mandatory and it should be product_page
 id: ttt # This id should match with the user-stories ToolId
-title: Resource TEMPLATE
-resourceUrl: https://elixir-europe.org/
+title: Tango - ELIXIR Training Metrics Database
+resourceUrl: https://tango.elixir-hpc.si/
 description: |
-  ##### This is a multiline 
-
-  * markdown
-  * example
+  The Training Metrics Database was developed in an effort to streamline data collection, storage, and visualisation for the ELIXIR Training Platform.
 objective: |
-  ##### This is a multiline
-
-  * markdown
-  * example 
-contributors: [Alexander Botzki, Mihail Anton, Alexia Cardona]
-coordinators: [Alexia Cardona]
+  The Training Metrics Database was developed in an effort to streamline data collection, storage, and visualisation for the Quality and Impact Subtask of the ELIXIR Training Platform, which aims to:
+  
+    * Describe the audience demographic being reached by ELIXIR-badged training events
+    * Assess the quality of ELIXIR-badged training events directly after they have taken place
+    * Evaluate the longer term impact that ELIXIR-badged training events have had on the work of training participants.
+contributors: []
+coordinators: []
 contacts:
   - name: Jona Doe
     mail: jona.doe@example.org
@@ -35,9 +33,6 @@ benefit: |
   * markdown
   * example
 licenses:
-  - name: CC BY 4.0 Deed
-    icon: ccby.png
-    url: https://creativecommons.org/licenses/by/4.0/deed.en
   - name: MIT
     icon: mit.png
     url: https://opensource.org/license/mit/
