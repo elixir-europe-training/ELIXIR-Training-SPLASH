@@ -46,6 +46,13 @@ defaults:
       sidebar: lifecycle
   -
     scope:
+      path: "pages/resources/resources.md"
+    values:
+      type: "resource_page"
+      layout: "page"
+      sidebar: resources
+  -
+    scope:
       path: "pages/resources"
     values:
       type: "resource_page"

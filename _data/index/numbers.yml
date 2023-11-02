@@ -2,21 +2,21 @@
 # Icon can be any free icon from Font Awesome https://fontawesome.com/search?o=r&m=free
 
 - title: Trainers
-  number: 245
+  number: 267
   color: orange
   icon: fas fa-person-chalkboard
 
 - title: Courses
-  number: 1126
+  number: 1999
   color: blue
   icon: fas fa-book
 
-- title: TMD
-  number: 87
+- title: Trainees
+  number: 41346
   color: red
   icon: fas fa-database
 
-- title: Evaluations
-  number: 654
+- title: Countries
+  number: 62
   color: green
   icon: fas fa-chart-simple
