@@ -3,7 +3,7 @@ title: Working with git
 ---
 
 
-## Forking - branching - changing - pushing - {% glossary PR %}
+## Forking - branching - changing - pushing - PR
 
 This is a general workflow in how to work on your own fork (copy) of the current repo and request changes through a pull request:
 NOTE: if you already did these steps in the past, start from the `git fetch upstream` command. 

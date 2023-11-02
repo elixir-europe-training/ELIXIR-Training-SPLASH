@@ -51,9 +51,9 @@ This step is important. Make sure to commit to a new feature branch which you na
 {% include image.html file="deploy_using_gh_actions.png" alt="Got to the settings tab in your repo to enable GitHub pages" %}
 
 
-## Open a Pull Request ({% glossary PR %}) with you changes
+## Open a Pull Request (PR) with you changes
 
-Got to your newly created branch and click 'Contribute'. This will create a {% glossary PR %} to the main repository.
+Got to your newly created branch and click 'Contribute'. This will create a PR to the main repository.
 
 {% include image.html file="create_pr_from_fork.png" alt="Create new PR from fork." %}
 
