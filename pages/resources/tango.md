@@ -21,5 +21,5 @@ licenses:
 publications:
   - title: A framework to assess the quality and impact of bioinformatics training across ELIXIR
     url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007976
-    screenshots:
+screenshots:
   - tango.png
