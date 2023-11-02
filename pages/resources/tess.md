@@ -34,7 +34,7 @@ licenses:
 publications:
   - title: "TeSS: A platform for discovering life-science training opportunities"
     url: https://doi.org/10.1093/bioinformatics/btaa047
-video: https://www.youtube.com/watch?v=zjfrEa9o6zg
+video: https://www.youtube.com/embed/zjfrEa9o6zg?si=gfC81hv72ospvOpg
 mailingList: tess@elixir-europe.org
 funding:
   - name: ELIXIR Programme
