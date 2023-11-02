@@ -5,7 +5,7 @@
     </div>
     {% assign numbers = site.data.index.numbers %}
     {% for number in numbers %}
-    <div class="col-4 col-md">
+    <div class="col-12 col-md-6 col-xl-3 mb-4">
         <div class="count bg-{{ number.color}} rounded py-4">
             <i class="{{ number.icon }}"></i>
             <div class="count-number display-2 text-center text-white">

@@ -7,18 +7,13 @@ sidebar: false
 
 {% include index/welcome.html %}
 
-<div class="row">
-    <div class="col-12 col-md-3">
-        {% include index/roles-and-resources.html %}    
-    </div>
-    <div class="col-12 col-md-9">
-        {% include index/lifecycle.html %}
-    </div>
-</div>
+{% include index/lifecycle.html %}
+
+{% include index/roles-and-resources.html %}
 
 <div class="row mb-5">
     <div class="col">
-        {% include user-stories.html %}
+        {% include testimonials.html %}
     </div>
 </div>
 

@@ -45,7 +45,7 @@ footer {
 }
 
 
-#main { 
+#main {
     h1 {
         font-weight: 700;
 
@@ -55,13 +55,11 @@ footer {
     }
 }
 
-.carousel-user-stories {
-    background-color: #CA054D;
-
+.carousel-testimonials {
     .carousel-item {
         min-height: 250px;
 
-        .user-story {
+        .testimonial {
             font-size: 1.15rem;
             font-style: italic;
         }
@@ -73,19 +71,19 @@ footer {
 }
 
 .bg-orange {
-    background: $theme-orange;
+    background: $orange;
 }
 
 .bg-green {
-    background: $theme-green;
+    background: $green;
 }
 
 .bg-blue {
-    background: $theme-blue;
+    background: $blue;
 }
 
 .bg-red {
-    background: $theme-red;
+    background: $red;
 }
 
 .count {
@@ -102,7 +100,9 @@ footer {
     }
 
     .count-number {
-        padding-left: 4rem;
+        @include media-breakpoint-up(xl) {
+            padding-left: 4rem;
+        }
     }
 
     .count-number-title {
@@ -117,4 +117,35 @@ footer {
 
 .narrow {
     height: 2px;
+}
+
+
+.lifecycle {
+    max-width: 700px;
+
+    .lifecycle-part {
+        transition: opacity 1s ease-in-out;
+        cursor: pointer;
+
+        &-hidden {
+            opacity: 0;
+        }
+
+        &:hover {
+            &>.lifecycle-part-circle {
+                $lifecycle-colors: $blue, $orange, $green, $aubergine, $red;
+
+                @each $lifecycle-color in $lifecycle-colors {
+                    &[fill="#{$lifecycle-color}"] {
+                        fill: mix($lifecycle-color, $white, 75%);
+                    }
+                }
+            }
+        }
+
+        .lifecycle-part-circle {
+            transition: fill 0.15s ease-in-out;
+        }
+    }
+
 }
