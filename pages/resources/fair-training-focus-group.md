@@ -58,7 +58,8 @@ citations: |
 
   * markdown
   * example
-mailingList: joinLink: https://elixir-europe.org/focus-groups/mail-subscribe?list=FAIR%20Training%20Focus%20Group
+mailingList:
+joinLink: https://elixir-europe.org/focus-groups/mail-subscribe?list=FAIR%20Training%20Focus%20Group
 
 funding:
   - name: Funder 1
