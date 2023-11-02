@@ -9,7 +9,7 @@ The tools or resources you will find on pages are a filtered set from a [bigger 
 
 Since the `Data life cycle` pages are not listing tools, we do not allow page_id from this section in the tool table. page_id allowed in the tool table are page_id from the following sections: `Your domain`, `Your role`, `Your tasks` and `Tool assembly`. The page_id can be found in the [List of page IDs](website_overview). 
 
-The [all_tools_and_resources](all_tools_and_resources) list is based on the [csv file](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/main_tool_and_resource_list.csv) in the `_data` directory of the current repository. Tools and resources can be manually linked to [FAIRsharing.org](https://fairsharing.org/), [Bio.tools](https://bio.tools) and [TeSS](https://tess.elixir-europe.org/), but every week we also run a fully automatic check that links tools and resources with the corresponding registries. A GitHub Bot will generate a Pull Request (PR) with the new links added to the main data file of the website (a yaml file).
+The [all_tools_and_resources](all_tools_and_resources) list is based on the [csv file](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/main_tool_and_resource_list.csv) in the `_data` directory of the current repository. Tools and resources can be manually linked to [FAIRsharing.org](https://fairsharing.org/), [Bio.tools](https://bio.tools) and [TeSS](https://tess.elixir-europe.org/), but every week we also run a fully automatic check that links tools and resources with the corresponding registries. A GitHub Bot will generate a Pull Request ({% glossary PR %}) with the new links added to the main data file of the website (a yaml file).
 
 {% include callout.html type="important" content="The link with FAIRsharing,TeSS and Bio.tools is automatically done using GitHub actions and is weekly updated. These automatic links are not seen in the table. The search query to one of these registries for a tool or resource can be overwritten in the registry column of the main csv tool table. If no FAIRsharing ID, Bio.tools ID or TeSS Query is available for a source, but there is yet one automatically given (faulty), you can overwrite the automatic linking by adding 'NA' as registry." %}
 
@@ -19,12 +19,12 @@ The main table is based on [this google spreadsheet]().
 
 The table consists of 5 columns:
 - **name**: the name of the tool or resource
-- **url**: URL to the main page of the tool or resource, make sure to let the URL start with `https://`
+- **url**: {% glossary URL %} to the main page of the tool or resource, make sure to let the {% glossary URL %} start with `https://`
 - **description**: A short description of the tool or resource. Try to not use the characters `"` or `'` 
 - **registry**: 3 registries are supported: [Bio.tools](https://bio.tools), [FAIRsharing.org](https://fairsharing.org/) and [TeSS](https://tess.elixir-europe.org/). The keywords you can use respectively are: `biotools`, `fairsharing`, `fairsharing-coll` and `tess`, specifying the id or query with a colon). FAIRsharing collections have an ID that follows the pattern `bsg-s000XXX`. List multiple registries using a comma `, ` between the keywords to separate the key:value pairs. The values that are given in the table will always overrule the automatic links. If no FAIRsharing ID, Bio.tools ID or TeSS Query is available for a source, you can overwrite the automatic linking by adding 'NA' as registry.
 - **related_pages**: This is used to tag the tools so it is listed on the correct page. We only allow page_id that are linked to a page. To find out what the page_id of a page is, please check its metadata attribute `page_id` at the top of the markdown file or the [List of page IDs](website_overview) page. Since the Data life cycle pages are not listing tools, we do not allow these page_id in the tool table. page_id allowed in the tool table are page_id from the following sections: `Your domain`, `Your role`, `Your tasks` and `Tool assembly`. List multiple page_id by using a comma `, ` between them.
 
-TODO: adapt examples
+{% glossary TODO %}: adapt examples
 
 | name     | url                             | description                                                                               | registry                                    | related_pages                                             |
 |----------|----------------------------------|-------------------------------------------------------------------------------------------|---------------------------------------------|--------------------------------------------------|
@@ -49,4 +49,4 @@ The editors will do the work on Git for you. All you need to do is:
 - Done! The editors will update the "tool and resource list" in GitHub regularly. In case your change is urgent, ping an editor in an issue or pull request.
 
 ## Let the editor and GitHub bot do the rest
-If the PR of the editor containing the changes to the .csv table is merged, a PR will be opened by github-actions. Please check that the changes this PR proposes to the yaml file are in line with what you want to have changed.
+If the {% glossary PR %} of the editor containing the changes to the .csv table is merged, a {% glossary PR %} will be opened by github-actions. Please check that the changes this {% glossary PR %} proposes to the yaml file are in line with what you want to have changed.

@@ -23,7 +23,7 @@ These markdown files are divided over subdirectories (your_role, your_tools, you
 
 ### GitHub checks
 
-With each PR or merge to the master, some checks are done using GitHub actions. One of them checks wether the website builds correctly. The other checks for changes in the tool/resource Excel table. When each of them fails, the PR will not be able to be merged. Click on the red dot/failed check to understand better what caused the fail. 
+With each {% glossary PR %} or merge to the master, some checks are done using GitHub actions. One of them checks wether the website builds correctly. The other checks for changes in the tool/resource Excel table. When each of them fails, the {% glossary PR %} will not be able to be merged. Click on the red dot/failed check to understand better what caused the fail. 
 
 ## Label, discuss and assign issues
 
@@ -31,19 +31,19 @@ With each PR or merge to the master, some checks are done using GitHub actions. 
   * Assign labels to issues.
   * Discuss who is going to be responsible for each issue with other editors and reviewers (via issue comments or other communication channels).
   * Assign at least one editor/reviewer to the issue, who will discuss the possible content with the contributor.
-  * When a Pull Request (PR) or a draft PR related to an issue is created, link the PR to the issue.
+  * When a Pull Request ({% glossary PR %}) or a draft {% glossary PR %} related to an issue is created, link the {% glossary PR %} to the issue.
   
 More information about these topics can be found in the GitHub documentation:
-- [commenting on PRs](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request)
+- [commenting on {% glossary PR %}s](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request)
 - [start a review](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/reviewing-proposed-changes-in-a-pull-request)
 
 ## Review pull requests
 
-If contributors make a pull request to make changes, by default the editors that are responsible for files that will be changed by the PR will be assigned and notified. All PR should be assigned to one of the editors. Before merging a PR, pages' tags, and tools and resources' tags should be checked and assigned according to the established tagging system. The editor who provides the last approval to a PR should also merge it.
+If contributors make a pull request to make changes, by default the editors that are responsible for files that will be changed by the {% glossary PR %} will be assigned and notified. All {% glossary PR %} should be assigned to one of the editors. Before merging a {% glossary PR %}, pages' tags, and tools and resources' tags should be checked and assigned according to the established tagging system. The editor who provides the last approval to a {% glossary PR %} should also merge it.
   
 ## Link a pull request to an issue
 
-When you make a pull request resolving an issue, it is possible to link this pull request to that specific issue. This can be easily done by writing in the conversation of the PR: `closes #number_of_issue`, or `fixes #number_of_issue` or even `resolves #number_of_issue`. This is definitely applicable when authors first open an issue announcing a change or requesting a new page, followed up by the pull request. 
+When you make a pull request resolving an issue, it is possible to link this pull request to that specific issue. This can be easily done by writing in the conversation of the {% glossary PR %}: `closes #number_of_issue`, or `fixes #number_of_issue` or even `resolves #number_of_issue`. This is definitely applicable when authors first open an issue announcing a change or requesting a new page, followed up by the pull request. 
 For more information about this topic please visit the [GitHub documentation page](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue).
 
 ## Create a new page
@@ -93,12 +93,12 @@ By default your page will not be linked in the sidebar on the website, or on the
 
 Make sure all pages are accessible from the navigation sidebar. Please, avoid generating sub-pages that are not directly accessible from the navigation sidebar.
 
-This website supports multiple sidebars, the one in the main sections of the website is for example different from the one in the contribute section. Both of them are defined by `.yaml` files in the *_data/sidebars* directory. Changing these yaml file will immediately impact the sidebars and the frontpage of the website. The sidebar supports multiple levels and each level in the hierarchy can contain a URL to a page within this website or an external URL.
+This website supports multiple sidebars, the one in the main sections of the website is for example different from the one in the contribute section. Both of them are defined by `.yaml` files in the *_data/sidebars* directory. Changing these yaml file will immediately impact the sidebars and the frontpage of the website. The sidebar supports multiple levels and each level in the hierarchy can contain a {% glossary URL %} to a page within this website or an external {% glossary URL %}.
 
 The attributes that define the structure are:
 - `title`: This is the text that will show up in the sidebar.
-- `url`: The URL to the internal page you want to link to. This is mostly in the form of: */markdown_file_name.html*.
-- `external_url`: Use this instead of URL if you want to link to an external page.
+- `url`: The {% glossary URL %} to the internal page you want to link to. This is mostly in the form of: */markdown_file_name.html*.
+- `external_url`: Use this instead of {% glossary URL %} if you want to link to an external page.
 - `subitems`: to define a sublevel.
 
 ```yaml
@@ -164,7 +164,7 @@ The logos can be added to the [/images/institutions](https://github.com/elixir-e
 {% include callout.html type="important" content="Upload vector images (.svg filetype) of the institute logo for better quality, scaleability and file size, if possible." %}
 
 
-TODO:
+{% glossary TODO %}:
 
 ## Related pages
 
