@@ -48,11 +48,15 @@ layout: default
         <h2>What can you do with {{ page.title }}</h2>
         {{ page.objective | markdownify }}
 
-        <h2>Our mission</h2>
-        {{ page.mission | markdownify }}
+        {%- unless page.mission == nil or page.mission == false %}
+            <h2>Our mission</h2>
+            {{ page.mission | markdownify }}
+        {% endunless %}
 
-        <h2>Benefit</h2>
-        {{ page.benefit | markdownify }}
+        {%- unless page.benefit == nil or page.benefit == false %}
+            <h2>Benefit</h2>
+            {{ page.benefit | markdownify }}
+        {% endunless %}
 
         <!-- BLOCK 2 -->
         {%- unless page.licenses == nil or page.licenses == false %}

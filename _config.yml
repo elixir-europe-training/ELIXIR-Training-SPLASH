@@ -68,4 +68,5 @@ plugins:
   - jemoji
   - jekyll-sitemap
   - jekyll-github-metadata
+  - jekyll-glossary_tooltip
   - webrick
