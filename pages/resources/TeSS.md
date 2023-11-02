@@ -40,7 +40,7 @@ licenses:
     icon: mit.png
     url: https://creativecommons.org/licenses/by/4.0/deed.en
 publications:
-  - title: TeSS: A platform for discovering life-science training opportunities
+  - title: "TeSS: A platform for discovering life-science training opportunities"
     url: https://doi.org/10.1093/bioinformatics/btaa047
 video: https://www.youtube.com/watch?v=zjfrEa9o6zg # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
 citations: |
