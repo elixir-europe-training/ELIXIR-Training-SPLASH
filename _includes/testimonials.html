@@ -4,7 +4,9 @@
 {%- assign testimonials = site.data.testimonials %}
 {% endif %}
 {% if testimonials.size > 0 %}
+    {% unless include.hideHeading %}
     <h2>Testimonials</h2>
+    {% endunless %}
     <div id="carouselTestimonials" class="carousel carousel-testimonials bg-primary rounded slide">
         <div class="carousel-indicators">
             {% assign maxIndex = testimonials.size | minus: 1 %}
