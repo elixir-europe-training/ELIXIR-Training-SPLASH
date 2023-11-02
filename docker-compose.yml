@@ -2,6 +2,7 @@ version: "3.5"
 
 services:
   jekyll:
+    container_name: splash
     build:
       context: ./
     ports:
