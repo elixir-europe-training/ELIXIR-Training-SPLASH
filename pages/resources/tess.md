@@ -10,8 +10,9 @@ description: |
 objective: |
   For training providers, TeSS provides opportunities to promote training events and news; for trainers, the portal offers an environment for sharing materials and event information; for trainees, it offers a convenient gateway via which to identify relevant training events and resources.
 
-contributors: [Alexander Botzki, Olivier Sand, Ivan Kuzmin, Alexia Cardona, Munazah Andrabi]
+contributors: [Finn Bacall, Carole Goble, Hedi Peterson, Munazah Andrabi, Aitor Apaolaza, Alexander Botzki, Olivier Sand, Fotis Psomopoulos, Eva Alloza, Jessica Lindvall, Melissa Burke,  Ivan Kuzmin, Alexia Cardona]
 coordinators: [Finn Bacall, Carole Goble, Hedi Peterson]
+
 contacts:
   - name: TeSS Support
     mail: tess-support@googlegroups.com
