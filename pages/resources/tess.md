@@ -1,6 +1,5 @@
 ---
 # MANDATORY FIELDS
-type: product_page # This property is mandatory and it should be product_page
 id: tess # This id should match with the testimonials ToolId
 title: TeSS
 resourceUrl: https://tess.elixir-europe.org/
@@ -44,5 +43,4 @@ funding:
 logo: tess_logo.png
 screenshots:
   - screenshot_tess_1.png
-
 ---

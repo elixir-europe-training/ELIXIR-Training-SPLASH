@@ -3,10 +3,10 @@ title_url: /resources
 subitems:
   - title: TeSS
     url: /tess
-  - title: Tango
-    url: /tango
   - title: Train-the-Trainer
     url: /train-the-trainer
+  - title: Tango
+    url: /tango
   - title: FAIR Training Handbook
     url: /fair-training-handbook
   - title: Learning Paths

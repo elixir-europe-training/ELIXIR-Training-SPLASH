@@ -36,4 +36,5 @@ In conclusion, training certifications offer a multitude of benefits and excitin
 funding:
   - name: ELIXIR Programme
     logo: elixir.png
-    url: https://elixir-europe.org/ 
+    url: https://elixir-europe.org/
+---
