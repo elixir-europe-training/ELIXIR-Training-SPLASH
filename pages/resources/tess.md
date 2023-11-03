@@ -10,7 +10,7 @@ description: |
 objective: |
   For training providers, TeSS provides opportunities to promote training events and news; for trainers, the portal offers an environment for sharing materials and event information; for trainees, it offers a convenient gateway via which to identify relevant training events and resources.
 
-contributors: [Finn Bacall, Carole Goble, Hedi Peterson, Munazah Andrabi, Aitor Apaolaza, Alexander Botzki, Olivier Sand, Fotis Psomopoulos, Eva Alloza, Jessica Lindvall, Melissa Burke,  Ivan Kuzmin, Alexia Cardona, Loredana Le Pera]
+contributors: [Finn Bacall, Carole Goble, Hedi Peterson, Munazah Andrabi, Aitor Apaolaza, Alexander Botzki, Olivier Sand, Fotis Psomopoulos, Eva Alloza, Jessica Lindvall, Melissa Burke, Ivan Kuzmin, Alexia Cardona, Loredana Le Pera]
 coordinators: [Finn Bacall, Carole Goble, Hedi Peterson]
 
 contacts:
