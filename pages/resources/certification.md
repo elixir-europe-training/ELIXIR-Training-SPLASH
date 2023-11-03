@@ -1,15 +1,26 @@
 ---
-title: Training certification (Training courses & material)
----
+# MANDATORY FIELDS
+type: product_page # This property is mandatory and it should be product_page
+id: certification # This id should match with the testimonials ToolId
+title: Training certification (training courses and training materials)
+description: |
+  Training certification is an ELIXIR working group to establish a certification process for training courses and training material within ELIXIR and beyond. 
 
-## Mission
+objective: |
+  For training providers, this working group provides opportunities to certificate their training events; for trainers, the working group offers an environment for improving materials and event information; for trainees, it offers a possibility to check the quality of a training course.
 
-The mission of ELIXIR training certification is to teach the highest standard of proficiency, knowledge, and competence in life science training. Certification is a validation of a training course affirming that it met the necessary benchmarks to excel in life sciences.
+contributors: [Daniel Wibberg]
+contacts:
+joinLink: trp-certification-wg@elixir-europe.org
+mailingList: trp-certification-wg@elixir-europe.org
+
+#OPTIONAL FIELDS
+mission: |
+The mission of ELIXIR training certification working group is to teach the highest standard of proficiency, knowledge, and competence in life science training. Certification is a validation of a training course affirming that it met the necessary benchmarks to excel in life sciences.
 
 One of the primary goals of training certification is to enhance the overall quality and standardization of scientific practice. By establishing specific criteria and requirements, it ensures that certified training courses and materials will teach / include the necessary knowledge, skills, and expertise.
 
-## Benefit
-
+benefit: |
 By enrolling in certified training courses and utilizing relevant training materials, learners can unlock a world of opportunities and propel their careers to new heights.
 
 One of the key advantages of training certification is the validation it provides. Obtaining a recognized certification demonstrates to employers and peers that the course possess a certain level of expertise and competence in a specific field. This validation can significantly boost the credibility and visibility of the training course / training material. 
@@ -22,12 +33,7 @@ Furthermore, training certifications often come with up-to-date and relevant cou
 
 In conclusion, training certifications offer a multitude of benefits and exciting visions for individuals. From validation and structured learning to networking opportunities and access to relevant materials, certifications empower learners to excel in their chosen fields.
 
-## Contact
-
-## Contribution
-
-## Testamonials
-
-## Additional information
-
-
+funding:
+  - name: ELIXIR Programme
+    logo: elixir.png
+    url: https://elixir-europe.org/ 
