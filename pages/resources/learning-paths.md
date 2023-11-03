@@ -13,7 +13,7 @@ objective: |
   * Raise awareness on the pedagogical aspects and promote their adoption
   * Establish a community of practice to share knowledge, experiences, and ideas
  
-contributors: [Helena Schnitzer, Eva Alloza]
+contributors: [Alexia Cardona, Loredana Le Pera, Jessica Lindvall, Helena Schnitzer, Eva Alloza]
 coordinators: [Alexia Cardona, Loredana Le Pera, Jessica Lindvall]
 contacts:
   - name: Learning Paths 
