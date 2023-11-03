@@ -1,7 +1,4 @@
 ---
-# DO NOT CHANGE FIELDS
-type: product_page # This property is mandatory and it should be product_page
-
 # MANDATORY FIELDS
 id: lesson-template
 title: Elixir lesson template

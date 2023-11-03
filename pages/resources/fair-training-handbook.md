@@ -1,7 +1,6 @@
 ---
 # MANDATORY FIELDS
-type: product_page # This property is mandatory and it should be product_page
-id: ttt #fairhb # This id should match with the user-stories ToolId
+id: fairhb # This id should match with the user-stories ToolId
 title: FAIR training handbook
 resourceUrl: https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/
 description: |
