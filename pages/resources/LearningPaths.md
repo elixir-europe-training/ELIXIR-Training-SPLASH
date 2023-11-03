@@ -5,69 +5,36 @@ id: lps # This id should match with the testimonial ToolId
 title: Learning Paths
 resourceUrl: https://elixir-europe.org/
 description: |
-  Learning Paths are pathways that guide the learner through a set of learning courses/materials to be undertaken progressively to acquire the desired knowledge and skills on a subject. Establishing and implementing Learning Paths will facilitate the learning process in any professional trajectory and career path, in particular in the life sciences.
+   Learning Paths are pathways that guide the learner through a set of learning courses or materials to be undertaken progressively to acquire the desired knowledge and skills on a subject. Establishing and implementing Learning Paths will facilitate the learning process in any professional trajectory and career path.
 objective: |
-  The main aim is to provide best practices and guidelines to help ...
+  The main aims of the ELIXIR Learning Paths project are:
+  * Develop guidelines and best practices on how to create Learning Paths
+  * Implement Learning Paths across different communities
+  * Raise awareness on the pedagogical aspects and promote their adoption
+  * Establish a community of practice to share knowledge, experiences, and ideas
+ 
 contributors: [Helena Schnitzer, Eva Alloza]
 coordinators: [Alexia Cardona, Loredana Le Pera, Jessica Lindvall]
 contacts:
-  - name: Jona Doe
-    mail: jona.doe@example.org
-  - name: John Doe
-    mail: john.doe@example.org
-joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
-
-#OPTIONAL FIELDS
-mission: |
-  The mission is to provide best practices and guidelines to help ...
-benefit: |
-  The benfit is to provide best practices and guidelines to help ...
-licenses:
-  - name: CC BY 4.0 Deed
-    icon: ccby.png
-    url: https://creativecommons.org/licenses/by/4.0/deed.en
-  - name: MIT
-    icon: mit.png
-    url: https://opensource.org/license/mit/
+  - name: Learning Paths 
+    mail: lp@elixir.org
+joinLink: https://elixir-europe.org/platforms/training
 publications:
   - title: Publication example 1
     url: https://elixir-europe.org/
   - title: Publication example 2
     url: https://elixir-europe.org/
 video: https://www.youtube.com/embed/Jd0e8_jPxik?si=RtMoHJc9k84kMQQ # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
-citations: |
-  ##### This is a multiline
-
-  * markdown
-  * example
 mailingList: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 funding:
-  - name: Funder 1
+  - name: ELIXIR
     logo: funder_example_1_logo.png
     url: https://elixir-europe.org/ 
-  - name: Funder 2
-    logo: funder_example_2_logo.png
-    url: https://elixir-europe.org/
 logo: logo_example.png
-screenshots:
-  - screenshot_example_1.png
-  - screenshot_example_2.png
 ---
 
-## Make your SPLASH! (HIGHLIGHTS OF THE RESOURCE)
+## Activities and resources related to Learning Paths
+* Learning Paths guidelines
+* Learning Paths focus group
+* Learning Paths in TeSS
 
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Sed ac tellus dapibus, scelerisque magna tempor, facilisis eros.
-* Vestibulum id ante rhoncus orci maximus ultrices.
-* Suspendisse at massa pretium, gravida purus et, porttitor mauris.
-
-## MORE HIGHLIGHTS (HIGHLIGHTS OF THE RESOURCE)
-
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Sed ac tellus dapibus, scelerisque magna tempor, facilisis eros.
-* Vestibulum id ante rhoncus orci maximus ultrices.
-* Suspendisse at massa pretium, gravida purus et, porttitor mauris.
