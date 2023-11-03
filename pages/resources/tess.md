@@ -43,5 +43,4 @@ funding:
 logo: tess_logo.png
 screenshots:
   - screenshot_tess_1.png
-
 ---
