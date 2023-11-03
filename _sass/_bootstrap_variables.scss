@@ -1,7 +1,13 @@
 /*-----Theme colors-----*/
-$primary:       #005472;
+$aubergine: #4F1C46;
+$blue: #005472;
+$red: #CA1551;
+$green: #03CEA4;
+$orange: #FF7900;
+
+$primary:       $aubergine;
 $secondary:     #4D4848;
-$light:         #CCDDE3;
+$light:         mix(#fff, $primary, 90%);
 $dark:          #212529;
 
 /*-----Custom values for Bootstrap variables-----*/

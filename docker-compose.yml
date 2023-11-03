@@ -2,10 +2,11 @@ version: "3.5"
 
 services:
   jekyll:
+    container_name: splash
     build:
       context: ./
     ports:
-      - 4000:4000
+      - 127.0.0.1:4000:4000
     volumes:
       - .:/usr/src/app
     stdin_open: true

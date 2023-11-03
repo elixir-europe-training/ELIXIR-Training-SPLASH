@@ -1,7 +1,9 @@
 ---
-# MANDATORY FIELDS
+# DO NOT CHANGE FIELDS
 type: product_page # This property is mandatory and it should be product_page
-id: ttt # This id should match with the user-stories ToolId
+
+# MANDATORY FIELDS
+id: ttt # This id should match with the testimonials [ttt, tess, ]
 title: Resource TEMPLATE
 resourceUrl: https://elixir-europe.org/
 description: |
@@ -17,11 +19,10 @@ objective: |
 contributors: [Alexander Botzki, Mihail Anton, Alexia Cardona]
 coordinators: [Alexia Cardona]
 contacts:
-  - name: Jona Doe
-    mail: jona.doe@example.org
+  - name: Contact Train the Trainers team
+    email: jona.doe@example.org
   - name: John Doe
-    mail: john.doe@example.org
-joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
+    email: john.doe@example.org
 
 #OPTIONAL FIELDS
 mission: |
@@ -34,13 +35,13 @@ benefit: |
 
   * markdown
   * example
-licenses:
-  - name: CC BY 4.0 Deed
-    icon: ccby.png
-    url: https://creativecommons.org/licenses/by/4.0/deed.en
-  - name: MIT
-    icon: mit.png
-    url: https://opensource.org/license/mit/
+#licenses:
+#  - name: CC BY 4.0 Deed
+#    icon: ccby.png
+#    url: https://creativecommons.org/licenses/by/4.0/deed.en
+#  - name: MIT
+#    icon: mit.png
+#    url: https://opensource.org/license/mit/
 publications:
   - title: Publication example 1
     url: https://elixir-europe.org/
@@ -53,14 +54,15 @@ citations: |
   * markdown
   * example
 mailingList: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
+joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 funding:
-  - name: Funder 1
+  - name: "Funder:1"
     logo: funder_example_1_logo.png
     url: https://elixir-europe.org/ 
   - name: Funder 2
     logo: funder_example_2_logo.png
     url: https://elixir-europe.org/
-logo: logo_example.png
+logo: elixir-tess.svg
 screenshots:
   - screenshot_example_1.png
   - screenshot_example_2.png

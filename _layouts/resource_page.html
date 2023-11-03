@@ -19,11 +19,27 @@ layout: default
         <div class="summary">{{page.summary}}</div>
         {%- endif %}
     </div>
-    {%- unless page.toc == false %}
+    
+    <!-- STICKY RIGHT SIDEBAR -->
     <div id="toc" class="text-muted sticky-xl-top">
-        {%- include toc.html %}
+        {%- unless page.logo == nil or page.logo == false %}
+            <div class="text-center mb-3">
+                <img src="assets/img/logos/{{ page.logo }}">
+            </div>
+        {%- endunless %}
+
+        {%- unless page.toc == false %}
+            {%- include toc.html %}
+        {%- endunless %}
+
+        {%- unless page.joinLink == nil or page.joinLink == false %}
+            <a class="btn btn-primary mt-3" id="join-mailing-list">
+                Join this product
+            </a>
+        {% endunless %}
     </div>
-    {%- endunless %}
+
+    <!-- CONTENT -->
     <div id="content" class="mb-5">
         <!-- BLOCK 1-->
         <h2>Description</h2>
@@ -32,15 +48,19 @@ layout: default
         <h2>What can you do with {{ page.title }}</h2>
         {{ page.objective | markdownify }}
 
-        <h2>Our mission</h2>
-        {{ page.mission | markdownify }}
+        {%- unless page.mission == nil or page.mission == false %}
+            <h2>Our mission</h2>
+            {{ page.mission | markdownify }}
+        {% endunless %}
 
-        <h2>Benefit</h2>
-        {{ page.benefit | markdownify }}
+        {%- unless page.benefit == nil or page.benefit == false %}
+            <h2>Benefit</h2>
+            {{ page.benefit | markdownify }}
+        {% endunless %}
 
         <!-- BLOCK 2 -->
         {%- unless page.licenses == nil or page.licenses == false %}
-        <h2>Licenses</h2>
+        <h2>Resource licenses</h2>
             {% for license in page.licenses %}
                 <div class="row">
                     <div class="col-12">
@@ -50,7 +70,42 @@ layout: default
             {% endfor %}
         {% endunless %}
 
-        {% include user-stories.html toolId=page.id %}
+        <!-- MULTIMEDIA SUPPORT -->
+        {%- unless page.screenshots == nil or page.screenshots == false %}
+            <div id="carouselScreenshots" class="carousel carousel-dark rounded slide">
+                <div class="carousel-indicators">
+                    {% assign maxIndex = page.screenshots.size | minus: 1 %}
+                    {% for index in (0..maxIndex) %}
+                    <button type="button" data-bs-target="#carouselScreenshots" data-bs-slide-to="{{ index }}" {%if index == 0 %}class="active"{% endif %} aria-current="true" aria-label="Slide 1"></button>
+                    {% endfor %}
+                </div>
+                <div class="carousel-inner">
+                    {% for screenshot in page.screenshots %}
+                    <div class="carousel-item pt-3 pb-5{% if forloop.index == 1 %} active{% endif %}">
+                        <img class="d-block w-100" src="assets/img/screenshots/{{ screenshot }}" alt="{{page.title}} screenshot">
+                    </div>
+                    {% endfor %}
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselScreenshots"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselScreenshots"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        {%- endunless %}
+
+        {%- unless page.video == nil or page.video == false %}
+            <h2 class="visually-hidden">Video</h2>
+            <iframe class="mt-3" width="560" height="315" src={{ page.video }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        {% endunless %}
+
+
+        {% include testimonials.html toolId=page.id %}
 
         <!-- BLOCK 3 -->
         {%- unless page.publications == nil or page.publications == false %}
@@ -64,11 +119,7 @@ layout: default
             {% endfor %}
         {% endunless %}
 
-        {%- unless page.video == nil or page.video == false %}
-            <h2 class="visually-hidden">Video</h2>
-            <iframe class="mt-3" width="560" height="315" src={{ page.video }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        {% endunless %}
-
+        
         <!-- BLOCK 4 -->
         {{content}}
 
@@ -76,6 +127,24 @@ layout: default
         <!-- CITATIONS -->
         
         <!-- BLOCK 6 -->
+        {%- unless page.contacts == nil or page.contacts == false %}
+            <h2>Contacts</h2>
+            {% for contact in page.contacts %}
+                <div class="row">
+                    <div class="col-12">
+                        <a target="_blank" href="mailto:{{ contact.email }}">{{contact.name}}</a>
+                    </div>
+                </div>
+            {% endfor %}
+        {% endunless %}
+
+        {%- unless page.mailingList == nil or page.mailingList == false %}
+            <a class="btn btn-primary mt-3" id="join-mailing-list">
+                Subscribe to the mailing list
+            </a>
+        {% endunless %}
+
+    
 
 
         {% include resource-table-page.html %}
