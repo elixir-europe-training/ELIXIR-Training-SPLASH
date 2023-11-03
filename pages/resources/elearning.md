@@ -14,19 +14,10 @@ coordinators: [Alexander Botzki]
 contacts:
   - name: Alexander Botzki 
     mail: alexander.botzki@vib.be 
-joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
+#joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 
 #OPTIONAL FIELDS
-mission: |
-  ##### This is a multiline
 
-  * markdown
-  * example
-benefit: |
-  ##### This is a multiline
-
-  * markdown
-  * example
 licenses:
   - name: CC BY 4.0 Deed
     icon: ccby.png
@@ -34,37 +25,8 @@ licenses:
 publications:
   - title: "Curation guide line for e-learning material in TeSS" 
     url: https://docs.google.com/document/d/1mx8CHB3VuyXK9Suavpqgb08UwIRL8wgdSi6IcoN_tnQ/edit?usp=sharing 
-video: https://www.youtube.com/embed/Jd0e8_jPxik?si=RtMoHJc9k84kMQQ # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
-citations: |
-  ##### This is a multiline
-
-  * markdown
-  * example
-mailingList: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 funding:
   - name: ELIXIR Programme 2019-2023 
     logo: funder_example_1_logo.png
     url: https://elixir-europe.org/ 
-logo: logo_example.png
-screenshots:
-  - screenshot_example_1.png
-  - screenshot_example_2.png
 ---
-
-## Make your SPLASH! (HIGHLIGHTS OF THE RESOURCE)
-
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Sed ac tellus dapibus, scelerisque magna tempor, facilisis eros.
-* Vestibulum id ante rhoncus orci maximus ultrices.
-* Suspendisse at massa pretium, gravida purus et, porttitor mauris.
-
-## MORE HIGHLIGHTS (HIGHLIGHTS OF THE RESOURCE)
-
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Sed ac tellus dapibus, scelerisque magna tempor, facilisis eros.
-* Vestibulum id ante rhoncus orci maximus ultrices.
-* Suspendisse at massa pretium, gravida purus et, porttitor mauris.
