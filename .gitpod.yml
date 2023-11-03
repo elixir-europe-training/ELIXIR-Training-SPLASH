@@ -1,0 +1,12 @@
+mainConfiguration: https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH 
+
+tasks:
+  - name: Setup and splash
+    command: docker compose up -d
+
+ports:
+  - name: Jekyll
+    description: SPLASH website
+    port: 4000
+    onOpen: open-preview
+    visibility: public

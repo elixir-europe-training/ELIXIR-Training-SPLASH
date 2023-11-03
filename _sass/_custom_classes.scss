@@ -22,6 +22,7 @@ header {
         right: 0;
         left: 0;
         z-index: 1030;
+        padding-top: 1rem;
 
         .navbar-brand {
             min-height: 54px;
@@ -86,6 +87,45 @@ footer {
     background: $red;
 }
 
+.row-banner {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    position: relative;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+
+    &::after {
+        content: ' ';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+        height: 100%;
+        width: 100vw;
+        background: url('../../assets/img/banner.png') center center no-repeat;
+        background-color: $gray-800;
+        background-size: cover;
+        z-index: -1;
+    }
+}
+
+.row-bg-light {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    position: relative;
+
+    &::after {
+        content: ' ';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+        height: 100%;
+        width: 100vw;
+        background-color: $gray-100;
+        z-index: -1;
+    }
+}
+
 .count {
     position: relative;
     overflow: hidden;
@@ -148,4 +188,20 @@ footer {
         }
     }
 
+}
+
+.resource-icon {
+    width: 6rem;
+}
+
+.btn-resource {
+    @include button-outline-variant($blue);
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 1.25rem;
+
+    &:hover {
+        color: $white;
+        border-color: transparent;
+    }
 }

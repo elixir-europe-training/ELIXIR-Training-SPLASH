@@ -13,7 +13,7 @@ objective: |
   * Indicate the possibilities to make material accessible
   * Show directions to provide a license to material
   * Point to resources that can improve discoverability
-contributors: [Bruna Piereck, Geert van Geest]
+contributors: [Bruna Piereck, Geert van Geest, Alexandra Holinski, Alexia Cardona,Alice Matimba,Allegra Via,Anastasios Anastasios Papaioannou ,Anna Swan,Celia van Gelder,Daniel Thomas Lopez,Daniel Wibberg,Fred de Lamotte ,Helen Clare ,Helena Schnitzer ,Hélène Chiapello,Iryna Kuchma ,Iulianna van der Lek,Kathryn Unsworth ,Krzys Poterlowicz ,Leyla Jael Castro,Lisanna Paladin,Loredana Le Pera,Lucie Khamvongsa-Charbonnier,Maja Rey,Marcela Davila,Maria Doyle,Marta Lloret,Melissa Burke ,Michelle D Brazas ,Monique Zahn ,Nazeefa Fatima ,Nicola Mulder,Olivier Sand ,Patricia Carvajal Lopez,Patricia M. Palagi,Rachel Berkson,Renato Alves,Roland Krause,Russell Schwartz,Sara El-Gebali,Sarah Morgan,Saskia Hiltemann,Shaun Aron,Steven Morgan,Suzanne Duce,Tarcisio Mendes de Farias ,Vera Matser,Verena Ras ,Wai Keat Yam]
 coordinators: [Bruna Piereck, Geert van Geest]
 contacts:
   - name: Bruna Piereck
@@ -44,21 +44,3 @@ screenshots:
   - screenshot_fair_training_handbook1.png
   - screenshot_fair_training_handbook2.png
 ---
-
-## Make your SPLASH! (HIGHLIGHTS OF THE RESOURCE)
-
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Sed ac tellus dapibus, scelerisque magna tempor, facilisis eros.
-* Vestibulum id ante rhoncus orci maximus ultrices.
-* Suspendisse at massa pretium, gravida purus et, porttitor mauris.
-
-## MORE HIGHLIGHTS (HIGHLIGHTS OF THE RESOURCE)
-
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Sed ac tellus dapibus, scelerisque magna tempor, facilisis eros.
-* Vestibulum id ante rhoncus orci maximus ultrices.
-* Suspendisse at massa pretium, gravida purus et, porttitor mauris.

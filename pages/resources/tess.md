@@ -11,7 +11,8 @@ objective: |
   For training providers, TeSS provides opportunities to promote training events and news; for trainers, the portal offers an environment for sharing materials and event information; for trainees, it offers a convenient gateway via which to identify relevant training events and resources.
 
 contributors: [Finn Bacall, Carole Goble, Hedi Peterson, Munazah Andrabi, Aitor Apaolaza, Alexander Botzki, Olivier Sand, Fotis Psomopoulos, Eva Alloza, Jessica Lindvall, Melissa Burke,  Ivan Kuzmin, Alexia Cardona]
-coordinators: [Finn Bacall]
+coordinators: [Finn Bacall, Carole Goble, Hedi Peterson]
+
 contacts:
   - name: TeSS Support
     mail: tess-support@googlegroups.com
@@ -34,7 +35,7 @@ licenses:
 publications:
   - title: "TeSS: A platform for discovering life-science training opportunities"
     url: https://doi.org/10.1093/bioinformatics/btaa047
-video: https://www.youtube.com/watch?v=zjfrEa9o6zg
+video: https://www.youtube.com/embed/zjfrEa9o6zg?si=gfC81hv72ospvOpg
 mailingList: tess@elixir-europe.org
 funding:
   - name: ELIXIR Programme
@@ -43,3 +44,5 @@ funding:
 logo: tess_logo.png
 screenshots:
   - screenshot_tess_1.png
+
+---
