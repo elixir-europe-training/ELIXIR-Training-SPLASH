@@ -43,23 +43,3 @@ funding:
 logo: tess_logo.png
 screenshots:
   - screenshot_tess_1.png
-
----
-
-## Make your SPLASH! (HIGHLIGHTS OF THE RESOURCE)
-
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Sed ac tellus dapibus, scelerisque magna tempor, facilisis eros.
-* Vestibulum id ante rhoncus orci maximus ultrices.
-* Suspendisse at massa pretium, gravida purus et, porttitor mauris.
-
-## MORE HIGHLIGHTS (HIGHLIGHTS OF THE RESOURCE)
-
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Sed ac tellus dapibus, scelerisque magna tempor, facilisis eros.
-* Vestibulum id ante rhoncus orci maximus ultrices.
-* Suspendisse at massa pretium, gravida purus et, porttitor mauris.
