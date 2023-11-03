@@ -2,4 +2,31 @@
 title: Plan
 ---
 
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla pellentesque ornare nulla, vitae lacinia eros fringilla vel. Pellentesque posuere, sem ac convallis pellentesque, magna nibh tempus nisi, in semper orci tortor a eros. Morbi egestas, quam quis elementum malesuada, magna leo dignissim odio, at sodales dui nunc quis risus. Quisque maximus odio sed lorem fringilla hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer dui purus, ultrices dignissim tincidunt ac, facilisis eget leo. Donec ullamcorper laoreet fermentum. Morbi elit ex, placerat non suscipit nec, varius sit amet metus. Aenean quis egestas neque, non bibendum ligula. Suspendisse finibus cursus ligula eu iaculis. Vestibulum iaculis, metus ac varius semper, ante urna fermentum lectus, id scelerisque lacus tortor ut mi.
+## What is Training Design?
+
+Creative phase of the concretization of the lesson plan (written outline, script of the individual lessons) / syllabus (for the students)
+
+Iterative phase
+
+Train-the-trainer and learning paths resources prepare you for the design phase which helps you formulate learning outcomes
+Reusing / get inspired TeSS
+
+## What are the pedagogical aspects?
+
+When designing a training course, one should consider the Nicholls’ paradigm for curriculum development, more specifically:
+
+define the learning outcomes based on the topics you have defined in your lesson plan.
+For writing down the specific learning outcomes, you utilise the Bloom taxonomy.
+KSA (Knowledge Skills Ability) that learners are able to demonstrate after instruction, the tangible evidence that learners have achieved.
+define the learning experience which is any setting like lectures, games, exercise, ... in which learning takes place.
+
+![Nicoll's paradidm](assets/img/screenshots/allegra-via-f1000.png)
+
+Related resources: [ELIXIR-GOBLET Train-the-trainer](train-the-trainer), [Learning Paths](learning-paths), [TeSS](tess) 
+
+### References	
+
+[Course design: Considerations for trainers – a Professional Guide](https://f1000research.com/documents/9-1377)
+
+
+
