@@ -1,6 +1,5 @@
 ---
 # MANDATORY FIELDS
-type: product_page # This property is mandatory and it should be product_page
 id: tess # This id should match with the testimonials ToolId
 title: TeSS
 resourceUrl: https://tess.elixir-europe.org/
@@ -10,7 +9,7 @@ description: |
 objective: |
   For training providers, TeSS provides opportunities to promote training events and news; for trainers, the portal offers an environment for sharing materials and event information; for trainees, it offers a convenient gateway via which to identify relevant training events and resources.
 
-contributors: [Finn Bacall, Carole Goble, Hedi Peterson, Munazah Andrabi, Aitor Apaolaza, Alexander Botzki, Olivier Sand, Fotis Psomopoulos, Eva Alloza, Jessica Lindvall, Melissa Burke,  Ivan Kuzmin, Alexia Cardona]
+contributors: [Finn Bacall, Carole Goble, Hedi Peterson, Munazah Andrabi, Aitor Apaolaza, Alexander Botzki, Olivier Sand, Fotis Psomopoulos, Eva Alloza, Jessica Lindvall, Melissa Burke, Ivan Kuzmin, Alexia Cardona, Loredana Le Pera]
 coordinators: [Finn Bacall, Carole Goble, Hedi Peterson]
 
 contacts:
@@ -44,5 +43,4 @@ funding:
 logo: tess_logo.png
 screenshots:
   - screenshot_tess_1.png
-
 ---

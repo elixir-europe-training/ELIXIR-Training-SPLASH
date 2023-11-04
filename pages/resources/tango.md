@@ -1,6 +1,5 @@
 ---
 # MANDATORY FIELDS
-type: product_page # This property is mandatory and it should be product_page
 id: ttt # This id should match with the user-stories ToolId
 title: Tango
 resourceUrl: https://tango.elixir-hpc.si/
@@ -23,3 +22,4 @@ publications:
     url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007976
 screenshots:
   - tango.png
+---

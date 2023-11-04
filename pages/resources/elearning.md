@@ -1,6 +1,5 @@
 ---
 # MANDATORY FIELDS
-type: product_page # This property is mandatory and it should be product_page
 id: elearning # This id should match with the user-stories ToolId
 title: E-learning Interest Group 
 resourceUrl: https://elixir-europe.org/
