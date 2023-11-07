@@ -166,26 +166,6 @@ The logos can be added to the [/images/institutions](https://github.com/elixir-e
 
 {% glossary TODO %}:
 
-## Related pages
-
-### Add "Related pages" to a page 
-
-RDMkit pages from the sections Your tasks, Your domain and Tool assembly can be displayed as "Related RDMkit pages" in a page, grouped by section. 
-
-Only pages from specific sections are allowed in each page (see image below), as pre-defined in the metadata of each template page. Please, do not add extra sections in the metadata of the page.
-
-| _page_id_           | Related pages id: Data life cycle | Related pages id: Your tasks | Related pages id: Your role | Related pages id: Your domain | Related pages id: Tool assembly | Related pages visualised |
-|---------------------|-----------------------------------|------------------------------|-----------------------------|-------------------------------|---------------------------------|--------------------------|
-| **Data life cycle** |                                   |              yes             |                             |                               |                                 |        Your tasks        |
-| **Your tasks**      |                                   |                              |                             |                               |               yes               |       Tool assembly      |
-| **Your role**       |                                   |              yes             |                             |                               |                                 |         Your tasks        |
-| **Your domain**     |                                   |              yes             |                             |                               |               yes               | Your tasks, Tool assembly |
-| **Tool assembly**   |                                   |              yes             |                             |              yes              |                                 |  Your tasks, Your domain  |
-
-
-
-An overview of all RDMkit pages (belonging to the sections listed above) and their `page_id` can be found in the [List of page IDs](website_overview).
-
 
 ```yml
 related_pages: 
@@ -197,5 +177,5 @@ related_pages:
 
 ### Page ID
 
-To find out what the `page_id` of an RDMkit page is, please check its metadata attribute `page_id` at the top of the markdown file or the [list of page IDs](website_overview).
+To find out what the `page_id` of an Training SPLASH page is, please check its metadata attribute `page_id` at the top of the markdown file or the [list of page IDs](website_overview).
 

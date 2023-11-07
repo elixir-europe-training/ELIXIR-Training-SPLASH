@@ -1,5 +1,5 @@
 ---
-title: How to contribute to RDMkit
+title: How to contribute to SPLASH 
 ---
 
 ## Ways of contributing
