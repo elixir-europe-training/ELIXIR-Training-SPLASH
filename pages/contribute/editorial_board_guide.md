@@ -76,7 +76,7 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file in the 
 
 1. Wait till another editor approves your changes. After approval, the branch can be merged and changes will be applied.
 
-1. If the markdown file is named *example.md* the page will be rendered at https://rdmkit.elixir-europe.org/example. This link can be provided to the contributor through the issue.
+1. If the markdown file is named *example.md* the page will be rendered at https://https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH/example. This link can be provided to the contributor through the issue.
 
 {% include callout.html type="note" content="Always make a new branch when making changes to the website, this to prevent little mistakes and to enforce approval from other editors." %}
 
@@ -87,7 +87,7 @@ Just like with every change you want to make to this repo, it is possible to do 
 
 ## Find your newly added page back on the website
 
-By default your page will not be linked in the sidebar on the website, or on the landing page, but it will exist as an orphan at *https://rdmkit.elixir-europe.org/markdown_file_name*. In order to prevent that people will not find the page back it is better to link towards it in the sidebar or get linked within an existing page. 
+By default your page will not be linked in the sidebar on the website, or on the landing page, but it will exist as an orphan at *https://https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH//markdown_file_name*. In order to prevent that people will not find the page back it is better to link towards it in the sidebar or get linked within an existing page. 
 
 ### Linking pages in the sidebar and frontpage
 
@@ -129,19 +129,19 @@ If the markdown page is named example_1.md, you can link towards it using:
 Do you want that the GitHub picture of a contributor is shown next to their name? Or maybe you want that the name is clickable and links towards the GitHub page of that person? To enable this please add the name and the necessary metadata to the [CONTRIBUTORS.yaml](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/tree/main/_data/CONTRIBUTORS.yaml) file in the *_data* directory like this:
 
 ```yaml
-Bert Droesbeke:
-    git: bedroesb
-    email: bedro@psb.ugent.be
-    orcid: 0000-0003-0522-5674
+Alexia Cordona:
+    git: ac812
+    email: ac812@cam.ac.uk
+    orcid: 0000-0002-7877-5565
     role: editor
-    affiliation: VIB-UGent
+    affiliation: University of Cambridge
 ```
 {% include callout.html type="important" content="Make sure that the name in the yaml file is identically the same as the one used in the metadata of the page." %}
 
 
 ## Adding an institution, infrastructure, project or funder
 
-Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/affiliations.yaml) file. The info in this file is used on the support page in the about section, but also for the affiliations in tool assembly pages. Make sure you make use of the same name in those assembly pages. The yaml file has following syntax:
+Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/affiliations.yaml) file. The info in this file is used on the support page in the about section, but also for the affiliations in tool assembly pages. Make sure you make use of the same name in those assembly pages. The yaml file has following syntax:
 ```yaml
 - name: VIB
   image_url: /images/institutions/VIB-PSB.svg
@@ -159,32 +159,12 @@ Institutions, projects, funders and infrastructures are listed in the [affiliati
 - `url`: url towards the homepage of this association
 
 
-The logos can be added to the [/images/institutions](https://github.com/elixir-europe/rdmkit/blob/master/images/institutions/), [/images/projects](https://github.com/elixir-europe/rdmkit/blob/master/images/projects/), [/images/infrastructures](https://github.com/elixir-europe/rdmkit/blob/master/images/infrastructures/) and [/images/funders](https://github.com/elixir-europe/rdmkit/blob/master/images/funders/) directory.
+The logos can be added to the [/images/institutions](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/images/institutions/), [/images/projects](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH//blob/master/images/projects/), [/images/infrastructures](https://github.com/eelixir-europe-training/ELIXIR-Training-SPLASH/blob/master/images/infrastructures/) and [/images/funders](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH//blob/master/images/funders/) directory.
 
 {% include callout.html type="important" content="Upload vector images (.svg filetype) of the institute logo for better quality, scaleability and file size, if possible." %}
 
 
 {% glossary TODO %}:
-
-## Related pages
-
-### Add "Related pages" to a page 
-
-RDMkit pages from the sections Your tasks, Your domain and Tool assembly can be displayed as "Related RDMkit pages" in a page, grouped by section. 
-
-Only pages from specific sections are allowed in each page (see image below), as pre-defined in the metadata of each template page. Please, do not add extra sections in the metadata of the page.
-
-| _page_id_           | Related pages id: Data life cycle | Related pages id: Your tasks | Related pages id: Your role | Related pages id: Your domain | Related pages id: Tool assembly | Related pages visualised |
-|---------------------|-----------------------------------|------------------------------|-----------------------------|-------------------------------|---------------------------------|--------------------------|
-| **Data life cycle** |                                   |              yes             |                             |                               |                                 |        Your tasks        |
-| **Your tasks**      |                                   |                              |                             |                               |               yes               |       Tool assembly      |
-| **Your role**       |                                   |              yes             |                             |                               |                                 |         Your tasks        |
-| **Your domain**     |                                   |              yes             |                             |                               |               yes               | Your tasks, Tool assembly |
-| **Tool assembly**   |                                   |              yes             |                             |              yes              |                                 |  Your tasks, Your domain  |
-
-
-
-An overview of all RDMkit pages (belonging to the sections listed above) and their `page_id` can be found in the [List of page IDs](website_overview).
 
 
 ```yml
@@ -197,5 +177,5 @@ related_pages:
 
 ### Page ID
 
-To find out what the `page_id` of an RDMkit page is, please check its metadata attribute `page_id` at the top of the markdown file or the [list of page IDs](website_overview).
+To find out what the `page_id` of an Training SPLASH page is, please check its metadata attribute `page_id` at the top of the markdown file or the [list of page IDs](website_overview).
 

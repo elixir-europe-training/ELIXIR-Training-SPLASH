@@ -2,7 +2,7 @@
 title: Style guide
 ---
 
-In general, we follow the European Commission's [Web Writing Style Guide](https://wikis.ec.europa.eu/display/WEBGUIDE/02.+Web+writing+guidelines) and the more detailed [English Style Guide](https://commission.europa.eu/system/files/2023-01/styleguide_english_dgt_en.pdf). Below are the points that you might find most useful, though, and that relate particularly to the RDMkit.
+In general, we follow the European Commission's [Web Writing Style Guide](https://wikis.ec.europa.eu/display/WEBGUIDE/02.+Web+writing+guidelines) and the more detailed [English Style Guide](https://commission.europa.eu/system/files/2023-01/styleguide_english_dgt_en.pdf). Below are the points that you might find most useful, though, and that relate particularly to the Training SPLASH.
 
 ## General style and tone
   * Keep the tone friendly rather than formal, and use "you". Imagine you were explaining something verbally to someone - how would you say it?
@@ -19,7 +19,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Dates:** use Wednesday 7 July 2021 (not Wednesday 7th July 2021, or other variations).
   * **Datasets:** not "data sets".
   * **Email:** not "e-mail".
-  * **Email addresses:** spell these out and make the email address the link e.g. [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). Do not hide the email address behind a word or phrase like "contact us".
+  * **Email addresses:** spell these out and make the email address the link e.g. [training-splash@elixir-europe.org](training-splash@elixir-europe.org). Do not hide the email address behind a word or phrase like "contact us".
   * **Etc.** should be avoided. Try using ‘for example’ or ‘such as’ or ‘including’ at the start of a listing. If etc. is used, put a comma before it if it is in a list, like "A, B, etc.". 
   * **Gender:** avoid using gender-specific words like "he" or "she".
   * **Headings:**
@@ -58,7 +58,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **White space:** make sure there is plenty of space so that the main elements stand out and the text does not appear overwhelming.
   * **Colours:** <br/>
     * The headings, links and text will automatically appear in the right colour if you use the site page templates.
-    * Use only the following colours in the design, text and illustrations of the site. The RDM life cycle diagram colours are only for use in the pages related to the diagram.
+    * Use only the following colours in the design, text and illustrations of the site. The Training lifecycle diagram colours are only for use in the pages related to the diagram.
     * | <span style="display: inline-block; width: 20px; height: 20px; background: #C23669;"></span> | #C23669 | Magenta | Logo, Menu highlight, Second level heading (h2), Main theme colour |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #337ab7;"></span> | #376AC3 | Blue | Link colour |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #2a2e3d;"></span> | #2a2e3d | Dark blue | First level headings (h1), Third level heading (h3), Body text, Header, Footer |
