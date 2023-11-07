@@ -5,13 +5,13 @@ id: ttt # This id should match with the user-stories ToolId
 title: ELIXIR-GOBLET Train the Trainer
 resourceUrl: https://elixir-europe.org/
 description: |
- One of the ELIXIR Training Platform’s objectives is to increase bioinformatics capacity and competency in Europe. This programme, established in collaboration with GOBLET, relies in the development of Train-the-Trainer (TtT) courses and materials, and fosters a network of trainers, the TtT instructor's community, to allow them to benefit from reciprocal support and exchange of experiences.  
+  One of the ELIXIR Training Platform’s objectives is to increase bioinformatics capacity and competency in Europe. This programme, established in collaboration with GOBLET, relies in the development of Train-the-Trainer (TtT) courses and materials, and fosters a network of trainers, the TtT instructor's community, to allow them to benefit from reciprocal support and exchange of experiences.  
 
 objective: |
- The programme objective is to give instructors tools and tips for providing an enriching learning experience to trainees, irrespective of topic, and to include best-practice guidance on course and training material development. 
+  The programme objective is to give instructors tools and tips for providing an enriching learning experience to trainees, irrespective of topic, and to include best-practice guidance on course and training material development. 
 
 contributors: [Piv Gopalasingam (EBI), Bruna Piereck (BE), Katarzyna Kamieniecka (UK), Krzysztof Poterlowicz (UK), Helena Schnitzer (DE), Lisanna Paladin (DE), Jessica Lindvall (SE), Piv Gopalasingam (EBI), Erin Calhoun (NO), Roland Krause (LU), Katharina Heil (Hub), Daniel Wibberg (DE), Renato Alves (DE)]
-]
+
 coordinators: [Allegra Via (IT), Patricia Palagi (CH)]
 contacts:
   - name: Allegra Via
@@ -23,7 +23,7 @@ contacts:
 #OPTIONAL FIELDS
 #TO DISCUSS WITH PATRICIA
 #mission: |
-#  ##### This is a multiline
+###### This is a multiline
 
 #  * markdown
 #  * example
