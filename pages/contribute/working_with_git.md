@@ -46,12 +46,12 @@ NOTE: if you already did these steps in the past, start from the `git fetch upst
 
 ## The advantage of working locally: previewing your changes through your web browser
 
-The website is build on GitHub using Jekyll, a simple, static site generator based on ruby. When you have a local copy cloned onto your computer, it is possible to generate the website based on this repo. This makes it possible to preview changes live, every time you save a file from within the GitHub rdmkit repo. Follow these steps to deploy the website based on your local clone (copy) of the rdmkit repo:
+The website is build on GitHub using Jekyll, a simple, static site generator based on ruby. When you have a local copy cloned onto your computer, it is possible to generate the website based on this repo. This makes it possible to preview changes live, every time you save a file from within the GitHub ELIXIR-Training-SPLASH repo. Follow these steps to deploy the website based on your local clone (copy) of the ELIXIR-Training-SPLASH repo:
 
-Make sure you have cloned the rdmkit repo:
+Make sure you have cloned the ELIXIR-Training-SPLASH repo:
 
     git clone git@github.com:USERNAME/ELIXIR-Training-SPLASH.git
-    cd rdmkit
+    cd ELIXIR-Training-SPLASH
 
 
 To run the website locally, you can either use [Docker](https://www.docker.com/) or use Jekyll directly after installing various dependencies.
