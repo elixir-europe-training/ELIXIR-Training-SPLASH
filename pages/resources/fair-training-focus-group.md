@@ -13,15 +13,18 @@ objective: |
   * FAIRify training materials and courses.
   * Develop FAIR guidelines for training resources and support adoption.
   * Enhance the FAIRness and discoverability of existing resources in TeSS.
-contributors: [Helena Schnitzer]
+    
+contributors: [Alex Holinski, Alexia Cardona, Allegra Via, Beatriz Serrano-Solano, Bérénice Batut, Branka Franicevic, Celia van Gelder, Chris Child, David Lloyd, Dayane Araújo, Fotis Psomopoulos, Fred de Lamotte, Geert van Geest, Helen Clare, Helena Schnitzer, Ines Chaves, Jessica Lindvall, Katharina Heil, Krzystof Poterlowicz, Leyla Jael Castro, Lisanna Paladin, Loredana Le Pera, Manthos Pitoulias, Melissa Burke, Monique Zahn, Oliver Sand, Patricia Palagi, Pedro Fernandes, Roland Krause, Sara Morsy, Xènia Pérez Sitjà]
 coordinators: [Fotis Psomopoulos, Geert Van Geest, Sara Morsey]
+
 contacts:
   - name: Fotis Psomopoulos
     mail: fpsom@certh.gr
   - name: Geert Van Geest
     mail: geert.vangeest@sib.swiss
   - name: Sara Morsey
-    mail: s.khalil7@bradford.ac.uk  
+    mail: s.khalil7@bradford.ac.uk
+     
 joinLink: https://elixir-europe.org/focus-groups/mail-subscribe?list=FAIR%20Training%20Focus%20Group
 
 #OPTIONAL FIELDS
