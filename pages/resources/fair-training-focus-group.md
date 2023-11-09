@@ -23,7 +23,8 @@ contacts:
   - name: Geert Van Geest
     mail: geert.vangeest@sib.swiss
   - name: Sara Morsey
-    mail: s.khalil7@bradford.ac.uk  
+    mail: s.khalil7@bradford.ac.uk
+     
 joinLink: https://elixir-europe.org/focus-groups/mail-subscribe?list=FAIR%20Training%20Focus%20Group
 
 #OPTIONAL FIELDS
