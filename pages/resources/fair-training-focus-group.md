@@ -1,5 +1,5 @@
 ---
-#MANDATORY FIELDS
+# MANDATORY FIELDS
 id: ftfg # This id should match with the user-stories ToolId
 title: FAIR Training Focus Group
 resourceUrl: https://elixir-europe.org/focus-groups/fair-training
@@ -43,3 +43,4 @@ publications:
   - title: Ten simple rules for making training materials FAIR (Webinar)
     url: https://elixir-europe.org/events/elixir-webinar-fair-training    
 mailingList: fair-training@elixir-europe.org
+---
