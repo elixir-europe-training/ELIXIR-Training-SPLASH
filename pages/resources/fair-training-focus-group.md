@@ -1,5 +1,5 @@
 ---
-# MANDATORY FIELDS
+#MANDATORY FIELDS
 id: ftfg # This id should match with the user-stories ToolId
 title: FAIR Training Focus Group
 resourceUrl: https://elixir-europe.org/focus-groups/fair-training
