@@ -1,6 +1,8 @@
 title: Resources
 title_url: /resources
 subitems:
+  - title: Certification
+    url: /certification
   - title: TeSS
     url: /tess
   - title: Train-the-Trainer
