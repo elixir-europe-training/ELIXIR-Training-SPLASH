@@ -6,6 +6,7 @@ $green: #03CEA4;
 $orange: #FF7900;
 
 $primary:       $aubergine;
+$primary-light: mix(#fff, $primary, 40%);
 $secondary:     #4D4848;
 $light:         mix(#fff, $primary, 90%);
 $dark:          #212529;

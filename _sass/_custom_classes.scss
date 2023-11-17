@@ -87,6 +87,10 @@ footer {
     background: $red;
 }
 
+.bg-primary-light {
+    background: $primary-light;
+}
+
 .row-banner {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -204,4 +208,17 @@ footer {
         color: $white;
         border-color: transparent;
     }
+}
+
+#ett-logo {
+    display: none;
+    visibility: hidden;
+}
+
+.nav-break {
+    display: none;
+}
+
+.nav-item:nth-last-child(2) {
+    display: none;
 }

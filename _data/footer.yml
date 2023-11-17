@@ -1,4 +1,4 @@
-copyright: 'This site uses Cookies. We use cookies to help the website run effectively. To find out more, read our [Privacy](https://elixir-europe.org/privacy) and [Cookies](https://elixir-europe.org/cookies) statements.'
+copyright: '&copy; ELIXIR Training Platform'
 columns:
   - type: image
     image_width: 120px
@@ -12,3 +12,5 @@ columns:
         url: /contributors
       - url_text: Acknowledgments
         url: /contact
+      - url_text: Contribute
+        url: "pages/contribute"
