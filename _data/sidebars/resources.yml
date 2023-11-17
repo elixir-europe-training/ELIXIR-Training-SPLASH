@@ -1,19 +1,21 @@
 title: Resources
 title_url: /resources
 subitems:
-  - title: TeSS
-    url: /tess
-  - title: Train-the-Trainer
-    url: /train-the-trainer
-  - title: TMD
-    url: /tmd
-  - title: FAIR Training Handbook
-    url: /fair-training-handbook
-  - title: Learning Paths
-    url: /learning-paths
+  - title: Certification
+    url: /certification
   - title: ELIXIR lesson template
     url: /elixir-lesson-template
   - title: E-learning
     url: /elearning
   - title: FAIR Training Focus Group
     url: /fair-training-focus-group
+  - title: FAIR Training Handbook
+    url: /fair-training-handbook
+  - title: Learning Paths
+    url: /learning-paths
+  - title: TeSS
+    url: /tess
+  - title: TMD
+    url: /tmd
+  - title: Train-the-Trainer
+    url: /train-the-trainer
