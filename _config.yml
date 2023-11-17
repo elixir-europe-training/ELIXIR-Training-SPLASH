@@ -30,6 +30,14 @@ exclude:
 defaults:
   -
     scope:
+      path: ""
+      type: "pages"
+    values:
+      permalink: "/:basename"
+      layout: "page"
+      sidebar: main
+  -
+    scope:
       path: "pages/lifecycle"
     values:
       type: "pages"
