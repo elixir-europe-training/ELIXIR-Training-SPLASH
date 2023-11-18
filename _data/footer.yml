@@ -10,7 +10,7 @@ columns:
     children:
       - url_text: Contributors
         url: /contributors
-      - url_text: Acknowledgments
+      - url_text: Contact
         url: /contact
       - url_text: Contribute
         url: "pages/contribute"
