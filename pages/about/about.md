@@ -7,7 +7,7 @@ The ELIXIR Training SPLASH has been designed to guide the trainer in their effor
 
 The contents are generated and maintained by the ELIXIR Training platform [ELIXIR-TrP](https://elixir-europe.org/). We want to sustain and govern ELIXIR Training SPLASH via the ELIXIR Programme 2024+.
 
-PSLASH is short for 
+SPLASH is short for 
 
 * Skills,
 * Professional development,
