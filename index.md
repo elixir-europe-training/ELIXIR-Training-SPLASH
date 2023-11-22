@@ -9,6 +9,10 @@ sidebar: false
 
 {% include index/welcome.html %}
 
+{% block announce %}
+This web site is under active development and considered beta. Release: December 2024
+{% endblock %}
+
 {% include index/lifecycle.html %}
 
 {% include index/roles-and-resources.html %}
