@@ -7,6 +7,8 @@ sidebar: false
 
 {% include scripts.html %}
 
+{% include index/beta-banner.html %}
+
 {% include index/welcome.html %}
 
 {% include index/lifecycle.html %}
