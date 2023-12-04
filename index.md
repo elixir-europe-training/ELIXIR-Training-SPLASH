@@ -9,8 +9,6 @@ sidebar: false
 
 {% include index/beta-banner.html %}
 
-{% include index/welcome.html %}
-
 {% include index/lifecycle.html %}
 
 {% include index/roles-and-resources.html %}
