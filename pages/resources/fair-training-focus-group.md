@@ -6,6 +6,7 @@ resourceUrl: https://elixir-europe.org/focus-groups/fair-training
 description: |
   This Focus Group aims to apply the FAIR principles (Findable, Accessible, Interoperable and Reusable) in training. It includes members both from ELIXIR and the global community, working collaboratively to enhance data and resource accessibility, reusability, and interoperability through training efforts.
 objective: |
+  The FAIR training focus group aims to:
   * Train scientists on implementing FAIR principles.
   * Develop a catalog of FAIR-focused courses, materials, and curricula.
   * Collaborate with related initiatives.
