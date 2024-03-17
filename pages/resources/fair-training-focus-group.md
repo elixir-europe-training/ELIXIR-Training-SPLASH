@@ -15,8 +15,43 @@ objective: |
   * Develop FAIR guidelines for training resources and support adoption.
   * Enhance the FAIRness and discoverability of existing resources in TeSS.
     
-contributors: [Alex Holinski, Alexia Cardona, Allegra Via, Beatriz Serrano-Solano, Bérénice Batut, Branka Franicevic, Celia van Gelder, Chris Child, David Lloyd, Dayane Araújo, Fotis Psomopoulos, Fred de Lamotte, Geert van Geest, Helen Clare, Helena Schnitzer, Ines Chaves, Jessica Lindvall, Katharina Heil, Krzystof Poterlowicz, Leyla Jael Castro, Lisanna Paladin, Loredana Le Pera, Manthos Pitoulias, Melissa Burke, Monique Zahn, Oliver Sand, Patricia Palagi, Pedro Fernandes, Roland Krause, Sara Morsy, Xènia Pérez Sitjà]
-coordinators: [Fotis Psomopoulos, Geert Van Geest, Sara Morsey]
+contributors:
+  - Alexandra Holinski
+  - Alexia Cardona
+  - Allegra Via
+  - Beatriz Serrano-Solano
+  - Branka Franicevic
+  - Bérénice Batut
+  - Celia van Gelder
+  - Chris Child
+  - David Lloyd
+  - Dayane Araújo
+  - Fotis Psomopoulos
+  - Fred de Lamotte
+  - Geert van Geest
+  - Helen Clare
+  - Helena Schnitzer
+  - Ines Chaves
+  - Jessica Lindvall
+  - Katharina Heil
+  - Krzysztof Poterlowicz
+  - Leyla Jael Castro
+  - Lisanna Paladin
+  - Loredana Le Pera
+  - Manthos Pitoulias
+  - Melissa Burke
+  - Monique Zahn
+  - Olivier Sand
+  - Patricia Palagi
+  - Pedro Fernandes
+  - Roland Krause
+  - Sara Morsey
+  - Xènia Pérez Sitjà
+
+coordinators:
+  - Fotis Psomopoulos
+  - Geert Van Geest
+  - Sara Morsey
 
 contacts:
   - name: Fotis Psomopoulos

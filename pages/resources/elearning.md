@@ -8,11 +8,18 @@ description: |
 objective: |
   * recommend best practises for e-learning material creation 
   * defining a curation process for e-learning content in TeSS 
-contributors: [Monique Zahn, Nadja Zlender, Daniel Wibberg, Marko Vidak, Ajay Mishra, Olivier Sand]
-coordinators: [Alexander Botzki]
+contributors:
+  - Ajay Mishra
+  - Daniel Wibberg
+  - Marko Vidak
+  - Monique Zahn
+  - Nadja Zlender
+  - Olivier Sand
+coordinators:
+  - Alexander Botzki
 contacts:
-  - name: Alexander Botzki 
-    email: alexander.botzki@vib.be 
+  - name: Alexander Botzki
+    email: alexander.botzki@vib.be
 #joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 
 #OPTIONAL FIELDS

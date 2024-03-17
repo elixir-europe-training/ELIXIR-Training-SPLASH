@@ -12,8 +12,62 @@ objective: |
   * Indicate the possibilities to make material accessible
   * Show directions to provide a license to material
   * Point to resources that can improve discoverability
-contributors: [Bruna Piereck, Geert van Geest, Alexandra Holinski, Alexia Cardona,Alice Matimba,Allegra Via,Anastasios Anastasios Papaioannou ,Anna Swan,Celia van Gelder,Daniel Thomas Lopez,Daniel Wibberg,Fred de Lamotte ,Helen Clare ,Helena Schnitzer ,Hélène Chiapello,Iryna Kuchma ,Iulianna van der Lek,Kathryn Unsworth ,Krzys Poterlowicz ,Leyla Jael Castro,Lisanna Paladin,Loredana Le Pera,Lucie Khamvongsa-Charbonnier,Maja Rey,Marcela Davila,Maria Doyle,Marta Lloret,Melissa Burke ,Michelle D Brazas ,Monique Zahn ,Nazeefa Fatima ,Nicola Mulder,Olivier Sand ,Patricia Carvajal Lopez,Patricia M. Palagi,Rachel Berkson,Renato Alves,Roland Krause,Russell Schwartz,Sara El-Gebali,Sarah Morgan,Saskia Hiltemann,Shaun Aron,Steven Morgan,Suzanne Duce,Tarcisio Mendes de Farias ,Vera Matser,Verena Ras ,Wai Keat Yam]
-coordinators: [Bruna Piereck, Geert van Geest]
+
+contributors:
+  - Alexandra Holinski
+  - Alexia Cardona
+  - Alice Matimba
+  - Allegra Via
+  - Anastasios Anastasios Papaioannou
+  - Anna Swan
+  - Bruna Piereck
+  - Celia van Gelder
+  - Daniel Thomas Lopez
+  - Daniel Wibberg
+  - Fred de Lamotte
+  - Geert van Geest
+  - Helen Clare
+  - Helena Schnitzer
+  - Hélène Chiapello
+  - Iryna Kuchma
+  - Iulianna van der Lek
+  - Kathryn Unsworth
+  - Krzysztof Poterlowicz
+  - Leyla Jael Castro
+  - Lisanna Paladin
+  - Loredana Le Pera
+  - Lucie Khamvongsa-Charbonnier
+  - Maja Rey
+  - Marcela Davila
+  - Maria Doyle
+  - Marta Lloret
+  - Melissa Burke
+  - Michelle D Brazas
+  - Monique Zahn
+  - Nazeefa Fatima
+  - Nicola Mulder
+  - Olivier Sand
+  - Patricia Carvajal Lopez
+  - Patricia Palagi
+  - Rachel Berkson
+  - Renato Alves
+  - Roland Krause
+  - Russell Schwartz
+  - Sara El-Gebali
+  - Sarah Morgan
+  - Saskia Hiltemann
+  - Shaun Aron
+  - Steven Morgan
+  - Suzanne Duce
+  - Tarcisio Mendes de Farias
+  - Vera Matser
+  - Verena Ras
+  - Wai Keat Yam
+
+coordinators:
+  - Bruna Piereck
+  - Geert van Geest
+
 contacts:
   - name: Bruna Piereck
     email: bruna.piereckmoura@vib.be

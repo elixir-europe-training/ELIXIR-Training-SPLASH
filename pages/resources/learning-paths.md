@@ -12,10 +12,18 @@ objective: |
   * Raise awareness on the pedagogical aspects and promote their adoption
   * Establish a community of practice to share knowledge, experiences, and ideas
  
-contributors: [Alexia Cardona, Loredana Le Pera, Jessica Lindvall, Helena Schnitzer, Eva Alloza]
-coordinators: [Alexia Cardona, Loredana Le Pera, Jessica Lindvall]
+contributors:
+  - Alexia Cardona
+  - Eva Alloza
+  - Helena Schnitzer
+  - Jessica Lindvall
+  - Loredana Le Pera
+coordinators:
+  - Alexia Cardona
+  - Jessica Lindvall
+  - Loredana Le Pera
 contacts:
-  - name: Learning Paths 
+  - name: Learning Paths
     email: lp@elixir.org
 publications:
   - title: Publication example 1
