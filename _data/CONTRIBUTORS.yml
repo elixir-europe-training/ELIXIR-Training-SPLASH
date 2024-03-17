@@ -11,8 +11,8 @@ Ajay Mishra:
     role: author
 
 Alexander Botzki:
-    affiliation: VIB Technology Training, ELIXIR Belgium
-    elixirnode: Belgium
+    affiliation: VIB Technology Training
+    node: BE
     orcid: 0000-0001-6691-4233 
     role: author
 
@@ -20,9 +20,9 @@ Alexandra Holinski:
     role: author
 
 Alexia Cardona:
-    affiliation: University of Cambridge, ELIXIR United Kingdom
-    elixirnode: United Kingdom
+    affiliation: University of Cambridge
     email: ac812@cam.ac.uk
+    node: UK
     orcid: 0000-0002-7877-5565
     role: author
 
@@ -30,8 +30,8 @@ Alice Matimba:
     role: author
 
 Allegra Via:
-    elixirnode: Italy
     email: allegra.via@uniroma1.it
+    node: IT
     role: author
 
 Anastasios Anastasios Papaioannou:
@@ -50,9 +50,9 @@ Bérénice Batut:
     role: author
 
 Bruna Piereck:
-    affiliation: VIB Technology Training, ELIXIR Belgium
-    elixirnode: Belgium
+    affiliation: VIB Technology Training
     email: bruna.piereckmoura@vib.be
+    node: BE
     orcid: 0000-0001-5958-0669
     role: author
 
@@ -69,8 +69,8 @@ Daniel Thomas Lopez:
     role: author
 
 Daniel Wibberg:
-    elixirnode: Germany
     email: dwibberg@cebitec.uni-bielefeld.de
+    node: DE
     role: author
 
 David Lloyd:
@@ -84,7 +84,7 @@ Elin Kronander:
     role : author
 
 Erin Calhoun:
-    elixirnode: Norway
+    node: NO
     role: author
 
 Eva Alloza:
@@ -95,6 +95,7 @@ Finn Bacall:
 
 Fotis Psomopoulos:
     email: fpsom@certh.gr
+    node: GR
     role: author
 
 Fred de Lamotte:
@@ -102,8 +103,8 @@ Fred de Lamotte:
 
 Geert van Geest:
     affiliation: SIB Swiss Institute of Bioinformatics
-    elixirnode: Switzerland
     email: geert.vangeest@sib.swiss
+    node: CH
     orcid: 0000-0002-1561-078X
     role: author
 
@@ -114,7 +115,7 @@ Helen Clare:
     role: author
 
 Helena Schnitzer:
-    elixirnode: Germany
+    node: DE
     role: author
 
 Hélène Chiapello:
@@ -133,7 +134,7 @@ Ivan Kuzmin:
     role: author
 
 Jessica Lindvall:
-    elixirnode: Sweden
+    node: SE
     role: author
 
 Jose Alejandro Romero Herrera:
@@ -142,27 +143,27 @@ Jose Alejandro Romero Herrera:
     role: author
 
 Katarzyna Kamieniecka:
-    elixirnode: United Kingdom
+    node: UK
     role: author
 
 Katharina Heil:
-    elixirnode: Hub
+    node: Hub
     role: author
 
 Kathryn Unsworth:
     role: author
 
 Krzysztof Poterlowicz:
-    elixirnode: United Kingdom
+    node: UK
     role: author
 
 Leyla Jael Castro:
     role: author
 
 Lisanna Paladin:
-    affiliation: European Molecular Biology Laboratory, ELIXIR Germany
-    elixirnode: Germany
+    affiliation: European Molecular Biology Laboratory
     email: lisanna.paladin@embl.de
+    node: DE
     orcid: 0000-0003-0011-9397
     role: author
 
@@ -197,8 +198,8 @@ Michelle D Brazas:
     role: author
 
 Mihail Anton:
-    affiliation: Chalmers University of Technology, ELIXIR Sweden
-    elixirnode: Sweden
+    affiliation: Chalmers University of Technology
+    node: SE
     orcid: 0000-0002-7753-9042
     role: author
 
@@ -224,25 +225,25 @@ Patricia Carvajal Lopez:
     role: author
 
 Patricia Palagi:
-    elixirnode: Switzerland
     email: Patricia.Palagi@sib.swiss
+    node: CH
     role: author
 
 Pedro Fernandes:
     role: author
 
 Piv Gopalasingam:
-    affiliation: European Molecular Biology Laboratory, ELIXIR EMBL-EBI
-    elixirnode: EMBL-EBI
+    affiliation: European Molecular Biology Laboratory
+    node: EMBL-EBI
     role: author
 
 Rachel Berkson:
     role: author
 
 Renato Alves:
-    affiliation: European Molecular Biology Laboratory, ELIXIR Germany
-    elixirnode: Germany
+    affiliation: European Molecular Biology Laboratory
     email: renato.alves@embl.de
+    node: DE
     orcid: 0000-0002-7212-0234
     role: author
 
