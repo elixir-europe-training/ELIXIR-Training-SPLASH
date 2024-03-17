@@ -14,7 +14,7 @@ coordinators: [Finn Bacall, Carole Goble, Hedi Peterson]
 
 contacts:
   - name: TeSS Support
-    mail: tess-support@googlegroups.com
+    email: tess-support@googlegroups.com
   
 joinLink: tess@elixir-europe.org
 

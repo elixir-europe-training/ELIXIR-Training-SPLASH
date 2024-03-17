@@ -12,7 +12,7 @@ contributors: [Monique Zahn, Nadja Zlender, Daniel Wibberg, Marko Vidak, Ajay Mi
 coordinators: [Alexander Botzki]
 contacts:
   - name: Alexander Botzki 
-    mail: alexander.botzki@vib.be 
+    email: alexander.botzki@vib.be 
 #joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 
 #OPTIONAL FIELDS

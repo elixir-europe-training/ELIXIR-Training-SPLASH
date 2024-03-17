@@ -20,11 +20,11 @@ coordinators: [Fotis Psomopoulos, Geert Van Geest, Sara Morsey]
 
 contacts:
   - name: Fotis Psomopoulos
-    mail: fpsom@certh.gr
+    email: fpsom@certh.gr
   - name: Geert Van Geest
-    mail: geert.vangeest@sib.swiss
+    email: geert.vangeest@sib.swiss
   - name: Sara Morsey
-    mail: s.khalil7@bradford.ac.uk
+    email: s.khalil7@bradford.ac.uk
      
 joinLink: https://elixir-europe.org/focus-groups/mail-subscribe?list=FAIR%20Training%20Focus%20Group
 

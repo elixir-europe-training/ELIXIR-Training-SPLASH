@@ -30,9 +30,9 @@ coordinators:
 
 contacts:
   - name: Allegra Via
-    mail: allegra.via@uniroma1.it
+    email: allegra.via@uniroma1.it
   - name: Patricia Palagi
-    mail: Patricia.Palagi@sib.swiss
+    email: Patricia.Palagi@sib.swiss
 # joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 
 #OPTIONAL FIELDS

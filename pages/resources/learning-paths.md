@@ -16,7 +16,7 @@ contributors: [Alexia Cardona, Loredana Le Pera, Jessica Lindvall, Helena Schnit
 coordinators: [Alexia Cardona, Loredana Le Pera, Jessica Lindvall]
 contacts:
   - name: Learning Paths 
-    mail: lp@elixir.org
+    email: lp@elixir.org
 publications:
   - title: Publication example 1
     url: https://elixir-europe.org/

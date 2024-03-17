@@ -16,9 +16,10 @@ contributors: [Bruna Piereck, Geert van Geest, Alexandra Holinski, Alexia Cardon
 coordinators: [Bruna Piereck, Geert van Geest]
 contacts:
   - name: Bruna Piereck
-    mail: bruna.piereckmoura@vib.be
+    email: bruna.piereckmoura@vib.be
   - name: Geert van Geest
-    mail: geert.vangeest@sib.swiss
+    email: geert.vangeest@sib.swiss
+
 joinLink: 
 
 #OPTIONAL FIELDS
