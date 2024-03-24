@@ -30,11 +30,21 @@ ELIXIR Training SPLASH was developed with funding from ELIXIR BioHackathon Europ
 
 ## How to cite ELIXIR Training SPLASH 
 
+
+
 <div class="card bg-light my-4">
   <div class="card-body">
-    <p class="card-text"><i>ELIXIR SPLASH Pushing the boundaries of training development (2023)</i></p>
+    <p class="card-text"><i>ELIXIR SPLASH Pushing the boundaries of training development (
+      <span id="year"></span>
+      )</i>
+    </p>
   </div>
 </div>
+
+<script>
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+
 
 The ELIXIR Training SPLASH makes all of their materials publicly available under [Open Source Initiative](https://opensource.org/licenses) licenses.
 The process documents and data are made available under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
