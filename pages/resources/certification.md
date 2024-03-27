@@ -29,8 +29,12 @@ benefit: |
  
   In conclusion, training certifications offer a multitude of benefits and exciting visions for individuals. From validation and structured learning to networking opportunities and access to relevant materials, certifications empower learners to excel in their chosen fields.
 
-contributors: [Daniel Wibberg]
+contributors:
+  - Daniel Wibberg
+
 contacts:
+  - name: Daniel Wibberg
+    email: dwibberg@cebitec.uni-bielefeld.de
 joinLink: trp-certification-wg@elixir-europe.org
 mailingList: trp-certification-wg@elixir-europe.org
 

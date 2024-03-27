@@ -10,14 +10,29 @@ description: |
 objective: |
   The programme objective is to give instructors tools and tips for providing an enriching learning experience to trainees, irrespective of topic, and to include best-practice guidance on course and training material development. 
 
-contributors: [Piv Gopalasingam (EBI), Bruna Piereck (BE), Katarzyna Kamieniecka (UK), Krzysztof Poterlowicz (UK), Helena Schnitzer (DE), Lisanna Paladin (DE), Jessica Lindvall (SE), Piv Gopalasingam (EBI), Erin Calhoun (NO), Roland Krause (LU), Katharina Heil (Hub), Daniel Wibberg (DE), Renato Alves (DE)]
+contributors:
+  - Bruna Piereck
+  - Daniel Wibberg
+  - Erin Calhoun
+  - Helena Schnitzer
+  - Jessica Lindvall
+  - Katarzyna Kamieniecka
+  - Katharina Heil
+  - Krzysztof Poterlowicz
+  - Lisanna Paladin
+  - Piv Gopalasingam
+  - Renato Alves
+  - Roland Krause
 
-coordinators: [Allegra Via (IT), Patricia Palagi (CH)]
+coordinators:
+  - Allegra Via
+  - Patricia Palagi
+
 contacts:
   - name: Allegra Via
-    mail: allegra.via@uniroma1.it
+    email: allegra.via@uniroma1.it
   - name: Patricia Palagi
-    mail: Patricia.Palagi@sib.swiss
+    email: Patricia.Palagi@sib.swiss
 # joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 
 #OPTIONAL FIELDS
