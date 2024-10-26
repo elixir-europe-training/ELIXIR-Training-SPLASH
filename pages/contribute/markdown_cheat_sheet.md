@@ -1,7 +1,7 @@
 ---
 title: Markdown cheat sheet
 summary: This is a cheat sheet to showcase what is possible within the markdown pages.
-contributors: [Bert Droesbeke, Alexander Botzki]
+contributors: [Bert Droesbeke]
 search_exclude: true
 ---
 
