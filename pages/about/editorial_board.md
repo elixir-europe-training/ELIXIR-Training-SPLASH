@@ -4,7 +4,7 @@ title: Editorial board
 
 ## Meet the editorial board members
 
-{% include contributor-carousel-selection.html custom="Alexia Cardona, Mihail Anton, Alexander Botzki"%}
+{% include contributor-carousel-selection.html custom="Alexia Cardona, Elin Kronander, Alexander Botzki"%}
 
 ## Join as editorial board member
 
