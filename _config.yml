@@ -16,10 +16,8 @@ theme_variables:
   theme_color: 205a86
   topnav:
     brand_logo: assets/img/main_logo.svg
-  #privacy_statement_url: https://elixir-europe.org/privacy
   fonts:
     - https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap
-  #  - https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap
 
 exclude:
   - README.md
@@ -56,18 +54,7 @@ defaults:
     values:
       layout: "resource_page"
       sidebar: resources
-  -
-    scope:
-      path: "pages/about"
-    values:
-      type: "pages"
-      sidebar: about
-  -
-    scope:
-      path: "pages/contribute"
-    values:
-      type: "pages"
-      sidebar: contribute
+
 
 plugins:
   - jemoji

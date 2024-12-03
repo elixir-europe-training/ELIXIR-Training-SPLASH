@@ -23,7 +23,7 @@ joinLink:
 
 #OPTIONAL FIELDS
 mission: |
-  To encourage trainers and training providers to make their training material FAIR
+  To encourage and support trainers and training-providers to make their training material FAIR
 benefit: 
 licenses:
   - name: CC BY 4.0 SA
