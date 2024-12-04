@@ -1,0 +1,27 @@
+<h2>The Train-the-Trainer community</h2>
+
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Affiliation</th>
+        <th>Session 1</th>
+        <th>Session 2</th>
+        <th>Session 3</th>
+        <th>Session 4</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% assign sorted_trainers = site.data.ttt-trainers.trainers | sort: "name" %}
+    {% for trainer in sorted_trainers %}
+    <tr>
+        <td>{{ trainer.name }}</td>
+        <td>{{ trainer.affiliation }}</td>
+        <td> {% if trainer.sessions contains 1 %} <i class="fa fa-check"></i> {% endif %} </td>
+        <td> {% if trainer.sessions contains 2 %} <i class="fa fa-check"></i> {% endif %} </td>
+        <td> {% if trainer.sessions contains 3 %} <i class="fa fa-check"></i> {% endif %} </td>
+        <td> {% if trainer.sessions contains 4 %} <i class="fa fa-check"></i> {% endif %} </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>

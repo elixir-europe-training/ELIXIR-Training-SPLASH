@@ -3,25 +3,33 @@
 type: product_page # This property is mandatory and it should be product_page
 id: ttt # This id should match with the user-stories ToolId
 title: ELIXIR-GOBLET Train the Trainer
-resourceUrl: https://elixir-europe.org/
+resourceUrl: https://elixir-europe.org/platforms/training/train-the-trainer
 description: |
   One of the ELIXIR Training Platform’s objectives is to increase bioinformatics capacity and competency in Europe. This programme, established in collaboration with GOBLET, relies in the development of Train-the-Trainer (TtT) courses and materials, and fosters a network of trainers, the TtT instructor's community, to allow them to benefit from reciprocal support and exchange of experiences.  
 
 objective: |
   The programme objective is to give instructors tools and tips for providing an enriching learning experience to trainees, irrespective of topic, and to include best-practice guidance on course and training material development. 
 
-contributors: [Piv Gopalasingam (EBI), Bruna Piereck (BE), Katarzyna Kamieniecka (UK), Krzysztof Poterlowicz (UK), Helena Schnitzer (DE), Lisanna Paladin (DE), Jessica Lindvall (SE), Piv Gopalasingam (EBI), Erin Calhoun (NO), Roland Krause (LU), Katharina Heil (Hub), Daniel Wibberg (DE), Renato Alves (DE)]
+#contributors: [Piv Gopalasingam (EBI), Bruna Piereck (BE), Katarzyna Kamieniecka (UK), Krzysztof Poterlowicz (UK), Helena Schnitzer (DE), Lisanna Paladin (DE), Jessica Lindvall (SE), Piv Gopalasingam (EBI), Erin Calhoun (NO), Roland Krause (LU), Katharina Heil (Hub), Daniel Wibberg (DE), Renato Alves (DE)]
+#contributors:
+#  {% for contributor in site.data.ttt-trainers %}
+#    {{ contributor.name }} ({{ contributor.affiliation }}){% if forloop.last == false %}, {% endif %}
+# {% endfor %}
+contributors: 
 
-coordinators: [Allegra Via (IT), Patricia Palagi (CH)]
+coordinators: [Allegra Via (IT), Krzysztof Poterlowicz (UK), Lisanna Paladin (DE), Patricia Palagi (CH)]
 contacts:
   - name: Allegra Via
     mail: allegra.via@uniroma1.it
+  - name: Krzysztof Poterlowicz 
+    mail: K.Poterlowicz1@bradford.ac.uk
+  - name: Lisanna Paladin
+    mail: lisanna.paladin@embl.de
   - name: Patricia Palagi
     mail: Patricia.Palagi@sib.swiss
 # joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 
 #OPTIONAL FIELDS
-#TO DISCUSS WITH PATRICIA
 #mission: |
 ###### This is a multiline
 
@@ -44,9 +52,9 @@ publications:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6433894/
   - title: "3. The ELIXIR-EXCELERATE Train-the-Trainer pilot programme: empower researchers to deliver high-quality training."
   - url: https://f1000research.com/articles/10.12688/f1000research.12332.1/doi
-video: https://www.youtube.com/embed/6ZyGEz6kjnA?si=lIgsRruoX-1YZJJF # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
 
-#TO DISCUSS WITH PATRICIA
+#video: https://www.youtube.com/embed/6ZyGEz6kjnA?si=lIgsRruoX-1YZJJF # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
+
 #citations: |
   ##### This is a multiline
 
@@ -63,6 +71,8 @@ video: https://www.youtube.com/embed/6ZyGEz6kjnA?si=lIgsRruoX-1YZJJF # ONLY YOUT
 #  - screenshot_example_1.png
 #  - screenshot_example_2.png
 ---
+
+{% include ttt-trainers.html %}
 
 ## ELIXIR-GOBLET TtT HIGHLIGHTS
 * Community of Instructors
