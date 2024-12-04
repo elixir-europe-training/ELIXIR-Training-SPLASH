@@ -7,7 +7,7 @@ summary: This guide is there to help editors.
 
 ### General rules
 
-As an editor, try to work as much as possible on a different branch than the main branch. This can be on the elixir-europe training SPLASH repo or your own fork. Open a pull request if you want to merge your changes with the main branch. This way it is possible for other editors to give feedback on your changes. Typos or other small fixes can of course be done immediately on the main branch.
+As an editor, try to work as much as possible on a different branch than the main branch. This can be on the ELIXIR Europe Training SPLASH repository or your own fork. Open a pull request if you want to merge your changes with the main branch. This way it is possible for other editors to give feedback on your changes. Typos or other small fixes can of course be done immediately on the main branch.
 
 ### Overview of the file structure in GitHub
 
