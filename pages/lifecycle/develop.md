@@ -51,12 +51,11 @@ Logistical considerations during the development stage of training material are 
 
 ## Contributors
 
-Mark Fernandes
-Helena Schnitzer
-Geert Van Geest
-Alexander Botzki
-Mihail Anton
-Elin Kronander
-Jeanne Wilbrandt
-Bruna Piereck
-Elin Kronander
+* Mark Fernandes
+* Helena Schnitzer
+* Geert Van Geest
+* Alexander Botzki
+* Mihail Anton
+* Elin Kronander
+* Jeanne Wilbrandt
+* Bruna Piereck
