@@ -50,16 +50,16 @@ Identify a suitable delivery format depending on the topic, the level of the tra
 
 ## Contributors
 
-Monique Zahn
-Alexia Cardona
-Zoltán Gáspári
-Loredana Le Pera
-Zoi Litou
-Jeanne Wilbrandt
-Celia Van Gelder
-Bruna Piereck
-Alexander Botzki
-Elin Kronander
+* Monique Zahn
+* Alexia Cardona
+* Zoltán Gáspári
+* Loredana Le Pera
+* Zoi Litou
+* Jeanne Wilbrandt
+* Celia Van Gelder
+* Bruna Piereck
+* Alexander Botzki
+* Elin Kronander
 
 
 
