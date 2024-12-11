@@ -53,18 +53,17 @@ TODO: does ELIXIR have anything for identification of training needs (survey?)?
 
 ## Contributors
 
-Patricia Palagi 
-Eva Alloza 
-Bérénice Batut
-Nadja Zlender
-Oliver Sand
-Daniel Wibberg 
-Luciana Peixoto
-Elin Kronander
-Jeanne Wilbrandt
-Bruna Piereck
-Samantha Wittke
-
+* Patricia Palagi 
+* Eva Alloza 
+* Bérénice Batut
+* Nadja Zlender
+* Oliver Sand
+* Daniel Wibberg 
+* Luciana Peixoto
+* Elin Kronander
+* Jeanne Wilbrandt
+* Bruna Piereck
+* Samantha Wittke
 
 
 
