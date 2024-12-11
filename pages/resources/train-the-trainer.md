@@ -76,3 +76,30 @@ video: https://www.youtube.com/embed/6ZyGEz6kjnA?si=lIgsRruoX-1YZJJF # ONLY YOUT
 * Training techniques for enhancing learner engagement and participation,
 * Design of engaging sessions, materials and courses;
 * Assessment and feedback in training.
+
+## UPCOMING ELIXIR-GOBLET TtT EVENTS
+
+
+<link rel="stylesheet" property="stylesheet" href="https://elixirtess.github.io/TeSS_widgets/css/tess-widget.css"/>
+<div id="tess-widget-dropdown-table" class="tess-widget tess-widget-dropdown-table"></div>
+<script>
+function initTeSSWidgets() {
+    TessWidget.Events(document.getElementById('tess-widget-dropdown-table'),
+        'DropdownTable',
+        {
+            opts: {
+                columns: [{name: 'Date', field: 'start'},
+                    {name: 'Name', field: 'title'},
+                    {name: 'Organizer', field: 'organizer'},
+                    {name: 'Location', field: 'location'}],
+                dropdowns: [{name: 'Type', field: 'event-types'},
+                    {name: 'Country', field: 'country'},
+                    {name: 'Topic', field: 'scientific-topics'}]
+            },
+            params: {
+                q: 'Train-the-Trainer',
+            }
+        });
+}
+</script>
+<script async="" defer="" src="https://elixirtess.github.io/TeSS_widgets/js/tess-widget-standalone.js" onload="initTeSSWidgets()"></script>
