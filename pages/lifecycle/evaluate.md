@@ -1,8 +1,6 @@
 ---
 title: Evaluate
-id: evaluate
-contributors: [Elin Kronander, Jose Alejandro Romero Herrera, Geert van Geest, Alexia Cardona]
-type: 
+contributors: [Elin Kronander, Geert van Geest, Alexia Cardona,Kim Gurwitz, Daniel Wibberg, Olivier Sand, Zoltan Gaspari, Monique Zahn, Mihail Anton, Jeanne Wilbrandt, Alexander Botzki, Helena Schnitzer, Bruna Piereck] 
 --- 
 
 The overall goal with the Evaluate stage is to continuously improve training activities, maximize their impact on trainees and the targeted community, and ultimately contribute to societal advancements. Below we outline the what, how, and when of evaluating training activities.
@@ -16,6 +14,27 @@ There are many elements to consider when designing and implementing evaluation p
 __When:__
 We can build a picture of the quality and impact of training by evaluating different elements at different timepoints, namely:
 
+
+| **Evaluation Element**| **Timing** | **Examples**    | **Respondents** |
+| -------- | ------- | -------- | ------- |
+| **Demographics and Reach**  | Before Training | information on audience, where did trainees find the training | trainees    |
+| **Training Material** | Before/After Training     | are materials FAIR, balance of theory and practice,exercises easy to follow | trainees, trainers, organisations|
+| **Trainee Learning**  | During/After Training | did trainers learn something new will they use the tool again  |  trainees|
+| **Training Event Satisfaction**   | After Training | venue suitability, organizational aspects, trainer support, would you recommend this course to others | trainees, trainers |
+| **Trainee Impact**  | Medium-Long Term| have you used the tools in your work  | trainees  |
+| **Societal Impact**  | Long Term    |   |     |
+
+
+
+## Pedagogical point of view
+
+Evaluating training poses a major challenge; most learning starts once our trainees head back to their research groups/places of work. For trainees to gain the most from the training they need to continue to use their newly gained skills in their “home” setting. It’s this “home” use that we are trying to assess through our long term feedback questions. 
+
+Additional things to consider when you evaluate training:
+* **Peer Review:** Collaborate with colleagues to receive valuable feedback and improve training materials and delivery methods - do not train alone
+* **Balanced Evaluation:** Combine quantitative and qualitative data to gain a comprehensive understanding of training effectiveness.
+* **Prerequisites and aligned exercises:** Evaluate if the prerequisites defined allowed the participants to benefit from the training and if the exercises supported and reinforced the stated learning objectives.
+* **Tailored Evaluation:** Determine the appropriate level of detail for your evaluation, considering the specific needs and interests of your stakeholders.
 
 
 ## Logistical point of view
@@ -34,18 +53,8 @@ We can build a picture of the quality and impact of training by evaluating diffe
 * **Feedback from other sources:** Identify a process for capturing and incorporating feedback from GitHub repositories, YouTube comments, oral feedback etc.
 
 
-## Didactic point of view
-
-Evaluating training poses a major challenge; most learning starts once our trainees head back to their research groups/places of work. For trainees to gain the most from the training they need to continue to use their newly gained skills in their “home” setting. It’s this “home” use that we are trying to assess through our long term feedback questions. 
-
-Additional things to consider when you evaluate training:
-* Peer Review: Collaborate with colleagues to receive valuable feedback and improve training materials and delivery methods - do not train alone
-* Balanced Evaluation: Combine quantitative and qualitative data to gain a comprehensive understanding of training effectiveness.
-* Prerequisites and aligned exercises: Evaluate if the prerequisites defined allowed the participants to benefit from the training and if the exercises supported and reinforced the stated learning objectives.
-* Tailored Evaluation: Determine the appropriate level of detail for your evaluation, considering the specific needs and interests of your stakeholders.
-
 ## Related resources
-<div class="row mb-3 py-3">
+<div class="row mb-1 py-1">
     <div class="col-3 text-center mb-5">
         <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-2" style="width: 50px; height: 50px;">
         <a class="btn btn-resource d-block py-2 rounded-pill btn-sm" href="train-the-trainer">
@@ -64,11 +73,8 @@ Additional things to consider when you evaluate training:
             <small>FAIR Training Handbook</small>
         </a> 
     </div>
-    <div class="col-3 text-center mb-5">
-        <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-2" style="width: 50px; height: 50px;">
-        <a class="btn btn-resource d-block py-2 rounded-pill btn-sm" href="fair-training-focus-group">
-            <small>FAIR training focus group</small>
-        </a> 
-    </div>
+   
 </div>
 
+## References
+* [ELIXIR impact toolkit](https://elixir-europe.org/about-us/impact/toolkit)
