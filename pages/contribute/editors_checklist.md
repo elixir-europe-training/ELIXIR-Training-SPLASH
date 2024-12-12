@@ -11,11 +11,10 @@ summary: Checklist for editors before approving and merging a pull request ({% g
    * unique `page_id` ([List of page IDs](website_overview))
    * `contributors`
    * `related_pages` ([Related pages](editorial_board_guide.html#related-pages))
-   * `training`
    * `search_exclude` must be deleted
    * `description`
    * `affiliation`
-   * `coordinators`(only used in national pages + they must be listed as `contributors` as well)
+   * `coordinators`(only used in resource pages + they must be listed as `contributors` as well)
    * `resources`
 5. The content is conform to ELIXIR Training SPLASH scope, [style](style_guide) and templates.
 6. There are no [copyright](copyright) issues related to the content of the page.
