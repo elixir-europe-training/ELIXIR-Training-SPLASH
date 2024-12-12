@@ -25,7 +25,7 @@ Being on the editorial board of ELIXIR Training SPLASH entails shaping how Train
 * Provide timely feedback for improving the quality of the content, according to the style guide.
 * Formatting content according to templates.
 * Join the <regular> editorial meeting.
-* Manage a Github repository.
+* Manage a GitHub repository.
 
 ### Call for joining us
 
@@ -37,7 +37,7 @@ We want to keep the editorial board manageable in numbers, therefore we are look
 * The applicant must be interested in effective digital communication of best practices and guidelines.
 * The applicant should be willing to spend some time on evaluation of content.
 * The applicant should be open to discuss topics with other editorial board members and to accept feedback.
-* The applicant should have basic knowledge of Github.
+* The applicant should have basic knowledge of GitHub.
 
 **Application**
 
