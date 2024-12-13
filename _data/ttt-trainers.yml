@@ -1,0 +1,62 @@
+trainers:
+  - name: Lisanna Paladin
+    affiliation: DE
+    sessions: [1,2,3,4]
+  - name: Piv Gopalasingam
+    affiliation: EBI
+    sessions: [1,2,3]
+  - name: Bruna Piereck
+    affiliation: BE
+    sessions: [1,2,3]
+  - name: Katarzyna Kamieniecka
+    affiliation: UK
+    sessions: [1,2,3,4]
+  - name: Krzysztof Poterlowicz
+    affiliation: UK
+    sessions: [1,2,3,4]
+  - name: Helena Schnitzer
+    affiliation: DE
+    sessions: [4]
+  - name: Jessica Lindvall
+    affiliation: SE
+    sessions: [1,2,3,4]
+  - name: Roland Krause
+    affiliation: LU
+    sessions: [1,2,3]
+  - name: Daniel Wibberg
+    affiliation: DE
+    sessions: [1,2,3,4]
+  - name: Renato Alves
+    affiliation: DE
+    sessions: [1,2,3,4]
+  - name: Sara Morsy
+    affiliation: UK
+    sessions: [1,2,3,4]
+  - name: Fotis Psomopoulos
+    affiliation: GR
+    sessions: [1,2,3,4]
+  - name: Patricia Palagi
+    affiliation: CH
+    sessions: [1,2,3,4]
+  - name: Bruna Piereck
+    affiliation: BE
+    sessions: [1,2,3]
+  - name: Alexia Cadorna
+    affiliation: UK
+    sessions: [1,2,3,4]
+  - name: Nazeefa Fatima
+    affiliation: 'NO'
+    sessions: [2]
+  - name: Daniela Brites
+    affiliation: CH
+    sessions: [3]
+  - name: Nina Norgen
+    affiliation: SE
+    sessions: [4]
+contributors:
+  - name: Katharina Heil
+    affiliation: Hub
+    sessions: [ ]
+  - name: Erin Calhoun
+    affiliation: 'NO'
+    sessions: [ ]
