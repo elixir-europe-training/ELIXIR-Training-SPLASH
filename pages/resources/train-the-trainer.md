@@ -3,7 +3,7 @@
 type: product_page # This property is mandatory and it should be product_page
 id: ttt # This id should match with the user-stories ToolId
 title: ELIXIR-GOBLET Train the Trainer
-resourceUrl: https://elixir-europe.org/
+resourceUrl: https://elixir-europe.org/platforms/training/train-the-trainer
 description: |
   One of the ELIXIR Training Platform’s objectives is to increase bioinformatics capacity and competency in Europe. This programme, established in collaboration with GOBLET, relies in the development of Train-the-Trainer (TtT) courses and materials, and fosters a network of trainers, the TtT instructor's community, to allow them to benefit from reciprocal support and exchange of experiences.  
 
