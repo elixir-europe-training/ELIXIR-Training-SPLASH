@@ -139,7 +139,7 @@ Alexia Cordona:
 {% include callout.html type="important" content="Make sure that the name in the yaml file is identically the same as the one used in the metadata of the page." %}
 
 
-## Adding an institution, infrastructure, project or funder
+<!-- ## Adding an institution, infrastructure, project or funder
 
 Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/affiliations.yaml) file. The info in this file is used on the support page in the about section, but also for the affiliations in tool assembly pages. Make sure you make use of the same name in those assembly pages. The yaml file has following syntax:
 ```yaml
@@ -173,7 +173,7 @@ related_pages:
    your_domain: [page_id1, page_id2]
    tool_assembly: [page_id1, page_id2]
   ``` 
-
+-->
 
 ### Page ID
 

@@ -8,7 +8,7 @@ Everyone is welcome to contribute to this site, and we've tried to make it as ea
 
 * **If you are not familiar with Git** but want to give it a try on GitHub: follow [our step-by-step instructions](github_way) (no technical knowledge required!).
 * **If you are familiar with Git**: fork the repo and create a pull request (see our [instructions](working_with_git)).
-* **If you just want to make a quick suggestion**: submit your comments/suggestions using an issue as deescribed below.
+* **If you just want to make a quick suggestion**: submit your comments/suggestions using an issue as described below.
 
 ## Contributor responsibilities
 
