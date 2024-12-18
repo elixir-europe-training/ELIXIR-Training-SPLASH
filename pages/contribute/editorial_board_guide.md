@@ -7,12 +7,12 @@ summary: This guide is there to help editors.
 
 ### General rules
 
-As an editor, try to work as much as possible on a different branch than the master branch. This can be on the elixir-europe training SPLASH repo or your own fork. Open a pull request if you want to merge your changes with the master branch. This way it is possible for other editors to give feedback on your changes. Typos or other small fixes can of course be done immediately on the master branch.
+As an editor, try to work as much as possible on a different branch than the main branch. This can be on the ELIXIR Europe Training SPLASH repository or your own fork. Open a pull request if you want to merge your changes with the main branch. This way it is possible for other editors to give feedback on your changes. Typos or other small fixes can of course be done immediately on the main branch.
 
 ### Overview of the file structure in GitHub
 
 The content of the website is built up using markdown files found in the [pages](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/tree/main/pages) directory.
-These markdown files are divided over subdirectories (your_role, your_tools, your_tasks...) for sorting reasons only.
+These markdown files are divided over subdirectories for sorting reasons only.
 
 ### Markdown file naming
 
@@ -51,14 +51,14 @@ For more information about this topic please visit the [GitHub documentation pag
 ### Simple way: using the GitHub interface
 To generate a new page it is sufficient to simply copy the TEMPLATE file in the subdirectory and rename it. To copy a template you have to:
 
-1. Go to the `TEMPLATE_` file of choice in the [GitHub repo](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/tree/main/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_your_tasks.md](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/tree/main/pages/your_tasks/TEMPLATE_your_tasks.md) file.
+1. Go to the `TEMPLATE_` file of choice in the [GitHub repo](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/tree/main/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_resource_page.md](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/tree/main/pages/resources/TEMPLATE_resource_page.md) file.
 
 1. Click "Raw" on the GitHub page to open the file 'as is'
     {% include image.html file="raw_github.png" inline=true alt="Raw button GitHub." %}
 
 1. Select and copy all the content.
 
-1. Go back to the main section were you want to make the new page, in our example this will be in */pages/your_tasks*. Click on `Add file` on the right followed up by `Create new file`.
+1. Go back to the main section were you want to make the new page, in our example this will be in */pages/resources*. Click on `Add file` on the right followed up by `Create new file`.
     {% include image.html file="create_new_file_github.png" inline=true alt="Create new file GitHub." %}
 
 1. Paste the copied content from the template.
@@ -144,11 +144,11 @@ Alexia Cordona:
 Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/affiliations.yaml) file. The info in this file is used on the support page in the about section, but also for the affiliations in tool assembly pages. Make sure you make use of the same name in those assembly pages. The yaml file has following syntax:
 ```yaml
 - name: VIB
-  image_url: /images/institutions/VIB-PSB.svg
+  image_url: /images/institutions/vib.svg
   pid: https://ror.org/03xrhmk39
   expose: true
   type: institution
-  url: https://www.psb.ugent.be/
+  url: https://www.vib.be/
 ```
 
 - `name`: name
@@ -159,7 +159,7 @@ Institutions, projects, funders and infrastructures are listed in the [affiliati
 - `url`: url towards the homepage of this association
 
 
-The logos can be added to the [/images/institutions](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/images/institutions/), [/images/projects](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH//blob/master/images/projects/), [/images/infrastructures](https://github.com/eelixir-europe-training/ELIXIR-Training-SPLASH/blob/master/images/infrastructures/) and [/images/funders](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH//blob/master/images/funders/) directory.
+The logos can be added to the [/images/institutions](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/main/images/institutions/), [/images/projects](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/main/images/projects/), [/images/infrastructures](https://github.com/eelixir-europe-training/ELIXIR-Training-SPLASH/blob/main/images/infrastructures/) and [/images/funders](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/main/images/funders/) directory.
 
 {% include callout.html type="important" content="Upload vector images (.svg filetype) of the institute logo for better quality, scaleability and file size, if possible." %}
 

@@ -4,7 +4,7 @@ title: Editorial board
 
 ## Meet the editorial board members
 
-{% include contributor-carousel-selection.html custom="Alexia Cardona, Mihail Anton, Alexander Botzki"%}
+{% include contributor-carousel-selection.html custom="Alexia Cardona, Elin Kronander, Bruna Piereck, Alexander Botzki, Geert Van Geest"%}
 
 ## Join as editorial board member
 
@@ -24,8 +24,8 @@ Being on the editorial board of ELIXIR Training SPLASH entails shaping how Train
 * Work together with contributors how and where their specific contribution fits best in ELIXIR Training SPLASH.
 * Provide timely feedback for improving the quality of the content, according to the style guide.
 * Formatting content according to templates.
-* Join the <regular> editorial meeting.
-* Manage a Github repository.
+* Join the regular editorial meeting.
+* Manage a GitHub repository.
 
 ### Call for joining us
 
@@ -37,7 +37,7 @@ We want to keep the editorial board manageable in numbers, therefore we are look
 * The applicant must be interested in effective digital communication of best practices and guidelines.
 * The applicant should be willing to spend some time on evaluation of content.
 * The applicant should be open to discuss topics with other editorial board members and to accept feedback.
-* The applicant should have basic knowledge of Github.
+* The applicant should have basic knowledge of GitHub.
 
 **Application**
 
@@ -47,4 +47,4 @@ To become part of the editorial team, please provide:
 * A summary of your experience in training in life sciences.
 * List of the sections that you are most interested in (or feel are missing).
 
-Please, send your application to training@elixir-europe.org.
+Please, send your application to training-splash@elixir-europe.org@elixir-europe.org.

@@ -11,10 +11,10 @@ Ajay Mishra:
     role: author
 
 Alexander Botzki:
-    affiliation: VIB Technology Training
+    affiliation: VIB Training & Conferences
     node: BE
     orcid: 0000-0001-6691-4233 
-    role: author
+    role: editor
 
 Alexandra Holinski:
     role: author
@@ -24,7 +24,7 @@ Alexia Cardona:
     email: ac812@cam.ac.uk
     node: UK
     orcid: 0000-0002-7877-5565
-    role: author
+    role: editor
 
 Alice Matimba:
     role: author
@@ -50,11 +50,11 @@ Bérénice Batut:
     role: author
 
 Bruna Piereck:
-    affiliation: VIB Technology Training
+    affiliation: VIB Training & Conferences
     email: bruna.piereckmoura@vib.be
     node: BE
     orcid: 0000-0001-5958-0669
-    role: author
+    role: editor
 
 Carole Goble:
     role: author
@@ -82,7 +82,8 @@ Dayane Araújo:
 Elin Kronander:
     affiliation: NBIS National Bioinformatics Infrastructure Sweden
     node: SE
-    role : author
+    role : editor
+    orcid: 0000-0003-0280-6318
 
 Erin Calhoun:
     node: NO
@@ -107,7 +108,7 @@ Geert van Geest:
     email: geert.vangeest@sib.swiss
     node: CH
     orcid: 0000-0002-1561-078X
-    role: author
+    role: editor
 
 Hedi Peterson:
     role: author
@@ -199,7 +200,7 @@ Michelle D Brazas:
     role: author
 
 Mihail Anton:
-    affiliation: Chalmers University of Technology
+    affiliation: ELIXIR Hub
     node: SE
     orcid: 0000-0002-7753-9042
     role: author

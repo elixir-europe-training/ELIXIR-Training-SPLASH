@@ -91,3 +91,22 @@ video: https://www.youtube.com/embed/6ZyGEz6kjnA?si=lIgsRruoX-1YZJJF # ONLY YOUT
 * Training techniques for enhancing learner engagement and participation,
 * Design of engaging sessions, materials and courses;
 * Assessment and feedback in training.
+
+## UPCOMING ELIXIR-GOBLET TtT EVENTS
+
+
+<link rel="stylesheet" property="stylesheet" href="https://elixirtess.github.io/TeSS_widgets/css/tess-widget.css"/>
+<div id="tess-widget-events-list" class="tess-widget tess-widget-list"></div>
+<script>
+function initTeSSWidgets() {
+    TessWidget.Events(document.getElementById('tess-widget-events-list'),
+        'SimpleList',
+        {
+            params: {
+                pageSize: 5,
+                q: 'Train-the-Trainer'
+            }
+        });
+}
+</script>
+<script async="" defer="" src="https://elixirtess.github.io/TeSS_widgets/js/tess-widget-standalone.js" onload="initTeSSWidgets()"></script>
