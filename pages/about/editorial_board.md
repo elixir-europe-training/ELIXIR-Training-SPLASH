@@ -24,7 +24,7 @@ Being on the editorial board of ELIXIR Training SPLASH entails shaping how Train
 * Work together with contributors how and where their specific contribution fits best in ELIXIR Training SPLASH.
 * Provide timely feedback for improving the quality of the content, according to the style guide.
 * Formatting content according to templates.
-* Join the <regular> editorial meeting.
+* Join the regular editorial meeting.
 * Manage a GitHub repository.
 
 ### Call for joining us
