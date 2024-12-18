@@ -54,7 +54,11 @@ defaults:
     values:
       layout: "resource_page"
       sidebar: resources
-
+  -
+    scope:
+      path: "pages/contribute"
+    values:
+      sidebar: contribute
 
 plugins:
   - jemoji
