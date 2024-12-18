@@ -12,7 +12,6 @@ By carefully planning these aspects, organisations can ensure that their trainin
 
 ## What are the pedagogical aspects?
 
-TODO: address some comments in the gdoc
 
 - Training needs analysis: Identifying specific training gaps. Assessing pedagogical, technical and logistical requirements.
 - Target audience: Defining the specific group of individuals who will benefit from the training.
