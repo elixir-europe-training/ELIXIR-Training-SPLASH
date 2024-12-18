@@ -37,7 +37,7 @@ TODO: design illustration
 * **Evaluate**: Developing or reusing already existing strategies to l evaluate the training and include that in your plan.
 
 ## Related resources: 
-[ELIXIR-GOBLET Train-the-trainer](train-the-trainer), [Learning Paths](learning-paths), [TeSS](tess), ELIXIR Code of Conduct, FAIR training handbook, How do we identify training needs
+[ELIXIR-GOBLET Train-the-trainer](train-the-trainer), [Learning Paths](learning-paths), [TeSS](tess), [FAIR training handbook](fair-training-handbook)
 
 TODO: does ELIXIR have anything for identification of training needs (survey?)?
 
