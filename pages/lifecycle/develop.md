@@ -48,7 +48,7 @@ Logistical considerations during the development stage of training material are 
 
 ## References	
 [Train-the-Trainer Concept on Research Data Management](https://doi.org/10.5281/zenodo.13927613)
-[FAIR training by design course](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/)
+, [FAIR training by design course](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/)
 
 
 ## Contributors
