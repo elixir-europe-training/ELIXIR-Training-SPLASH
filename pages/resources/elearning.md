@@ -10,6 +10,7 @@ objective: |
   * defining a curation process for e-learning content in TeSS 
 contributors:
   - Ajay Mishra
+  - Alexander Botzki
   - Daniel Wibberg
   - Marko Vidak
   - Monique Zahn
