@@ -21,7 +21,7 @@ Döring models divides learning in two phases that should be intercalated
 - (I) Perceive, process, memorize
 - (II) Remember, transfer, apply
 
-![image from Doring]()
+![Doering Learning models](assets/img/screenshots/breath-in-breath-out.png)
 
 Identify a suitable delivery format depending on the topic, the level of the trainees, target audience and the length of time: 
 - trainer-led: a complex topic or a topic requiring hands-on exercises should be taught by a trainer, either in the classroom or online (synchronously).
