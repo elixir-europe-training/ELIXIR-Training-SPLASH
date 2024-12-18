@@ -1,5 +1,6 @@
 ---
 title: Deliver
+contributors: [Monique Zahn, Alexia Cardona, Zoltán Gáspári, Loredana Le Pera, Zoi Litou, Jeanne Wilbrandt, Celia Van Gelder, Bruna Piereck, Alexander Botzki, Elin Kronander]
 ---
 
 ## What is Training Deliver?
@@ -98,24 +99,43 @@ Prepare any non-digital resource
 * Inform if support/consultancy is available after training
 
 ## Related resources: 
-[ELIXIR-GOBLET Train-the-trainer](train-the-trainer), [Learning Paths](learning-paths), [TeSS](tess), [FAIR training handbook](tess), [ELIXIR Lesson template]()
+
+<div class="row mb-2 py-5">
+    <div class="col-3 text-center mb-1">
+        <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-2" style="width: 50px; height: 50px;">
+        <a class="btn btn-resource d-block py-2 rounded-pill btn-sm" href="train-the-trainer">
+            <small>Train-the-Trainer</small>
+        </a> 
+    </div>
+    <div class="col-3 text-center mb-1">
+        <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-2" style="width: 50px; height: 50px;">
+        <a class="btn btn-resource d-block py-2 rounded-pill btn-sm" href="tess">
+            <small>TeSS</small>
+        </a> 
+    </div>
+    <div class="col-3 text-center mb-1">
+        <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-2" style="width: 50px; height: 50px;">
+        <a class="btn btn-resource d-block py-2 rounded-pill btn-sm" href="fair-training-handbook">
+            <small>FAIR Training Handbook</small>
+        </a> 
+    </div>
+    <div class="col-3 text-center mb-1">
+        <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-2" style="width: 50px; height: 50px;">
+        <a class="btn btn-resource d-block py-2 rounded-pill btn-sm" href="elixir-lesson-template">
+            <small>ELIXIR Lesson template</small>
+        </a> 
+    </div>
+    <div class="col-3 text-center mb-1">
+        <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-2" style="width: 50px; height: 50px;">
+        <a class="btn btn-resource d-block py-2 rounded-pill btn-sm" href="learning-paths">
+            <small>Learning Paths</small>
+        </a> 
+    </div>
+</div>
 
 ## References	
 - [Course design: Considerations for trainers – a Professional Guide](https://f1000research.com/documents/9-1377)
 - [Train-the-Trainer Concept on Research Data Management](https://doi.org/10.5281/zenodo.13927613) 
 - [Learning objective matrix for research data management](https://doi.org/10.5281/zenodo.7034477) 
-
-## Contributors
-
-* Monique Zahn
-* Alexia Cardona
-* Zoltán Gáspári
-* Loredana Le Pera
-* Zoi Litou
-* Jeanne Wilbrandt
-* Celia Van Gelder
-* Bruna Piereck
-* Alexander Botzki
-* Elin Kronander
 
 
