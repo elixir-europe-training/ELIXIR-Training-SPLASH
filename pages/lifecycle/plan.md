@@ -1,10 +1,9 @@
 ---
 title: Plan
-contributors: [Patricia Palagi, Eva Alloza, Bérénice Batut, Nadja Zlender, Oliver Sand, Daniel Wibberg,  Luciana Peixoto, Elin Kronander,
-Jeanne Wilbrandt, Bruna Piereck, Samantha Wittke]
+contributors: [Patricia Palagi, Eva Alloza, Bérénice Batut, Nadja Zlender, Oliver Sand, Daniel Wibberg, Luciana Peixoto, Elin Kronander, Jeanne Wilbrandt, Bruna Piereck, Samantha Wittke]
 ---
 
-The PLAN stage in the training life cycle involves identifying and assessing training needs to outline the logistics and pedagogy of the training considering the target audience, setting clear goals and objectives. This stage also includes allocation of funding and resources as well as infrastructure needed to deliver the training. It is also in this phase that retro-planning should be drafted for efficient time management.
+Planning involves identifying and assessing training needs to outline the logistics and pedagogy of the training considering the target audience, setting clear goals and objectives. This stage also includes allocation of funding and resources as well as infrastructure needed to deliver the training. It is also in this phase that retro-planning should be drafted for efficient time management.
 
 Consider if the training will be part of a curriculum, a learning path or isolated. If it should be included in a learning path or curriculum, decide on how it would be articulated. If it is needed, in this stage, we will need to define how to select trainee candidates: how their expertise will be assessed, when, and criteria to select.
 
@@ -12,14 +11,12 @@ By carefully planning these aspects, organisations can ensure that their trainin
 
 ## What are the pedagogical aspects?
 
-
 - Training needs analysis: Identifying specific training gaps. Assessing pedagogical, technical and logistical requirements.
 - Target audience: Defining the specific group of individuals who will benefit from the training.
 - Learning objectives: Clearly outlining the desired overarching outcomes of the training.
 - Curriculum development: Creating a detailed training curriculum that aligns with learning objectives.
 - Learning paths: Review related learning paths and determine if and how this training aligns with them. If the training will be structures as a learning path, ensure to take the available guidelines into account.
 - Train the Trainer : Continuously offer training for your trainers. 
-
 
 ## What are the logistical aspects?
 
