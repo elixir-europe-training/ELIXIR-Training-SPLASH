@@ -1,6 +1,6 @@
 ---
 title: Deliver
-contributors: [Monique Zahn, Alexia Cardona, Zoltán Gáspári, Loredana Le Pera, Zoi Litou, Jeanne Wilbrandt, Celia Van Gelder, Bruna Piereck, Alexander Botzki, Elin Kronander]
+contributors: [Mark Fernandes, Patricia Palagi, Bruna Piereck, Luciana Peixoto, Alexander Botzki, Alexia Cardona, Helena Schnitzer, Elin Kronander, Jeanne Wilbrandt, Geert van Geest]
 ---
 
 ## What is Training Deliver?
