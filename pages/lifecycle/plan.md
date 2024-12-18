@@ -42,7 +42,7 @@ TODO: design illustration
 TODO: does ELIXIR have anything for identification of training needs (survey?)?
 
 ## References	
-[Train-the-Trainer Concept on Research Data Management](https://doi.org/10.5281/zenodo.13927613)
+- [Train-the-Trainer Concept on Research Data Management](https://doi.org/10.5281/zenodo.13927613)
 
 ## Contributors
 
