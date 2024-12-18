@@ -1,5 +1,6 @@
 ---
 title: Develop
+contributors: [Mark Fernandes, Helena Schnitzer, Geert Van Geest, Alexander Botzki, Mihail Anton, Elin Kronander, Jeanne Wilbrandt, Bruna Piereck]
 ---
 
 ## What is Training Develop?
@@ -44,20 +45,27 @@ Logistical considerations during the development stage of training material are 
 - **Citability and Findability**: defining the release version of the material and storing it on repositories like Zenodo ensures proper control of release version and accessibility. Register material in web-accessible aggregator like TeSS.
 
 ## Related resources: 
-[ELIXIR Lesson template](elixir-lesson-template), [TeSS](tess), [FAIR training handbook](fair-training-handbook)
+<div class="row mb-2 py-5">
+    <div class="col-3 text-center mb-1">
+        <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-2" style="width: 50px; height: 50px;">
+        <a class="btn btn-resource d-block py-2 rounded-pill btn-sm" href="elixir-lesson-template">
+            <small>ELIXIR Lesson Template</small>
+        </a> 
+    </div> 
+    <div class="col-3 text-center mb-1">
+        <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-2" style="width: 50px; height: 50px;">
+        <a class="btn btn-resource d-block py-2 rounded-pill btn-sm" href="tess">
+            <small>TeSS</small>
+        </a> 
+    </div>
+    <div class="col-3 text-center mb-1">
+        <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-2" style="width: 50px; height: 50px;">
+        <a class="btn btn-resource d-block py-2 rounded-pill btn-sm" href="fair-training-handbook">
+            <small>FAIR Training Handbook</small>
+        </a> 
+    </div>
+</div>
 
 ## References	
 - [Train-the-Trainer Concept on Research Data Management](https://doi.org/10.5281/zenodo.13927613)
 - [FAIR training by design course](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/)
-
-
-## Contributors
-
-* Mark Fernandes
-* Helena Schnitzer
-* Geert Van Geest
-* Alexander Botzki
-* Mihail Anton
-* Elin Kronander
-* Jeanne Wilbrandt
-* Bruna Piereck
