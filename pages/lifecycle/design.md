@@ -41,7 +41,7 @@ Identify a suitable delivery format depending on the topic, the level of the tra
 
 
 ## Related resources: 
-[ELIXIR-GOBLET Train-the-trainer](train-the-trainer), [Learning Paths](learning-paths), [TeSS](tess), [FAIR training handbook](tess), [ELIXIR Lesson template]()
+[ELIXIR-GOBLET Train-the-trainer](train-the-trainer), [Learning Paths](learning-paths), [TeSS](tess), [FAIR training handbook](fair-training-handbook), [ELIXIR Lesson template](elixir-lesson-template)
 
 ## References	
 - [Course design: Considerations for trainers – a Professional Guide](https://f1000research.com/documents/9-1377)
