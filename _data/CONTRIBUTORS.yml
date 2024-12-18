@@ -5,10 +5,10 @@
 # reference maintainers/contributors by their name used in contributors metadata section on the pages.
 
 Aitor Apaolaza:
-    role: author
+    role: 
 
 Ajay Mishra:
-    role: author
+    role: 
 
 Alexander Botzki:
     affiliation: VIB Training & Conferences
@@ -27,27 +27,27 @@ Alexia Cardona:
     role: editor
 
 Alice Matimba:
-    role: author
+    role: 
 
 Allegra Via:
     email: allegra.via@uniroma1.it
     node: IT
-    role: author
+    role: 
 
 Anastasios Anastasios Papaioannou:
-    role: author
+    role: 
 
 Anna Swan:
-    role: author
+    role: 
 
 Beatriz Serrano-Solano:
-    role: author
+    role: 
 
 Branka Franicevic:
-    role: author
+    role: 
 
 Bérénice Batut:
-    role: author
+    role: 
 
 Bruna Piereck:
     affiliation: VIB Training & Conferences
@@ -57,237 +57,341 @@ Bruna Piereck:
     role: editor
 
 Carole Goble:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Celia van Gelder:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Chris Child:
-    role: author
-
+    node: no
+    orcid: 
+    role: 
+    
 Daniel Thomas Lopez:
-    role: author
-
+    node: no
+    orcid: 
+    role: 
+    
 Daniel Wibberg:
     email: dwibberg@cebitec.uni-bielefeld.de
     node: DE
-    role: author
+    role:
 
 David Lloyd:
-    role: author
-
+    node: no
+    orcid: 
+    role: 
+    
 Dayane Araújo:
-    role: author
-
+    node: no
+    orcid: 
+    role: 
 Elin Kronander:
     affiliation: NBIS National Bioinformatics Infrastructure Sweden
     node: SE
-    role : editor
+    role : 
     orcid: 0000-0003-0280-6318
 
 Erin Calhoun:
-    node: NO
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Eva Alloza:
-    role: author
-
+    node: no
+    orcid: 
+    role: 
+    
 Finn Bacall:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Fotis Psomopoulos:
     email: fpsom@certh.gr
     node: GR
-    role: author
+    role:
 
 Fred de Lamotte:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Geert van Geest:
     affiliation: SIB Swiss Institute of Bioinformatics
     email: geert.vangeest@sib.swiss
     node: CH
     orcid: 0000-0002-1561-078X
-    role: editor
+    role:
 
 Hedi Peterson:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Helen Clare:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Helena Schnitzer:
-    node: DE
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Hélène Chiapello:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Ines Chaves:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Iryna Kuchma:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Iulianna van der Lek:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Ivan Kuzmin:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Jessica Lindvall:
     node: SE
-    role: author
+    orcid: 
+    role: 
 
 Jose Alejandro Romero Herrera:
     affiliation: Copenhangen University
     orcid: 0000-0002-4765-2087
-    role: author
+    role:
 
 Katarzyna Kamieniecka:
     node: UK
-    role: author
+    role:
 
 Katharina Heil:
     node: Hub
-    role: author
+    role:
 
 Kathryn Unsworth:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Krzysztof Poterlowicz:
     node: UK
-    role: author
+    role:
 
 Leyla Jael Castro:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Lisanna Paladin:
     affiliation: European Molecular Biology Laboratory
     email: lisanna.paladin@embl.de
     node: DE
     orcid: 0000-0003-0011-9397
-    role: author
+    role:
 
 Loredana Le Pera:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Lucie Khamvongsa-Charbonnier:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Maja Rey:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Manthos Pitoulias:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Marcela Davila:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Maria Doyle:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Marko Vidak:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Marta Lloret:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Melissa Burke:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Michelle D Brazas:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Mihail Anton:
     affiliation: ELIXIR Hub
     node: SE
     orcid: 0000-0002-7753-9042
-    role: author
+    role:
 
 Monique Zahn:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Munazah Andrabi:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Nadja Zlender:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Nazeefa Fatima:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Nicola Mulder:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Olivier Sand:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Patricia Carvajal Lopez:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Patricia Palagi:
     email: Patricia.Palagi@sib.swiss
     node: CH
-    role: author
+    role:
 
 Pedro Fernandes:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Piv Gopalasingam:
     affiliation: European Molecular Biology Laboratory
     node: EMBL-EBI
-    role: author
+    role:
 
 Rachel Berkson:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Renato Alves:
     affiliation: European Molecular Biology Laboratory
     email: renato.alves@embl.de
     node: DE
     orcid: 0000-0002-7212-0234
-    role: author
+    role:
 
 Roland Krause:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Russell Schwartz:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Sara El-Gebali:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Sara Morsey:
     email: s.khalil7@bradford.ac.uk
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Sarah Morgan:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Saskia Hiltemann:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Shaun Aron:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Steven Morgan:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Suzanne Duce:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Tarcisio Mendes de Farias:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Vera Matser:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Verena Ras:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Wai Keat Yam:
-    role: author
+    node: no
+    orcid: 
+    role: 
 
 Xènia Pérez Sitjà:
-    role: author
+    node: no
+    orcid: 
+    role: 
