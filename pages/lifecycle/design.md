@@ -23,10 +23,8 @@ Döring models divides learning in two phases that should be intercalated
 
 ![Doering Learning models](assets/img/screenshots/breath-in-breath-out.png)
 
-Identify a suitable delivery format depending on the topic, the level of the trainees, target audience and the length of time: 
-- trainer-led: a complex topic or a topic requiring hands-on exercises should be taught by a trainer, either in the classroom or online (synchronously).
-- e-learning: a simple topic or a topic requiring basic knowledge which can be learned in the absence of a trainer.
-- Conceive the exercises or quiz questions which will evaluate whether the learning outcome has been met or not, consider the training format.
+* Identify a suitable delivery format depending on the topic, the level of the trainees, target audience and the course duration.
+* Design exercises or quiz questions which will assess whether the learning outcome has been met or not, considering the training format.
 
 ## What are the logistical aspects?
 
