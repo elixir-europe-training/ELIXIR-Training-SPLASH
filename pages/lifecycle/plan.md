@@ -37,7 +37,6 @@ By carefully planning these aspects, organisations can ensure that their trainin
 ## Related resources: 
 [ELIXIR-GOBLET Train-the-trainer](train-the-trainer), [Learning Paths](learning-paths), [TeSS](tess), [FAIR training handbook](fair-training-handbook)
 
-TODO: does ELIXIR have anything for identification of training needs (survey?)?
 
 ## References	
 - [Train-the-Trainer Concept on Research Data Management](https://doi.org/10.5281/zenodo.13927613)
