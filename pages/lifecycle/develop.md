@@ -44,10 +44,12 @@ Logistical considerations during the development stage of training material are 
 - **Citability and Findability**: defining the release version of the material and storing it on repositories like Zenodo ensures proper control of release version and accessibility. Register material in web-accessible aggregator like TeSS.
 
 ## Related resources: 
-[ELIXIR Lesson template](train-the-trainer), [TeSS](tess), FAIR training handbook, FAIR training by design course
+[ELIXIR Lesson template](elixir-lesson-template), [TeSS](tess), [FAIR training handbook](fair-training-handbook)
 
 ## References	
 [Train-the-Trainer Concept on Research Data Management](https://doi.org/10.5281/zenodo.13927613)
+[FAIR training by design course](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/)
+
 
 ## Contributors
 
