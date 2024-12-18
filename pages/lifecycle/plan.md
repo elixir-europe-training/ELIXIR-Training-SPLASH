@@ -21,7 +21,6 @@ TODO: address some comments in the gdoc
 - Learning paths: Review related learning paths and determine if and how this training aligns with them. If the training will be structures as a learning path, ensure to take the available guidelines into account.
 - Train the Trainer : Continuously offer training for your trainers. 
 
-TODO: design illustration 
 ![Nicoll's paradidm](assets/img/screenshots/allegra-via-f1000.png)
 
 ## What are the logistical aspects?
