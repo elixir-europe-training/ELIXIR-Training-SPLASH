@@ -18,7 +18,7 @@ TODO: address some comments in the gdoc
 - Target audience: Defining the specific group of individuals who will benefit from the training.
 - Learning objectives: Clearly outlining the desired overarching outcomes of the training.
 - Curriculum development: Creating a detailed training curriculum that aligns with learning objectives.
-- Learning paths: Review related learning paths and determine if and how this training aligns with them. 
+- Learning paths: Review related learning paths and determine if and how this training aligns with them. If the training will be structures as a learning path, ensure to take the available guidelines into account.
 - Train the Trainer : Continuously offer training for your trainers. 
 
 TODO: design illustration 
