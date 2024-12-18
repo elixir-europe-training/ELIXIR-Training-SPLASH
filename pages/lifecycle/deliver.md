@@ -3,9 +3,7 @@ title: Deliver
 contributors: [Mark Fernandes, Patricia Palagi, Bruna Piereck, Luciana Peixoto, Alexander Botzki, Alexia Cardona, Helena Schnitzer, Elin Kronander, Jeanne Wilbrandt, Geert van Geest]
 ---
 
-## What is Training Deliver?
-
-The DELIVER stage of the training life cycle encompasses both pedagogical and logistical and organization, with a primary focus on didactics. These tasks are divided into arrangements and planning required before, during, and after training delivery. Revisit the plan, design and develop outcomes and take into account decisions made during the previous stages when initiating delivery.
+This stage encompasses both pedagogical, logistical and organization steps, with a primary focus on didactics. These tasks are divided into arrangements and planning required before, during, and after training delivery. Revisit the plan, design and develop outcomes and take into account decisions made during the previous stages when initiating delivery.
 
 From a pedagogical perspective, communicating with participants by providing and gathering necessary information, and sharing pre-course materials is essential for a smooth start. Trainers must align didactic strategies, and ensure training and training material and course accessibility for everyone (colorblind, dyslexic, physical disabilities, etc). The training should be adaptable and interactive. Breaks and informal interactions contribute to engagement and learning. Gathering feedback is important to plan future improvements. Each step is crucial to ensure an effective and inclusive learning experience.
 
