@@ -2,7 +2,7 @@
 # MANDATORY FIELDS
 id: tmd # This id should match with the user-stories ToolId
 title: TMD
-resourceUrl: https://tango.elixir-hpc.si/
+resourceUrl: https://tmd.elixir-europe.org
 description: |
   The Training Metrics Database was developed in an effort to streamline data collection, storage, and visualisation for the ELIXIR Training Platform.
 objective: |

@@ -2,7 +2,7 @@
 # MANDATORY FIELDS
 id: elearning # This id should match with the user-stories ToolId
 title: E-learning Interest Group 
-resourceUrl: https://elixir-europe.org/
+resourceUrl: 
 description: |
   Once every month, the ELIXIR e-learning interest group meets to discuss best practises about e-learning content creation, curation of e-learning material in TeSS and controlled vocabulary about training activities. 
 objective: |
