@@ -7,7 +7,7 @@
   icon: fas fa-person-chalkboard
 
 - title: Courses
-  number: 1999
+  number: 3194
   color: blue
   icon: fas fa-book
 
@@ -17,6 +17,6 @@
   icon: fas fa-database
 
 - title: Countries
-  number: 62
+  number: 100
   color: green
   icon: fas fa-chart-simple
