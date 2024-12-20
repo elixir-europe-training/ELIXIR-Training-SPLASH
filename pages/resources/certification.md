@@ -1,11 +1,10 @@
 ---
 # MANDATORY FIELDS
-type: product_page # This property is mandatory and it should be product_page
 id: certification # This id should match with the testimonials ToolId
-title: "Training certification (training courses and training materials)"
+title: Training certification
 
 description: |
-  Training certification is an ELIXIR working group to establish a certification process for training courses and training material within ELIXIR and beyond. 
+  Training certification (training courses and training materials) is an ELIXIR working group to establish a certification process for training courses and training material within ELIXIR and beyond. 
 
 objective: |
   For training providers, this working group provides opportunities to certificate their training events, for trainers, the working group offers an environment for improving materials and event information; for trainees, it offers a possibility to check the quality of a training course.
