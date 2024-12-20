@@ -7,13 +7,7 @@ subitems:
         url: /contributors
       - title: Editorial board
         url: /editorial_board
-      - title: Support
-        url: /support
   - title: Contact
     url: /contact
   - title: News
     url: /news
-  - title: Outreach
-    url: /outreach
-  - title: Accessibility
-    url: /accessibility
