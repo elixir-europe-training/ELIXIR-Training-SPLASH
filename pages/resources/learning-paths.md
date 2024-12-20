@@ -25,12 +25,12 @@ coordinators:
 contacts:
   - name: Learning Paths
     email: lp@elixir.org
-publications:
+#publications:
   - title: Publication example 1
     url: https://elixir-europe.org/
   - title: Publication example 2
     url: https://elixir-europe.org/
-video: https://www.youtube.com/embed/Jd0e8_jPxik?si=RtMoHJc9k84kMQQ # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
+#video: https://www.youtube.com/embed/Jd0e8_jPxik?si=RtMoHJc9k84kMQQ # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
 mailingList: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 funding:
   - name: ELIXIR
