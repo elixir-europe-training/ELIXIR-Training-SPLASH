@@ -1,6 +1,6 @@
 ---
 title: Evaluate
-contributors: [Elin Kronander, Geert van Geest, Alexia Cardona,Kim Gurwitz, Daniel Wibberg, Olivier Sand, Zoltan Gaspari, Monique Zahn, Mihail Anton, Jeanne Wilbrandt, Alexander Botzki, Helena Schnitzer, Bruna Piereck] 
+contributors: [Elin Kronander, Geert van Geest, Alexia Cardona, Kim Gurwitz, Daniel Wibberg, Olivier Sand, Zoltán Gáspári, Monique Zahn, Mihail Anton, Jeanne Wilbrandt, Alexander Botzki, Helena Schnitzer, Bruna Piereck] 
 --- 
 
 The overall goal with the Evaluate stage is to continuously improve training activities, maximize their impact on trainees and the targeted community, and ultimately contribute to societal advancements. Below we outline the what, how, and when of evaluating training activities.

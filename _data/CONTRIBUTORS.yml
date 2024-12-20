@@ -34,7 +34,7 @@ Allegra Via:
     node: IT
     role: 
 
-Anastasios Anastasios Papaioannou:
+Anastasios Papaioannou:
     role: 
 
 Anna Swan:
@@ -62,9 +62,9 @@ Carole Goble:
     role: 
 
 Celia van Gelder:
-    node: no
+    node: NL
     orcid: 
-    role: 
+    role:
 
 Chris Child:
     node: no
@@ -90,10 +90,11 @@ Dayane Araújo:
     node: no
     orcid: 
     role: 
+
 Elin Kronander:
     affiliation: NBIS National Bioinformatics Infrastructure Sweden
     node: SE
-    role : 
+    role : editor
     orcid: 0000-0003-0280-6318
 
 Erin Calhoun:
@@ -126,7 +127,7 @@ Geert van Geest:
     email: geert.vangeest@sib.swiss
     node: CH
     orcid: 0000-0002-1561-078X
-    role:
+    role: editor
 
 Hedi Peterson:
     node: no
@@ -168,6 +169,11 @@ Ivan Kuzmin:
     orcid: 
     role: 
 
+Jeanne Wilbrandt:
+    node: DE
+    orcid:
+    role:
+
 Jessica Lindvall:
     node: SE
     orcid: 
@@ -191,6 +197,11 @@ Kathryn Unsworth:
     orcid: 
     role: 
 
+Kim Gurwitz:
+    node: UK
+    orcid:
+    role:
+
 Krzysztof Poterlowicz:
     node: UK
     role:
@@ -211,6 +222,11 @@ Loredana Le Pera:
     node: no
     orcid: 
     role: 
+
+Luciana Peixoto:
+    node: no
+    orcid:
+    role:
 
 Lucie Khamvongsa-Charbonnier:
     node: no
@@ -233,6 +249,11 @@ Marcela Davila:
     role: 
 
 Maria Doyle:
+    node: no
+    orcid: 
+    role: 
+
+Mark Fernandes:
     node: no
     orcid: 
     role: 
@@ -291,7 +312,7 @@ Nicola Mulder:
 Olivier Sand:
     node: no
     orcid: 
-    role: 
+    role:
 
 Patricia Carvajal Lopez:
     node: no
@@ -334,6 +355,11 @@ Russell Schwartz:
     node: no
     orcid: 
     role: 
+
+Samantha Wittke:
+    node: no
+    orcid: 
+    role:
 
 Sara El-Gebali:
     node: no
@@ -392,6 +418,16 @@ Wai Keat Yam:
     role: 
 
 Xènia Pérez Sitjà:
+    node: no
+    orcid: 
+    role: 
+
+Zoi Litou:
+    node: no
+    orcid: 
+    role:
+
+Zoltán Gáspári:
     node: no
     orcid: 
     role: 

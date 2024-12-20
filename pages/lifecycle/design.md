@@ -1,6 +1,6 @@
 ---
 title: Design
-contributors: [Monique Zahn, Alexia Cardona, Zoltán Gáspári, Loredana Le Pera, Zoi Litou, Jeanne Wilbrandt, Celia Van Gelder, Bruna Piereck, Alexander Botzki, Elin Kronander]
+contributors: [Monique Zahn, Alexia Cardona, Zoltán Gáspári, Loredana Le Pera, Zoi Litou, Jeanne Wilbrandt, Celia van Gelder, Bruna Piereck, Alexander Botzki, Elin Kronander]
 ---
 
 When designing you will use your training plan (potentially a written document) to detail and put together a concrete lesson plan (written outline, script of the individual lessons), including the syllabus (teaching aids and materials needed by the trainers to teach the course) that will be written in the Develop stage. Keep in mind that this is an iterative phase, you might want to update your Plan and your Design a few times before it is robust. If a successful course completion will lead to certification, you should include in your design stage how you will evaluate/assess that the trainees meet the learning outcomes in this stage.
