@@ -23,9 +23,15 @@ layout: default
     <!-- STICKY RIGHT SIDEBAR -->
     <div id="toc" class="text-muted sticky-xl-top">
         {%- unless page.logo == nil or page.logo == false %}
-            <div class="text-center mb-3">
+        <div class="text-center mb-3">
+            {%- if page.resourceUrl %}
+                <a href="{{ page.resourceUrl }}" target="_blank">
+                    <img src="assets/img/logos/{{ page.logo }}">
+                </a>
+            {%- else %}
                 <img src="assets/img/logos/{{ page.logo }}">
-            </div>
+            {%- endif %}
+        </div>
         {%- endunless %}
 
         {%- unless page.toc == false %}
