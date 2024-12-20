@@ -4,7 +4,7 @@ layout: default
 <main id="main" class="order-1">
     <div id="intro">
         {%- if page.title %}
-        {%- if page.type %}
+        {%- if page.id %}
         {%- assign subtitle = page.type | replace: "_", " " | capitalize %}
         <h1 class="has-subtitle"><span class="d-block text-secondary fs-4 ff-body">{{subtitle}}</span><span class="visually-hidden">:</span> {%- if page.resourceUrl %}<a target="_blank" href={{ page.resourceUrl }}>{{page.title }}</a>{%- else %}{{page.title }}{%- endif %}
         {%- else %}
@@ -23,9 +23,15 @@ layout: default
     <!-- STICKY RIGHT SIDEBAR -->
     <div id="toc" class="text-muted sticky-xl-top">
         {%- unless page.logo == nil or page.logo == false %}
-            <div class="text-center mb-3">
+        <div class="text-center mb-3">
+            {%- if page.resourceUrl %}
+                <a href="{{ page.resourceUrl }}" target="_blank">
+                    <img src="assets/img/logos/{{ page.logo }}">
+                </a>
+            {%- else %}
                 <img src="assets/img/logos/{{ page.logo }}">
-            </div>
+            {%- endif %}
+        </div>
         {%- endunless %}
 
         {%- unless page.toc == false %}

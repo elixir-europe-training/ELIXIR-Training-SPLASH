@@ -2,7 +2,7 @@
 # MANDATORY FIELDS
 id: lps # This id should match with the testimonial ToolId
 title: Learning Paths
-resourceUrl: https://elixir-europe.org/
+resourceUrl: https://elixir-europe.org/focus-groups/learning-paths
 description: |
    Learning Paths are pathways that guide the learner through a set of learning courses or materials to be undertaken progressively to acquire the desired knowledge and skills on a subject. Establishing and implementing Learning Paths will facilitate the learning process in any professional trajectory and career path.
 objective: |
@@ -25,18 +25,18 @@ coordinators:
 contacts:
   - name: Learning Paths
     email: lp@elixir.org
-publications:
+#publications:
   - title: Publication example 1
     url: https://elixir-europe.org/
   - title: Publication example 2
     url: https://elixir-europe.org/
-video: https://www.youtube.com/embed/Jd0e8_jPxik?si=RtMoHJc9k84kMQQ # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
+#video: https://www.youtube.com/embed/Jd0e8_jPxik?si=RtMoHJc9k84kMQQ # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
 mailingList: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 funding:
   - name: ELIXIR
     logo: funder_example_1_logo.png
     url: https://elixir-europe.org/ 
-logo: logo_example.png
+logo:
 ---
 
 ## Activities and resources related to Learning Paths
