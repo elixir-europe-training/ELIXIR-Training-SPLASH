@@ -7,16 +7,16 @@
   icon: fas fa-person-chalkboard
 
 - title: Courses
-  number: 1999
+  number: 1700+
   color: blue
   icon: fas fa-book
 
 - title: Trainees
-  number: 41346
+  number: 38700+
   color: red
   icon: fas fa-database
 
 - title: Countries
-  number: 62
+  number: 99+
   color: green
   icon: fas fa-chart-simple
