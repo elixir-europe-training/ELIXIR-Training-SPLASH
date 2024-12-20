@@ -36,7 +36,7 @@ funding:
   - name: ELIXIR
     logo: funder_example_1_logo.png
     url: https://elixir-europe.org/ 
-logo: 
+logo:
 ---
 
 ## Activities and resources related to Learning Paths
