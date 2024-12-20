@@ -4,11 +4,17 @@ id: lesson-template
 title: ELIXIR lesson template
 resourceUrl: https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplateInstructions-MkDocs/
 description: |
-  This template enables you to create a lesson with ELIXIR look and feel based on [MkDocs Material](https://squidfunk.github.io/mkdocs-material/). In order to get started, check out the [instructions](https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplateInstructions-MkDocs/) first. 
+  This template enables you to create a lesson with ELIXIR look and feel based on [MkDocs Material](https://squidfunk.github.io/mkdocs-material/). In order to get started, check out the [instructions](https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplateInstructions-MkDocs/) first.
 objective: |
-  The ELIXIR template can be used to make and host lessons via a website. This website has an ELIXIR look and feel, and allows you to share texts, exercises and presentations with your audience.  
-contributors: [Elin Kronander, Jose Alejandro Romero Herrera, Geert van Geest, Alexia Cardona]
-coordinators: [Geert van Geest, Alexia Cardona]
+  The ELIXIR template can be used to make and host lessons via a website. This website has an ELIXIR look and feel, and allows you to share texts, exercises and presentations with your audience.
+contributors:
+  - Alexia Cardona
+  - Elin Kronander
+  - Geert van Geest
+  - Jose Alejandro Romero Herrera
+coordinators:
+  - Alexia Cardona
+  - Geert van Geest
 contacts:
   - name: Geert van Geest
     email: geert.vangeest@sib.swiss

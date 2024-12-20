@@ -22,7 +22,8 @@ contacts:
   - name: Lisanna Paladin
     mail: lisanna.paladin@embl.de
   - name: Patricia Palagi
-    mail: Patricia.Palagi@sib.swiss
+    email: Patricia.Palagi@sib.swiss
+
 # joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 
 #OPTIONAL FIELDS
@@ -37,6 +38,7 @@ contacts:
 #
 #  * markdown
 #  * example
+
 licenses:
   - name: CC BY 4.0 Deed
     icon: ccby.png
@@ -77,10 +79,27 @@ publications:
 * Courses
 * Materials
 
-
 ## ELIXIR-GOBLET TtT COURSE CORE TOPICS 
 
 * Principles of learning and how they apply to training;
 * Training techniques for enhancing learner engagement and participation,
 * Design of engaging sessions, materials and courses;
 * Assessment and feedback in training.
+
+## UPCOMING ELIXIR-GOBLET TtT EVENTS
+
+<link rel="stylesheet" property="stylesheet" href="https://elixirtess.github.io/TeSS_widgets/css/tess-widget.css"/>
+<div id="tess-widget-events-list" class="tess-widget tess-widget-list"></div>
+<script>
+function initTeSSWidgets() {
+    TessWidget.Events(document.getElementById('tess-widget-events-list'),
+        'SimpleList',
+        {
+            params: {
+                pageSize: 5,
+                q: 'Train-the-Trainer'
+            }
+        });
+}
+</script>
+<script async="" defer="" src="https://elixirtess.github.io/TeSS_widgets/js/tess-widget-standalone.js" onload="initTeSSWidgets()"></script>

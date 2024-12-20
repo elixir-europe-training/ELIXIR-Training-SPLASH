@@ -4,36 +4,290 @@
 #
 # reference maintainers/contributors by their name used in contributors metadata section on the pages.
 
-Alexander Botzki:
-    orcid: 0000-0001-6691-4233 
+Aitor Apaolaza:
     role: author
-    affiliation: VIB Technology Training, ELIXIR Belgium 
+
+Ajay Mishra:
+    role: author
+
+Alexander Botzki:
+    affiliation: VIB Training & Conferences
+    node: BE
+    orcid: 0000-0001-6691-4233 
+    role: editor
+
+Alexandra Holinski:
+    role: author
 
 Alexia Cardona:
+    affiliation: University of Cambridge
+    email: ac812@cam.ac.uk
+    node: UK
     orcid: 0000-0002-7877-5565
-    role: author
-    affiliation: University of Cambridge, ELIXIR UK 
+    role: editor
 
-Mihail Anton:
-    orcid: 0000-0002-7753-9042
+Alice Matimba:
     role: author
-    affiliation: Chalmers University of Technology, ELIXIR Sweden 
+
+Allegra Via:
+    email: allegra.via@uniroma1.it
+    node: IT
+    role: author
+
+Anastasios Anastasios Papaioannou:
+    role: author
+
+Anna Swan:
+    role: author
+
+Beatriz Serrano-Solano:
+    role: author
+
+Branka Franicevic:
+    role: author
+
+Bérénice Batut:
+    role: author
 
 Bruna Piereck:
+    affiliation: VIB Training & Conferences
+    email: bruna.piereckmoura@vib.be
+    node: BE
     orcid: 0000-0001-5958-0669
-    role: author
-    affiliation: VIB Technology Training, ELIXIR Belgium 
+    role: editor
 
-Geert van Geest:
-    orcid: 0000-0002-1561-078X
+Carole Goble:
     role: author
-    affiliation: SIB Swiss Institute of Bioinformatics
 
-Jose Alejandro Romero Herrera:
-    orcid: 0000-0002-4765-2087
+Celia van Gelder:
     role: author
-    affiliation: Copenhangen University
+
+Chris Child:
+    role: author
+
+Daniel Thomas Lopez:
+    role: author
+
+Daniel Wibberg:
+    email: dwibberg@cebitec.uni-bielefeld.de
+    node: DE
+    role: author
+
+David Lloyd:
+    role: author
+
+Dayane Araújo:
+    role: author
 
 Elin Kronander:
-    role : author
     affiliation: NBIS National Bioinformatics Infrastructure Sweden
+    node: SE
+    role : editor
+    orcid: 0000-0003-0280-6318
+
+Erin Calhoun:
+    node: NO
+    role: author
+
+Eva Alloza:
+    role: author
+
+Finn Bacall:
+    role: author
+
+Fotis Psomopoulos:
+    email: fpsom@certh.gr
+    node: GR
+    role: author
+
+Fred de Lamotte:
+    role: author
+
+Geert van Geest:
+    affiliation: SIB Swiss Institute of Bioinformatics
+    email: geert.vangeest@sib.swiss
+    node: CH
+    orcid: 0000-0002-1561-078X
+    role: editor
+
+Hedi Peterson:
+    role: author
+
+Helen Clare:
+    role: author
+
+Helena Schnitzer:
+    node: DE
+    role: author
+
+Hélène Chiapello:
+    role: author
+
+Ines Chaves:
+    role: author
+
+Iryna Kuchma:
+    role: author
+
+Iulianna van der Lek:
+    role: author
+
+Ivan Kuzmin:
+    role: author
+
+Jessica Lindvall:
+    node: SE
+    role: author
+
+Jose Alejandro Romero Herrera:
+    affiliation: Copenhangen University
+    orcid: 0000-0002-4765-2087
+    role: author
+
+Katarzyna Kamieniecka:
+    node: UK
+    role: author
+
+Katharina Heil:
+    node: Hub
+    role: author
+
+Kathryn Unsworth:
+    role: author
+
+Krzysztof Poterlowicz:
+    node: UK
+    role: author
+
+Leyla Jael Castro:
+    role: author
+
+Lisanna Paladin:
+    affiliation: European Molecular Biology Laboratory
+    email: lisanna.paladin@embl.de
+    node: DE
+    orcid: 0000-0003-0011-9397
+    role: author
+
+Loredana Le Pera:
+    role: author
+
+Lucie Khamvongsa-Charbonnier:
+    role: author
+
+Maja Rey:
+    role: author
+
+Manthos Pitoulias:
+    role: author
+
+Marcela Davila:
+    role: author
+
+Maria Doyle:
+    role: author
+
+Marko Vidak:
+    role: author
+
+Marta Lloret:
+    role: author
+
+Melissa Burke:
+    role: author
+
+Michelle D Brazas:
+    role: author
+
+Mihail Anton:
+    affiliation: ELIXIR Hub
+    node: SE
+    orcid: 0000-0002-7753-9042
+    role: author
+
+Monique Zahn:
+    role: author
+
+Munazah Andrabi:
+    role: author
+
+Nadja Zlender:
+    role: author
+
+Nazeefa Fatima:
+    role: author
+
+Nicola Mulder:
+    role: author
+
+Olivier Sand:
+    role: author
+
+Patricia Carvajal Lopez:
+    role: author
+
+Patricia Palagi:
+    email: Patricia.Palagi@sib.swiss
+    node: CH
+    role: author
+
+Pedro Fernandes:
+    role: author
+
+Piv Gopalasingam:
+    affiliation: European Molecular Biology Laboratory
+    node: EMBL-EBI
+    role: author
+
+Rachel Berkson:
+    role: author
+
+Renato Alves:
+    affiliation: European Molecular Biology Laboratory
+    email: renato.alves@embl.de
+    node: DE
+    orcid: 0000-0002-7212-0234
+    role: author
+
+Roland Krause:
+    role: author
+
+Russell Schwartz:
+    role: author
+
+Sara El-Gebali:
+    role: author
+
+Sara Morsey:
+    email: s.khalil7@bradford.ac.uk
+    role: author
+
+Sarah Morgan:
+    role: author
+
+Saskia Hiltemann:
+    role: author
+
+Shaun Aron:
+    role: author
+
+Steven Morgan:
+    role: author
+
+Suzanne Duce:
+    role: author
+
+Tarcisio Mendes de Farias:
+    role: author
+
+Vera Matser:
+    role: author
+
+Verena Ras:
+    role: author
+
+Wai Keat Yam:
+    role: author
+
+Xènia Pérez Sitjà:
+    role: author
