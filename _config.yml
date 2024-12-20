@@ -60,6 +60,12 @@ defaults:
     values:
       sidebar: contribute
 
+  -
+    scope:
+      path: "pages/about"
+    values:
+      sidebar: about
+
 plugins:
   - jemoji
   - jekyll-sitemap
