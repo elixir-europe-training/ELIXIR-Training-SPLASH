@@ -1,6 +1,5 @@
 ---
 # MANDATORY FIELDS
-type: product_page # This property is mandatory and it should be product_page
 id: ttt # This id should match with the user-stories ToolId
 title: ELIXIR-GOBLET Train the Trainer
 resourceUrl: https://elixir-europe.org/
