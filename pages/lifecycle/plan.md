@@ -1,6 +1,6 @@
 ---
 title: Plan
-contributors: [Patricia Palagi, Eva Alloza, Bérénice Batut, Nadja Zlender, Oliver Sand, Daniel Wibberg, Luciana Peixoto, Elin Kronander, Jeanne Wilbrandt, Bruna Piereck, Samantha Wittke]
+contributors: [Patricia Palagi, Eva Alloza, Bérénice Batut, Nadja Zlender, Olivier Sand, Daniel Wibberg, Luciana Peixoto, Elin Kronander, Jeanne Wilbrandt, Bruna Piereck, Samantha Wittke]
 ---
 
 Planning involves identifying and assessing training needs to outline the logistics and pedagogy of the training considering the target audience, setting clear goals and objectives. This stage also includes allocation of funding and resources as well as infrastructure needed to deliver the training. It is also in this phase that retro-planning should be drafted for efficient time management.

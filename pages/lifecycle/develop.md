@@ -1,6 +1,6 @@
 ---
 title: Develop
-contributors: [Mark Fernandes, Helena Schnitzer, Geert Van Geest, Alexander Botzki, Mihail Anton, Elin Kronander, Jeanne Wilbrandt, Bruna Piereck]
+contributors: [Mark Fernandes, Helena Schnitzer, Alexander Botzki, Mihail Anton, Elin Kronander, Jeanne Wilbrandt, Bruna Piereck, Geert van Geest]
 ---
 
 When developing training material, it is crucial to assign clear roles and responsibilities to team members by specifying which parts of the material a person or group will develop. This stage involves defining how to achieve the learning outcomes in a detailed manner, translating the designed learning experiences into tangible materials such as presentations, exercises, and group discussions. A feedback loop between the design and development phases ensures continuous improvement. Selecting an appropriate learning environment and platforms for developing, storing, and sharing materials is essential. Additionally, the platform for running exercises should be user-friendly to facilitate an easy technical setup for trainees. 
