@@ -1,8 +1,8 @@
 ---
-title: Lifecycle
+title: Life cycle
 ---
 
-## What is the training lifecycle?
+## What is the training life cycle?
 
 **Plan**: In this stage, the training needs are identified and assessed to determine whether training is needed and what needs to be trained. This stage helps ensure that the training results in what is desired and intended.
 

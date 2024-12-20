@@ -3,7 +3,7 @@ title: About
 ---
 
 ## Who is the ELIXIR SPLASH for?
-The ELIXIR Training SPLASH has been designed to guide the trainer in their efforts to plan, design, develop, deliver and evaluate training activties. It is based on the various steps of the training lifecycle, although not all the steps will be relevant to everyone.
+The ELIXIR Training SPLASH has been designed to guide the trainer in their efforts to plan, design, develop, deliver and evaluate training activties. It is based on the various steps of the training life cycle, although not all the steps will be relevant to everyone.
 
 The contents are generated and maintained by the ELIXIR Training platform [ELIXIR-TrP](https://elixir-europe.org/). We want to sustain and govern ELIXIR Training SPLASH via the ELIXIR Programme 2024+.
 
