@@ -47,4 +47,4 @@ To become part of the editorial team, please provide:
 * A summary of your experience in training in life sciences.
 * List of the sections that you are most interested in (or feel are missing).
 
-Please, send your application to training-splash@elixir-europe.org@elixir-europe.org.
+Please, send your application to training-splash@elixir-europe.org.
