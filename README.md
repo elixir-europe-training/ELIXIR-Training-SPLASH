@@ -38,7 +38,7 @@ ELIXIR SPLASH is supported by [ELIXIR Europe](https://elixir-europe.org/).
 
 ### Custom icons
 
-We would like to thank Christof De Bo for creating the custom icons for the SPLASH. His work has added to the visual appeal and usability of our toolkit.
+We would like to thank Christof De Bo for creating the custom icons for the SPLASH. The icons are shared with the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. His work has added to the visual appeal and usability of our toolkit.
 
 <br>
 <br>
