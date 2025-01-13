@@ -24,7 +24,7 @@ Do you want to help with this project? Please check out following pages for more
 
 * [How to contribute](https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH/how_to_contribute)
 
-Do you which to contact the editors of this project? Use [training-splash@elixir-europe.org](mailto:training-splash@elixir-europe.org)
+Do you whish to contact the editors of this project? Use [training-splash@elixir-europe.org](mailto:training-splash@elixir-europe.org)
 
 If you want to build the website locally, please have a look at our [Git tutorial](https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH/working_with_git).
 
