@@ -1,6 +1,6 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH)
 
-Want to learn how to work with gitpod on this website? Check out the docs [below](#gitpod).
+Want to learn how to work with gitpod on this website? Check out the docs [below](#using-gitpod).
 
 # SPLASH
 The ELIXIR Training SPLASH has been designed to guide the trainer in their efforts to plan, design, develop, deliver and evaluate training activties. It is based on the various steps of the training life cycle, although not all the steps will be relevant to everyone.
