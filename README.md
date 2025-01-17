@@ -1,5 +1,7 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH)
 
+Want to learn how to work with gitpod on this website? Check out the docs [below](#gitpod).
+
 # SPLASH
 The ELIXIR Training SPLASH has been designed to guide the trainer in their efforts to plan, design, develop, deliver and evaluate training activties. It is based on the various steps of the training life cycle, although not all the steps will be relevant to everyone.
 
@@ -47,3 +49,13 @@ We would like to thank Christof De Bo for creating the custom icons for the SPLA
 
 Built with the [![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
 
+## Using Gitpod
+
+Gitpod is a container-based environment where you can work on the SPLASH website, where the website is rendered while you work on it. Meaning that what you see is what you get. In order to use gitpod, follow these steps:
+
+- Click the link [here](https://gitpod.io/#https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH) or 'Open in Gitpod' on top of this README
+- Click on the button 'continue with GitHub'. If you're using Gitpod for the first time, you will probably be asked to change some permissions.
+- After this, the start screen pops up, where you can choose the repository (should be this one). You can leave the other choices as suggested (VScode and standard compute should be fine). 
+- Wait for the process to start the containers the finish
+- The home page of splash should appear at the right side of the screen
+- Work on the website as you would in VScode. For example, checkout another branch by clicking on 'main' on the bottom right. 
