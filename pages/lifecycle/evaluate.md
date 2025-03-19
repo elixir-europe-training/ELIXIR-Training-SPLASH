@@ -77,4 +77,5 @@ Additional things to consider when you evaluate training:
 </div>
 
 ## References
+* [A framework to assess the quality and impact of bioinformatics training across ELIXIR](https://doi.org/10.1371/journal.pcbi.1007976)
 * [ELIXIR impact toolkit](https://elixir-europe.org/about-us/impact/toolkit)
