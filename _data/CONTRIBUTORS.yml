@@ -11,6 +11,7 @@ Ajay Mishra:
     role: 
 
 Alexander Botzki:
+    git: abotzki
     affiliation: VIB Training & Conferences
     node: BE
     orcid: 0000-0001-6691-4233 
@@ -20,6 +21,7 @@ Alexandra Holinski:
     role:
 
 Alexia Cardona:
+    git: ac812
     affiliation: University of Cambridge
     email: ac812@cam.ac.uk
     node: UK
@@ -50,6 +52,7 @@ Bérénice Batut:
     role: 
 
 Bruna Piereck:
+    git: bpiereck
     affiliation: VIB Training & Conferences
     email: bruna.piereckmoura@vib.be
     node: BE
@@ -92,6 +95,7 @@ Dayane Araújo:
     role: 
 
 Elin Kronander:
+    git: elinkronander
     affiliation: NBIS National Bioinformatics Infrastructure Sweden
     node: SE
     role : editor
@@ -123,6 +127,7 @@ Fred de Lamotte:
     role: 
 
 Geert van Geest:
+    git: GeertvanGeest
     affiliation: SIB Swiss Institute of Bioinformatics
     email: geert.vangeest@sib.swiss
     node: CH
