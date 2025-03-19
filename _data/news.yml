@@ -1,5 +1,5 @@
-- name: Launch of ELIXIR Training SPLASH
-  date: 2025-02-14
-  linked_pr: 
-  description: The first version of ELIXIR Trainig SPLASH page is now live. 
+- name: Initial version of SPLASH released in January 2025
+  date: 2025-01-30
+  linked_pr: 1 
+  description: We are excited to announce the release of the initial version of ELIXIR SPLASH.
 
