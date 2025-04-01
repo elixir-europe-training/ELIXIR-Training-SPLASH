@@ -97,7 +97,8 @@ function initTeSSWidgets() {
             params: {
                 pageSize: 5,
                 q: 'Train-the-Trainer'
-            }
+            },
+            emptyText
         });
 }
 </script>
