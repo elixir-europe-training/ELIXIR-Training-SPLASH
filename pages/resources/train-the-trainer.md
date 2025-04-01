@@ -98,7 +98,7 @@ function initTeSSWidgets() {
                 pageSize: 5,
                 q: 'Train-the-Trainer'
             },
-            emptyText
+            emptyText: "There are currently no scheduled Train the Trainer events in the near future."
         });
 }
 </script>
