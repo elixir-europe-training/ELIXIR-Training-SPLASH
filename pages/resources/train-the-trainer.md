@@ -87,19 +87,4 @@ publications:
 
 ## UPCOMING ELIXIR-GOBLET TtT EVENTS
 
-<link rel="stylesheet" property="stylesheet" href="https://elixirtess.github.io/TeSS_widgets/css/tess-widget.css"/>
-<div id="tess-widget-events-list" class="tess-widget tess-widget-list"></div>
-<script>
-function initTeSSWidgets() {
-    TessWidget.Events(document.getElementById('tess-widget-events-list'),
-        'SimpleList',
-        {
-            params: {
-                pageSize: 5,
-                q: 'Train-the-Trainer'
-            },
-            emptyText: "There are currently no scheduled Train the Trainer events in the near future."
-        });
-}
-</script>
-<script async="" defer="" src="https://elixirtess.github.io/TeSS_widgets/js/tess-widget-standalone.js" onload="initTeSSWidgets()"></script>
+{% include tess-widget.html query="Train-the-Trainer" page_size=5 empty_text="There are currently no scheduled Train the Trainer events in the near future." %}
