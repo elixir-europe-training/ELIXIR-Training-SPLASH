@@ -55,13 +55,12 @@ Consider collecting demographic data for future analysis. Make sure to protect s
 * Participant selection and assessment: When applicable, review the registration form and select participants based on their prior knowledge and skills and the criteria.
  
 *Course technical resources*:
+
 Technical considerations for online or hybrid events:
-Selecting the platform: For example, Zoom, WebEx, Teams
-Online helper: Breakout rooms, technical checks for online resources
-Compute resources: Prepare access to compute resources, learning management systems, collaborative notes documents, notebooks, …
-Prepare any non-digital resource
-
-
+* Selecting the platform: For example, Zoom, WebEx, Teams
+* Online helper: Breakout rooms, technical checks for online resources
+* Compute resources: Prepare access to compute resources, learning management systems, collaborative notes documents, notebooks, …
+* Prepare any non-digital resource
 * Feedback: Prepare the event-specific feedback survey to be shared afterwards with participants as well as a trainer’s reflection document for the trainers (and observers, if any). 
 
 
@@ -83,7 +82,7 @@ Prepare any non-digital resource
 * Safety/fire alarms
 * Restrooms and refreshments
 * Wifi
-**Breaks**: Always announce when a break is over and if there are any refreshments etc available. Possibly write somewhere visible so everyone knows when it is expected.
+* **Breaks**: Always announce when a break is over and if there are any refreshments etc available. Possibly write somewhere visible so everyone knows when it is expected.
 
 **After the training event**:
 * Certificates: Send certificates to eligible participants in individual emails or make it available in the registration system when applicable. Make sure you abide by the GDPR regulations.
