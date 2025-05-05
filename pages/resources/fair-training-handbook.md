@@ -12,6 +12,7 @@ objective: |
   * Indicate the possibilities to make material accessible
   * Show directions to provide a license to material
   * Point to resources that can improve discoverability
+  * Easy-to-use and comprehensive [checklist](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/checklist/)
 
 contributors:
   - Alexandra Holinski
