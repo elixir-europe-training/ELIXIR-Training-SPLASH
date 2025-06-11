@@ -40,7 +40,11 @@ logo:
 ---
 
 ## Activities and resources related to Learning Paths
-* Learning Paths guidelines
-* Learning Paths focus group
-* Learning Paths in TeSS
+* Learning Paths guidelines:
+  - [EOSC4Cancer: A guidance document for the EOSC4Cancer learning pathway](https://zenodo.org/records/10200523)](https://zenodo.org/records/10200523)
+  - [Developing Learning Paths - The Learning Paths Protocol](https://zenodo.org/records/10082795)
+* [Learning Paths focus group](https://elixir-europe.org/focus-groups/learning-paths)
+* [Learning Paths in TeSS](https://tess.elixir-europe.org/learning_paths)
+* Events:
+  - [Developing Learning Paths for the ELIXIR RDM Community](https://elixir-europe.org/events/developing-learning-paths-elixir-rdm-community)
 
