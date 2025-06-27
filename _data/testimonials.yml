@@ -12,3 +12,17 @@
   toolId: ttt
   story: |
     The ELIXIR-GOBLET train the trainer course is an excellent opportunity to up-skill myself to designing and developing better course syllabi and material as well as smoothen the delivery of my courses. I had the incredible opportunity to participate in the ELIXIR-GOBLET Train the Trainer course, and it has been a transformative experience for my career as an educator. The course seamlessly blends theory with practical application, providing a comprehensive understanding of effective training methodologies.
+- author:
+    name: Fotis E. Psomopoulos
+    affiliation: on behalf of EOSC4Cancer
+    imageUrl: https://github.com/fpsom.png
+  toolId: lps
+  story: |
+    The ELIXIR Learning Paths Protocol provided a coherent structure to build tailored training solutions, guiding learners to acquire the desired knowledge and skills on the subject of cancer research data management, in the context of the EOSC4Cancer project.
+- author:
+    name: Oscar Reina Garcia and Nadia Tonello
+    affiliation: BSC - Barcelona Supercomputing Center
+    imageUrl: 
+  toolId: lps
+  story: |
+    As part of the XV Einstein Telescope Symposium, we developed a FAIR Learning Path for Gravitational Wave Science, based on direct application of the ELIXIR Learning Paths Protocol. As participants in the ELIXIR Learning Paths workshop series, it was a great opportunity for us to transfer all the knowledge and resources gathered there to the Astronomy and Astrophysics domain. 
