@@ -24,7 +24,7 @@ coordinators:
   - Loredana Le Pera
 contacts:
   - name: Learning Paths
-    email: lp@elixir.org
+    email: learning-paths@elixir-europe.org
 #publications:
   - title: Publication example 1
     url: https://elixir-europe.org/
