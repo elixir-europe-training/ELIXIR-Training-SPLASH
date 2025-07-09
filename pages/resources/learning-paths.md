@@ -41,8 +41,11 @@ logo:
 
 ## Activities and resources related to Learning Paths
 * Learning Paths guidelines:
-  - [EOSC4Cancer: A guidance document for the EOSC4Cancer learning pathway](https://zenodo.org/records/10200523)](https://zenodo.org/records/10200523)
-  - [Developing Learning Paths - The Learning Paths Protocol](https://zenodo.org/records/10082795)
+   - Developing Learning Paths - The Learning Paths Protocol - [https://zenodo.org/records/10082795](https://zenodo.org/records/10082795)
+   - [ELIXIR Learning Paths Handbook](https://elixir-europe-training.github.io/Learning-Paths-Handbook)
+* Use-cases:
+   - EOSC4Cancer: A guidance document for the EOSC4Cancer learning pathway - [https://zenodo.org/records/10200523](https://zenodo.org/records/10200523)
+   - Learning path development for plant data management - Poster: Haurheeram V, ELIXIR Training Platform, Michotey C et al. (version 1; not peer reviewed). F1000Research 2023, 12(ELIXIR):590 - [https://doi.org/10.7490/f1000research.1119444.1](https://doi.org/10.7490/f1000research.1119444.1)
 * [Learning Paths focus group](https://elixir-europe.org/focus-groups/learning-paths)
 * [Learning Paths in TeSS](https://tess.elixir-europe.org/learning_paths)
 * Events:
