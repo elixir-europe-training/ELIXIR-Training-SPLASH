@@ -47,7 +47,7 @@ logo:
 * Use-cases:
    - EOSC4Cancer: A guidance document for the EOSC4Cancer learning pathway - [https://zenodo.org/records/10200523](https://zenodo.org/records/10200523)
    - Learning path development for plant data management - Poster: Haurheeram V, ELIXIR Training Platform, Michotey C et al. (version 1; not peer reviewed). F1000Research 2023, 12(ELIXIR):590 - [https://doi.org/10.7490/f1000research.1119444.1](https://doi.org/10.7490/f1000research.1119444.1)
-   - Towards a FAIR path for the Einstein Telescope: Poster presented at the XV Einstein Telescope Symposium. The poster describes a strategy to build a FAIR Learning Path for astrophysics of gravitational waves. The strategy is based on ELIXIR Learning Paths Protocol. (https://dataverse.bsc.es/dataset.xhtml?persistentId=perma:BSC/HCRTFY)[https://dataverse.bsc.es/dataset.xhtml?persistentId=perma:BSC/HCRTFY]
+   - Towards a FAIR path for the Einstein Telescope: Poster presented at the XV Einstein Telescope Symposium. The poster describes a strategy to build a FAIR Learning Path for astrophysics of gravitational waves. The strategy is based on ELIXIR Learning Paths Protocol. [https://dataverse.bsc.es/dataset.xhtml?persistentId=perma:BSC/HCRTFY](https://dataverse.bsc.es/dataset.xhtml?persistentId=perma:BSC/HCRTFY)
      
 * [Learning Paths focus group](https://elixir-europe.org/focus-groups/learning-paths)
   
