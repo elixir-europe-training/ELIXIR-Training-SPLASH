@@ -24,15 +24,16 @@ We can build a picture of the quality and impact of training by evaluating diffe
 | **Trainee Impact**  | Medium-Long Term| have you used the tools in your work  | trainees  |
 | **Societal Impact**  | Long Term    |   |     |
 
-
+Find out more about standards and recommendations for evaluation in the paper [A framework to assess the quality and impact of bioinformatics training across ELIXIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007976). 
 
 ## Pedagogical point of view
 
 Evaluating training poses a major challenge; most learning starts once our trainees head back to their research groups/places of work. For trainees to gain the most from the training they need to continue to use their newly gained skills in their “home” setting. It’s this “home” use that we are trying to assess through our long term feedback questions. 
 
 Additional things to consider when you evaluate training:
+
 * **Peer Review:** Collaborate with colleagues to receive valuable feedback and improve training materials and delivery methods - do not train alone
-* **Balanced Evaluation:** Combine quantitative and qualitative data to gain a comprehensive understanding of training effectiveness.
+* **Balanced Evaluation:** Combine quantitative and qualitative data to gain a comprehensive understanding of training effectiveness. 
 * **Prerequisites and aligned exercises:** Evaluate if the prerequisites defined allowed the participants to benefit from the training and if the exercises supported and reinforced the stated learning objectives.
 * **Tailored Evaluation:** Determine the appropriate level of detail for your evaluation, considering the specific needs and interests of your stakeholders.
 
@@ -78,3 +79,4 @@ Additional things to consider when you evaluate training:
 
 ## References
 * [ELIXIR impact toolkit](https://elixir-europe.org/about-us/impact/toolkit)
+* [A framework to assess the quality and impact of bioinformatics training across ELIXIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007976)
