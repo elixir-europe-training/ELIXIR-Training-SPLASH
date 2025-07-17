@@ -6,7 +6,7 @@ contributors: [Elin Kronander, Geert van Geest, Alexia Cardona, Kim Gurwitz, Dan
 The overall goal with the Evaluate stage is to continuously improve training activities, maximize their impact on trainees and the targeted community, and ultimately contribute to societal advancements. Below we outline the what, how, and when of evaluating training activities.
 
 __What:__ 
-Before evaluating your training, consider what long-term benefits you want to achieve for both trainees and society: ‘What do we want our training to enable for our target audience in the long term and for society at large?’. Consult key stakeholders to align expectations and identify their desired outcomes to define an impact statement. The ELIXIR Training Platform, defines impact as ‘a measure of how participation in a training course improves someone’s understanding and awareness of a particular domain/topic, leading to change in their research/professional development as well as passing on of the knowledge/skills acquired to others’ (2018). 
+Before evaluating your training, consider what long-term benefits you want to achieve for both trainees and society: ‘What do we want our training to enable for our target audience in the long term and for society at large?’. Consult key stakeholders to align expectations and identify their desired outcomes to define an impact statement. The [ELIXIR Training Platform](https://elixir-europe.org/platforms/training), defines impact as ‘a measure of how participation in a training course improves someone’s understanding and awareness of a particular domain/topic, leading to change in their research/professional development as well as passing on of the knowledge/skills acquired to others’ (2018). 
 
 __How:__
 There are many elements to consider when designing and implementing evaluation processes in order to link your training activities to the impact that you hope your work contributes towards. This includes: identifying impact pathways, identifying the key performance indicators to collect, streamlining evaluation-data collection, its storage, its analysis, and reporting. 
@@ -39,7 +39,7 @@ Additional things to consider when you evaluate training:
 
 ## Logistical point of view
 
-* **Identifying Impact Pathways:** Make use of the Logic framework model and ELIXIR impact toolkit  to link different types of evaluation into ‘pathways to impact’.
+* **Identifying Impact Pathways:** Make use of the Logic framework model and [ELIXIR impact toolkit](https://elixir-europe.org/about-us/impact/toolkit) to link different types of evaluation into ‘pathways to impact’.
 * **Identifying the key performance indicators to collect:** Consider both quantitative and qualitative measures to evaluate quality and impact. Map indicators onto the impact pathway to provide evidence for your pathways to impact.
 * **Long-Term Feedback Planning:** Incorporate long-term feedback mechanisms into project planning to ensure sufficient time and resources for data collection and analysis.
 * **Streamline data collection:** 
@@ -50,7 +50,7 @@ Additional things to consider when you evaluate training:
 * **Data storage:**  Ensure that collected data is safely stored and accessible by relevant team members and compliant with data protection regulations. 
 * **Data analysis:** Treat analysis of the data as any other data, automate and standardize the analysis as much as possible and document each step of the process.
 * **Reporting:** Present the findings  in clear and concise reports, highlighting key trends and recommendations.
-* **Feedback from other sources:** Identify a process for capturing and incorporating feedback from GitHub repositories, YouTube comments, oral feedback etc.
+* **Feedback from other sources:** Identify a process for capturing and incorporating feedback from [GitHub](https://github.com) repositories, [YouTube](https://youtube.com) comments, oral feedback etc.
 
 
 ## Related resources

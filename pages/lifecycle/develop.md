@@ -5,8 +5,8 @@ contributors: [Mark Fernandes, Helena Schnitzer, Alexander Botzki, Mihail Anton,
 
 When developing training material, it is crucial to assign clear roles and responsibilities to team members by specifying which parts of the material a person or group will develop. This stage involves defining how to achieve the learning outcomes in a detailed manner, translating the designed learning experiences into tangible materials such as presentations, exercises, and group discussions. A feedback loop between the design and development phases ensures continuous improvement. Selecting an appropriate learning environment and platforms for developing, storing, and sharing materials is essential. Additionally, the platform for running exercises should be user-friendly to facilitate an easy technical setup for trainees. 
 
-The FAIR principles (Findability, Accessibility, Interoperability, and Reusability) play a crucial role in the development process, and should guide the organization and management of the training assets. 
-An essential aspect of this stage is describing the materials in a standardized way, with structured metadata such as Bioschemas, to enhance the findability and accessibility of the materials. Special considerations should be given to how the material will be shared, including the reused ones. In every step, take into account adherence to FAIR principles.
+The [FAIR principles](https://go-fair.org) (Findability, Accessibility, Interoperability, and Reusability) play a crucial role in the development process, and should guide the organization and management of the training assets. 
+An essential aspect of this stage is describing the materials in a standardized way, with structured metadata such as [Bioschemas](https://bioschemas.org), to enhance the findability and accessibility of the materials. Special considerations should be given to how the material will be shared, including the reused ones. In every step, take into account adherence to FAIR principles.
 
 For more detailed guidance, you can refer to the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/) and the training course provided by ELIXIR, which offers comprehensive insights into designing FAIR-compliant training materials [here](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/).
 
@@ -32,7 +32,7 @@ Logistical considerations during the development stage of training material are 
 - **FAIR**: let the FAIR by Design approach guide your organisation and management of the training assets. 
   - Findability and accessibility: Use standard vocabulary and define structured metadata, such as Bioschemas, to enhance the findability and accessibility of the materials. 
   - Material Reuse and Licensing: Properly cite sources and define clear licenses for reused and newly created materials. You can use Creative Commons as default.
-- **Content Organization**: Utilize a structured approach based on an existing template, such as a GitHub repository or on an e-learning platform, to organize and manage training content efficiently.
+- **Content Organization**: Utilize a structured approach based on an existing template, such as a [GitHub](https://github.com) repository or on an e-learning platform, to organize and manage training content efficiently.
 - **Technical Infrastructure**:
   - Video Storage and Servers: Select appropriate platforms for storing and hosting training videos, datasets etc.
   - Data Accessibility: Defining how learners will be provided access to relevant datasets and software tools. Conducting test runs are necessary to ensure functionality. Also be aware of maintenance windows for selected platforms.
@@ -40,7 +40,7 @@ Logistical considerations during the development stage of training material are 
   - Data Security: Implement robust measures to protect sensitive data and participant information.
 - **Quality Assurance**: Establish a rigorous review process to ensure the quality and accuracy of training materials. Consider the lesson plan to facilitate effective development.
   - Exercise Setup: Create a list of necessary assets that will be required for the exercises and interactions (e.g.: Flipchart, pens, games, etc)
-- **Citability and Findability**: defining the release version of the material and storing it on repositories like Zenodo ensures proper control of release version and accessibility. Register material in web-accessible aggregator like TeSS.
+- **Citability and Findability**: defining the release version of the material and storing it on repositories like [Zenodo](https://zenodo.org) ensures proper control of release version and accessibility. Register material in web-accessible aggregator like [TeSS](https://tess.elixir-europe.org/).
 
 ## Related resources: 
 <div class="row mb-2 py-5">
