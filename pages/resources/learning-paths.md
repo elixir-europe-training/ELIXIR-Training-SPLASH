@@ -14,10 +14,12 @@ objective: |
  
 contributors:
   - Alexia Cardona
+  - Bérénice Batut
   - Eva Alloza
   - Helena Schnitzer
   - Jessica Lindvall
   - Loredana Le Pera
+  - Mihail Anton
 coordinators:
   - Alexia Cardona
   - Jessica Lindvall
