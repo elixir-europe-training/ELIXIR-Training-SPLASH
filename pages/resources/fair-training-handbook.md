@@ -75,8 +75,6 @@ contacts:
   - name: Geert van Geest
     email: geert.vangeest@sib.swiss
 
-joinLink: 
-
 #OPTIONAL FIELDS
 mission: |
   To encourage and support trainers and training-providers to make their training material FAIR

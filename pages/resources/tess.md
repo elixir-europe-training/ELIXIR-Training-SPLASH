@@ -34,7 +34,7 @@ contacts:
   - name: TeSS Support
     email: tess-support@googlegroups.com
   
-joinLink: tess@elixir-europe.org
+joinLink: mailto:tess@elixir-europe.org
 
 #OPTIONAL FIELDS
 mission: |
