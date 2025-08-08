@@ -1,7 +1,7 @@
 ---
 # MANDATORY FIELDS
 id: ftfg # This id should match with the user-stories ToolId
-title: FAIR Training Focus Group
+title: FAIR Training Working Group
 resourceUrl: https://elixir-europe.org/platforms/training
 description: |
   This Working Group aims to support the application of the FAIR principles (Findable, Accessible, Interoperable and Reusable) in training. It includes members both from ELIXIR and the global community, working collaboratively to enhance data and resource accessibility, reusability, and interoperability through training efforts.
