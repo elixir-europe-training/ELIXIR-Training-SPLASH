@@ -39,7 +39,7 @@ layout: default
         {%- endunless %}
 
         {%- unless page.joinLink == nil or page.joinLink == false %}
-            <a class="btn btn-primary mt-3" id="join-mailing-list">
+            <a class="btn btn-primary mt-3" id="join-mailing-list" href="{{ page.joinLink }}" target="_blank">
                 Join this product
             </a>
         {% endunless %}

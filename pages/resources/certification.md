@@ -34,7 +34,7 @@ contributors:
 contacts:
   - name: Daniel Wibberg
     email: dwibberg@cebitec.uni-bielefeld.de
-joinLink: trp-certification-wg@elixir-europe.org
+joinLink: mailto:trp-certification-wg@elixir-europe.org
 mailingList: trp-certification-wg@elixir-europe.org
 
 funding:
