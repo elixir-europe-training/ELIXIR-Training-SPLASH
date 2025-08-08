@@ -3,9 +3,9 @@ title: Design
 contributors: [Monique Zahn, Alexia Cardona, Zoltán Gáspári, Loredana Le Pera, Zoi Litou, Jeanne Wilbrandt, Celia van Gelder, Bruna Piereck, Alexander Botzki, Elin Kronander]
 ---
 
-When designing you will use your training plan (potentially a written document) to detail and put together a concrete lesson plan (written outline, script of the individual lessons), including the syllabus (teaching aids and materials needed by the trainers to teach the course) that will be written in the Develop stage. Keep in mind that this is an iterative phase, you might want to update your Plan and your Design a few times before it is robust. If a successful course completion will lead to certification, you should include in your design stage how you will evaluate/assess that the trainees meet the learning outcomes in this stage.
+When designing you will use your training plan (potentially a written document) to detail and put together a concrete lesson plan (written outline, script of the individual lessons), including the syllabus (teaching aids and materials needed by the trainers to teach the course) that will be written in the [Develop](develop.md) stage. Keep in mind that this is an iterative phase, you might want to update your [Plan](plan.md) and your [Design](design.md) a few times before it is robust. If a successful course completion will lead to certification, you should include in your design stage how you will evaluate/assess that the trainees meet the learning outcomes in this stage.
 
-Get inspired in your adventure by accessing TeSS to find reusable materials and consulting the ELIXIR GOBLET Train-the-trainer (TtT) and Learning Paths resources. In the TtT, you can find inspiration for many stages of the training life cycle to design your training lessons/materials. With the Learning Paths, you will be guided through the process of creating an ordered set of lessons/materials. For additional guidance on the DESIGN stage, explore our [Course design: Considerations for trainers – a Professional Guide](https://f1000research.com/documents/9-1377).
+Get inspired in your adventure by accessing [TeSS](https://tess.elixir-europe.org/) to find reusable materials and consulting the [ELIXIR GOBLET Train-the-trainer (TtT)](../resources/train-the-trainer) and [Learning Paths](../resources/learning-paths.md) resources. In the TtT, you can find inspiration for many stages of the training life cycle to design your training lessons/materials. With the [Learning Paths](../resources/learning-paths.md), you will be guided through the process of creating an ordered set of lessons/materials. For additional guidance on the [Design](design) stage, explore our [Course design: Considerations for trainers – a Professional Guide](https://f1000research.com/documents/9-1377).
 
 ## What are the pedagogical aspects?
 
@@ -29,11 +29,11 @@ Döring models divides learning in two phases that should be intercalated
 ## What are the logistical aspects?
 
 - Create documents using templates and structured documents, such as:
-   - Learning Paths, you can use the resources for LPs for structuring the training materials/courses as LPs
+   - [Learning Paths](../resources/learning-paths.md), you can use the resources for LPs for structuring the training materials/courses as LPs
    - a lesson plan using a lesson or e-learning template. For each learning outcome (4)
    - Put together the syllabus which will support and promote the achievement of the learning outcomes. 
-- Identify reusable training material in TeSS or using Glittr.org or other means which can be used to meet the learning outcomes. Choose material types and formats that facilitate FAIRness (FAIR Training Handbook). This will ensure that the Develop stage is mostly spent on creating new material.
-- Identify and list gaps in the content, these should be addressed during the DEVELOP stage.
+- Identify reusable training material in [TeSS](https://tess.elixir-europe.org/) or using [Glittr.org](https://glittr.org) or other means which can be used to meet the learning outcomes. Choose material types and formats that facilitate FAIRness ([FAIR Training Handbook](../resources/fair-training-handbook.md)). This will ensure that the [Develop](develop.md) stage is mostly spent on creating new material.
+- Identify and list gaps in the content, these should be addressed during the [Develop](develop.md) stage.
 
 ## Related resources: 
 
@@ -71,6 +71,7 @@ Döring models divides learning in two phases that should be intercalated
 </div>
 
 ## References	
+
 - [Course design: Considerations for trainers – a Professional Guide](https://f1000research.com/documents/9-1377)
 - [Train-the-Trainer Concept on Research Data Management](https://doi.org/10.5281/zenodo.13927613) 
 - [Learning objective matrix for research data management](https://doi.org/10.5281/zenodo.7034477) 

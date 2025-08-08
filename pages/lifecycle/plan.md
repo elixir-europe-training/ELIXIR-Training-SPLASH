@@ -15,8 +15,8 @@ By carefully planning these aspects, organisations can ensure that their trainin
 - Target audience: Defining the specific group of individuals who will benefit from the training.
 - Learning objectives: Clearly outlining the desired overarching outcomes of the training.
 - Curriculum development: Creating a detailed training curriculum that aligns with learning objectives.
-- Learning paths: Review related learning paths and determine if and how this training aligns with them. If the training will be structures as a learning path, ensure to take the available guidelines into account.
-- Train the Trainer : Continuously offer training for your trainers. 
+- [Learning paths](../resources/learning-paths.md): Review related learning paths and determine if and how this training aligns with them. If the training will be structures as a learning path, ensure to take the available guidelines into account.
+- [Train the Trainer](../resources/train-the-trainer.md) : Continuously offer training for your trainers. 
 
 ## What are the logistical aspects?
 
