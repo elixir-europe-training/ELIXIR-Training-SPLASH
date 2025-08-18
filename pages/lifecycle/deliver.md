@@ -42,7 +42,7 @@ This is not an exhaustive listing of items to consider.
 *Registrations*
 * Registration: Set up a registration process that collects information needed to select participants or define clearly that this is a “first come - first serve” setup.
 Consider collecting demographic data for future analysis. Make sure to protect sensitive data and participant information.
-* Course Announcement: Publish a course announcement on relevant platforms (e.g., TeSS, newsletters, social media, email) including the following information:
+* Course Announcement: Publish a course announcement on relevant platforms (e.g., [TeSS](https://tess.elixir-europe.org/), newsletters, social media, email) including the following information:
   * Short description
   * Learning Objectives
   * Target audience
