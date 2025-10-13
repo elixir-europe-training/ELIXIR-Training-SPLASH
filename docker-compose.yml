@@ -12,3 +12,5 @@ services:
     stdin_open: true
     tty: true
     command: bundle exec jekyll serve -w --force_polling -H 0.0.0.0 -t
+
+# no persistent volume for gems; gems are baked into the image during build
