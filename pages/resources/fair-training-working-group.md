@@ -1,19 +1,20 @@
 ---
 # MANDATORY FIELDS
 id: ftfg # This id should match with the user-stories ToolId
-title: FAIR Training Focus Group
-resourceUrl: https://elixir-europe.org/focus-groups/fair-training
+title: FAIR Training Working Group
+resourceUrl: https://elixir-europe.org/platforms/training
 description: |
-  This Focus Group aims to apply the FAIR principles (Findable, Accessible, Interoperable and Reusable) in training. It includes members both from ELIXIR and the global community, working collaboratively to enhance data and resource accessibility, reusability, and interoperability through training efforts.
+  This Working Group aims to support the application of the FAIR principles (Findable, Accessible, Interoperable and Reusable) in training. It includes members both from ELIXIR and the global community, working collaboratively to enhance data and resource accessibility, reusability, and interoperability through training efforts.
 objective: |
-  The FAIR training focus group aims to:
-  * Train scientists on implementing FAIR principles.
-  * Develop a catalog of FAIR-focused courses, materials, and curricula.
-  * Collaborate with related initiatives.
-  * Provide links to FAIR training materials and events in TeSS.
-  * FAIRify training materials and courses.
-  * Develop FAIR guidelines for training resources and support adoption.
-  * Enhance the FAIRness and discoverability of existing resources in TeSS.
+  The FAIR training working group aims to:
+  1. Resources: Facilitate the adoption of the FAIR principles for training
+    - Catalogue of tools that can be used to facilitate FAIRification of training
+    - Requirements and specifications of potential tools that can help the adoption of our work
+  2. Outreach activities inside and outside ELIXIR
+    - Bring your own course/training materials
+    - Expanding our current outreach activities in and outside ELIXIR
+    - Mutual events between communities: meetings, workshops or other activities
+
     
 contributors:
   - Alexandra Holinski
@@ -49,19 +50,20 @@ contributors:
   - Xènia Pérez Sitjà
 
 coordinators:
-  - Fotis Psomopoulos
   - Geert Van Geest
   - Sara Morsey
+  - Zoi Litou
 
 contacts:
-  - name: Fotis Psomopoulos
-    email: fpsom@certh.gr
   - name: Geert Van Geest
     email: geert.vangeest@sib.swiss
   - name: Sara Morsey
     email: s.khalil7@bradford.ac.uk
-     
-joinLink: https://elixir-europe.org/focus-groups/mail-subscribe?list=FAIR%20Training%20Focus%20Group
+  - name: Zoi Litou
+    email: zlitou@biol.uoa.gr
+
+joinLink: mailto:geert.vangeest@sib.swiss?subject=Join%20the%20FAIR%20Training%20Working%20Group
+
 
 #OPTIONAL FIELDS
 mission: |
@@ -78,5 +80,4 @@ publications:
     url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854
   - title: Ten simple rules for making training materials FAIR (Webinar)
     url: https://elixir-europe.org/events/elixir-webinar-fair-training    
-mailingList: fair-training@elixir-europe.org
 ---

@@ -46,8 +46,8 @@ title: Resources
     </div>
     <div class="col-3 text-center mb-5">
         <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-3">
-        <a class="btn btn-resource d-block py-3 rounded-pill" href="fair-training-focus-group">
-            FAIR training focus group
+        <a class="btn btn-resource d-block py-3 rounded-pill" href="fair-training-working-group">
+            FAIR training working group
         </a> 
     </div>
 </div>
