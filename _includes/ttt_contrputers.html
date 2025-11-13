@@ -1,0 +1,65 @@
+<h2>The Train-the-Trainer community</h2>
+
+<!-- begin author -->
+<section class="section author">
+
+  <div class="container">
+    {% assign post_count = site.posts | where: 'author', page.username %}
+
+    <div class="author__content">
+      <div class="author__image"><img class="lazy" data-src="{{ page.image }}" alt="{{ page.name }}"></div>
+      <h1 class="author__name">{{ page.name }}</h1>
+
+      <div class="author__info">
+      {% if page.role %}
+        <span class="author__info__item"><i class="ion ion-ios-contact"></i>{{ page.role }}</span>
+      {% endif %}
+      {% if page.cohort %}
+        <span class="author__info__item"><i class="ion ion-ios-school"></i>{{ page.cohort }} cohort</span>
+      {% endif %} 
+      {% if page.location %}
+        <span class="author__social__item"><i class="ion ion-md-pin"></i> {{ page.location }}</span>
+      {% endif %}
+      {% if page.website %}
+        <a class="author__social__item" href="{{ page.website }}" target="_blank" rel="noopener noreferrer" aria-label="Website link"><i class="ion ion-ios-link"></i> Website</a>
+      {% endif %}
+      {% if page.facebook %}
+        <a class="author__social__item" href="{{ page.facebook }}" target="_blank" rel="noopener noreferrer" aria-label="Facebook link"><i class="ion ion-logo-facebook"></i> Facebook</a>
+      {% endif %}
+      {% if page.twitter %}
+        <a class="author__social__item" href="{{ page.twitter }}" target="_blank" rel="noopener noreferrer" aria-label="Twitter link"><i class="ion ion-logo-twitter"></i> Twitter</a>
+      {% endif %}
+      {% if page.instagram %}
+        <a class="author__social__item" href="{{ page.instagram }}" target="_blank" rel="noopener noreferrer" aria-label="Instagram link"><i class="ion ion-logo-instagram"></i> Instagram</a>
+      {% endif %}
+      {% if page.github %}
+      <a class="author__social__item" href="https://github.com/{{ page.github }}" target="_blank" rel="noopener noreferrer" aria-label="Github link"><i class="fab fa-github"></i> Github </a>
+      {% endif %}
+      {% if page.orcid %}
+      <a class="author__social__item" href="https://orcid.org/{{ page.orcid }}" target="_blank" rel="noopener noreferrer" aria-label="Orcid link"><i class="fab fa-orcid"></i> Orcid </a>
+      {% endif %}
+      </div>
+      {% if post_count.size >= 1 %}
+        <div class="author__posts__count">{{ post_count.size }} {% if post_count.size < 2 %}Contribution{% else %}Contributions{% endif %}</div>
+      {% endif %}
+
+    </div>
+    {{ content }}
+
+  </div>
+
+  {% if post_count.size >= 1 %}
+  <div class="container">
+    <h2 class="author__posts__count">{{ post_count.size }} {% if post_count.size < 2 %}Contribution{% else %} Contributions{% endif %}</h2>
+    <div class="row animate">
+      {% for post in post_count %}
+      <div class="col col-4 col-d-6 col-t-12">
+        {% include article.html %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+</section>
+<!-- end author -->

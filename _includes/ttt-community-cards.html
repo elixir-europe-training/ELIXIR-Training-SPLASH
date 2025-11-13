@@ -1,0 +1,283 @@
+<h2>The Train-the-Trainer Community</h2>
+
+<div class="ttt-community-carousel">
+  <div class="carousel-container">
+    <div class="carousel-wrapper">
+      <div class="carousel-inner">
+        {% assign community_members = site.ttt_community | sort: 'title' %}
+        {% for member in community_members %}
+        <div class="community-card">
+          <a href="{{ member.url }}" class="card-link">
+            <div class="card-content">
+              {% if member.image %}
+                <div class="card-image">
+                  <img src="{{ member.image }}" alt="{{ member.title }}" />
+                </div>
+              {% endif %}
+              <div class="card-info">
+                <h3>{{ member.title }}</h3>
+                {% if member.role %}
+                  <p class="card-role">{{ member.role }}</p>
+                {% endif %}
+                {% if member.organization %}
+                  <p class="card-org">{{ member.organization }}</p>
+                {% endif %}
+              </div>
+            </div>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    
+    <!-- Carousel controls -->
+    {% if community_members.size > 4 %}
+    <button class="carousel-control carousel-prev" onclick="scrollCarousel(-1)" aria-label="Previous">
+      <span>&lt;</span>
+    </button>
+    <button class="carousel-control carousel-next" onclick="scrollCarousel(1)" aria-label="Next">
+      <span>&gt;</span>
+    </button>
+    {% endif %}
+  </div>
+  
+  <!-- Carousel indicators -->
+  {% if community_members.size > 4 %}
+  <div class="carousel-indicators">
+    <span class="indicator active" onclick="currentSlide(0)"></span>
+    {% for i in (1..community_members.size) %}
+      {% if i > 4 %}
+        <span class="indicator" onclick="currentSlide({{ i | minus: 4 }})"></span>
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+
+<style>
+.ttt-community-carousel {
+  margin: 2rem 0;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carousel-wrapper {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.carousel-inner {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Hide scrollbar but keep functionality */
+.carousel-inner::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-inner {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.community-card {
+  flex: 0 0 calc(25% - 1.125rem);
+  min-width: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.community-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+.card-content {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card-image {
+  margin-bottom: 1rem;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e9ecef;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-info h3 {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  color: #205a86;
+}
+
+.card-role {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.card-org {
+  margin: 0.25rem 0;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(32, 90, 134, 0.8);
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  z-index: 10;
+  transition: background 0.3s ease;
+}
+
+.carousel-control:hover {
+  background: rgba(32, 90, 134, 1);
+}
+
+.carousel-prev {
+  left: -2rem;
+}
+
+.carousel-next {
+  right: -2rem;
+}
+
+.carousel-indicators {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.indicator {
+  height: 8px;
+  width: 8px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.indicator.active {
+  background-color: #205a86;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .community-card {
+    flex: 0 0 calc(33.333% - 1rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .community-card {
+    flex: 0 0 calc(50% - 0.75rem);
+  }
+  
+  .carousel-control {
+    padding: 0.5rem 0.75rem;
+    font-size: 1.2rem;
+  }
+  
+  .carousel-prev {
+    left: -1.5rem;
+  }
+  
+  .carousel-next {
+    right: -1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .community-card {
+    flex: 0 0 calc(100% - 0.5rem);
+  }
+  
+  .carousel-control {
+    display: none;
+  }
+  
+  .carousel-inner {
+    padding: 1rem;
+    gap: 1rem;
+  }
+}
+</style>
+
+<script>
+function scrollCarousel(direction) {
+  const carousel = document.querySelector('.carousel-inner');
+  if (carousel) {
+    const cardWidth = carousel.querySelector('.community-card').offsetWidth;
+    const gap = 24; // matches gap in CSS
+    carousel.scrollBy({
+      left: direction * (cardWidth + gap),
+      behavior: 'smooth'
+    });
+  }
+}
+
+function currentSlide(n) {
+  const carousel = document.querySelector('.carousel-inner');
+  if (carousel) {
+    const cardWidth = carousel.querySelector('.community-card').offsetWidth;
+    const gap = 24;
+    carousel.scrollTo({
+      left: n * (cardWidth + gap),
+      behavior: 'smooth'
+    });
+    
+    // Update indicators
+    const indicators = document.querySelectorAll('.indicator');
+    indicators.forEach((ind, idx) => {
+      ind.classList.remove('active');
+      if (idx === n) ind.classList.add('active');
+    });
+  }
+}
+</script>
