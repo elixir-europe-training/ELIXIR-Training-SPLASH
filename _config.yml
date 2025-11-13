@@ -66,7 +66,6 @@ defaults:
     values:
       sidebar: about
 
--
 collections:
   ttt_community:
     output: true
