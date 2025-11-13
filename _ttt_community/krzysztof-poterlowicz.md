@@ -1,6 +1,6 @@
 ---
 title: Krzysztof Poterlowicz
-image: https://avatars.githubusercontent.com/u/229105914?s=300
+image: https://avatars.githubusercontent.com/poterlowicz-lab?s=300
 role: Co-lead, Principal Investigator
 organization: University of Bradford / ELIXIR-UK
 location: University of Bradford
