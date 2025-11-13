@@ -65,6 +65,7 @@ defaults:
       path: "pages/about"
     values:
       sidebar: about
+
 -
 collections:
   ttt_community:
