@@ -66,6 +66,11 @@ defaults:
     values:
       sidebar: about
 
+collections:
+  ttt_community:
+    output: true
+    permalink: /ttt-community/:name/
+
 plugins:
   - jemoji
   - jekyll-sitemap
