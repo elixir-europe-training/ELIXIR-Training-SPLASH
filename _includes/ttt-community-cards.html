@@ -1,188 +1,131 @@
 <h2>The Train-the-Trainer Community</h2>
 
-<div class="ttt-community-carousel">
-  <div class="carousel-container">
-    <div class="carousel-wrapper">
-      <div class="carousel-inner">
-        {% assign community_members = site.ttt_community | sort: 'title' %}
-        {% for member in community_members %}
-        <div class="community-card">
-          <a href="{{ member.url }}" class="card-link">
-            <div class="card-content">
+<div class="ttt-community-section mb-5">
+  <div class="community-cards-wrapper">
+    <div class="row g-4">
+      {% assign community_members = site.ttt_community | sort: 'title' %}
+      {% for member in community_members %}
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm border-0 hover-card">
+          <a href="{{ member.url }}" class="text-decoration-none text-dark">
+            <div class="card-body text-center p-3">
               {% if member.image %}
-                <div class="card-image">
-                  <img src="{{ member.image }}" alt="{{ member.title }}" />
-                </div>
-              {% endif %}
-              <div class="card-info">
-                <h3>{{ member.title }}</h3>
-                {% if member.role %}
-                  <p class="card-role">{{ member.role }}</p>
-                {% endif %}
-                {% if member.organization %}
-                  <p class="card-org">{{ member.organization }}</p>
-                {% endif %}
+              <div class="mb-3">
+                <img src="{{ member.image }}" alt="{{ member.title }}" class="rounded-circle img-fluid" style="width: 100px; height: 100px; object-fit: cover;">
               </div>
+              {% else %}
+              <div class="mb-3">
+                <div class="rounded-circle bg-light d-flex align-items-center justify-content-center mx-auto" style="width: 100px; height: 100px;">
+                  <i class="fas fa-user fa-3x text-muted"></i>
+                </div>
+              </div>
+              {% endif %}
+              <h5 class="card-title mb-2" style="color: #205a86; font-size: 0.95rem;">{{ member.title }}</h5>
+              {% if member.organization %}
+              <p class="card-text text-muted small mb-2">{{ member.organization }}</p>
+              {% endif %}
+              
+              {% if member.sessions %}
+              <div class="mt-2">
+                {% for session in member.sessions %}
+                <span class="badge session-badge me-1 mb-1">S{{ session }}</span>
+                {% endfor %}
+              </div>
+              {% endif %}
             </div>
           </a>
         </div>
-        {% endfor %}
       </div>
+      {% endfor %}
     </div>
   </div>
 </div>
 
 <style>
-.ttt-community-carousel {
-  margin: 2rem 0;
+.ttt-community-section {
+  margin-top: 2rem;
 }
 
-.carousel-container {
-  position: relative;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.carousel-wrapper {
-  overflow: hidden;
-  border-radius: 8px;
-  max-height: 650px;
-}
-
-.carousel-inner {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
-  padding: 1.5rem;
-  background: #f8f9fa;
+.community-cards-wrapper {
+  max-height: 700px;
   overflow-y: auto;
-  max-height: 630px;
+  overflow-x: hidden;
+  padding-right: 10px;
   scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
 }
 
 /* Custom scrollbar styling */
-.carousel-inner::-webkit-scrollbar {
+.community-cards-wrapper::-webkit-scrollbar {
   width: 8px;
 }
 
-.carousel-inner::-webkit-scrollbar-track {
-  background: #e9ecef;
+.community-cards-wrapper::-webkit-scrollbar-track {
+  background: #ede8ed;
   border-radius: 4px;
 }
 
-.carousel-inner::-webkit-scrollbar-thumb {
-  background: #205a86;
+.community-cards-wrapper::-webkit-scrollbar-thumb {
+  background: #b9a4b5;
   border-radius: 4px;
 }
 
-.carousel-inner::-webkit-scrollbar-thumb:hover {
-  background: #164566;
+.community-cards-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #4F1C46;
 }
 
-.community-card {
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 280px;
+/* Firefox scrollbar */
+.community-cards-wrapper {
+  scrollbar-width: thin;
+  scrollbar-color: #b9a4b5 #ede8ed;
 }
 
-.community-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+.hover-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border: 1px solid #e9ecef !important;
 }
 
-.card-link {
-  text-decoration: none;
-  color: inherit;
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.hover-card a {
   display: block;
   height: 100%;
 }
 
-.card-content {
-  background: white;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding: 1.5rem;
-  text-align: center;
+.hover-card .card-title {
+  font-weight: 600;
+  line-height: 1.3;
 }
 
-.card-image {
-  margin-bottom: 1rem;
-  overflow: hidden;
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #e9ecef;
+.hover-card .card-text {
+  font-size: 0.8rem;
+  line-height: 1.3;
 }
 
-.card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.session-badge {
+  background-color: #dcd2da !important;
+  color: #4F1C46 !important;
+  font-weight: 600;
+  font-size: 0.7rem;
+  padding: 0.35em 0.65em;
+  border: 1px solid #b9a4b5;
 }
 
-.card-info h3 {
-  margin: 0.5rem 0;
-  font-size: 1.1rem;
-  color: #205a86;
+.session-badge:hover {
+  background-color: #4F1C46 !important;
+  color: #fff !important;
+  border-color: #4F1C46;
 }
 
-.card-role {
-  margin: 0.25rem 0;
-  font-size: 0.9rem;
-  color: #555;
-  font-weight: 500;
-}
-
-.card-org {
-  margin: 0.25rem 0;
-  font-size: 0.85rem;
-  color: #888;
-}
-
-/* Responsive design */
-@media (max-width: 1024px) {
-  .carousel-inner {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .carousel-inner {
-    grid-template-columns: repeat(2, 1fr);
+@media (max-width: 767px) {
+  .community-cards-wrapper {
+    max-height: 600px;
   }
   
-  .carousel-wrapper {
-    max-height: 550px;
-  }
-  
-  .carousel-inner {
-    max-height: 530px;
-  }
-}
-
-@media (max-width: 480px) {
-  .carousel-inner {
-    grid-template-columns: 1fr;
-    padding: 1rem;
-    gap: 1rem;
-  }
-  
-  .carousel-wrapper {
-    max-height: 500px;
-  }
-  
-  .carousel-inner {
-    max-height: 480px;
+  .ttt-community-section .col-12 {
+    margin-bottom: 1rem;
   }
 }
 </style>

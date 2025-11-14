@@ -65,6 +65,18 @@ defaults:
       path: "pages/about"
     values:
       sidebar: about
+  -
+    scope:
+      path: ""
+      type: "ttt_community"
+    values:
+      layout: "profile"
+  -
+    scope:
+      path: "pages/ttt_modules"
+    values:
+      layout: "module"
+      permalink: "/ttt-modules/:basename/"
 
 collections:
   ttt_community:

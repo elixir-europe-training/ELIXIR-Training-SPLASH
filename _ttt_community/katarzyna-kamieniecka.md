@@ -1,11 +1,11 @@
 ---
 title: Katarzyna Kamieniecka
 image: https://avatars.githubusercontent.com/kkamieniecka?s=300
-role: Lead Trainer
 organization: University of Bradford / ELIXIR-UK
 location: University of Bradford
 github: kkamieniecka
 orcid: 0009-0004-2454-5950
+sessions: [1,2,3,4]
 ---
 
 ## Biography
