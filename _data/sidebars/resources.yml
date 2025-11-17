@@ -1,25 +1,29 @@
 title: Resources
 title_url: /resources
 subitems:
-  - title: Certification
-    url: /certification
-  - title: ELIXIR lesson template
-    url: /elixir-lesson-template
-  - title: E-learning
-    url: /elearning
-  - title: FAIR Training Focus Group
-    url: /fair-training-focus-group
-  - title: FAIR Training Handbook
-    url: /fair-training-handbook
-  - title: Learning Paths
-    url: /learning-paths
-  - title: TeSS
-    url: /tess
-  - title: TMD
-    url: /tmd
-  - title: Train-the-Trainer
-    url: /train-the-trainer
-  - title: Train-the-Trainer Mentorship
-    url: /train-the-trainer-mentorship
-  - title: Glittr.org
-    url: /glittr
+  - title: Training Platform
+    subitems:
+    - title: Certification
+      url: /certification
+    - title: ELIXIR lesson template
+      url: /elixir-lesson-template
+    - title: E-learning
+      url: /elearning
+    - title: FAIR Training Focus Group  
+      url: /fair-training-focus-group
+    - title: FAIR Training Handbook
+      url: /fair-training-handbook
+    - title: Learning Paths
+      url: /learning-paths
+    - title: TeSS
+      url: /tess
+    - title: TMD
+      url: /tmd
+    - title: Train-the-Trainer
+      url: /train-the-trainer
+  - title: More
+    subitems:
+    - title: Glittr.org
+      url: /glittr
+    - title: Train-the-Trainer Mentorship
+      url: /train-the-trainer-mentorship
