@@ -3,7 +3,7 @@ title: Working with git
 ---
 
 
-## Forking - branching - changing - pushing - {% glossary PR %}
+## Forking - branching - changing - pushing - pull requesting
 
 This is a general workflow in how to work on your own fork (copy) of the current repo and request changes through a pull request:
 NOTE: if you already did these steps in the past, start from the `git fetch upstream` command. 
@@ -11,13 +11,13 @@ NOTE: if you already did these steps in the past, start from the `git fetch upst
 - Make a fork of this repository, using the fork button.
 - Open a terminal and clone your fork using:
     ```
-    git clone git@github.com:USERNAME/ELIXIR-Training-SPLASH.git
+    git clone https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH.git
     cd ELIXIR-Training-SPLASH 
     ```
     NOTE: Make sure you clone the fork and not the original elixir-europe-training/ELIXIR-Training-SPLASH one.
 - Keep your fork up to date (IMPORTANT!).
     ```
-    git remote add upstream https://github.com/elixir-europe/ELIXIR-Training-SPLASH.git
+    git remote add upstream https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH.git
     git fetch upstream
     git checkout main (if you are not already on the main branch, check with `git branch`)
     git pull upstream main
@@ -40,7 +40,7 @@ NOTE: if you already did these steps in the past, start from the `git fetch upst
     ```
     git push origin 'FEATURE_NAME'
     ```
-- Go to [https://github.com/elixir-europe/ELIXIR-Training-SPLASH](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH) and click on *Compare & pull request*
+- Go to [https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH](hhttps://github.com/elixir-europe-training/ELIXIR-Training-SPLASH) and click on *Compare & pull request*
 - Open the pull request an describe your changes.
 - Wait for review by other editors. Editors that are responsible for the sections you make changes to will be assigned as reviewer automatically.
 
@@ -50,19 +50,17 @@ The website is build on GitHub using Jekyll, a simple, static site generator bas
 
 Make sure you have cloned the ELIXIR-Training-SPLASH repo:
 
-    git clone git@github.com:USERNAME/ELIXIR-Training-SPLASH.git
-    cd ELIXIR-Training-SPLASH
+```bash
+git clone https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH.git
+cd ELIXIR-Training-SPLASH
+```
 
 
 To run the website locally, you can either use [Docker](https://www.docker.com/) or use Jekyll directly after installing various dependencies.
 
-### Run using Docker
+### Run using Docker compose
 
-1. If not already installed on your machine, install Docker. From the root of the ``ELIXIR-Training-SPLASH`` directory, run:
-    ```
-    docker run -it --rm -p 4000:4000 -v $PWD:/srv/jekyll jekyll/jekyll:3 /bin/bash -c "chmod -R 777 /srv/jekyll && bundle install && bundle exec jekyll serve -w - --host 0.0.0.0 --livereload"   
-    ```
-This will start the docker container and serve the website locally.
+See the instructions in the [README](../../README.md#running-locally-with-docker-compose) file at the root of this repository.
 
 ### Run using Jekyll directly
 
