@@ -73,8 +73,4 @@ Notes:
 
 - If you change the `Gemfile` or `Gemfile.lock` you must rebuild the image (`docker compose build jekyll`) so the image has the correct gems installed.
 - The repository is mounted into the container so file edits on your host will trigger Jekyll auto-regeneration inside the container. Use `Ctrl+C` to stop the container or `docker compose down` to stop and remove the container.
-- If a gem needs native compilation (nokogiri, etc.) and installation fails, we may need to add build dependencies to the `Dockerfile`. Open an issue or ask for help and I can add them.
 
-Optional: Gitpod
-
-If you prefer an online development environment, a Gitpod button is included at the top of this README and you can open the repository there. Gitpod will provide a ready-to-edit environment, but the recommended local workflow for development is Docker Compose.
