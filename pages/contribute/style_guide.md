@@ -67,7 +67,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Fonts:** Exo 2 is used for headings and main branding font, Open Sans for body text.
   * **Icons:** the icons used in the data life cycle diagram come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and so the right to publish them without attribution. Other icons on this site come from [Font Awesome](https://fontawesome.com/).
   * **Templates:** keep the structure of the pages consistent by using the site templates (see the [contribute page](how_to_contribute)).
-  * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kits/splash/). Please use these icons in any illustrations. If you need extra icons, or any help with illustrations, [open a new issue](https://github.com/elixir-europe/training-splash/issues) on GitHub or email [training-splash@elixir-europe.org](mailto:training-splash@elixir-europe.org).
+  * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kits/splash/). Please use these icons in any illustrations. If you need extra icons, or any help with illustrations, [open a new issue](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/issues) on GitHub or email [training-splash@elixir-europe.org](mailto:training-splash@elixir-europe.org).
   * **Images:**
     * Do not use images to display text.
     * Include an 'alt' attribute in images.
@@ -92,4 +92,4 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
 
 
 ## How to suggest amendments or additions to this style guide:
-[Open a new issue](https://github.com/elixir-europe/training-splash/issues) on GitHub or email [training-splash@elixir-europe.org](mailto:training-splash@elixir-europe.org). See also the [contribute page](how_to_contribute).
+[Open a new issue](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/issues) on GitHub or email [training-splash@elixir-europe.org](mailto:training-splash@elixir-europe.org). See also the [contribute page](how_to_contribute).
