@@ -50,9 +50,7 @@ Built with the [![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20t
 
 This repository ships a Dockerfile and a Compose configuration so you can run and develop the site locally without installing Ruby, Jekyll and the gems on your host machine.
 
-Prerequisites:
-
-- Docker Desktop (or any recent Docker Engine) installed and running on your machine.
+Prerequisites: Docker Desktop (or any recent Docker Engine) installed and running on your machine.
 
 Quick start (rebuild when you change `Gemfile` or `Gemfile.lock`):
 
