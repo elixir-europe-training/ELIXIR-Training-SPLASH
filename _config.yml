@@ -40,7 +40,6 @@ defaults:
     scope:
       path: "pages/lifecycle"
     values:
-      type: "pages"
       sidebar: lifecycle
   -
     scope:
