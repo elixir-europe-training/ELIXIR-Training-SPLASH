@@ -40,7 +40,7 @@
                     {% assign start_index = chunk_index | times: chunk_size %}
                     {% if start_index < elixir_resources.size %}
                         <div class="carousel-item {% if chunk_index == 0 %}active{% endif %}">
-                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 px-5">
+                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 px-5 justify-content-center">
                                 {% for i in (0..3) %}
                                     {% assign current_index = start_index | plus: i %}
                                     {% if current_index < elixir_resources.size %}
