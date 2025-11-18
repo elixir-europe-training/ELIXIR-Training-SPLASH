@@ -57,7 +57,7 @@ To add a new tag to the system:
 ```yaml
 - id: your-tag-id           # Use kebab-case, no spaces
   label: Display Name       # How it appears on cards
-  category: topic           # organization, lifecycle, or topic
+  category: topic           # organization, lifecycle, topic, country, etc.
   color: primary            # Bootstrap color: primary, secondary, success, danger, warning, info, light, dark
   description: Tooltip text # Optional: shown on hover
 ```
@@ -73,34 +73,64 @@ To add a new tag to the system:
 - `light` - Light gray
 - `dark` - Dark gray/black
 
+**Note:** For consistency, use the same color for all tags within a category.
+
 ## Adding a New Category
 
-If you want to create an entirely new category (beyond organization, lifecycle, topic):
+To create an entirely new category, you only need to update one file:
 
-### Step 1: Add tags with the new category in `_data/resource_tags.yml`
+### Add the category to `_data/tag_categories.yml`
 
 ```yaml
-# Your New Category Tags
-- id: your-tag-id
-  label: Display Name
-  category: yourcategory    # Your new category name
-  color: primary
-  description: Tooltip description
+- id: yourcategory          # Use kebab-case, matches the category field in tags
+  label: Your Category      # Display name (will be shown in uppercase)
+  description: Explanation of what this category represents
 ```
 
-### Step 2: Update `pages/resources/resources.md`
+**That's it!** The category will automatically appear on the resources page in the order defined in `tag_categories.yml`. No changes needed to `resources.md`.
 
-Find the line with category definitions (around line 27):
-```liquid
-{% assign categories = "organization,country,lifecycle,topic" | split: "," %}
+### Example: Adding a "Format" Category
+
+1. Add to `_data/tag_categories.yml`:
+```yaml
+- id: format
+  label: Format
+  description: The format or delivery method of the training resource
 ```
 
-Add your new category name to the comma-separated list:
-```liquid
-{% assign categories = "organization,country,lifecycle,topic,yourcategory" | split: "," %}
+2. Add tags with this category in `_data/resource_tags.yml`:
+```yaml
+- id: online
+  label: Online
+  category: format
+  color: warning
+  description: Online/virtual training
+
+- id: in-person
+  label: In-Person
+  category: format
+  color: warning
+  description: Face-to-face training
 ```
 
-The new category will automatically appear as a separate filter section on the resources page, with all its tags grouped together.
+The "Format" category will automatically appear in the filter sidebar with an info icon showing the description.
+
+## Adding Category Descriptions
+
+Category descriptions appear as tooltips when users hover over the info icon (ℹ️) next to category labels.
+
+To add or update a category description:
+
+1. Open `_data/tag_categories.yml`
+2. Add or modify the `description` field:
+
+```yaml
+- id: organization
+  label: Organization
+  description: Resources affiliated with specific organizations or collaborative networks
+```
+
+The description should briefly explain what the category represents and help users understand which tags to use for filtering.
 
 ## Best Practices
 

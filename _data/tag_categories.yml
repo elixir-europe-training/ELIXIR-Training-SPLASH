@@ -1,0 +1,18 @@
+# Tag Category Descriptions
+# Explanations shown when hovering over category labels
+
+- id: organization
+  label: Organization
+  description: Resources affiliated with specific organizations or collaborative networks
+
+- id: country
+  label: Country
+  description: Resources that are in the service delivery plan of a specific node
+
+- id: lifecycle
+  label: Lifecycle
+  description: Training development lifecycle phases (Plan → Design → Develop → Deliver → Evaluate)
+
+- id: topic
+  label: Topic
+  description: Subject areas and themes covered by the resource

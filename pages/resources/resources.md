@@ -24,21 +24,19 @@ sidebar: false
                     {% endif %}
                 {% endfor %}
                 
-                {% assign categories = "organization,country,lifecycle,topic" | split: "," %}
-                {% for category in categories %}
+                {% for category_info in site.data.tag_categories %}
                     {% assign category_tags = "" | split: "" %}
                     {% for tag_id in all_tags %}
                         {% assign tag = site.data.resource_tags | where: "id", tag_id | first %}
-                        {% if tag and tag.category == category %}
+                        {% if tag and tag.category == category_info.id %}
                             {% assign category_tags = category_tags | push: tag %}
                         {% endif %}
                     {% endfor %}
                     
                     {% if category_tags.size > 0 %}
-                        {% assign category_info = site.data.tag_categories | where: "id", category | first %}
                         <div class="tag-category-group mb-3">
                             <div class="tag-category-label text-muted text-uppercase small fw-bold mb-2">
-                                {{ category }}
+                                {{ category_info.label }}
                                 {% if category_info.description %}
                                     <i class="fas fa-info-circle ms-1" title="{{ category_info.description }}" data-bs-toggle="tooltip" data-bs-placement="right"></i>
                                 {% endif %}
