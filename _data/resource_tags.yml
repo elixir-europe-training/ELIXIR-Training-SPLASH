@@ -1,0 +1,96 @@
+# Resource Tags Configuration
+# Define all available tags with their display properties
+# 
+# Properties:
+#   - id: unique identifier used in resource frontmatter
+#   - label: display name
+#   - category: grouping (organization, lifecycle, topic)
+#   - color: Bootstrap color class (primary, secondary, success, danger, warning, info, light, dark)
+#   - description: optional tooltip text
+
+# Organization Tags
+- id: elixir
+  label: ELIXIR
+  category: organization
+  color: primary
+  description: ELIXIR Europe resource
+
+- id: goblet
+  label: GOBLET
+  category: organization
+  color: info
+  description: GOBLET collaboration
+
+# Lifecycle Tags
+- id: plan
+  label: Plan
+  category: lifecycle
+  color: success
+  description: Training planning phase
+
+- id: design
+  label: Design
+  category: lifecycle
+  color: success
+  description: Training design phase
+
+- id: develop
+  label: Develop
+  category: lifecycle
+  color: success
+  description: Training development phase
+
+- id: deliver
+  label: Deliver
+  category: lifecycle
+  color: success
+  description: Training delivery phase
+
+- id: evaluate
+  label: Evaluate
+  category: lifecycle
+  color: success
+  description: Training evaluation phase
+
+# Topic Tags
+- id: fair-training
+  label: FAIR Training
+  category: topic
+  color: warning
+  description: FAIR principles for training
+
+- id: train-the-trainer
+  label: Train-the-Trainer
+  category: topic
+  color: danger
+  description: Training for instructors
+
+- id: quality-metrics
+  label: Quality & Metrics
+  category: topic
+  color: secondary
+  description: Training quality and impact assessment
+
+- id: materials-discovery
+  label: Materials Discovery
+  category: topic
+  color: info
+  description: Finding and curating training materials
+
+- id: elearning
+  label: E-Learning
+  category: topic
+  color: warning
+  description: Online learning resources
+
+- id: certification
+  label: Certification
+  category: topic
+  color: danger
+  description: Training certification programs
+
+- id: community
+  label: Community
+  category: topic
+  color: info
+  description: Community resources and groups
