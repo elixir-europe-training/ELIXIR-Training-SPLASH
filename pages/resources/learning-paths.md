@@ -1,6 +1,6 @@
 ---
 # MANDATORY FIELDS
-id: lps # This id should match with the testimonial ToolId
+id: learning-paths # This id should match with the testimonial ToolId
 title: Learning Paths
 resourceUrl: https://elixir-europe.org/focus-groups/learning-paths
 description: |

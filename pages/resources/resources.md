@@ -1,40 +1,175 @@
 ---
 title: Resources
+sidebar: false
 ---
 
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4 mb-5 py-5">
-    {% assign resource_pages = site.pages | where_exp: "page", "page.path contains 'pages/resources/'" | where_exp: "page", "page.id != nil" | where_exp: "page", "page.path != 'pages/resources/TEMPLATE_resource_page.md'" | sort: "title" %}
-    
-    {% for resource in resource_pages %}
-    <div class="col">
-        <a href="{{ resource.id }}" class="text-decoration-none">
-            <div class="card h-100 resource-card shadow-sm">
-                <div class="card-body d-flex flex-column">
-                    <div class="resource-logo-container mb-3 text-center">
-                        {% if resource.logo %}
-                            <img src="assets/img/logos/{{ resource.logo }}" alt="{{ resource.title }} logo" class="resource-card-logo">
-                        {% else %}
-                            <img src="assets/img/icons/resource_icon.svg" alt="{{ resource.title }}" class="resource-card-icon">
+<!-- Search and Filter Section -->
+<div class="row mb-4">
+    <div class="col-lg-4 col-xl-3 mb-3">
+        <div class="sticky-top" style="top: 6rem;">
+            <input type="text" id="resourceSearch" class="form-control mb-3" placeholder="Search resources...">
+            <div id="tagFilters">
+                <div class="mb-3">
+                    <button class="btn btn-sm btn-outline-secondary active filter-tag w-100" data-filter="all">All Resources</button>
+                </div>
+                
+                {% assign all_tags = "" | split: "" %}
+                {% for page in site.pages %}
+                    {% if page.path contains 'pages/resources/' and page.id and page.tags %}
+                        {% for tag_id in page.tags %}
+                            {% unless all_tags contains tag_id %}
+                                {% assign all_tags = all_tags | push: tag_id %}
+                            {% endunless %}
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+                
+                {% assign categories = "organization,lifecycle,topic" | split: "," %}
+                {% for category in categories %}
+                    {% assign category_tags = "" | split: "" %}
+                    {% for tag_id in all_tags %}
+                        {% assign tag = site.data.resource_tags | where: "id", tag_id | first %}
+                        {% if tag and tag.category == category %}
+                            {% assign category_tags = category_tags | push: tag %}
                         {% endif %}
-                    </div>
-                    <h5 class="card-title text-center mb-3">{{ resource.title }}</h5>
+                    {% endfor %}
                     
-                    {% if resource.tags %}
-                        <div class="resource-tags mb-3 text-center">
-                            {% for tag_id in resource.tags %}
-                                {% assign tag = site.data.resource_tags | where: "id", tag_id | first %}
-                                {% if tag %}
-                                    <span class="badge bg-{{ tag.color }} resource-tag" title="{{ tag.description }}">{{ tag.label }}</span>
-                                {% endif %}
-                            {% endfor %}
+                    {% if category_tags.size > 0 %}
+                        <div class="tag-category-group mb-3">
+                            <div class="tag-category-label text-muted text-uppercase small fw-bold mb-2">{{ category }}</div>
+                            <div class="d-flex flex-wrap gap-2">
+                                {% assign sorted_category_tags = category_tags | sort: "label" %}
+                                {% for tag in sorted_category_tags %}
+                                    <button class="btn btn-sm btn-outline-{{ tag.color }} filter-tag" data-filter="{{ tag.id }}" title="{{ tag.description }}">
+                                        {{ tag.label }}
+                                    </button>
+                                {% endfor %}
+                            </div>
                         </div>
                     {% endif %}
-                </div>
+                {% endfor %}
             </div>
-        </a>
+        </div>
     </div>
-    {% endfor %}
+    
+    <div class="col-lg-8 col-xl-9">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-3 mb-5" id="resourceGrid">
+            {% assign resource_pages = site.pages | where_exp: "page", "page.path contains 'pages/resources/'" | where_exp: "page", "page.id != nil" | where_exp: "page", "page.path != 'pages/resources/TEMPLATE_resource_page.md'" | sort: "title" %}
+            
+            {% for resource in resource_pages %}
+            <div class="col resource-item" data-tags="{% if resource.tags %}{% for tag in resource.tags %}{{ tag }} {% endfor %}{% endif %}" data-title="{{ resource.title | downcase }}">
+                <a href="{{ resource.id }}" class="text-decoration-none">
+                    <div class="card h-100 resource-card shadow-sm">
+                        <div class="card-body d-flex flex-column">
+                            <div class="resource-logo-container mb-2 text-center">
+                                {% if resource.logo %}
+                                    <img src="assets/img/logos/{{ resource.logo }}" alt="{{ resource.title }} logo" class="resource-card-logo">
+                                {% else %}
+                                    <img src="assets/img/icons/resource_icon.svg" alt="{{ resource.title }}" class="resource-card-icon">
+                                {% endif %}
+                            </div>
+                            <h5 class="card-title text-center mb-2">{{ resource.title }}</h5>
+                            
+                            {% if resource.tags %}
+                                <div class="resource-tags mb-2 text-center">
+                                    {% for tag_id in resource.tags %}
+                                        {% assign tag = site.data.resource_tags | where: "id", tag_id | first %}
+                                        {% if tag %}
+                                            <span class="badge bg-{{ tag.color }} resource-tag" data-tag="{{ tag_id }}" title="{{ tag.description }}">{{ tag.label }}</span>
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div id="noResults" class="text-center py-5 d-none">
+            <p class="text-muted fs-5">No resources found matching your search.</p>
+        </div>
+    </div>
 </div>
 
-
-
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('resourceSearch');
+    const filterButtons = document.querySelectorAll('.filter-tag');
+    const resourceItems = document.querySelectorAll('.resource-item');
+    const noResults = document.getElementById('noResults');
+    const resourceGrid = document.getElementById('resourceGrid');
+    
+    let activeFilter = 'all';
+    
+    // Filter function
+    function filterResources() {
+        const searchTerm = searchInput.value.toLowerCase();
+        let visibleCount = 0;
+        
+        resourceItems.forEach(item => {
+            const title = item.dataset.title;
+            const tags = item.dataset.tags;
+            
+            // Check if matches search term
+            const matchesSearch = title.includes(searchTerm) || tags.toLowerCase().includes(searchTerm);
+            
+            // Check if matches active filter
+            const matchesFilter = activeFilter === 'all' || tags.includes(activeFilter);
+            
+            // Show/hide based on both conditions
+            if (matchesSearch && matchesFilter) {
+                item.style.display = '';
+                visibleCount++;
+            } else {
+                item.style.display = 'none';
+            }
+        });
+        
+        // Show/hide no results message
+        if (visibleCount === 0) {
+            resourceGrid.classList.add('d-none');
+            noResults.classList.remove('d-none');
+        } else {
+            resourceGrid.classList.remove('d-none');
+            noResults.classList.add('d-none');
+        }
+    }
+    
+    // Search input handler
+    searchInput.addEventListener('input', filterResources);
+    
+    // Filter button handlers
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Update active filter
+            activeFilter = this.dataset.filter;
+            
+            // Update button states
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+            
+            // Apply filter
+            filterResources();
+        });
+    });
+    
+    // Make tag badges clickable to filter
+    document.querySelectorAll('.resource-tag').forEach(badge => {
+        badge.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            const tagId = this.dataset.tag;
+            const filterButton = document.querySelector(`.filter-tag[data-filter="${tagId}"]`);
+            
+            if (filterButton) {
+                filterButton.click();
+                // Scroll to top to show filters
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        });
+    });
+});
+</script>

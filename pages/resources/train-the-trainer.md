@@ -1,6 +1,6 @@
 ---
 # MANDATORY FIELDS
-id: ttt # This id should match with the user-stories ToolId
+id: train-the-trainer # This id should match with the user-stories ToolId
 title: ELIXIR-GOBLET Train the Trainer
 resourceUrl: https://elixir-europe.org/platforms/training/train-the-trainer
 description: |

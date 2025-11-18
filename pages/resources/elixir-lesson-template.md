@@ -1,6 +1,6 @@
 ---
 # MANDATORY FIELDS
-id: lesson-template
+id: elixir-lesson-template
 title: ELIXIR lesson template
 resourceUrl: https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplateInstructions-MkDocs/
 description: |

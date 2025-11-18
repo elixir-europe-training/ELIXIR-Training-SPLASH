@@ -1,6 +1,6 @@
 ---
 # MANDATORY FIELDS
-id: fairhb # This id should match with the user-stories ToolId
+id: fair-training-handbook # This id should match with the user-stories ToolId
 title: FAIR training handbook
 resourceUrl: https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/
 description: |
