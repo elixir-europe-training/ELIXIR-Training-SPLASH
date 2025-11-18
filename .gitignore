@@ -4,3 +4,4 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 .vscode/launch.json
+.DS_Store

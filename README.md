@@ -1,6 +1,3 @@
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH)
-
-Want to learn how to work with gitpod on this website? Check out the docs [below](#using-gitpod).
 
 # SPLASH
 The ELIXIR Training SPLASH has been designed to guide the trainer in their efforts to plan, design, develop, deliver and evaluate training activties. It is based on the various steps of the training life cycle, although not all the steps will be relevant to everyone.
@@ -49,13 +46,29 @@ We would like to thank Christof De Bo for creating the custom icons for the SPLA
 
 Built with the [![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
 
-## Using Gitpod
+## Running locally with Docker Compose
 
-Gitpod is a container-based environment where you can work on the SPLASH website, where the website is rendered while you work on it. Meaning that what you see is what you get. In order to use gitpod, follow these steps:
+This repository ships a Dockerfile and a Compose configuration so you can run and develop the site locally without installing Ruby, Jekyll and the gems on your host machine.
 
-- Click the link [here](https://gitpod.io/#https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH) or 'Open in Gitpod' on top of this README
-- Click on the button 'continue with GitHub'. If you're using Gitpod for the first time, you will probably be asked to change some permissions.
-- After this, the start screen pops up, where you can choose the repository (should be this one). You can leave the other choices as suggested (VScode and standard compute should be fine). 
-- Wait for the process to start the containers the finish
-- The home page of splash should appear at the right side of the screen
-- Work on the website as you would in VScode. For example, checkout another branch by clicking on 'main' on the bottom right. 
+Prerequisites: Docker Desktop (or any recent Docker Engine) installed and running on your machine.
+
+Quick start (rebuild when you change `Gemfile` or `Gemfile.lock`):
+
+```bash
+# build the jekyll image (use --no-cache if you want a clean rebuild)
+docker compose build jekyll
+
+# start the service
+docker compose up -d jekyll
+
+# tail the logs to watch the server start and rebuilds
+docker compose logs --tail=200 --follow jekyll
+```
+
+Once the container reports "Server address: http://0.0.0.0:4000" you can open http://localhost:4000 in your browser.
+
+Notes:
+
+- If you change the `Gemfile` or `Gemfile.lock` you must rebuild the image (`docker compose build jekyll`) so the image has the correct gems installed.
+- The repository is mounted into the container so file edits on your host will trigger Jekyll auto-regeneration inside the container. Use `Ctrl+C` to stop the container or `docker compose down` to stop and remove the container.
+

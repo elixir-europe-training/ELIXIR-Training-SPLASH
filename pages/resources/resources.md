@@ -50,6 +50,18 @@ title: Resources
             FAIR training working group
         </a> 
     </div>
+     <div class="col-3 text-center mb-5">
+        <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-3">
+        <a class="btn btn-resource d-block py-3 rounded-pill" href="train-the-trainer-mentorship">
+            Train the Trainer Mentorship Programme
+        </a> 
+    </div>
+     <div class="col-3 text-center mb-5">
+        <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-3">
+        <a class="btn btn-resource d-block py-3 rounded-pill" href="glittr">
+            Glittr.org
+        </a> 
+    </div>
 </div>
 
 
