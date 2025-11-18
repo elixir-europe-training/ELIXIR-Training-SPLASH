@@ -56,26 +56,7 @@ Additional things to consider when you evaluate training:
 
 ## Related resources
 
-<div class="row mb-2 py-5">
-    <div class="col-3 text-center mb-1">
-        <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-2" style="width: 50px; height: 50px;">
-        <a class="btn btn-resource d-block py-2 rounded-pill btn-sm" href="train-the-trainer">
-            <small>Train-the-Trainer</small>
-        </a> 
-    </div>
-    <div class="col-3 text-center mb-1">
-        <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-2" style="width: 50px; height: 50px;">
-        <a class="btn btn-resource d-block py-2 rounded-pill btn-sm" href="tmd">
-            <small>TMD</small>
-        </a> 
-    </div>
-    <div class="col-3 text-center mb-1">
-        <img src="assets/img/icons/resource_icon.svg" class="resource-icon mb-2" style="width: 50px; height: 50px;">
-        <a class="btn btn-resource d-block py-2 rounded-pill btn-sm" href="fair-training-handbook">
-            <small>FAIR Training Handbook</small>
-        </a> 
-    </div>
-</div>
+{% include related-resources.html tag="evaluate" %}
 
 ## References
 * [A framework to assess the quality and impact of bioinformatics training across ELIXIR](https://doi.org/10.1371/journal.pcbi.1007976)
