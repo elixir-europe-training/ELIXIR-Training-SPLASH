@@ -24,6 +24,8 @@ contacts:
 
 
 #OPTIONAL FIELDS
+tags: [materials-discovery, plan, develop]
+
 licenses:
   - name: MIT License
     icon: mit.png

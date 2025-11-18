@@ -22,6 +22,12 @@ contacts:
     email: john.doe@example.org
 
 #OPTIONAL FIELDS
+
+# Tags to categorize the resource (see _data/resource_tags.yml for available tags)
+# Available categories: organization (elixir, goblet), lifecycle (plan, design, develop, deliver, evaluate), 
+# topic (fair-training, train-the-trainer, quality-metrics, materials-discovery, elearning, certification, community)
+tags: [elixir, plan, design, fair-training]
+
 mission: |
   ##### This is a multiline
 

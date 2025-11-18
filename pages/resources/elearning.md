@@ -24,6 +24,7 @@ contacts:
 #joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 
 #OPTIONAL FIELDS
+tags: [elixir, elearning, community, develop]
 
 licenses:
   - name: CC BY 4.0 Deed

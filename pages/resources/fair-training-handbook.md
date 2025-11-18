@@ -69,6 +69,9 @@ coordinators:
   - Bruna Piereck
   - Geert van Geest
 
+#OPTIONAL FIELDS
+tags: [elixir, fair-training, plan, design, develop]
+
 contacts:
   - name: Bruna Piereck
     email: bruna.piereckmoura@vib.be

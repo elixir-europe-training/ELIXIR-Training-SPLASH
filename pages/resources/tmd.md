@@ -13,6 +13,10 @@ objective: |
     * Evaluate the longer term impact that ELIXIR-badged training events have had on the work of training participants.
 contributors: []
 coordinators: []
+
+#OPTIONAL FIELDS
+tags: [elixir, quality-metrics, evaluate]
+
 licenses:
   - name: MIT
     icon: mit.png
