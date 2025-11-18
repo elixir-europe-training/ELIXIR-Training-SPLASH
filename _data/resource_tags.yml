@@ -12,13 +12,13 @@
 - id: elixir
   label: ELIXIR
   category: organization
-  color: primary
+  color: danger
   description: ELIXIR Europe resource
 
 - id: goblet
   label: GOBLET
   category: organization
-  color: primary
+  color: danger
   description: GOBLET collaboration
 
 # Country tags
@@ -63,19 +63,19 @@
 - id: fair-training
   label: FAIR Training
   category: topic
-  color: warning
+  color: info
   description: FAIR principles for training
 
 - id: train-the-trainer
   label: Train-the-Trainer
   category: topic
-  color: danger
+  color: info
   description: Training for instructors
 
 - id: quality-metrics
   label: Quality & Metrics
   category: topic
-  color: secondary
+  color: info
   description: Training quality and impact assessment
 
 - id: materials-discovery
@@ -87,13 +87,13 @@
 - id: elearning
   label: E-Learning
   category: topic
-  color: warning
+  color: info
   description: Online learning resources
 
 - id: certification
   label: Certification
   category: topic
-  color: danger
+  color: info
   description: Training certification programs
 
 - id: community
