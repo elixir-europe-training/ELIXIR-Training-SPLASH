@@ -150,12 +150,19 @@ document.addEventListener('DOMContentLoaded', function() {
     // Filter button handlers
     filterButtons.forEach(button => {
         button.addEventListener('click', function() {
-            // Update active filter
-            activeFilter = this.dataset.filter;
-            
-            // Update button states
-            filterButtons.forEach(btn => btn.classList.remove('active'));
-            this.classList.add('active');
+            // If clicking the already active filter (except "all"), deselect it and go back to "all"
+            if (this.dataset.filter === activeFilter && activeFilter !== 'all') {
+                activeFilter = 'all';
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                document.querySelector('.filter-tag[data-filter="all"]').classList.add('active');
+            } else {
+                // Update active filter
+                activeFilter = this.dataset.filter;
+                
+                // Update button states
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                this.classList.add('active');
+            }
             
             // Apply filter
             filterResources();
