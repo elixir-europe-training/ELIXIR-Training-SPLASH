@@ -47,13 +47,13 @@ defaults:
       path: "pages/resources/resources.md"
     values:
       layout: "page"
-      sidebar: resources
+      sidebar: false
   -
     scope:
       path: "pages/resources"
     values:
       layout: "resource_page"
-      sidebar: resources
+      sidebar: false
   -
     scope:
       path: "pages/contribute"
