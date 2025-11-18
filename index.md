@@ -9,7 +9,7 @@ sidebar: false
 
 {% include index/lifecycle.html %}
 
-{% include index/roles-and-resources.html %}
+{% include index/resource-carousel.html %}
 
 <div class="row mb-5 py-5">
     <div class="col">

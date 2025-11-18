@@ -1,0 +1,97 @@
+<div class="row mb-5 py-5">
+    <div class="col-12">
+        <div class="text-center display-6 mb-5">Explore our Resources</div>
+    </div>
+    
+    {% assign elixir_resources_sorted = site.pages | where_exp: "page", "page.path contains 'pages/resources/'" | where_exp: "page", "page.id != nil" | where_exp: "page", "page.path != 'pages/resources/TEMPLATE_resource_page.md'" | where_exp: "page", "page.tags contains 'elixir'" %}
+    
+    {% comment %} Shuffle the array by using build time as seed {% endcomment %}
+    {% assign elixir_resources = "" | split: "" %}
+    {% assign shuffled_items = "" | split: "" %}
+    {% assign time_seed = site.time | date: "%s" %}
+    {% for resource in elixir_resources_sorted %}
+        {% assign random = resource.title | size | modulo: 999 | plus: resource.id.size | times: time_seed | modulo: 10000 | plus: forloop.index | times: 17 | modulo: 10000 %}
+        {% assign item_with_random = random | append: "|||" | append: forloop.index0 %}
+        {% assign shuffled_items = shuffled_items | push: item_with_random %}
+    {% endfor %}
+    {% assign shuffled_items = shuffled_items | sort %}
+    {% for item in shuffled_items %}
+        {% assign parts = item | split: "|||" %}
+        {% assign index = parts[1] | plus: 0 %}
+        {% assign elixir_resources = elixir_resources | push: elixir_resources_sorted[index] %}
+    {% endfor %}
+    
+    <div class="col-12">
+        <div id="resourceCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                {% assign total_slides = elixir_resources.size | divided_by: 4.0 | ceil %}
+                {% for i in (0..total_slides) %}
+                    {% if i < total_slides %}
+                        <button type="button" data-bs-target="#resourceCarousel" data-bs-slide-to="{{ i }}" {% if i == 0 %}class="active" aria-current="true"{% endif %} aria-label="Slide {{ i | plus: 1 }}"></button>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            
+            <div class="carousel-inner pb-5">
+                {% assign chunk_size = 4 %}
+                {% assign chunks = elixir_resources.size | divided_by: chunk_size | plus: 1 %}
+                
+                {% for chunk_index in (0..chunks) %}
+                    {% assign start_index = chunk_index | times: chunk_size %}
+                    {% if start_index < elixir_resources.size %}
+                        <div class="carousel-item {% if chunk_index == 0 %}active{% endif %}">
+                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 px-5">
+                                {% for i in (0..3) %}
+                                    {% assign current_index = start_index | plus: i %}
+                                    {% if current_index < elixir_resources.size %}
+                                        {% assign resource = elixir_resources[current_index] %}
+                                        <div class="col">
+                                            <a href="{{ resource.id }}" class="text-decoration-none">
+                                                <div class="card h-100 resource-card shadow-sm">
+                                                    <div class="card-body d-flex flex-column">
+                                                        <div class="resource-logo-container mb-2 text-center">
+                                                            {% if resource.logo %}
+                                                                <img src="assets/img/logos/{{ resource.logo }}" alt="{{ resource.title }} logo" class="resource-card-logo">
+                                                            {% else %}
+                                                                <img src="assets/img/icons/resource_icon.svg" alt="{{ resource.title }}" class="resource-card-icon">
+                                                            {% endif %}
+                                                        </div>
+                                                        <h5 class="card-title text-center mb-2">{{ resource.title }}</h5>
+                                                        
+                                                        {% if resource.tags %}
+                                                            <div class="resource-tags mb-2 text-center">
+                                                                {% for tag_id in resource.tags limit:3 %}
+                                                                    {% assign tag = site.data.resource_tags | where: "id", tag_id | first %}
+                                                                    {% if tag %}
+                                                                        <span class="badge bg-{{ tag.color }} resource-tag" title="{{ tag.description }}">{{ tag.label }}</span>
+                                                                    {% endif %}
+                                                                {% endfor %}
+                                                            </div>
+                                                        {% endif %}
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#resourceCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#resourceCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+        <div class="text-center mt-4">
+            <a href="resources" class="btn btn-primary btn-lg">View All Resources</a>
+        </div>
+    </div>
+</div>
