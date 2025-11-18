@@ -15,7 +15,7 @@ objective: |
     - Expanding our current outreach activities in and outside ELIXIR
     - Mutual events between communities: meetings, workshops or other activities
 
-tags: [elixir, design, develop, fair-training]
+tags: [elixir, design, develop, fair-training, community]
     
 contributors:
   - Alexandra Holinski
