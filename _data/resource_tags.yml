@@ -28,6 +28,12 @@
   color: secondary
   description: Swiss Institute of Bioinformatics resource
 
+- id: uk
+  label: ELIXIR-UK
+  category: country
+  color: secondary
+  description: ELIXIR UK resource
+
 # Lifecycle Tags
 - id: plan
   label: Plan
