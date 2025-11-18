@@ -35,8 +35,14 @@ sidebar: false
                     {% endfor %}
                     
                     {% if category_tags.size > 0 %}
+                        {% assign category_info = site.data.tag_categories | where: "id", category | first %}
                         <div class="tag-category-group mb-3">
-                            <div class="tag-category-label text-muted text-uppercase small fw-bold mb-2">{{ category }}</div>
+                            <div class="tag-category-label text-muted text-uppercase small fw-bold mb-2">
+                                {{ category }}
+                                {% if category_info.description %}
+                                    <i class="fas fa-info-circle ms-1" title="{{ category_info.description }}" data-bs-toggle="tooltip" data-bs-placement="right"></i>
+                                {% endif %}
+                            </div>
                             <div class="d-flex flex-wrap gap-2">
                                 {% assign sorted_category_tags = category_tags | sort: "label" %}
                                 {% for tag in sorted_category_tags %}
@@ -171,5 +177,9 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+    
+    // Initialize Bootstrap tooltips
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
 });
 </script>

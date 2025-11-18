@@ -11,7 +11,10 @@ objective: |
   * Implement Learning Paths across different communities
   * Raise awareness on the pedagogical aspects and promote their adoption
   * Establish a community of practice to share knowledge, experiences, and ideas
- 
+
+#OPTIONAL FIELDS
+tags: [elixir, design, develop, learning-paths]
+
 contributors:
   - Alexia Cardona
   - Bérénice Batut

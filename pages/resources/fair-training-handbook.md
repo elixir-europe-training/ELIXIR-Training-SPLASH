@@ -14,6 +14,8 @@ objective: |
   * Point to resources that can improve discoverability
   * Easy-to-use and comprehensive [checklist](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/checklist/)
 
+tags: [elixir, design, develop, fair-training, train-the-trainer]
+
 contributors:
   - Alexandra Holinski
   - Alexia Cardona

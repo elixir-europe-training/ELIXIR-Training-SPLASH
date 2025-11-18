@@ -7,6 +7,9 @@ description: |
   This template enables you to create a lesson with ELIXIR look and feel based on [MkDocs Material](https://squidfunk.github.io/mkdocs-material/). In order to get started, check out the [instructions](https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplateInstructions-MkDocs/) first.
 objective: |
   The ELIXIR template can be used to make and host lessons via a website. This website has an ELIXIR look and feel, and allows you to share texts, exercises and presentations with your audience.
+
+tags: [elixir, develop]
+
 contributors:
   - Alexia Cardona
   - Elin Kronander

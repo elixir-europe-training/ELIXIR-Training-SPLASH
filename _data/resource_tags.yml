@@ -101,3 +101,9 @@
   category: topic
   color: info
   description: Community resources and groups
+
+- id: learning-paths
+  label: Learning Paths
+  category: topic
+  color: info
+  description: Structured learning journeys
