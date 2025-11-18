@@ -24,7 +24,7 @@ sidebar: false
                     {% endif %}
                 {% endfor %}
                 
-                {% assign categories = "organization,lifecycle,topic" | split: "," %}
+                {% assign categories = "organization,country,lifecycle,topic" | split: "," %}
                 {% for category in categories %}
                     {% assign category_tags = "" | split: "" %}
                     {% for tag_id in all_tags %}

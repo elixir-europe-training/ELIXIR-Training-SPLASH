@@ -73,6 +73,35 @@ To add a new tag to the system:
 - `light` - Light gray
 - `dark` - Dark gray/black
 
+## Adding a New Category
+
+If you want to create an entirely new category (beyond organization, lifecycle, topic):
+
+### Step 1: Add tags with the new category in `_data/resource_tags.yml`
+
+```yaml
+# Your New Category Tags
+- id: your-tag-id
+  label: Display Name
+  category: yourcategory    # Your new category name
+  color: primary
+  description: Tooltip description
+```
+
+### Step 2: Update `pages/resources/resources.md`
+
+Find the line with category definitions (around line 27):
+```liquid
+{% assign categories = "organization,country,lifecycle,topic" | split: "," %}
+```
+
+Add your new category name to the comma-separated list:
+```liquid
+{% assign categories = "organization,country,lifecycle,topic,yourcategory" | split: "," %}
+```
+
+The new category will automatically appear as a separate filter section on the resources page, with all its tags grouped together.
+
 ## Best Practices
 
 1. **Limit tags per resource**: Use 3-5 tags maximum for clarity

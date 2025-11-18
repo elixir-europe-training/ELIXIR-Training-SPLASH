@@ -18,8 +18,15 @@
 - id: goblet
   label: GOBLET
   category: organization
-  color: info
+  color: primary
   description: GOBLET collaboration
+
+# Country tags
+- id: ch 
+  label: ELIXIR-CH
+  category: country
+  color: secondary
+  description: Swiss Institute of Bioinformatics resource
 
 # Lifecycle Tags
 - id: plan
