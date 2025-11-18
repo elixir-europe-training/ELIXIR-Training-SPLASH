@@ -25,15 +25,23 @@ sidebar: false
                 {% endfor %}
                 
                 {% for category_info in site.data.tag_categories %}
-                    {% assign category_tags = "" | split: "" %}
-                    {% for tag_id in all_tags %}
-                        {% assign tag = site.data.resource_tags | where: "id", tag_id | first %}
-                        {% if tag and tag.category == category_info.id %}
-                            {% assign category_tags = category_tags | push: tag %}
+                    {% assign category_has_tags = false %}
+                    {% assign category_tags_html = "" %}
+                    
+                    {% comment %}Iterate through resource_tags in order to preserve sequence{% endcomment %}
+                    {% for tag in site.data.resource_tags %}
+                        {% if tag.category == category_info.id and all_tags contains tag.id %}
+                            {% assign category_has_tags = true %}
+                            {% capture tag_button %}
+                                <button class="btn btn-sm btn-outline-{{ tag.color }} filter-tag" data-filter="{{ tag.id }}" title="{{ tag.description }}">
+                                    {{ tag.label }}
+                                </button>
+                            {% endcapture %}
+                            {% assign category_tags_html = category_tags_html | append: tag_button %}
                         {% endif %}
                     {% endfor %}
                     
-                    {% if category_tags.size > 0 %}
+                    {% if category_has_tags %}
                         <div class="tag-category-group mb-3">
                             <div class="tag-category-label text-muted text-uppercase small fw-bold mb-2">
                                 {{ category_info.label }}
@@ -42,12 +50,7 @@ sidebar: false
                                 {% endif %}
                             </div>
                             <div class="d-flex flex-wrap gap-2">
-                                {% assign sorted_category_tags = category_tags | sort: "label" %}
-                                {% for tag in sorted_category_tags %}
-                                    <button class="btn btn-sm btn-outline-{{ tag.color }} filter-tag" data-filter="{{ tag.id }}" title="{{ tag.description }}">
-                                        {{ tag.label }}
-                                    </button>
-                                {% endfor %}
+                                {{ category_tags_html }}
                             </div>
                         </div>
                     {% endif %}
