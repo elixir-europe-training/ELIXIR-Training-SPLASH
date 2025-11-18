@@ -6,7 +6,7 @@
   description: Resources affiliated with specific organizations or collaborative networks
 
 - id: country
-  label: Country
+  label: Node
   description: Resources that are in the service delivery plan of a specific node
 
 - id: lifecycle

@@ -4,7 +4,7 @@
 # Properties:
 #   - id: unique identifier used in resource frontmatter
 #   - label: display name
-#   - category: grouping (organization, lifecycle, topic)
+#   - category: grouping (organization, node, lifecycle, topic)
 #   - color: Bootstrap color class (primary, secondary, success, danger, warning, info, light, dark)
 #   - description: optional tooltip text
 
@@ -21,7 +21,7 @@
   color: danger
   description: GOBLET collaboration
 
-# Country tags
+# Node tags
 - id: ch 
   label: ELIXIR-CH
   category: country
