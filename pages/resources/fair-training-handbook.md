@@ -97,7 +97,7 @@ video:
 citations:
 mailingList: https://elixir-europe.org/focus-groups/mail-subscribe?list=FAIR%20Training%20Focus%20Group
 funding:
-logo: 
+logo: FAIRtraining_handbook_logo.svg
 screenshots:
   - screenshot_fair_training_handbook1.png
   - screenshot_fair_training_handbook2.png
