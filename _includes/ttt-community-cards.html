@@ -1,0 +1,131 @@
+<h2>The Train-the-Trainer Community</h2>
+
+<div class="ttt-community-section mb-5">
+  <div class="community-cards-wrapper">
+    <div class="row g-4">
+      {% assign community_members = site.ttt_community | sort: 'title' %}
+      {% for member in community_members %}
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm border-0 hover-card">
+          <a href="{{ member.url }}" class="text-decoration-none text-dark">
+            <div class="card-body text-center p-3">
+              {% if member.image %}
+              <div class="mb-3">
+                <img src="{{ member.image }}" alt="{{ member.title }}" class="rounded-circle img-fluid" style="width: 100px; height: 100px; object-fit: cover;">
+              </div>
+              {% else %}
+              <div class="mb-3">
+                <div class="rounded-circle bg-light d-flex align-items-center justify-content-center mx-auto" style="width: 100px; height: 100px;">
+                  <i class="fas fa-user fa-3x text-muted"></i>
+                </div>
+              </div>
+              {% endif %}
+              <h5 class="card-title mb-2" style="color: #205a86; font-size: 0.95rem;">{{ member.title }}</h5>
+              {% if member.organization %}
+              <p class="card-text text-muted small mb-2">{{ member.organization }}</p>
+              {% endif %}
+              
+              {% if member.sessions %}
+              <div class="mt-2">
+                {% for session in member.sessions %}
+                <span class="badge session-badge me-1 mb-1">S{{ session }}</span>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<style>
+.ttt-community-section {
+  margin-top: 2rem;
+}
+
+.community-cards-wrapper {
+  max-height: 700px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 10px;
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar styling */
+.community-cards-wrapper::-webkit-scrollbar {
+  width: 8px;
+}
+
+.community-cards-wrapper::-webkit-scrollbar-track {
+  background: #ede8ed;
+  border-radius: 4px;
+}
+
+.community-cards-wrapper::-webkit-scrollbar-thumb {
+  background: #b9a4b5;
+  border-radius: 4px;
+}
+
+.community-cards-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #4F1C46;
+}
+
+/* Firefox scrollbar */
+.community-cards-wrapper {
+  scrollbar-width: thin;
+  scrollbar-color: #b9a4b5 #ede8ed;
+}
+
+.hover-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border: 1px solid #e9ecef !important;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.hover-card a {
+  display: block;
+  height: 100%;
+}
+
+.hover-card .card-title {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.hover-card .card-text {
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+
+.session-badge {
+  background-color: #dcd2da !important;
+  color: #4F1C46 !important;
+  font-weight: 600;
+  font-size: 0.7rem;
+  padding: 0.35em 0.65em;
+  border: 1px solid #b9a4b5;
+}
+
+.session-badge:hover {
+  background-color: #4F1C46 !important;
+  color: #fff !important;
+  border-color: #4F1C46;
+}
+
+@media (max-width: 767px) {
+  .community-cards-wrapper {
+    max-height: 600px;
+  }
+  
+  .ttt-community-section .col-12 {
+    margin-bottom: 1rem;
+  }
+}
+</style>

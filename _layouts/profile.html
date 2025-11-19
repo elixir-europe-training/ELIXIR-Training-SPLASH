@@ -1,0 +1,142 @@
+---
+layout: default
+---
+<main id="main" class="order-1">
+    <div id="intro" class="mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Profile Header -->
+                    <div class="card shadow-sm border-0 mb-4">
+                        <div class="card-body p-4">
+                            <div class="row align-items-center">
+                                <div class="col-md-3 text-center mb-3 mb-md-0">
+                                    {% if page.image %}
+                                    <img src="{{ page.image }}" alt="{{ page.title }}" class="rounded-circle img-fluid shadow" style="width: 150px; height: 150px; object-fit: cover;">
+                                    {% else %}
+                                    <div class="rounded-circle bg-light d-flex align-items-center justify-content-center mx-auto shadow" style="width: 150px; height: 150px;">
+                                        <i class="fas fa-user fa-4x text-muted"></i>
+                                    </div>
+                                    {% endif %}
+                                </div>
+                                <div class="col-md-9">
+                                    <h1 class="mb-3" style="color: #205a86;">{{ page.title }}</h1>
+                                    {% if page.organization %}
+                                    <p class="text-muted mb-2"><i class="fas fa-building me-2"></i>{{ page.organization }}</p>
+                                    {% endif %}
+                                    {% if page.location %}
+                                    <p class="text-muted mb-2"><i class="fas fa-map-marker-alt me-2"></i>{{ page.location }}</p>
+                                    {% endif %}
+                                    
+                                    <!-- Links -->
+                                    <div class="mt-3">
+                                        {% if page.github %}
+                                        <a href="https://github.com/{{ page.github }}" target="_blank" class="btn btn-sm btn-outline-secondary me-2 mb-2">
+                                            <i class="fab fa-github me-1"></i> GitHub
+                                        </a>
+                                        {% endif %}
+                                        {% if page.orcid %}
+                                        <a href="https://orcid.org/{{ page.orcid }}" target="_blank" class="btn btn-sm btn-outline-secondary me-2 mb-2">
+                                            <i class="fab fa-orcid me-1"></i> ORCID
+                                        </a>
+                                        {% endif %}
+                                        {% if page.email %}
+                                        <a href="mailto:{{ page.email }}" class="btn btn-sm btn-outline-secondary me-2 mb-2">
+                                            <i class="fas fa-envelope me-1"></i> Email
+                                        </a>
+                                        {% endif %}
+                                    </div>
+                                    
+                                    <!-- Training Sessions Badge -->
+                                    {% if page.sessions %}
+                                    <div class="mt-3">
+                                        <span class="text-muted small me-2">Training Sessions:</span>
+                                        {% for session in page.sessions %}
+                                        <span class="badge session-badge me-1">Session {{ session }}</span>
+                                        {% endfor %}
+                                    </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div id="content" class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content-section">
+                        {{ content }}
+                    </div>
+                    
+                    <!-- Back to Community Button -->
+                    <div class="mt-5">
+                        <a href="/train-the-trainer#the-train-the-trainer-community" class="btn btn-outline-primary">
+                            <i class="fas fa-arrow-left me-2"></i>Back to Community
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<style>
+#intro .card {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+#intro h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+
+.content-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.content-section h2 {
+    color: #205a86;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.content-section h2:first-child {
+    margin-top: 0;
+}
+
+.content-section h3 {
+    color: #495057;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.session-badge {
+    background-color: #dcd2da !important;
+    color: #4F1C46 !important;
+    font-weight: 600;
+    border: 1px solid #b9a4b5;
+}
+
+@media (max-width: 767px) {
+    #intro h1 {
+        font-size: 1.5rem;
+    }
+    
+    .content-section {
+        padding: 1.5rem;
+    }
+}
+</style>

@@ -1,0 +1,126 @@
+<h2>Train-the-Trainer Modules</h2>
+
+<div class="ttt-modules-section mb-5">
+  <div class="row g-4">
+    {% assign modules = site.pages | where_exp: "page", "page.path contains 'ttt_modules'" | sort: 'order' %}
+    {% for module in modules %}
+    {% if module.title %}
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100 shadow-sm border-0 hover-card module-card">
+        <a href="{{ module.url }}" class="text-decoration-none text-dark">
+          <div class="card-body text-center p-4">
+            <div class="mb-3">
+              <img src="/assets/img/icons/Education-orange.png" alt="{{ module.title }}" class="module-icon">
+            </div>
+            <h5 class="card-title mb-2" style="color: #4F1C46; font-size: 1rem; font-weight: 600;">{{ module.title }}</h5>
+            {% if module.description %}
+            <p class="card-text text-muted small mb-3" style="line-height: 1.4;">{{ module.description }}</p>
+            {% endif %}
+            
+            <div class="module-meta mt-auto">
+              {% if module.duration %}
+              <div class="mb-1">
+                <span class="badge module-badge">
+                  <i class="far fa-clock me-1"></i>{{ module.duration }}
+                </span>
+              </div>
+              {% endif %}
+              {% if module.level %}
+              <div>
+                <span class="badge level-badge">{{ module.level }}</span>
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+.ttt-modules-section {
+  margin-top: 2rem;
+}
+
+.module-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border: 1px solid #e9ecef !important;
+  min-height: 380px;
+}
+
+.module-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(79, 28, 70, 0.15) !important;
+}
+
+.module-card a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.module-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.module-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  filter: opacity(0.9);
+}
+
+.module-card:hover .module-icon {
+  filter: opacity(1);
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.module-card .card-title {
+  line-height: 1.3;
+  min-height: 2.6em;
+}
+
+.module-card .card-text {
+  font-size: 0.85rem;
+  flex-grow: 1;
+}
+
+.module-meta {
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.module-badge {
+  background-color: #fff3cd !important;
+  color: #856404 !important;
+  font-weight: 500;
+  font-size: 0.75rem;
+  padding: 0.35em 0.65em;
+  border: 1px solid #ffeaa7;
+}
+
+.level-badge {
+  background-color: #d1ecf1 !important;
+  color: #0c5460 !important;
+  font-weight: 500;
+  font-size: 0.75rem;
+  padding: 0.35em 0.65em;
+  border: 1px solid #bee5eb;
+}
+
+@media (max-width: 767px) {
+  .module-card {
+    min-height: 320px;
+  }
+  
+  .module-icon {
+    width: 60px;
+    height: 60px;
+  }
+}
+</style>

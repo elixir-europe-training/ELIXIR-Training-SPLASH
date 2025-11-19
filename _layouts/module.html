@@ -1,0 +1,169 @@
+---
+layout: default
+---
+<main id="main" class="order-1">
+    <div id="intro" class="mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Module Header -->
+                    <div class="card shadow-sm border-0 mb-4" style="background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);">
+                        <div class="card-body p-4">
+                            <div class="row align-items-center">
+                                <div class="col-md-2 text-center mb-3 mb-md-0">
+                                    <img src="/assets/img/icons/Education-orange.png" alt="{{ page.title }}" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;">
+                                </div>
+                                <div class="col-md-10">
+                                    <h1 class="mb-3" style="color: #4F1C46; font-size: 2rem; font-weight: 600;">{{ page.title }}</h1>
+                                    {% if page.description %}
+                                    <p class="lead text-muted mb-3">{{ page.description }}</p>
+                                    {% endif %}
+                                    
+                                    <!-- Module Metadata -->
+                                    <div class="module-metadata">
+                                        {% if page.duration %}
+                                        <span class="badge me-2 mb-2" style="background-color: #fff3cd; color: #856404; border: 1px solid #ffeaa7; font-size: 0.85rem; padding: 0.5em 0.8em;">
+                                            <i class="far fa-clock me-1"></i>Duration: {{ page.duration }}
+                                        </span>
+                                        {% endif %}
+                                        {% if page.level %}
+                                        <span class="badge me-2 mb-2" style="background-color: #d1ecf1; color: #0c5460; border: 1px solid #bee5eb; font-size: 0.85rem; padding: 0.5em 0.8em;">
+                                            <i class="fas fa-signal me-1"></i>Level: {{ page.level }}
+                                        </span>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div id="content" class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="content-section">
+                        {{ content }}
+                    </div>
+                </div>
+                
+                <!-- Sidebar -->
+                <div class="col-lg-3">
+                    <div class="sticky-top" style="top: 2rem;">
+                        <div class="card border-0 shadow-sm mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: #4F1C46; font-size: 1rem; font-weight: 600;">Quick Info</h5>
+                                <hr>
+                                {% if page.duration %}
+                                <div class="mb-3">
+                                    <small class="text-muted d-block mb-1">Duration</small>
+                                    <strong>{{ page.duration }}</strong>
+                                </div>
+                                {% endif %}
+                                {% if page.level %}
+                                <div class="mb-3">
+                                    <small class="text-muted d-block mb-1">Level</small>
+                                    <strong>{{ page.level }}</strong>
+                                </div>
+                                {% endif %}
+                                {% if page.order %}
+                                <div class="mb-3">
+                                    <small class="text-muted d-block mb-1">Module</small>
+                                    <strong>{{ page.order }} of 4</strong>
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <a href="/train-the-trainer" class="btn btn-outline-primary btn-sm w-100">
+                                    <i class="fas fa-arrow-left me-2"></i>Back to TtT
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<style>
+.content-section {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.content-section h2 {
+    color: #4F1C46;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #dcd2da;
+    font-weight: 600;
+}
+
+.content-section h2:first-child {
+    margin-top: 0;
+}
+
+.content-section h3 {
+    color: #4F1C46;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.content-section h4 {
+    color: #495057;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.content-section ul, .content-section ol {
+    margin-bottom: 1.5rem;
+}
+
+.content-section li {
+    margin-bottom: 0.5rem;
+}
+
+.content-section p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.btn-outline-primary {
+    border-color: #4F1C46;
+    color: #4F1C46;
+}
+
+.btn-outline-primary:hover {
+    background-color: #4F1C46;
+    border-color: #4F1C46;
+    color: white;
+}
+
+@media (max-width: 991px) {
+    .content-section {
+        padding: 1.5rem;
+    }
+    
+    #intro h1 {
+        font-size: 1.5rem;
+    }
+    
+    .lead {
+        font-size: 1rem;
+    }
+}
+</style>
