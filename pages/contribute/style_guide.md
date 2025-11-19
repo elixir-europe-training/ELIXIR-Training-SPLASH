@@ -26,7 +26,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
     * Only the first word is capitalised, unless other words are proper nouns.
     * Headings must be hierarchical. They must go down in order (level one, level two, level three), and not skip a level. It is fine to skip levels when moving back up e.g. you can skip from level four to level two.
   * **-ise/-ize:** use the "-ise" form.
-  * **Life cycle:** two separate words.
+  * **Lifecycle:** a single word.
   * **Links:** make the link text say where the link goes e.g. "the Contribute page", not "click here". Avoid using the url as the link text.
   * **Lists:** 
     * _A list of short items_: introduce with a colon, start each bullet point with a capital and don't use punctuation at the end of each bullet point:
@@ -52,20 +52,18 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Tool assembly:** there are multiple tools in **one** assembly. The plural is "tool assemblies".
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
-{% glossary TODO %}: define color scheme
-
 ## Graphic design
   * **White space:** make sure there is plenty of space so that the main elements stand out and the text does not appear overwhelming.
   * **Colours:** <br/>
     * The headings, links and text will automatically appear in the right colour if you use the site page templates.
-    * Use only the following colours in the design, text and illustrations of the site. The Training life cycle diagram colours are only for use in the pages related to the diagram.
+    * Use only the following colours in the design, text and illustrations of the site. The Training lifecycle diagram colours are only for use in the pages related to the diagram.
     * | <span style="display: inline-block; width: 20px; height: 20px; background: #C23669;"></span> | #C23669 | Magenta | Logo, Menu highlight, Second level heading (h2), Main theme colour |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #337ab7;"></span> | #376AC3 | Blue | Link colour |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #2a2e3d;"></span> | #2a2e3d | Dark blue | First level headings (h1), Third level heading (h3), Body text, Header, Footer |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #73757d;"></span> | #73757d | Gray | Gray text, Fourth level heading (h4) |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #f3f1f2;"></span> | #f3f1f2 | Light gray | Box backgrounds |
   * **Fonts:** Exo 2 is used for headings and main branding font, Open Sans for body text.
-  * **Icons:** the icons used in the data life cycle diagram come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and so the right to publish them without attribution. Other icons on this site come from [Font Awesome](https://fontawesome.com/).
+  * **Icons:** the icons used in the data lifecycle diagram come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and so the right to publish them without attribution. Other icons on this site come from [Font Awesome](https://fontawesome.com/).
   * **Templates:** keep the structure of the pages consistent by using the site templates (see the [contribute page](how_to_contribute)).
   * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kits/splash/). Please use these icons in any illustrations. If you need extra icons, or any help with illustrations, [open a new issue](https://github.com/elixir-europe/training-splash/issues) on GitHub or email [training-splash@elixir-europe.org](mailto:training-splash@elixir-europe.org).
   * **Images:**

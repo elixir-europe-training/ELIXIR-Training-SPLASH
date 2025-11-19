@@ -1,10 +1,10 @@
 ---
-title: Life cycle
+title: Lifecycle
 ---
 
-## What is the training life cycle?
+## What is the training lifecycle?
 
-Training in the life sciences often follows a structured path from identifying needs to evaluating impact. This is called a training life cycle. It helps training providers to plan, design, develop, deliver, and evaluate training activities effectively in order to create high-quality, sustainable training.
+Training in the life sciences often follows a structured path from identifying needs to evaluating impact. This is called a training lifecycle. It helps training providers to plan, design, develop, deliver, and evaluate training activities effectively in order to create high-quality, sustainable training.
 
 [**Plan**](plan.md): In this stage, the training needs are identified and assessed to determine whether training is needed and what needs to be trained. This stage helps ensure that the training results in what is desired and intended.
 
