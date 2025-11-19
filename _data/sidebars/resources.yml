@@ -1,7 +1,7 @@
 title: Resources
 title_url: /resources
 subitems:
-  - title: Training Platform
+  - title: ELIXIR-Europse
     subitems:
     - title: Certification
       url: /certification
@@ -9,10 +9,12 @@ subitems:
       url: /elixir-lesson-template
     - title: E-learning
       url: /elearning
-    - title: FAIR Training Focus Group  
-      url: /fair-training-focus-group
-    - title: FAIR Training Handbook
-      url: /fair-training-handbook
+    - title: FAIR training
+      subitems:
+      - title: FAIR Training Focus Group  
+        url: /fair-training-focus-group
+      - title: FAIR Training Handbook
+        url: /fair-training-handbook
     - title: Learning Paths
       url: /learning-paths
     - title: TeSS
@@ -20,10 +22,13 @@ subitems:
     - title: TMD
       url: /tmd
     - title: Train-the-Trainer
-      url: /train-the-trainer
+      subitems:
+      - title: Train-the-Trainer
+        url: /train-the-trainer
+      - title: Train-the-Trainer Mentorship
+        url: /train-the-trainer-mentorship
   - title: More
     subitems:
     - title: Glittr.org
       url: /glittr
-    - title: Train-the-Trainer Mentorship
-      url: /train-the-trainer-mentorship
+
