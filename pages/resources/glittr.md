@@ -24,7 +24,7 @@ contacts:
 
 
 #OPTIONAL FIELDS
-tags: [materials-discovery, plan, develop, ch]
+tags: [catalogue, plan, develop, ch]
 
 licenses:
   - name: MIT License

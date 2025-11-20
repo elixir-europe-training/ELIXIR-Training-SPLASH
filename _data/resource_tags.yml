@@ -84,8 +84,8 @@
   color: info
   description: Training quality and impact assessment
 
-- id: materials-discovery
-  label: Materials Discovery
+- id: catalogue
+  label: Catalogue
   category: topic
   color: info
   description: Finding and curating training materials

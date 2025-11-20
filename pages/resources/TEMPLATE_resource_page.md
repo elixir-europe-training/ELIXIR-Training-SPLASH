@@ -25,7 +25,7 @@ contacts:
 
 # Tags to categorize the resource (see _data/resource_tags.yml for available tags)
 # Available categories: organization (elixir, goblet), lifecycle (plan, design, develop, deliver, evaluate), 
-# topic (fair-training, train-the-trainer, quality-metrics, materials-discovery, elearning, certification, community)
+# topic (fair-training, train-the-trainer, quality-metrics, catalogue, elearning, certification, community)
 tags: [elixir, plan, design, fair-training]
 
 mission: |

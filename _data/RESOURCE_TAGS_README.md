@@ -26,7 +26,7 @@ Tags corresponding to the training lifecycle phases:
 - `fair-training` - FAIR principles for training (Warning/Orange)
 - `train-the-trainer` - Training for instructors (Danger/Red)
 - `quality-metrics` - Training quality and impact assessment (Secondary/Gray)
-- `materials-discovery` - Finding and curating training materials (Info/Blue)
+- `catalogue` - Finding and curating training materials (Info/Blue)
 - `elearning` - Online learning resources (Warning/Orange)
 - `certification` - Training certification programs (Danger/Red)
 - `community` - Community resources and groups (Info/Blue)
@@ -147,9 +147,9 @@ The description should briefly explain what the category represents and help use
 
 ### Example 1: Training Platform
 ```yaml
-tags: [elixir, materials-discovery, plan]
+tags: [elixir, catalogue, plan]
 ```
-Displays: ELIXIR (blue), Materials Discovery (blue), Plan (green)
+Displays: ELIXIR (blue), Catalogue (blue), Plan (green)
 
 ### Example 2: Training Course
 ```yaml
