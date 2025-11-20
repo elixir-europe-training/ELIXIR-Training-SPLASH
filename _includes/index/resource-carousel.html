@@ -1,6 +1,6 @@
 <div class="row mb-5 py-5">
     <div class="col-12">
-        <div class="text-center display-6 mb-5">Explore our Resources</div>
+        <div class="text-center display-6 mb-5">Discover Resources</div>
     </div>
     
     {% assign elixir_resources_sorted = site.pages | where_exp: "page", "page.path contains 'pages/resources/'" | where_exp: "page", "page.id != nil" | where_exp: "page", "page.path != 'pages/resources/TEMPLATE_resource_page.md'" | where_exp: "page", "page.tags contains 'elixir'" %}
