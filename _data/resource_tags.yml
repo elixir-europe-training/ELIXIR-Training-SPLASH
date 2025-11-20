@@ -28,6 +28,12 @@
   color: secondary
   description: Swiss Institute of Bioinformatics resource
 
+- id: se
+  label: ELIXIR-SE
+  category: country
+  color: secondary
+  description: ELIXIR Sweden resource
+
 - id: uk
   label: ELIXIR-UK
   category: country
