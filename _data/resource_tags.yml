@@ -4,118 +4,101 @@
 # Properties:
 #   - id: unique identifier used in resource frontmatter
 #   - label: display name
-#   - category: grouping (organization, node, lifecycle, topic)
-#   - color: Bootstrap color class (primary, secondary, success, danger, warning, info, light, dark)
+#   - category: grouping (organization, country, lifecycle, topic) - determines color via tag_categories.yml
 #   - description: optional tooltip text
+#
+# Note: Colors are now defined at the category level in tag_categories.yml
 
 # Organization Tags
 - id: elixir
   label: ELIXIR
   category: organization
-  color: danger
   description: ELIXIR Europe resource
 
 - id: goblet
   label: GOBLET
   category: organization
-  color: danger
   description: GOBLET collaboration
 
 # Node tags
 - id: ch 
   label: ELIXIR-CH
   category: country
-  color: secondary
   description: Swiss Institute of Bioinformatics resource
 
 - id: se
   label: ELIXIR-SE
   category: country
-  color: secondary
   description: ELIXIR Sweden resource
 
 - id: uk
   label: ELIXIR-UK
   category: country
-  color: secondary
   description: ELIXIR UK resource
 
 # Lifecycle Tags
 - id: plan
   label: Plan
   category: lifecycle
-  color: success
   description: Training planning phase
 
 - id: design
   label: Design
   category: lifecycle
-  color: success
   description: Training design phase
 
 - id: develop
   label: Develop
   category: lifecycle
-  color: success
   description: Training development phase
 
 - id: deliver
   label: Deliver
   category: lifecycle
-  color: success
   description: Training delivery phase
 
 - id: evaluate
   label: Evaluate
   category: lifecycle
-  color: success
   description: Training evaluation phase
 
 # Topic Tags
 - id: fair-training
   label: FAIR Training
   category: topic
-  color: info
   description: FAIR principles for training
 
 - id: train-the-trainer
   label: Train-the-Trainer
   category: topic
-  color: info
   description: Training for instructors
 
 - id: quality-metrics
   label: Quality & Metrics
   category: topic
-  color: info
   description: Training quality and impact assessment
 
 - id: catalogue
   label: Catalogue
   category: topic
-  color: info
   description: Finding and curating training materials
 
 - id: elearning
   label: E-Learning
   category: topic
-  color: info
   description: Online learning resources
 
 - id: certification
   label: Certification
   category: topic
-  color: info
   description: Training certification programs
 
 - id: community
   label: Community
   category: topic
-  color: info
   description: Community resources and groups
 
 - id: learning-paths
   label: Learning Paths
   category: topic
-  color: info
   description: Structured learning journeys

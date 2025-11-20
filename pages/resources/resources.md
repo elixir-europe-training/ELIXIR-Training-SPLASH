@@ -33,7 +33,7 @@ sidebar: false
                         {% if tag.category == category_info.id and all_tags contains tag.id %}
                             {% assign category_has_tags = true %}
                             {% capture tag_button %}
-                                <button class="btn btn-sm btn-outline-{{ tag.color }} filter-tag" data-filter="{{ tag.id }}" title="{{ tag.description }}">
+                                <button class="btn btn-sm btn-outline-{{ category_info.color }} filter-tag" data-filter="{{ tag.id }}" title="{{ tag.description }}">
                                     {{ tag.label }}
                                 </button>
                             {% endcapture %}
@@ -82,7 +82,8 @@ sidebar: false
                                     {% for tag_id in resource.tags %}
                                         {% assign tag = site.data.resource_tags | where: "id", tag_id | first %}
                                         {% if tag %}
-                                            <span class="badge bg-{{ tag.color }} resource-tag" data-tag="{{ tag_id }}" title="{{ tag.description }}">{{ tag.label }}</span>
+                                            {% assign tag_category = site.data.tag_categories | where: "id", tag.category | first %}
+                                            <span class="badge bg-{{ tag_category.color }} resource-tag" data-tag="{{ tag_id }}" title="{{ tag.description }}">{{ tag.label }}</span>
                                         {% endif %}
                                     {% endfor %}
                                 </div>

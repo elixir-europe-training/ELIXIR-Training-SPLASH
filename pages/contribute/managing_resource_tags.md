@@ -10,11 +10,11 @@ The tag system allows you to categorize resources with colored badges that appea
 
 ## Tag Categories
 
-Tags are organized into categories defined in `_data/tag_categories.yml`. Common categories include:
-- **Organization** - Resources affiliated with specific organizations
-- **Node** - Resources specific to ELIXIR national nodes
-- **Lifecycle** - Training development phases (Plan, Design, Develop, Deliver, Evaluate)
-- **Topic** - Subject areas and themes
+Tags are organized into categories defined in `_data/tag_categories.yml`. Each category has an associated color that applies to all tags within that category. Common categories include:
+- **Organization** (red) - Resources affiliated with specific organizations
+- **Node** (gray) - Resources specific to ELIXIR national nodes
+- **Lifecycle** (green) - Training development phases (Plan, Design, Develop, Deliver, Evaluate)
+- **Topic** (blue) - Subject areas and themes
 
 To see current tags and categories, refer to:
 - [`_data/resource_tags.yml`](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/main/_data/resource_tags.yml) - All available tags
@@ -46,13 +46,23 @@ To add a new tag to the system:
 ```yaml
 - id: your-tag-id           # Use kebab-case, no spaces
   label: Display Name       # How it appears on cards
-  category: topic           # organization, lifecycle, topic, country, etc.
-  color: primary            # Bootstrap color: primary, secondary, success, danger, warning, info, light, dark
+  category: topic           # organization, country, lifecycle, topic, etc.
   description: Tooltip text # Optional: shown on hover
 ```
 
+**Note:** The tag's color is automatically determined by its category (defined in `_data/tag_categories.yml`). All tags within the same category share the same color.
+
 ### Available Bootstrap Colors
 
+Colors are defined at the category level in `_data/tag_categories.yml`. All tags within a category automatically inherit that category's color.
+
+**Current category color assignments:**
+- Organization: <span class="badge bg-danger">danger</span> (red)
+- Node: <span class="badge bg-secondary">secondary</span> (gray)
+- Lifecycle: <span class="badge bg-success">success</span> (green)
+- Topic: <span class="badge bg-info">info</span> (blue)
+
+**Available Bootstrap color options:**
 - <span class="badge bg-primary">primary</span> - Aubergine/purple (default theme color)
 - <span class="badge bg-secondary">secondary</span> - Gray
 - <span class="badge bg-success">success</span> - Green
@@ -61,8 +71,6 @@ To add a new tag to the system:
 - <span class="badge bg-info">info</span> - Light blue
 - <span class="badge bg-light text-dark">light</span> - Light gray
 - <span class="badge bg-dark">dark</span> - Dark gray/black
-
-**Note:** For consistency, use the same color for all tags within a category.
 
 ## Adding a New Category
 
@@ -74,6 +82,7 @@ To create an entirely new category, you only need to update one file:
 - id: yourcategory          # Use kebab-case, matches the category field in tags
   label: Your Category      # Display name (will be shown in uppercase)
   description: Explanation of what this category represents
+  color: primary            # Bootstrap color class - all tags in this category will use this color
 ```
 
 **That's it!** The category will automatically appear on the resources page in the order defined in `tag_categories.yml`. No changes needed to `resources.md`.
@@ -85,6 +94,7 @@ To create an entirely new category, you only need to update one file:
 - id: format
   label: Format
   description: The format or delivery method of the training resource
+  color: warning            # Orange/yellow for all Format tags
 ```
 
 2. Add tags with this category in `_data/resource_tags.yml`:
@@ -92,17 +102,15 @@ To create an entirely new category, you only need to update one file:
 - id: online
   label: Online
   category: format
-  color: warning
   description: Online/virtual training
 
 - id: in-person
   label: In-Person
   category: format
-  color: warning
   description: Face-to-face training
 ```
 
-The "Format" category will automatically appear in the filter sidebar with an info icon showing the description.
+The "Format" category will automatically appear in the filter sidebar with an info icon showing the description. Both tags will appear in orange (warning color).
 
 ## Adding Category Descriptions
 
@@ -125,7 +133,7 @@ The description should briefly explain what the category represents and help use
 
 1. **Limit tags per resource**: Use 3-7 tags for clarity
 2. **Use consistent categories**: Include at least one organization or lifecycle tag
-3. **Color coding**: Use consistent colors per category (see `_data/resource_tags.yml` for current conventions)
+3. **Category colors**: Colors are managed at the category level - choose colors that visually distinguish categories
 4. **Descriptive labels**: Keep labels short (1-3 words) but clear
 5. **Meaningful descriptions**: Add helpful tooltip text for less obvious tags
 

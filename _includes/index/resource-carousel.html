@@ -61,9 +61,10 @@
                                                         {% if resource.tags %}
                                                             <div class="resource-tags mb-2 text-center">
                                                                 {% for tag_id in resource.tags %}
-                                                                    {% assign tag = site.data.resource_tags | where: "id", tag_id | first %}
-                                                                    {% if tag and tag.category == "lifecycle" %}
-                                                                        <span class="badge bg-{{ tag.color }} resource-tag" title="{{ tag.description }}">{{ tag.label }}</span>
+                                                                    {% assign tag_obj = site.data.resource_tags | where: "id", tag_id | first %}
+                                                                    {% if tag_obj and tag_obj.category == "lifecycle" %}
+                                                                        {% assign tag_category = site.data.tag_categories | where: "id", tag_obj.category | first %}
+                                                                        <span class="badge bg-{{ tag_category.color }} resource-tag" title="{{ tag_obj.description }}">{{ tag_obj.label }}</span>
                                                                     {% endif %}
                                                                 {% endfor %}
                                                             </div>
