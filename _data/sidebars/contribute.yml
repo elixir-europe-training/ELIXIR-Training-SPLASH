@@ -9,6 +9,8 @@ subitems:
         url: /working_with_git
   - title: Add new tool or resource
     url: /tool_resource_update
+  - title: Managing resource tags
+    url: /managing_resource_tags
   - title: Style guide
     url: /style_guide
   - title: Copyright guidelines

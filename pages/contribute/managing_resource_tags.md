@@ -1,37 +1,8 @@
-# Resource Tags System
+---
+title: Managing Resource Tags
+---
 
-> **📖 Full Documentation**: For complete documentation on managing resource tags, see the [Managing Resource Tags](https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH/managing_resource_tags) page on the website.
-
-This README provides a quick reference for developers working in the `_data/` folder.
-
-## Quick Reference
-
-### Tag Files
-- **`resource_tags.yml`** - All available tags with their properties
-- **`tag_categories.yml`** - Category definitions and display order
-
-### Adding a Tag
-```yaml
-- id: your-tag-id
-  label: Display Name
-  category: topic
-  color: info
-  description: Tooltip text
-```
-
-### Adding a Category
-```yaml
-- id: yourcategory
-  label: Your Category
-  description: What this category represents
-```
-
-### Using Tags in Resources
-```yaml
-tags: [elixir, plan, design]
-```
-
-For detailed instructions, examples, and best practices, visit the [full documentation](https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH/managing_resource_tags).
+This guide explains how to use and manage the tag system for categorizing resources on the ELIXIR Training SPLASH website.
 
 ## Overview
 
@@ -46,8 +17,8 @@ Tags are organized into categories defined in `_data/tag_categories.yml`. Common
 - **Topic** - Subject areas and themes
 
 To see current tags and categories, refer to:
-- `_data/resource_tags.yml` - All available tags
-- `_data/tag_categories.yml` - Category definitions
+- [`_data/resource_tags.yml`](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/main/_data/resource_tags.yml) - All available tags
+- [`_data/tag_categories.yml`](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/main/_data/tag_categories.yml) - Category definitions
 
 ## How to Add Tags to a Resource
 
@@ -59,7 +30,7 @@ id: your-resource
 title: Your Resource Name
 # ... other fields ...
 
-#OPTIONAL FIELDS
+# OPTIONAL FIELDS
 tags: [elixir, plan, design, fair-training]
 # ... rest of frontmatter ...
 ---
@@ -82,14 +53,14 @@ To add a new tag to the system:
 
 ### Available Bootstrap Colors
 
-- `primary` - Aubergine/purple (default theme color)
-- `secondary` - Gray
-- `success` - Green
-- `danger` - Red
-- `warning` - Orange/Yellow
-- `info` - Light blue
-- `light` - Light gray
-- `dark` - Dark gray/black
+- <span class="badge bg-primary">primary</span> - Aubergine/purple (default theme color)
+- <span class="badge bg-secondary">secondary</span> - Gray
+- <span class="badge bg-success">success</span> - Green
+- <span class="badge bg-danger">danger</span> - Red
+- <span class="badge bg-warning">warning</span> - Orange/Yellow
+- <span class="badge bg-info">info</span> - Light blue
+- <span class="badge bg-light text-dark">light</span> - Light gray
+- <span class="badge bg-dark">dark</span> - Dark gray/black
 
 **Note:** For consistency, use the same color for all tags within a category.
 
@@ -160,23 +131,20 @@ The description should briefly explain what the category represents and help use
 
 ## Where Tags Are Used
 
-### Resources Page (`pages/resources/resources.md`)
+### Resources Page
 - **Filter sidebar**: All tags appear as clickable filter buttons organized by category
 - **Search functionality**: Tags are searchable via the search box
 - **Tag deselection**: Click an active tag again to deselect it and return to "All Resources"
-- **Resource cards**: Up to 3 tags displayed on each card (in order defined in `resource_tags.yml`)
+- **Resource cards**: Tags displayed on each card (in order defined in `resource_tags.yml`)
 
-### Home Page Carousel (`index.md`)
+### Home Page Carousel
 - Only shows resources tagged with `elixir`
 - Displays only **lifecycle tags** on cards (organization, node, and topic tags are hidden)
 - Randomized order on each build
 
 ### Lifecycle Pages (Plan, Design, Develop, Deliver, Evaluate)
 - Automatically displays resources tagged with the corresponding lifecycle tag
-- Uses the `{% include related-resources.html tag="lifecycle-name" %}` component
 - Shows full resource cards with logos, titles, and tags
-
-## Examples
 
 ## Examples
 
@@ -213,7 +181,7 @@ Each tag has a tooltip that appears on hover, providing additional context about
 A reusable Liquid component for displaying filtered resource cards:
 
 ```liquid
-{% include related-resources.html tag="plan" %}
+{% raw %}{% include related-resources.html tag="plan" %}{% endraw %}
 ```
 
 This component:
