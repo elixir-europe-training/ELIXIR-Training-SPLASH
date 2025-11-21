@@ -12,7 +12,7 @@
 }
 
 body {
-    padding-top: 5.5rem;
+    padding-top: 7rem;
 }
 
 header {
@@ -23,9 +23,10 @@ header {
         left: 0;
         z-index: 1030;
         padding-top: 1rem;
+        padding-bottom: 1rem;
 
         .navbar-brand {
-            min-height: 54px;
+            min-height: 70px;
             position: relative;
 
             img {
@@ -33,7 +34,7 @@ header {
                 height: 60px;
                 max-height: 60px;
                 max-width: unset;
-                top: -5px;
+                top: 0;
             }
         }
     }

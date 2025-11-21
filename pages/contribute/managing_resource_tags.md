@@ -56,12 +56,6 @@ To add a new tag to the system:
 
 Colors are defined at the category level in `_data/tag_categories.yml`. All tags within a category automatically inherit that category's color.
 
-**Current category color assignments:**
-- Organization: <span class="badge bg-danger">danger</span> (red)
-- Node: <span class="badge bg-secondary">secondary</span> (gray)
-- Lifecycle: <span class="badge bg-success">success</span> (green)
-- Topic: <span class="badge bg-info">info</span> (blue)
-
 **Available Bootstrap color options:**
 - <span class="badge bg-primary">primary</span> - Aubergine/purple (default theme color)
 - <span class="badge bg-secondary">secondary</span> - Gray
@@ -87,48 +81,6 @@ To create an entirely new category, you only need to update one file:
 
 **That's it!** The category will automatically appear on the resources page in the order defined in `tag_categories.yml`. No changes needed to `resources.md`.
 
-### Example: Adding a "Format" Category
-
-1. Add to `_data/tag_categories.yml`:
-```yaml
-- id: format
-  label: Format
-  description: The format or delivery method of the training resource
-  color: warning            # Orange/yellow for all Format tags
-```
-
-2. Add tags with this category in `_data/resource_tags.yml`:
-```yaml
-- id: online
-  label: Online
-  category: format
-  description: Online/virtual training
-
-- id: in-person
-  label: In-Person
-  category: format
-  description: Face-to-face training
-```
-
-The "Format" category will automatically appear in the filter sidebar with an info icon showing the description. Both tags will appear in orange (warning color).
-
-## Adding Category Descriptions
-
-Category descriptions appear as tooltips when users hover over the info icon (ℹ️) next to category labels.
-
-To add or update a category description:
-
-1. Open `_data/tag_categories.yml`
-2. Add or modify the `description` field:
-
-```yaml
-- id: organization
-  label: Organization
-  description: Resources affiliated with specific organizations or collaborative networks
-```
-
-The description should briefly explain what the category represents and help users understand which tags to use for filtering.
-
 ## Best Practices
 
 1. **Limit tags per resource**: Use 3-7 tags for clarity
@@ -153,33 +105,6 @@ The description should briefly explain what the category represents and help use
 ### Lifecycle Pages (Plan, Design, Develop, Deliver, Evaluate)
 - Automatically displays resources tagged with the corresponding lifecycle tag
 - Shows full resource cards with logos, titles, and tags
-
-## Examples
-
-### Example 1: Training Platform
-```yaml
-tags: [elixir, catalogue, plan, design]
-```
-
-### Example 2: Training Course
-```yaml
-tags: [elixir, train-the-trainer, design, deliver, evaluate]
-```
-
-### Example 3: Node-Specific Resource
-```yaml
-tags: [elixir, ch, develop, elearning]
-```
-
-## Display
-
-Tags appear as small colored badges below the resource title on resource cards. They help visitors quickly identify:
-- Which organization provides or endorses the resource
-- Which ELIXIR node(s) support the resource (if applicable)
-- What phase(s) of the training lifecycle it supports
-- What topic or domain it covers
-
-Each tag has a tooltip that appears on hover, providing additional context about its meaning.
 
 ## Technical Implementation
 
