@@ -18,6 +18,20 @@ layout: default
         {%- if page.summary %}
         <div class="summary">{{page.summary}}</div>
         {%- endif %}
+        
+        {%- if page.tags %}
+        <div class="resource-page-tags mb-3">
+            {% for tag_id in page.tags %}
+                {% assign tag = site.data.resource_tags | where: "id", tag_id | first %}
+                {% if tag and tag.category == "lifecycle" %}
+                    {% assign tag_category = site.data.tag_categories | where: "id", tag.category | first %}
+                    <a href="/{{ tag_id }}" class="badge bg-{{ tag_category.color }} text-decoration-none me-1" title="{{ tag.description }}">
+                        {{ tag.label }}
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+        {%- endif %}
     </div>
     
     <!-- STICKY RIGHT SIDEBAR -->

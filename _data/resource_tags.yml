@@ -1,0 +1,104 @@
+# Resource Tags Configuration
+# Define all available tags with their display properties
+# 
+# Properties:
+#   - id: unique identifier used in resource frontmatter
+#   - label: display name
+#   - category: grouping (organization, country, lifecycle, topic) - determines color via tag_categories.yml
+#   - description: optional tooltip text
+#
+# Note: Colors are now defined at the category level in tag_categories.yml
+
+# Organization Tags
+- id: elixir
+  label: ELIXIR
+  category: organization
+  description: ELIXIR Europe resource
+
+- id: goblet
+  label: GOBLET
+  category: organization
+  description: GOBLET collaboration
+
+# Node tags
+- id: ch 
+  label: ELIXIR-CH
+  category: country
+  description: Swiss Institute of Bioinformatics resource
+
+- id: se
+  label: ELIXIR-SE
+  category: country
+  description: ELIXIR Sweden resource
+
+- id: uk
+  label: ELIXIR-UK
+  category: country
+  description: ELIXIR UK resource
+
+# Lifecycle Tags
+- id: plan
+  label: Plan
+  category: lifecycle
+  description: Training planning phase
+
+- id: design
+  label: Design
+  category: lifecycle
+  description: Training design phase
+
+- id: develop
+  label: Develop
+  category: lifecycle
+  description: Training development phase
+
+- id: deliver
+  label: Deliver
+  category: lifecycle
+  description: Training delivery phase
+
+- id: evaluate
+  label: Evaluate
+  category: lifecycle
+  description: Training evaluation phase
+
+# Topic Tags
+- id: fair-training
+  label: FAIR Training
+  category: topic
+  description: FAIR principles for training
+
+- id: train-the-trainer
+  label: Train-the-Trainer
+  category: topic
+  description: Training for instructors
+
+- id: quality-metrics
+  label: Quality & Metrics
+  category: topic
+  description: Training quality and impact assessment
+
+- id: catalogue
+  label: Catalogue
+  category: topic
+  description: Finding and curating training materials
+
+- id: elearning
+  label: E-Learning
+  category: topic
+  description: Online learning resources
+
+- id: certification
+  label: Certification
+  category: topic
+  description: Training certification programs
+
+- id: community
+  label: Community
+  category: topic
+  description: Community resources and groups
+
+- id: learning-paths
+  label: Learning Paths
+  category: topic
+  description: Structured learning journeys

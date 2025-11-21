@@ -40,20 +40,19 @@ defaults:
     scope:
       path: "pages/lifecycle"
     values:
-      type: "pages"
       sidebar: lifecycle
   -
     scope:
       path: "pages/resources/resources.md"
     values:
       layout: "page"
-      sidebar: resources
+      sidebar: false
   -
     scope:
       path: "pages/resources"
     values:
       layout: "resource_page"
-      sidebar: resources
+      sidebar: false
   -
     scope:
       path: "pages/contribute"

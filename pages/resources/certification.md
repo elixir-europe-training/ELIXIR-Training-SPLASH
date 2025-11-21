@@ -10,6 +10,8 @@ objective: |
   For training providers, this working group provides opportunities to certificate their training events, for trainers, the working group offers an environment for improving materials and event information; for trainees, it offers a possibility to check the quality of a training course.
 
 #OPTIONAL FIELDS
+tags: [elixir, evaluate, quality-metrics, community]
+
 mission: |
   The mission of ELIXIR training certification working group is to teach the highest standard of proficiency, knowledge, and competence in life science training. Certification is a validation of a training course affirming that it met the necessary benchmarks to excel in life sciences.
  

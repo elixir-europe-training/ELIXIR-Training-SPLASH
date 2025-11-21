@@ -1,6 +1,6 @@
 ---
 # MANDATORY FIELDS
-id: lps # This id should match with the testimonial ToolId
+id: learning-paths # This id should match with the testimonial ToolId
 title: Learning Paths
 resourceUrl: https://elixir-europe.org/focus-groups/learning-paths
 description: |
@@ -11,7 +11,10 @@ objective: |
   * Implement Learning Paths across different communities
   * Raise awareness on the pedagogical aspects and promote their adoption
   * Establish a community of practice to share knowledge, experiences, and ideas
- 
+
+#OPTIONAL FIELDS
+tags: [elixir, design, develop, learning-paths, community]
+
 contributors:
   - Alexia Cardona
   - Bérénice Batut

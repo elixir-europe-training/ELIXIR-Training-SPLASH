@@ -1,6 +1,6 @@
 ---
 # MANDATORY FIELDS
-id: ttt # This id should match with the user-stories ToolId
+id: train-the-trainer # This id should match with the user-stories ToolId
 title: ELIXIR-GOBLET Train the Trainer
 resourceUrl: https://elixir-europe.org/platforms/training/train-the-trainer
 description: |
@@ -26,6 +26,8 @@ contacts:
 # joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 
 #OPTIONAL FIELDS
+tags: [elixir, goblet, train-the-trainer, design, deliver, community]
+
 #TO DISCUSS WITH PATRICIA
 #mission: |
 ###### This is a multiline

@@ -1,0 +1,39 @@
+{% comment %}
+Usage: {% include related-resources.html tag="plan" %}
+Displays resource cards filtered by the specified tag
+{% endcomment %}
+
+{% assign filtered_resources = site.pages | where_exp: "page", "page.path contains 'pages/resources/'" | where_exp: "page", "page.id != nil" | where_exp: "page", "page.path != 'pages/resources/TEMPLATE_resource_page.md'" | where_exp: "page", "page.tags contains include.tag" %}
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 mb-4">
+    {% for resource in filtered_resources %}
+        <div class="col">
+            <a href="{{ resource.id }}" class="text-decoration-none">
+                <div class="card h-100 resource-card shadow-sm">
+                    <div class="card-body d-flex flex-column">
+                        <div class="resource-logo-container mb-2 text-center">
+                            {% if resource.logo %}
+                                <img src="assets/img/logos/{{ resource.logo }}" alt="{{ resource.title }} logo" class="resource-card-logo">
+                            {% else %}
+                                <img src="assets/img/icons/resource_icon.svg" alt="{{ resource.title }}" class="resource-card-icon">
+                            {% endif %}
+                        </div>
+                        <h5 class="card-title text-center mb-2">{{ resource.title }}</h5>
+                        
+                        {% if resource.tags %}
+                            <div class="resource-tags mb-2 text-center">
+                                {% for tag_id in resource.tags %}
+                                    {% assign tag_obj = site.data.resource_tags | where: "id", tag_id | first %}
+                                    {% if tag_obj %}
+                                        {% assign tag_category = site.data.tag_categories | where: "id", tag_obj.category | first %}
+                                        <span class="badge bg-{{ tag_category.color }} resource-tag" title="{{ tag_obj.description }}">{{ tag_obj.label }}</span>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </a>
+        </div>
+    {% endfor %}
+</div>

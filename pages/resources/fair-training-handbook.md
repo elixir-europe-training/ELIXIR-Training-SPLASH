@@ -1,6 +1,6 @@
 ---
 # MANDATORY FIELDS
-id: fairhb # This id should match with the user-stories ToolId
+id: fair-training-handbook # This id should match with the user-stories ToolId
 title: FAIR training handbook
 resourceUrl: https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/
 description: |
@@ -13,6 +13,8 @@ objective: |
   * Show directions to provide a license to material
   * Point to resources that can improve discoverability
   * Easy-to-use and comprehensive [checklist](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/checklist/)
+
+tags: [elixir, design, develop, fair-training, train-the-trainer]
 
 contributors:
   - Alexandra Holinski
@@ -69,6 +71,9 @@ coordinators:
   - Bruna Piereck
   - Geert van Geest
 
+#OPTIONAL FIELDS
+tags: [elixir, fair-training, plan, design, develop]
+
 contacts:
   - name: Bruna Piereck
     email: bruna.piereckmoura@vib.be
@@ -92,7 +97,7 @@ video:
 citations:
 mailingList: https://elixir-europe.org/focus-groups/mail-subscribe?list=FAIR%20Training%20Focus%20Group
 funding:
-logo: 
+logo: FAIRtraining_handbook_logo.svg
 screenshots:
   - screenshot_fair_training_handbook1.png
   - screenshot_fair_training_handbook2.png

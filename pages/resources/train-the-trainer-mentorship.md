@@ -1,6 +1,6 @@
 ---
 # MANDATORY FIELDS
-id: ttt-mentorship # This id should match with the user-stories ToolId
+id: train-the-trainer-mentorship # This id should match with the user-stories ToolId
 title: ELIXIR-GOBLET Train-the-Trainer Mentorship Programme
 #resourceUrl: https://elixir-europe.org/platforms/training/train-the-trainer
 description: |
@@ -14,6 +14,7 @@ objective: |
   * Be able to teach TtT course materials effectively
   * Have significantly improved their teaching approach as a result of the Programme’s frequent formative assessment and reflection practice
 
+tags: [elixir, train-the-trainer, design, deliver]
 
 # contributors: [Piv Gopalasingam (EBI), Bruna Piereck (BE), Katarzyna Kamieniecka (UK), Krzysztof Poterlowicz (UK), Helena Schnitzer (DE), Lisanna Paladin (DE), Jessica Lindvall (SE), Piv Gopalasingam (EBI), Erin Calhoun (NO), Roland Krause (LU), Katharina Heil (Hub), Daniel Wibberg (DE), Renato Alves (DE)]
 contributors: 

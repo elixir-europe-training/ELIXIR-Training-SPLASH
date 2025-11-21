@@ -1,6 +1,6 @@
 ---
 # MANDATORY FIELDS
-id: ftfg # This id should match with the user-stories ToolId
+id: fair-training-working-group # This id should match with the user-stories ToolId
 title: FAIR Training Working Group
 resourceUrl: https://elixir-europe.org/platforms/training
 description: |
@@ -15,6 +15,7 @@ objective: |
     - Expanding our current outreach activities in and outside ELIXIR
     - Mutual events between communities: meetings, workshops or other activities
 
+tags: [elixir, design, develop, fair-training, community]
     
 contributors:
   - Alexandra Holinski

@@ -37,6 +37,8 @@ contacts:
 joinLink: mailto:tess@elixir-europe.org
 
 #OPTIONAL FIELDS
+tags: [elixir, catalogue, plan]
+
 mission: |
   TeSS was originally developed as part of ELIXIR, Europe's distributed infrastructure for life-science data. One of the goals of ELIXIR is to train research scientists to better use available computational infrastructures to address critical research questions. This requires access both to face-to-face training opportunities and to disparate training materials and resources, currently dispersed across Europe.
 
