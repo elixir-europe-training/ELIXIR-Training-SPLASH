@@ -1,11 +1,11 @@
 title: ELIXIR Training SPLASH
 # This appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-# topnav_title: ELIXIR Training SPLASH
+topnav_title: ""
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
 # description: "ELIXIR Training SPLASH"
 # Metadata description of the website
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@2.3.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@5.0.0
 repository: elixir-europe-training/ELIXIR-Training-SPLASH
 baseurl: "/ELIXIR-Training-SPLASH"
 
