@@ -25,7 +25,7 @@ layout: default
                 {% assign tag = site.data.resource_tags | where: "id", tag_id | first %}
                 {% if tag and tag.category == "lifecycle" %}
                     {% assign tag_category = site.data.tag_categories | where: "id", tag.category | first %}
-                    <a href="/{{ tag_id }}" class="badge bg-{{ tag_category.color }} text-decoration-none me-1" title="{{ tag.description }}">
+                    <a href="{{ site.baseurl }}/{{ tag_id }}" class="badge bg-{{ tag_category.color }} text-decoration-none me-1" title="{{ tag.description }}">
                         {{ tag.label }}
                     </a>
                 {% endif %}
