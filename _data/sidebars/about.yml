@@ -5,8 +5,8 @@ subitems:
     subitems:
       - title: Contributors
         url: /contributors
-      - title: Editorial board
-        url: /editorial_board
+      - title: Editorial team
+        url: /editorial_team
   - title: Contact
     url: /contact
   - title: News

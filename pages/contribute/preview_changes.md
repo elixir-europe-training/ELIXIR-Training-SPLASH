@@ -33,7 +33,7 @@ Click on the 'sync fork' button to make sure you have the latest changes of the 
 
 ### 3. Make changes
 
-You can go to a folder and create a new file, or edit an existing file. See [Contributing using GitHub](/github_way) and [Creating a new page](/editorial_board_guide#create-a-new-page) for more information.
+You can go to a folder and create a new file, or edit an existing file. See [Contributing using GitHub](/github_way) and [Creating a new page](/editorial_team_guide#create-a-new-page) for more information.
 
 ### 4. Commit to a new branch
 

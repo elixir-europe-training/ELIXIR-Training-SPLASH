@@ -1,5 +1,5 @@
 ---
-title: Editorial board guide
+title: Editorial team guide
 summary: This guide is there to help editors.
 ---
 
