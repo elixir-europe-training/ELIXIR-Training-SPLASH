@@ -1,9 +1,9 @@
 copyright: '&copy; ELIXIR Training Platform'
 columns:
   - type: image
-    image_width: 120px
-    width: 3
-    src: 'assets/img/main_logo.svg'
+    image_width: 300px
+    width: 8
+    src: 'assets/img/logos/ELIXIR_logo_footer_wtext.svg'
     alt: ELIXIR logo
   - type: links
     width: 3
@@ -14,3 +14,4 @@ columns:
         url: /contact
       - url_text: Contribute
         url: /how_to_contribute
+
