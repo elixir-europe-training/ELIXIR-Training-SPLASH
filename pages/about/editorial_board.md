@@ -1,14 +1,14 @@
 ---
-title: Editorial board
+title: Editorial team
 ---
 
-## Meet the editorial board members
+## Meet the editorial team members
 
 {% include contributor-carousel-selection.html custom="Alexia Cardona, Elin Kronander, Bruna Piereck, Alexander Botzki, Geert van Geest"%}
 
-## Join as editorial board member
+## Join as editorial team member
 
-Being on the editorial board of ELIXIR Training SPLASH entails shaping how Training best practices, written by experts, are communicated to the readers who are interested in applying those best practices in their everyday work. As an editor you contribute to the vision of how this information is presented to the life science community at large.
+Being on the editorial team of ELIXIR Training SPLASH entails shaping how Training best practices, written by experts, are communicated to the readers who are interested in applying those best practices in their everyday work. As an editor you contribute to the vision of how this information is presented to the life science community at large.
 
 ### Advantages of being an ELIXIR Training SPLASH editor
 
@@ -29,21 +29,21 @@ Being on the editorial board of ELIXIR Training SPLASH entails shaping how Train
 
 ### Call for joining us
 
-We want to keep the editorial board manageable in numbers, therefore we are looking for complementary expertise to the current members.
+We want to keep the editorial team manageable in numbers, therefore we are looking for complementary expertise to the current members.
 
 **Requirements**
 
 * The applicant must have experience in life sciences training.
 * The applicant must be interested in effective digital communication of best practices and guidelines.
 * The applicant should be willing to spend some time on evaluation of content.
-* The applicant should be open to discuss topics with other editorial board members and to accept feedback.
+* The applicant should be open to discuss topics with other editorial team members and to accept feedback.
 * The applicant should have basic knowledge of GitHub.
 
 **Application**
 
 To become part of the editorial team, please provide:
 
-* A short motivation letter (a couple of paragraphs) describing why you would like to join the SPLASH editorial board.
+* A short motivation letter (a couple of paragraphs) describing why you would like to join the SPLASH editorial team.
 * A summary of your experience in training in life sciences.
 * List of the sections that you are most interested in (or feel are missing).
 
