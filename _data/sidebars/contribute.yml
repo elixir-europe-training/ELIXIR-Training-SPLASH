@@ -21,8 +21,8 @@ subitems:
     url: /page_metadata
   - title: For editors
     subitems:
-    - title: Editorial board guide
-      url: /editorial_board_guide
+    - title: Editorial team guide
+      url: /editorial_team_guide
     - title: Editors checklist
       url: /editors_checklist
     - title: Preview changes

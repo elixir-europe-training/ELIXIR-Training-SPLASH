@@ -7,10 +7,10 @@ summary: Checklist for editors before approving and merging a pull request ({% g
 1. The page layout in preview looks correct.
 2. The new page is linked in the appropriate [sidebar](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/tree/master/_data/sidebars) menu, in the same branch of the {% glossary PR %}.
 3. The contributors' names are listed in the [CONTRIBUTORS file](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/CONTRIBUTORS.yaml), in the same branch of the {% glossary PR %}. Advice to have at least one  contributor per page having its contact information in this  [CONTRIBUTORS file](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/CONTRIBUTORS.yaml).
-4. All relevant metadata fields in a specific page are correctly filled in (see the [page metadata](page_metadata) and the [Editorial board guide](editorial_board_guide)). Some critical ones are listed below.
+4. All relevant metadata fields in a specific page are correctly filled in (see the [page metadata](page_metadata) and the [Editorial team guide](editorial_team_guide)). Some critical ones are listed below.
    * unique `page_id` ([List of page IDs](website_overview))
    * `contributors`
-   * `related_pages` ([Related pages](editorial_board_guide.html#related-pages))
+   * `related_pages` ([Related pages](editorial_team_guide.html#related-pages))
    * `training`
    * `search_exclude` must be deleted
    * `description`
