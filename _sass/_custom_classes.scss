@@ -96,7 +96,7 @@ footer {
     padding-top: 4rem;
     padding-bottom: 4rem;
     position: relative;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 
     &::after {
         content: ' ';
@@ -106,8 +106,7 @@ footer {
         transform: translate(-50%);
         height: 100%;
         width: 100vw;
-        background: url('../../assets/img/banner.png') center center no-repeat;
-        background-color: $gray-800;
+        background: linear-gradient(135deg, $primary 0%, darken($primary, 10%) 100%);
         background-size: cover;
         z-index: -1;
     }
