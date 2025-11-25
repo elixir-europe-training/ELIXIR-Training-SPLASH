@@ -1,13 +1,22 @@
 ---
 title: About
 ---
+## What is Training SPLASH?
+**_Training SPLASH - Your companion for impactful training_** is a one-stop-shop for training resources structured around the five stages of the training lifecycle: plan, design, develop, deliver and evaluate. Adding resources to Training SPLASH will increase their visibility, accessibility and usage and enable broader adoption and participation both within and outside the ELIXIR community.
 
-## Who is the ELIXIR SPLASH for?
-The ELIXIR Training SPLASH has been designed to guide the trainer in their efforts to plan, design, develop, deliver and evaluate training activties. It is based on the various steps of the training life cycle, although not all the steps will be relevant to everyone.
+## Who is the Training SPLASH for?
+The Training SPLASH is connecting trainers to practical guidance, tools and best practices for developing and delivering high-quality training in life sciences and beyond. The site is developed and maintained by the ELIXIR Training Platform, with governance and sustainability provided through the ELIXIR Scientific Programme 2024-28.
 
-The contents are generated and maintained by the ELIXIR Training platform [ELIXIR-TrP](https://elixir-europe.org/). We want to sustain and govern ELIXIR Training SPLASH via the ELIXIR Programme 2024+.
+## What is the ELIXIR Training Platform?
+The ELIXIR Training Platform brings together experts, resources and services to support life science training across Europe. It develops best practices, coordinates training programmes and provides access to high-quality materials and trainers, ensuring that researchers and professionals can build the skills they need to make the most of data, tools and technologies.
 
-SPLASH is short for 
+## Why was Training SPLASH created?
+The ELIXIR Training Platform has created several successful training resources, such as TeSS, the Train-the-Trainer programme, the FAIR training project, publications and a FAIR Training Handbook. Training SPLASH aims to improve access to these resources by providing a single entry point for trainers, trainees, training providers, funders, training developers and the other ELIXIR Platforms and Communities.
+
+
+
+## What does SPLASH stand for? 
+SPLASH is an acronym that stands for:
 
 * Skills,
 * Professional development,
@@ -17,24 +26,11 @@ SPLASH is short for
 
 along the training life cycle.
 
-## What does the ELIXIR Training SPLASH aim to achieve?
-
-The project aims to establish a digital environment representing a “one-stop-shop” for ELIXIR Training Platform (ETrP) services in order to increase its visibility, accessibility and usage and enable more participation within and outside the ELIXIR community.
-
-The ELIXIR Training Platform has several successful training products, such as TeSS, the Train-the-Trainer programme, the FAIR training project, relevant papers, a training operational handbook containing guidelines etc. We aim to transform access to these resources by creating a single entry point for trainers, trainees, training providers, funders, training developers, and the other ELIXIR Platforms and Communities.
-
-SPLASH will adopt a user-centric approach to present the information sought in a ready-to-use format that will enable the packaging and visibility of the different training products, using the successful model of the RDMkit, and the ELIXIR Toolkit theme. The created digital resource will be connected with the ELIXIR website and TeSS with the possibility to connect to other services in the future.
-
-## Funding acknowledgement
-ELIXIR Training SPLASH was developed with funding from ELIXIR BioHackathon Europe 2023 and the ELIXIR programme 2024-2028. We are grateful to all who contributed their time to producing contents for ELIXIR Training SPLASH. 
-
-## How to cite ELIXIR Training SPLASH 
-
-
+## How to cite Training SPLASH
 
 <div class="card bg-light my-4">
   <div class="card-body">
-    <p class="card-text"><i>ELIXIR SPLASH: Pushing the boundaries of training development (
+    <p class="card-text"><i>Training SPLASH: Your companion for impactful training (
       <span id="year"></span>
       )</i>
     </p>
@@ -46,7 +42,7 @@ ELIXIR Training SPLASH was developed with funding from ELIXIR BioHackathon Europ
 </script>
 
 
-The ELIXIR Training SPLASH makes all of their materials publicly available under [Open Source Initiative](https://opensource.org/licenses) licenses.
+The Training SPLASH makes all of their materials publicly available under [Open Source Initiative](https://opensource.org/licenses) licenses.
 The process documents and data are made available under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
 Software are made available under an [MIT license](https://opensource.org/licenses/mit-license.html).
 For full details on licensing, please visit our [License document](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/main/LICENSE).
