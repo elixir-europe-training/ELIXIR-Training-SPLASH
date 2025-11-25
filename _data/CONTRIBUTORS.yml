@@ -59,6 +59,8 @@ Bérénice Batut:
     node: FR
     orcid: 0000-0001-9852-1987
     role: 
+    orcid: 0000-0003-2163-6860
+    affiliation: University of Bradford
 
 Björn Grüning:
     git: bgruening
@@ -79,19 +81,23 @@ Bruna Piereck:
     role: editor
 
 Carole Goble:
-    node: no
-    orcid: 
-    role: 
+    git: CaroleGoble
+    role:
+    orcid: 0000-0003-1219-2137
+    affiliation: The University of Manchester
+    node: UK
 
 Celia van Gelder:
     node: NL
-    orcid: 
-    role:
+    git: celiavg
+    email: celia.vangelder@dtls.nl
+    orchid: 0000-0002-0223-2329
 
 Chris Child:
-    node: no
-    orcid: 
+    node: UK
     role: 
+    orcid: 0000-0003-0758-6908
+    affiliation: The University of Manchester
     
 Daniel Thomas Lopez:
     node: no
@@ -102,6 +108,8 @@ Daniel Wibberg:
     email: dwibberg@cebitec.uni-bielefeld.de
     node: DE
     role:
+    git: dwibberg
+    orcid: 0000-0002-1331-4311
 
 David Lloyd:
     node: no
@@ -121,14 +129,19 @@ Elin Kronander:
     orcid: 0000-0003-0280-6318
 
 Erin Calhoun:
-    node: no
-    orcid: 
+    node: NO
     role: 
+    git: erincalhoun
+    orcid: 0009-0003-3752-7156
+    email: erin.calhoun@uit.no
+    affiliation: UiT The Arctic University of Norway
 
 Eva Alloza:
     node: no
     orcid: 
     role: 
+    email: eva.alloza@bsc.es
+    git: EvaAlloza
     
 Finn Bacall:
     node: no
@@ -141,6 +154,9 @@ Fotis Psomopoulos:
     git: fpsom
     orcid: 0000-0002-0222-4273
     role:
+    git: fpsom
+    orcid: 0000-0002-0222-4273
+    affiliation: Institute of Applied Biosciences(INAB|CERTH)
 
 Fred de Lamotte:
     node: no
@@ -170,9 +186,12 @@ Hans-Rudolf Hotz:
     role: 
 
 Hedi Peterson:
-    node: no
-    orcid: 
-    role: 
+    node: EE
+    git: hedi-ee
+    email: hedi.peterson@ut.ee
+    orcid: 0000-0001-9951-5116
+    role:
+    affiliation: University of Tartu
 
 Helen Clare:
     node: no
@@ -211,14 +230,18 @@ Iulianna van der Lek:
     role: 
 
 Ivan Kuzmin:
-    node: no
-    orcid: 
-    role: 
-
+    node: EE
+    git: inkuzmin
+    affiliation: University of Tartu
+    orcid:  0000-0001-9138-9901
+    role:
+    
 Jeanne Wilbrandt:
     node: DE
-    orcid:
+    orcid: 0000-0002-0363-3837
     role:
+    affiliation: Leibniz Institute on Aging - Fritz Lipmann Institute (FLI) Jena
+    role: Data Steward / Trainer
 
 Jessica Lindvall:
     node: SE
@@ -310,9 +333,12 @@ Mark Fernandes:
     role: 
 
 Marko Vidak:
-    node: no
-    orcid: 
+    node: SI
     role: 
+    git: marko-whatever
+    orcid: 0000-0001-7901-3936
+    email: marko.vidak@mf.uni-lj.si
+    affiliation: University of Ljubljana, Medical Faculty
 
 Marta Lloret:
     node: no
@@ -347,9 +373,11 @@ Monique Zahn:
     role: 
 
 Munazah Andrabi:
-    node: no
-    orcid: 
+    node: UK
     role: 
+    git: smza
+    orcid: 0000-0002-7718-5109
+    affiliation: The University of Manchester
 
 Nadja Zlender:
     node: no
@@ -357,9 +385,11 @@ Nadja Zlender:
     role: 
 
 Nazeefa Fatima:
-    node: no
-    orcid: 
+    node: NO
     role: 
+    git: Nazeeefa
+    orcid: 0000-0001-7791-4984
+    affiliation: Centre for Bioinformatics, University of Oslo
 
 Nicola Mulder:
     node: no
@@ -386,6 +416,9 @@ Patricia Palagi:
     email: Patricia.Palagi@sib.swiss
     node: CH
     role:
+    git: ppalagi
+    orcid: 0000-0001-9062-6303
+    affiliation: SIB Swiss Institute of Bioinformatics
 
 Pavankumar Videm:
     node: DE
@@ -426,9 +459,10 @@ Russell Schwartz:
     role: 
 
 Samantha Wittke:
-    node: no
-    orcid: 
+    node: FI
+    orcid: 0000-0002-9625-7235
     role:
+    affiliation: CSC- IT Center for Science
 
 Sara El-Gebali:
     node: no
@@ -445,6 +479,8 @@ Sarah Morgan:
     node: no
     orcid: 
     role: 
+    email: sarahmorgan@eatris.eu
+    affiliation: European Infrastructure for Translational Medicine (EATRIS)- ERIC
 
 Saskia Hiltemann:
     git: shiltemann
@@ -494,9 +530,11 @@ Wai Keat Yam:
     role: 
 
 Xènia Pérez Sitjà:
-    node: no
+    node: UK
     orcid: 
     role: 
+    affiliation: Earlham Institute
+    git: sitjart
 
 Zoi Litou:
     node: no
