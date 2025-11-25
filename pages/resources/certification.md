@@ -41,6 +41,6 @@ mailingList: trp-certification-wg@elixir-europe.org
 
 funding:
   - name: ELIXIR Programme
-    logo: elixir.png
+    logo: elixir-logo.png
     url: https://elixir-europe.org/
 ---
