@@ -42,16 +42,34 @@ Anastasios Papaioannou:
 Anna Swan:
     role: 
 
+Anthony Bretaudeau:
+    role:
+    git: abretaud
+    orcid: 0000-0003-0914-2470
+
 Beatriz Serrano-Solano:
     role: 
     git: beatrizserrano
+    orcid: 0000-0002-5862-6132
 
-Branka Franicevic:
+Bérénice Batut:
+    git: bebatut
+    affiliation: Institut Francais de Bioinformatique
+    email: berenice.batut@france-bioinformatique.fr
+    node: FR
+    orcid: 0000-0001-9852-1987
     role: 
     orcid: 0000-0003-2163-6860
     affiliation: University of Bradford
 
-Bérénice Batut:
+Björn Grüning:
+    git: bgruening
+    affiliation: University of Freiburg
+    node: DE
+    orcid: 0000-0002-3079-6586 
+    role: 
+
+Branka Franicevic:
     role: 
 
 Bruna Piereck:
@@ -133,6 +151,8 @@ Finn Bacall:
 Fotis Psomopoulos:
     email: fpsom@certh.gr
     node: GR
+    git: fpsom
+    orcid: 0000-0002-0222-4273
     role:
     git: fpsom
     orcid: 0000-0002-0222-4273
@@ -159,6 +179,12 @@ Gil Poiares-Oliveira:
     orcid: 0000-0003-4638-2879
     role:
 
+Hans-Rudolf Hotz:
+    node: CH
+    orcid: 0000-0002-2799-424X
+    git: hrhotz
+    role: 
+
 Hedi Peterson:
     node: EE
     git: hedi-ee
@@ -170,6 +196,12 @@ Hedi Peterson:
 Helen Clare:
     node: no
     orcid: 
+    role: 
+
+Helena Rasche:
+    git: hexylena
+    node: NL
+    orcid: 0000-0001-9760-8992
     role: 
 
 Helena Schnitzer:
@@ -244,7 +276,9 @@ Kim Gurwitz:
 
 Krzysztof Poterlowicz:
     node: UK
-    role:
+    role: 
+    git: poterlowicz-lab
+    orcid: 0000-0001-6173-5674
 
 Leyla Jael Castro:
     node: no
@@ -311,6 +345,12 @@ Marta Lloret:
     orcid: 
     role: 
 
+Martin Čech:
+    node: CZ
+    orcid: 0000-0002-9318-1781
+    git: martenson
+    role: 
+
 Melissa Burke:
     node: no
     orcid: 
@@ -356,6 +396,12 @@ Nicola Mulder:
     orcid: 
     role: 
 
+Nicola Soranzo:
+    node: UK
+    orcid: 0000-0003-3627-5340
+    git: nsoranzo 
+    role: 
+
 Olivier Sand:
     node: no
     orcid: 
@@ -373,6 +419,12 @@ Patricia Palagi:
     git: ppalagi
     orcid: 0000-0001-9062-6303
     affiliation: SIB Swiss Institute of Bioinformatics
+
+Pavankumar Videm:
+    node: DE
+    role:
+    git: pavanvidem
+    orcid: 0000-0002-5192-126X
 
 Pedro Fernandes:
     node: no
@@ -431,13 +483,20 @@ Sarah Morgan:
     affiliation: European Infrastructure for Translational Medicine (EATRIS)- ERIC
 
 Saskia Hiltemann:
-    node: no
-    orcid: 
+    git: shiltemann
+    node: DE
+    orcid: 0000-0003-3803-468X 
     role: 
 
 Shaun Aron:
     node: no
     orcid: 
+    role: 
+
+Solenne Correard:
+    node: FR
+    orcid: 0000-0002-0554-5443
+    git: scorreard
     role: 
 
 Steven Morgan:
