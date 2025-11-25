@@ -164,7 +164,16 @@ layout: default
             </a>
         {% endunless %}
 
-    
+        {%- unless page.funding == nil or page.funding == false %}
+        <h2>Funding</h2>
+        <div class="row">
+        {% for funder in page.funding %}
+            <div class="col col-4 col-md-2">
+                <a target="_blank" href={{funder.url}}><img alt="{{funder.name}}" src="assets/img/logos/{{funder.logo}}" /></a>
+            </div>
+        {% endfor %}
+        </div>
+        {% endunless %}
 
 
         {% include resource-table-page.html %}
