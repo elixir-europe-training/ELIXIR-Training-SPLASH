@@ -38,22 +38,26 @@ This is not an exhaustive listing of items to consider.
 
 ### General considerations
 
-*Registrations*
-* Registration: Set up a registration process that collects information needed to select participants or define clearly that this is a “first come - first serve” setup.
+**Course announcement**
+Publish a course announcement on relevant platforms (e.g., [TeSS](https://tess.elixir-europe.org/), newsletters, social media, email) including the following information:
+* Short description
+* Learning Objectives
+* Target audience
+* Fee
+* Delivery mode
+* Dates and location
+* Prerequisites and eligibility
+* Related courses in learning path or curriculum
+* Funding/sponsors
+
+**Registration**
+Set up a registration process that collects information needed to select participants or define clearly that this is a “first come - first serve” setup.
 Consider collecting demographic data for future analysis. Make sure to protect sensitive data and participant information. Hybrid/in-person events: Ask for attendance mode and dietary restrictions if needed.
-* Course Announcement: Publish a course announcement on relevant platforms (e.g., [TeSS](https://tess.elixir-europe.org/), newsletters, social media, email) including the following information:
-  * Short description
-  * Learning Objectives
-  * Target audience
-  * Fee
-  * Delivery mode
-  * Dates and location
-  * Prerequisites and eligibility
-  * Related courses in learning path or curriculum
-  * Funding/sponsors
-* Participant selection and assessment: When applicable, review the registration form and select participants based on their prior knowledge and skills and the criteria.
+
+**Participant selection and assessment**
+If applicable, review the registration form and select participants based on their prior knowledge and skills and the criteria.
  
-*Course technical resources*:
+**Course technical resources**
 * Compute resources: Prepare access to compute resources, learning management systems, notebooks, …
 * Prepare any non-digital resource
 * Feedback: Prepare the event-specific feedback survey to be shared afterwards with participants as well as a trainer’s reflection document for the trainers (and observers, if any).
@@ -65,12 +69,12 @@ In addition for online/hybrid events:
 
 ### Before the training event
 
-For in-person event: *Venue and Catering*:
+For in-person event: **Venue and Catering**:
 * Venue: Secure a suitable venue with appropriate facilities. Visit the venue to try out the technical set-up, arrange access cards and signs to find the room etc.
 * Accessibility: Check with participants and trainers if they have special needs.
 * Catering: Arrange catering services, considering dietary requirements and preferences.
 
-*Communication with participants*:
+**Communication with participants**:
 Participant Preparation: Send pre-course information including:
   * Installation guidelines for required software. Consider offering a help-session the week before the event.
   * Pre-reading materials.
@@ -97,23 +101,23 @@ Participant Preparation: Send pre-course information including:
   * Use of breakoutrooms
 * **Breaks**: Always announce when a break is planned and happening and if there are any refreshments etc available. Possibly write somewhere visible, e.g. whiteboard, chat or collaborative notes so everyone knows when it is expected and when it ends.
 
-*Communication with participants*
+**Communication with participants**
 If the training is longer than one session, consider communicating a summary and preparations for the next session in between the sessions.
 
 
 ### After the training event
 
-*Evaluation and Feedback*:
+**Evaluation and Feedback**
 * Distribute evaluation forms to gather feedback on the course content, delivery, and overall experience, Also ask trainers to make use of the trainer’s reflections document.
 * Continuous improvement: Invite trainers to a follow-up meeting to reflect on the delivery, discuss improvements and updates.
 
-*Communication with trainees*:
+**Communication with trainees**
 * Include related training for communication
 * Inform if support/consultancy is available after training
 * Send certificates to eligible participants in individual emails or make it available in the registration system when applicable. Make sure you abide by the GDPR regulations.
 * Consider sending some suggested next steps for learners to apply and further develop their knowledge in the topic taught. You may also link to communities or conferences of the topic. If applicable, open the possibility for becoming a helper in a future iteration of the training. 
 
-*Communication with fellow trainers*:
+**Communication with fellow trainers**
 * Offer a trainer debrief, ask for example for people to share about "one thing that went well", "one thing that should be improved for next time".
 * Collect and share lessons learned about the training (if related to the materials, consider adding Issues for future improvements or add to instructor notes)
 * Share some general lessons learned with the broader training community, if applicable. 
