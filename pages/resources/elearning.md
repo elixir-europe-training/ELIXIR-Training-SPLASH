@@ -35,6 +35,6 @@ publications:
     url: https://docs.google.com/document/d/1mx8CHB3VuyXK9Suavpqgb08UwIRL8wgdSi6IcoN_tnQ/edit?usp=sharing 
 funding:
   - name: ELIXIR Programme 2019-2023 
-    logo: funder_example_1_logo.png
+    logo: elixir-logo.png
     url: https://elixir-europe.org/ 
 ---

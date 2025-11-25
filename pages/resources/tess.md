@@ -24,6 +24,7 @@ contributors:
   - Melissa Burke
   - Munazah Andrabi
   - Olivier Sand
+  - Phil Reed
 
 coordinators:
   - Carole Goble
@@ -58,8 +59,11 @@ video: https://www.youtube.com/embed/zjfrEa9o6zg?si=gfC81hv72ospvOpg
 mailingList: tess@elixir-europe.org
 funding:
   - name: ELIXIR Programme
-    logo: elixir.png
+    logo: elixir-logo.png
     url: https://elixir-europe.org/ 
+  - name: OSCARS
+    logo: OSCARS-logo.svg
+    url: https://oscars-project.eu/projects/mtess-x-scaling-training-portal-federation-ris-through-multi-tenanting-and-exchange
 logo: tess_logo.png
 screenshots:
   - screenshot_tess_1.png
