@@ -1,6 +1,6 @@
 ---
 title: Deliver
-contributors: [Mark Fernandes, Patricia Palagi, Bruna Piereck, Luciana Peixoto, Alexander Botzki, Alexia Cardona, Helena Schnitzer, Elin Kronander, Jeanne Wilbrandt, Geert van Geest]
+contributors: [Mark Fernandes, Patricia Palagi, Bruna Piereck, Luciana Peixoto, Alexander Botzki, Alexia Cardona, Helena Schnitzer, Elin Kronander, Jeanne Wilbrandt, Geert van Geest, Samantha Wittke]
 ---
 
 This stage encompasses both pedagogical, logistical and organization steps, with a primary focus on didactics. These tasks are divided into arrangements and planning required before, during, and after training delivery. Revisit the plan, design and develop outcomes and take into account decisions made during the previous stages when initiating delivery.
