@@ -3,7 +3,7 @@ title: Develop
 contributors: [Mark Fernandes, Helena Schnitzer, Alexander Botzki, Mihail Anton, Elin Kronander, Jeanne Wilbrandt, Bruna Piereck, Geert van Geest, Kristen Schroeder]
 ---
 
-This stage involves defining how to achieve the learning outcomes, and translating the designed learning experiences into tangible materials such as presentations, exercises, and group discussions. There should be a feedback loop between [design](design.md) and development phases to ensure iterative improvement. 
+This stage involves defining how to achieve the learning outcomes, and translating the designed learning experiences into tangible materials such as presentations, exercises, and guidelines for group discussions. There should be a feedback loop between [design](design.md) and development phases to ensure iterative improvement. 
 
 When developing training material, it is crucial to assign clear roles and responsibilities to team members. Specify which parts of the material a person or group will develop, and select an appropriate learning environment and platforms for developing, storing, and sharing materials. An essential aspect of this stage is describing the materials in a standardized way, with structured metadata such as [Bioschemas](https://bioschemas.org), that will enhance the findability and accessibility of the materials. Additionally, special considerations should be given to how the material will be shared, including any reused materials. Finally, the choice of platform for delivering exercises should be user-friendly, so that trainees have an easy technical setup. 
 
@@ -36,6 +36,7 @@ Logistical considerations during training material development include choices o
 - **Citations and Findability** Define the release version of the material and store it in a repository like [Zenodo](https://zenodo.org) to ensure version control and accessibility. Additionally, register material in a web-accessible aggregator like [TeSS](https://tess.elixir-europe.org/).
 
 Technical infrastructure is a large logistical consideration during development:
+
   - **Video Storage and Servers** Choose platforms for storing and hosting training videos, datasets etc. that serve the purposes of your training.
   - **Data Accessibility** Define how learners will be provided access to datasets and software tools. Conduct test runs to ensure that these processes work, and be aware of maintenance windows for selected platforms.
   - **Exercise Setup** Create and test computer environments and installation instructions for hands-on exercises. Ensure that these are functional for different operating systems.  
