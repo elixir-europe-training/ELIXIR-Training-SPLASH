@@ -11,7 +11,7 @@ objective: |
     * Describe the audience demographic being reached by ELIXIR-badged training events
     * Assess the quality of ELIXIR-badged training events directly after they have taken place
     * Evaluate the longer term impact that ELIXIR-badged training events have had on the work of training participants.
-contributors: [Eleni Adamidi (GR), Elin Kronander (SE), Brane Leskosek (SI), Nina Norgren (SE), Mattias Nyberg (SE), Olivier Sand (FR)]
+contributors: [Eleni Adamidi (GR), Elin Kronander (SE), Brane Leskosek (SI), Nina Norgren (SE), Mattias Nyberg (SE), Olivier Sand (FR), Samantha Wittke (FI)]
 
 coordinators: [Eleni Adamidi (GR), Brane Leskosek (SI), Nina Norgren (SE)]
 
