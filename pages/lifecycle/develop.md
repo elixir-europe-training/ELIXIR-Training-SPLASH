@@ -24,6 +24,8 @@ Pedagogical aspects of developing training include organizing for and building i
 - **Inclusive Design**: Consider the needs of diverse learners by providing alternative formats and accessibility features - e.g. video captions, colourblind-safe colour palettes...
 - **Continuous Improvement**: Revisit the lesson plan frequently to guide effective development. Integrate mechanisms to gather feedback from learners and trainers to identify areas for further development of the materials (see also [evaluate](evaluate.md)).
 
+![pedagogic considerations](assets/img/develop-card2.png)
+
 ## What are the logistical aspects?
 
 Logistical considerations during training material development include choices of technical infrastructures, coordination of the trainer team, and ensuring that assets are annotated and FAIR.
@@ -41,6 +43,8 @@ Technical infrastructure is a large logistical consideration during development:
   - **Data Accessibility** Define how learners will be provided access to datasets and software tools. Conduct test runs to ensure that these processes work, and be aware of maintenance windows for selected platforms.
   - **Exercise Setup** Create and test computer environments and installation instructions for hands-on exercises. Ensure that these are functional for different operating systems.  
   - **Data Security** Implement robust measures to protect sensitive data and participant information. This also includes responses or submitted exercises that you gather throughout your course delivery.
+
+![logistic considerations](assets/img/develop-card.png)
 
 ## Related resources: 
 
