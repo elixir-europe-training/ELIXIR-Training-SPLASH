@@ -35,7 +35,9 @@ contributors:
 
 contacts:
   - name: Daniel Wibberg
-    email: dwibberg@cebitec.uni-bielefeld.de
+    email: d.wibberg@fz-juelich.de
+  - name:  Roland Krause
+    email: roland.krause@uni.lu
 joinLink: mailto:trp-certification-wg@elixir-europe.org
 mailingList: trp-certification-wg@elixir-europe.org
 
