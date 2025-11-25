@@ -11,11 +11,13 @@ Logistical tasks include selecting a venue or technical platform, ensuring acces
 
 ## What are the pedagogical aspects?
 
+**Developing as a trainer**:
+So you are supposed to run a training. Maybe this is your idea, maybe your employer asked you to do this. If you are new to the topic of teaching, or have been teaching in other contexts before, you may want to take a train the trainer workshop. But also if you are an experienced trainer, it maybe worth to join a train the trainer session once in a while to catch up and connect to the trainer community. 
+
 **Before the training event**:
 * Participant selection assessment: Define criteria for prioritization and assessment of trainees application in order to select participants that can benefit the most from the training and training format.
 * Didactics: Align strategy based on the pre-course survey and needed resources to enable and facilitate learning
 * Accessibility: Check with participants and trainers if they have special needs (dyslexia, color blindness, etc …)
-* Trainer-the-trainer: When needed trainers must take the course in advance to update, improve or learn the theory of teaching and some strategies.
 * Trainer setup: It is preferable to teach in partnership, that allows for more support to trainees. However you must consider the delivery format and learning experiences to define an ideal number of trainers and trainees. Conduct a pre-course meeting with collaborators to align expectations and address any questions, define roles, align time, didactic strategies, ...
   
 **During the training event**:
@@ -57,21 +59,22 @@ Consider collecting demographic data for future analysis. Make sure to protect s
 *Course technical resources*:
 
 Technical considerations for online or hybrid events:
-* Selecting the platform: For example, Zoom, WebEx, Teams
-* Online helper: Breakout rooms, technical checks for online resources
-* Compute resources: Prepare access to compute resources, learning management systems, collaborative notes documents, notebooks, …
+* Selecting the meeting platform: For example, Zoom, WebEx, Teams
+* Decide on interaction procedure and prepare: E.g. via meeting platform chat, separate collaborative document (HackMD, Etherpad, GoogleDocs etc), using a chat platform (Slack, Zulip, RocketChat etc)
+* Online helper: Breakout rooms, technical checks for online resources, setup and test audio and screensharing
+* Compute resources: Prepare access to compute resources, learning management systems, notebooks, …
 * Prepare any non-digital resource
 * Feedback: Prepare the event-specific feedback survey to be shared afterwards with participants as well as a trainer’s reflection document for the trainers (and observers, if any). 
 
 
 *Communication with participants*:
-* Participant Preparation: Send pre-course information including:
-* Installation guidelines for required software. Consider offering a help-session the week before the event.
-* Pre-reading materials.
-* Instructions for accessing online resources and virtual meeting platforms.
-* Information on how to reach the venue.
-* The Code of Conduct for the event.
-* Pre-course survey (if applicable): getting information about expectations and previous knowledge
+Participant Preparation: Send pre-course information including:
+  * Installation guidelines for required software. Consider offering a help-session the week before the event.
+  * Pre-reading materials.
+  * Instructions for accessing online resources and virtual meeting platforms.
+  * Information on how to reach the venue.
+  * The Code of Conduct for the event.
+  * Pre-course survey (if applicable): getting information about expectations and previous knowledge
 
 *During the training event*:
 
@@ -82,7 +85,7 @@ Technical considerations for online or hybrid events:
 * Safety/fire alarms
 * Restrooms and refreshments
 * Wifi
-* **Breaks**: Always announce when a break is over and if there are any refreshments etc available. Possibly write somewhere visible so everyone knows when it is expected.
+* **Breaks**: Always announce when a break is planned and happening and if there are any refreshments etc available. Possibly write somewhere visible, e.g. whiteboard, chat or collaborative notes so everyone knows when it is expected and when it ends.
 
 **After the training event**:
 * Certificates: Send certificates to eligible participants in individual emails or make it available in the registration system when applicable. Make sure you abide by the GDPR regulations.
