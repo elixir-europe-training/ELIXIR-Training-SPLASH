@@ -3,7 +3,7 @@ id: galaxy-training # This id should match with the testimonials ToolId
 title: Galaxy Training!
 resourceUrl: https://training.galaxyproject.org/
 description: |
-  The **Galaxy Training!** is a vibrant, open-source training infrastructure by the GTN that empowers learners, educators, and researchers worldwide. With over **300 tutorials** covering bioinformatics, data science, and beyond (including Python, R, and command-line tools), the GTN supports training across the [**entire Training Life Cycle**](https://training.galaxyproject.org/training-material/news/2025/07/01/gtn-elixir-life-cycle.html).
+  The **Galaxy Training!** is a vibrant, open-source training infrastructure by the GTN that empowers learners, educators, and researchers worldwide. With over **490 tutorials** covering bioinformatics, data science, and beyond (including Python, R, and command-line tools), the GTN supports training across the [**entire Training Life Cycle**](https://training.galaxyproject.org/training-material/news/2025/07/01/gtn-elixir-life-cycle.html).
   
   This community-driven platform is maintained by [**500+ contributors**](https://training.galaxyproject.org/training-material/hall-of-fame), ensuring diverse, high-quality, and up-to-date resources. GTN goes beyond traditional tutorials, offering [**learning pathways**](https://galaxyproject.github.io/training-material/learning-pathways/), **slides**, [**videos**](https://training.galaxyproject.org/training-material/news/2024/06/14/gtn-video-library.html) (tutorials recording, but also automatically generated videos from slides), all designed to cater to self-paced learners, workshop participants, and large-scale events like the **Galaxy Training Academy**.
 
