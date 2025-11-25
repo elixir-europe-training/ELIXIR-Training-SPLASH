@@ -3,13 +3,13 @@ title: Deliver
 contributors: [Mark Fernandes, Patricia Palagi, Bruna Piereck, Luciana Peixoto, Alexander Botzki, Alexia Cardona, Helena Schnitzer, Elin Kronander, Jeanne Wilbrandt, Geert van Geest]
 ---
 
-This stage encompasses both pedagogical, logistical and organization steps, with a primary focus on didactics. These tasks are divided into arrangements and planning required before, during, and after training delivery. Revisit the plan, design and develop outcomes and take into account decisions made during the previous stages when initiating delivery.
+The Deliver stage encompasses both pedagogical and logistical tasks, with a primary focus on effective teaching. It covers all arrangements before, during, and after training, revisiting plans, and adapting based on previous stages.
 
-From a pedagogical perspective, communicating with participants by providing and gathering necessary information, and sharing pre-course materials is essential for a smooth start. Trainers must align didactic strategies, and ensure training and training material and course accessibility for everyone (colorblind, dyslexic, physical disabilities, etc). The training should be adaptable and interactive. Breaks and informal interactions contribute to engagement and learning. Gathering feedback is important to plan future improvements. Each step is crucial to ensure an effective and inclusive learning experience.
+Below, the key pedagogical and logistical aspects to consider are outlined for each phase of delivery.
 
-Logistical tasks include selecting a venue or technical platform, ensuring accessibility and technical setup, announcements and registering participants, arranging catering for in-person events, creating and organizing documents such as surveys and prints, in addition to the digital resources storage and sharing strategies.
 
 ## What are the pedagogical aspects?
+These are the teaching and learning activities that ensure participants gain knowledge and skills effectively. They cover preparation before the training, strategies for engagement during the sessions, and reflection and improvement after the training.
 
 **Before the training event**:
 * Participant selection assessment: Define criteria for prioritization and assessment of trainees application in order to select participants that can benefit the most from the training and training format.
@@ -28,7 +28,9 @@ Logistical tasks include selecting a venue or technical platform, ensuring acces
 **After the training event**:
 * Update material: Based on feedback, reflections and evaluations. Plan for how to update the material and plan for delivery for the next iteration.
 
+
 ## What are the logistical aspects?
+These are the practical arrangements that support smooth delivery of the training. They include everything from venue and platform setup to registration, technical resources, scheduling, and post-training follow-up.
 
 This is not an exhaustive listing of items to consider.
 
@@ -55,14 +57,12 @@ Consider collecting demographic data for future analysis. Make sure to protect s
 * Participant selection and assessment: When applicable, review the registration form and select participants based on their prior knowledge and skills and the criteria.
  
 *Course technical resources*:
-
 Technical considerations for online or hybrid events:
 * Selecting the platform: For example, Zoom, WebEx, Teams
 * Online helper: Breakout rooms, technical checks for online resources
 * Compute resources: Prepare access to compute resources, learning management systems, collaborative notes documents, notebooks, …
 * Prepare any non-digital resource
 * Feedback: Prepare the event-specific feedback survey to be shared afterwards with participants as well as a trainer’s reflection document for the trainers (and observers, if any). 
-
 
 *Communication with participants*:
 * Participant Preparation: Send pre-course information including:
@@ -73,9 +73,9 @@ Technical considerations for online or hybrid events:
 * The Code of Conduct for the event.
 * Pre-course survey (if applicable): getting information about expectations and previous knowledge
 
-*During the training event*:
+**During the training event**:
 
-**Onboarding and Welcome**: Welcome participants and introduce the course objectives, structure and practicalities (see below). Allow time to address any questions or concerns.
+*Onboarding and Welcome*: Welcome participants and introduce the course objectives, structure and practicalities (see below). Allow time to address any questions or concerns.
 * Course schedule
 * Code of Conduct
 * Attendance list
@@ -85,7 +85,7 @@ Technical considerations for online or hybrid events:
 * **Breaks**: Always announce when a break is over and if there are any refreshments etc available. Possibly write somewhere visible so everyone knows when it is expected.
 
 **After the training event**:
-* Certificates: Send certificates to eligible participants in individual emails or make it available in the registration system when applicable. Make sure you abide by the GDPR regulations.
+*Certificates*: Send certificates to eligible participants in individual emails or make it available in the registration system when applicable. Make sure you abide by the GDPR regulations.
 
 *Evaluation and Feedback*:
 * Distribute evaluation forms to gather feedback on the course content, delivery, and overall experience, Also ask trainers to make use of the trainer’s reflections document.
