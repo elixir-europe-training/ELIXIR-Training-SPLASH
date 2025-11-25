@@ -3,20 +3,30 @@ title: Plan
 contributors: [Patricia Palagi, Eva Alloza, Bérénice Batut, Nadja Zlender, Olivier Sand, Daniel Wibberg, Luciana Peixoto, Elin Kronander, Jeanne Wilbrandt, Bruna Piereck, Samantha Wittke]
 ---
 
-Planning involves identifying and assessing training needs to outline the logistics and pedagogy of the training considering the target audience, setting clear goals and objectives. This stage also includes allocation of funding and resources as well as infrastructure needed to deliver the training. It is also in this phase that retro-planning should be drafted for efficient time management.
+**The planning phase is where every successful training begins!**  
+Before any materials are created or sessions are scheduled, this stage helps you clarify **why** the training is needed, **what** its learning focus will be, **who** it is designed for, and **how** it can be delivered effectively.
 
-Consider if the training will be part of a curriculum, a learning path or isolated. If it should be included in a learning path or curriculum, decide on how it would be articulated. If it is needed, in this stage, we will need to define how to select trainee candidates: how their expertise will be assessed, when, and criteria to select.
+Planning brings together the core elements that shape the entire training: assessing needs, defining objectives, mapping the curriculum or learning path, allocating resources and funding, setting timelines, and determining both trainers and trainees.
 
-By carefully planning these aspects, organisations can ensure that their training initiatives are relevant and aligned with the overall learning and development goals.
+Below, the most important **pedagogical** and **logistical** aspects to consider during the planning phase are outlined.
+
 
 ## What are the pedagogical aspects?
 
-- Training needs analysis: Identifying specific training gaps. Assessing pedagogical, technical and logistical requirements.
-- Target audience: Defining the specific group of individuals who will benefit from the training.
-- Learning objectives: Clearly outlining the desired overarching outcomes of the training.
-- Curriculum development: Creating a detailed training curriculum that aligns with learning objectives.
-- [Learning paths](../resources/learning-paths.md): Review related learning paths and determine if and how this training aligns with them. If the training will be structures as a learning path, ensure to take the available guidelines into account.
-- [Train the Trainer](../resources/train-the-trainer.md) : Continuously offer training for your trainers. 
+## What are the pedagogical aspects?
+
+- **Training needs analysis:** Identify the specific skills, knowledge, or competencies that the training should address. This involves consulting stakeholders, reviewing existing performance data, and assessing current pedagogical, technical, and logistical requirements to ensure the training is targeted and relevant.
+
+- **Target audience:** Clearly define who will benefit from the training. Consider factors such as their current skill level, prior experience, role, learning preferences, and any prerequisites. Understanding the audience helps tailor the content, examples, and delivery style to maximize engagement and learning outcomes.
+
+- **Learning objectives:** Articulate the intended outcomes of the training in clear, measurable terms. Well-defined objectives guide both the design of the curriculum and the evaluation of success, ensuring that participants gain the knowledge or skills the training set out to provide.
+
+- **Curriculum development:** Design a structured curriculum that aligns with the learning objectives. This includes selecting the content, sequencing topics logically, determining the balance between theory and practice, and integrating activities or exercises that reinforce learning.
+
+- **[Learning paths](../resources/learning-paths.md):** Review related learning paths to see how this training complements or fits into broader programmes. Decide whether the training is standalone or part of a sequence, and ensure it follows any established guidelines or standards for learning progression.
+
+- **[Train the Trainer](../resources/train-the-trainer.md):** Support the development of trainers who will deliver the course. This includes providing guidance, resources, and opportunities to practice teaching methods, ensuring that trainers can effectively facilitate learning and maintain consistent quality across sessions.
+
 
 ## What are the logistical aspects?
 
