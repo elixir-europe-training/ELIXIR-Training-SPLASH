@@ -10,7 +10,7 @@ objective: |
   * For Training providers:
     Access certification opportunities for your training events, increasing their credibility and visibility within the community.
   * For trainers:
-    Receive guidance and support to improve your training materials and event documentation, ensuring they meet recognized benchmarks        for quality and effectiveness.
+    Receive guidance and support to improve your training materials and event documentation, ensuring they meet recognized benchmarks for quality and effectiveness.
   * For trainees:
     Benefit from transparent quality indicators and easily verify the standard of training courses and materials before participating.
 
