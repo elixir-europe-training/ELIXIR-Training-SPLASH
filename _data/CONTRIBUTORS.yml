@@ -407,9 +407,10 @@ Russell Schwartz:
     role: 
 
 Samantha Wittke:
-    node: no
-    orcid: 
+    node: FI
+    orcid: 0000-0002-9625-7235
     role:
+    affiliation: CSC- IT Center for Science
 
 Sara El-Gebali:
     node: no
