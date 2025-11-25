@@ -24,7 +24,7 @@ contacts:
 
 
 #OPTIONAL FIELDS
-tags: [catalogue, plan, develop, ch]
+tags: [catalogue, design, ch]
 
 licenses:
   - name: MIT License
