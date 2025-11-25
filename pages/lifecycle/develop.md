@@ -9,6 +9,7 @@ When developing training material, it is crucial to assign clear roles and respo
 
 The [FAIR principles](https://go-fair.org) (Findability, Accessibility, Interoperability, and Reusability) play a crucial role in the development process, and should guide the organization and management of all training assets. For detailed guidance, refer to [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/) and the training course provided by ELIXIR, which offers comprehensive insights into designing FAIR-compliant training materials [here](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/).
 
+<center><img src="assets/img/develop-card2.png" alt="pedagogic considerations" width="300"/> <img src="assets/img/develop-card.png" alt="logistic considerations" width="300"/></center>
 
 ## What are the pedagogical aspects?
 
@@ -24,7 +25,6 @@ Pedagogical aspects of developing training include organizing for and building i
 - **Inclusive Design**: Consider the needs of diverse learners by providing alternative formats and accessibility features - e.g. video captions, colourblind-safe colour palettes...
 - **Continuous Improvement**: Revisit the lesson plan frequently to guide effective development. Integrate mechanisms to gather feedback from learners and trainers to identify areas for further development of the materials (see also [evaluate](evaluate.md)).
 
-![pedagogic considerations](assets/img/develop-card2.png)
 
 ## What are the logistical aspects?
 
@@ -44,7 +44,6 @@ Technical infrastructure is a large logistical consideration during development:
   - **Exercise Setup** Create and test computer environments and installation instructions for hands-on exercises. Ensure that these are functional for different operating systems.  
   - **Data Security** Implement robust measures to protect sensitive data and participant information. This also includes responses or submitted exercises that you gather throughout your course delivery.
 
-![logistic considerations](assets/img/develop-card.png)
 
 ## Related resources: 
 
