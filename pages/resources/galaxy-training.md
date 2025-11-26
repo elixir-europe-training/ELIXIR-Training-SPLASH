@@ -46,7 +46,7 @@ contacts:
 
 
 #OPTIONAL FIELDS
-tags: [catalogue, plan, design, develop, deliver, fr, de, uk]
+tags: [catalogue, plan, design, develop, deliver, community]
 
 mission: |
   Galaxy Training's mission is to **democratize access to high-quality, reproducible training** in data-intensive sciences. By embracing the [**Training Life Cycle**](https://training.galaxyproject.org/training-material/news/2025/07/01/gtn-elixir-life-cycle.html), GTN ensures materials are [**FAIR (Findable, Accessible, Interoperable, Reusable)**](https://training.galaxyproject.org/training-material/news/2024/05/13/fair.html) and adaptable to diverse learning needs. The platform prioritizes **collaboration, recognition, and ease of contribution**, making it simple for anyone to create, improve, or translate training content. Through initiatives like the **Galaxy Training Academy** and **Train-the-Trainer programs**, GTN fosters a global community committed to **open science and equitable education**.
