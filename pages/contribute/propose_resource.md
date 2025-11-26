@@ -61,10 +61,9 @@ The editorial team will review your proposal and may:
 
 Once the editorial team has accepted your proposal, **you (the proposer) are responsible for creating a pull request** to add the resource page:
 
-* Follow the [contributor guidelines](how_to_contribute) to create your pull request
-  * If you're not familiar with Git, use the [GitHub way](github_way) guide
-  * If you're familiar with Git, follow the [Git way (advanced)](working_with_git) guide
-* Create a resource page following the [style guide](style_guide) and using the appropriate template
+* Follow the [adding resources](adding_resources) guide to create your resource page
+* Use the [contributing via GitHub](contributing_via_github) guide to submit your pull request
+* Make sure to follow the [style guide](style_guide) for formatting
 * Submit your pull request for review
 
 The editorial team will review your pull request and, once approved, merge it to include your resource in SPLASH.
