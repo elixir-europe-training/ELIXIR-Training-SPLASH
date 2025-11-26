@@ -14,7 +14,7 @@ Your resource is eligible for inclusion in SPLASH if it meets the following crit
 * **Resource type**: The resource should be one of the following:
   * **Tool**: Software, platform, or application that aids in training development or delivery
   * **Community**: A group or network focused on training development or support
-  * **Curriculum or handbook**: A structured learning pathway or course tailored to trainers (**must have an active maintaining it**)
+  * **Curriculum or handbook**: A structured learning pathway or course tailored to trainers (**must have an active community maintaining it**)
   * **Catalogue**: A collection or repository of training resources
 
 ## Contributor responsibilities
