@@ -13,7 +13,7 @@ objective: |
   * Establish a community of practice to share knowledge, experiences, and ideas
 
 #OPTIONAL FIELDS
-tags: [elixir, design, develop, learning-paths, community]
+tags: [elixir, plan, design, learning-paths, community]
 
 contributors:
   - Alexia Cardona

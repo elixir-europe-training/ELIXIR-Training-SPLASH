@@ -86,7 +86,7 @@
 - id: elearning
   label: E-Learning
   category: topic
-  description: Online learning resources
+  description: Resources helping trainers to develop e-learning
 
 - id: certification
   label: Certification
@@ -102,3 +102,8 @@
   label: Learning Paths
   category: topic
   description: Structured learning journeys
+
+- id: template
+  label: Template
+  category: topic
+  description: templates for developing training

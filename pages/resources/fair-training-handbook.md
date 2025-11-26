@@ -72,7 +72,7 @@ coordinators:
   - Geert van Geest
 
 #OPTIONAL FIELDS
-tags: [elixir, fair-training, plan, design, develop]
+tags: [elixir, fair-training, design, develop]
 
 contacts:
   - name: Bruna Piereck
