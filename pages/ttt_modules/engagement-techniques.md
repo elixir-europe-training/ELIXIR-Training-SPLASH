@@ -4,6 +4,10 @@ description: Methods and strategies for enhancing learner engagement and partici
 duration: 4 hours
 level: Intermediate
 order: 2
+licenses:
+  - name: CC BY 4.0 Deed
+    icon: ccby.png
+    url: https://creativecommons.org/licenses/by/4.0/deed.en
 ---
 
 ## Overview

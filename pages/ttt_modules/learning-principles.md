@@ -4,6 +4,10 @@ description: Understanding how people learn and how to apply learning principles
 duration: 3 hours
 level: Beginner
 order: 1
+licenses:
+  - name: CC BY 4.0 Deed
+    icon: ccby.png
+    url: https://creativecommons.org/licenses/by/4.0/deed.en
 ---
 
 ## Overview

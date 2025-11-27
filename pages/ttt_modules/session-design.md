@@ -4,6 +4,10 @@ description: Creating effective training sessions, materials, and complete cours
 duration: 5 hours
 level: Intermediate
 order: 3
+licenses:
+  - name: CC BY 4.0 Deed
+    icon: ccby.png
+    url: https://creativecommons.org/licenses/by/4.0/deed.en
 ---
 
 ## Overview

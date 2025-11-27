@@ -69,16 +69,22 @@ layout: default
     <div id="content" class="mb-5">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-lg-9">
                     <div class="content-section">
                         {{ content }}
                     </div>
-                    
-                    <!-- Back to Community Button -->
-                    <div class="mt-5">
-                        <a href="/train-the-trainer#the-train-the-trainer-community" class="btn btn-outline-primary">
-                            <i class="fas fa-arrow-left me-2"></i>Back to Community
-                        </a>
+                </div>
+                
+                <!-- Sidebar -->
+                <div class="col-lg-3">
+                    <div class="sticky-top" style="top: 2rem;">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <a href="{{ site.baseurl }}/train-the-trainer" class="btn btn-outline-primary btn-sm w-100">
+                                    <i class="fas fa-arrow-left me-2"></i>Back to TtT
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -128,6 +134,17 @@ layout: default
     color: #4F1C46 !important;
     font-weight: 600;
     border: 1px solid #b9a4b5;
+}
+
+.btn-outline-primary {
+    border-color: #205a86;
+    color: #205a86;
+}
+
+.btn-outline-primary:hover {
+    background-color: #205a86;
+    border-color: #205a86;
+    color: white;
 }
 
 @media (max-width: 767px) {
