@@ -4,7 +4,7 @@ image: https://avatars.githubusercontent.com/bpiereck?s=300
 organization: ELIXIR-BE
 location: Belgium
 github: bpiereck
-sessions: [1,2,3]
+sessions: [1,2,3,4]
 ---
 
 ## Biography
