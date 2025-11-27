@@ -73,7 +73,9 @@ publications:
 #  - screenshot_example_2.png
 ---
 
-{% include ttt-trainers.html %}
+{% include ttt-modules-cards.html %}
+
+{% include ttt-community-cards.html %}
 
 ## ELIXIR-GOBLET TtT HIGHLIGHTS
 * Community of Instructors
