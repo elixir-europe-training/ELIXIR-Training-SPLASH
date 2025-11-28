@@ -9,15 +9,8 @@ objective: |
   * Exchange and recommend best practices for e-learning material creation and implementation (e.g., interactivity, accessibility, maintainability, open access)
   * Define and improve curation processes for e-learning content, especially for inclusion in the TeSS training registry
   * Participate in collaborative development and sharing of e-learning resources across the ELIXIR network
+
 contributors:
-  - Ajay Mishra
-  - Alexander Botzki
-  - Daniel Wibberg
-  - Marko Vidak
-  - Monique Zahn
-  - Nadja Zlender
-  - Olivier Sand
-coordinators:
   - Alexander Botzki
 contacts:
   - name: Alexander Botzki

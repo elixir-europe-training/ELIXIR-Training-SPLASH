@@ -21,22 +21,6 @@ contributors:
   - Saskia Hiltemann
   - Bérénice Batut
   - Helena Rasche
-  - Björn Grüning
-  - Solenne Correard
-  - Fotis Psomopoulos
-  - Anthony Bretaudeau
-  - Hans-Rudolf Hotz
-  - Martin Čech
-  - Nicola Soranzo
-  - Pavankumar Videm
-  - Krzysztof Poterlowicz
-  - Beatriz Serrano-Solano
-  - 450+ contributors
-
-coordinators:
-  - Saskia Hiltemann
-  - Bérénice Batut
-  - Helena Rasche
 
 contacts:
   - name: Saskia Hiltemann

@@ -13,8 +13,8 @@ objective: |
 
   * markdown
   * example 
-contributors: [Alexander Botzki, Mihail Anton, Alexia Cardona]
-coordinators: [Alexia Cardona]
+
+contributor: [Alexia Cardona] # List of main responsible for maintainig the reseource on SPLASH
 contacts:
   - name: Contact Train the Trainers team
     email: jona.doe@example.org

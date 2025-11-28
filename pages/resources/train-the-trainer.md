@@ -9,17 +9,16 @@ description: |
 objective: |
   The programme objective is to give instructors tools and tips for providing an enriching learning experience to trainees, irrespective of topic, and to include best-practice guidance on course and training material development. 
 
-# contributors: [Piv Gopalasingam (EBI), Bruna Piereck (BE), Katarzyna Kamieniecka (UK), Krzysztof Poterlowicz (UK), Helena Schnitzer (DE), Lisanna Paladin (DE), Jessica Lindvall (SE), Piv Gopalasingam (EBI), Erin Calhoun (NO), Roland Krause (LU), Katharina Heil (Hub), Daniel Wibberg (DE), Renato Alves (DE)]
-contributors: 
 
-coordinators: [Allegra Via (IT), Krzysztof Poterlowicz (UK), Lisanna Paladin (DE), Patricia Palagi (CH)]
+
+contributors: [Allegra Via, Krzysztof Poterlowicz, Lisanna Paladin, Patricia Palagi]
 contacts:
   - name: Allegra Via
-    mail: allegra.via@uniroma1.it
+    email: allegra.via@uniroma1.it
   - name: Krzysztof Poterlowicz 
-    mail: K.Poterlowicz1@bradford.ac.uk
+    email: K.Poterlowicz1@bradford.ac.uk
   - name: Lisanna Paladin
-    mail: lisanna.paladin@embl.de
+    email: lisanna.paladin@embl.de
   - name: Patricia Palagi
     email: Patricia.Palagi@sib.swiss
 
