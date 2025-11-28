@@ -4,6 +4,10 @@ description: Strategies for assessing learning and providing effective feedback
 duration: 3 hours
 level: Intermediate
 order: 4
+licenses:
+  - name: CC BY 4.0 Deed
+    icon: ccby.png
+    url: https://creativecommons.org/licenses/by/4.0/deed.en
 ---
 
 ## Overview
@@ -66,3 +70,8 @@ Participants will demonstrate understanding through:
 - Peer feedback practice
 - Reflection on feedback received
 - Development of an evaluation plan
+
+licenses:
+  - name: CC BY 4.0 Deed
+    icon: ccby.png
+    url: https://creativecommons.org/licenses/by/4.0/deed.en

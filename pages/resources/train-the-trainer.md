@@ -40,18 +40,8 @@ tags: [elixir, goblet, train-the-trainer, plan, design, develop, deliver, evalua
 #  * markdown
 #  * example
 
-licenses:
-  - name: CC BY 4.0 Deed
-    icon: ccby.png
-    url: https://creativecommons.org/licenses/by/4.0/deed.en
   
-publications:
-  - title: "1. Course design: Considerations for trainers – a Professional Guide."
-    url: https://f1000research.com/documents/9-1377
-  - title: "2. A new pan-European Train-the-Trainer programme for bioinformatics: pilot results on feasibility, utility and sustainability of learning."
-    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6433894/
-  - title: "3. The ELIXIR-EXCELERATE Train-the-Trainer pilot programme: empower researchers to deliver high-quality training."
-  - url: https://f1000research.com/articles/10.12688/f1000research.12332.1/doi
+
 
 #video: https://www.youtube.com/embed/6ZyGEz6kjnA?si=lIgsRruoX-1YZJJF # ONLY YOUTUBE SUPPORTED AT THIS MOMENT
 
@@ -73,21 +63,27 @@ publications:
 #  - screenshot_example_2.png
 ---
 
-{% include ttt-modules-cards.html %}
-
 {% include ttt-community-cards.html %}
 
-## ELIXIR-GOBLET TtT HIGHLIGHTS
-* Community of Instructors
-* Courses
-* Materials
+{% include ttt-modules-cards.html %}
 
-## ELIXIR-GOBLET TtT COURSE CORE TOPICS 
+## Publications
 
-* Principles of learning and how they apply to training;
-* Training techniques for enhancing learner engagement and participation,
-* Design of engaging sessions, materials and courses;
-* Assessment and feedback in training.
+<div class="row">
+    <div class="col-12">
+        <a target="_blank" href="https://f1000research.com/documents/9-1377">1. Course design: Considerations for trainers – a Professional Guide.</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6433894/">2. A new pan-European Train-the-Trainer programme for bioinformatics: pilot results on feasibility, utility and sustainability of learning.</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <a target="_blank" href="https://f1000research.com/articles/10.12688/f1000research.12332.1/doi">3. The ELIXIR-EXCELERATE Train-the-Trainer pilot programme: empower researchers to deliver high-quality training.</a>
+    </div>
+</div>
 
 ## UPCOMING ELIXIR-GOBLET TtT EVENTS
 
