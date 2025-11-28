@@ -13,7 +13,7 @@ objective: |
     * Evaluate the longer term impact that ELIXIR-badged training events have had on the work of training participants.
 
 
-contributors: [Eleni Adamidi (GR), Brane Leskosek (SI), Nina Norgren (SE)]
+contributors: [Eleni Adamidi, Brane Leskosek, Nina Norgren]
 
 contacts:
   - name: Eleni Adamidi

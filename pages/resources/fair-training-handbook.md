@@ -17,14 +17,14 @@ objective: |
 tags: [elixir, design, develop, fair-training, train-the-trainer]
 
 
-coordinators:
+contributors:
   - Bruna Piereck
   - Geert van Geest
 
 #OPTIONAL FIELDS
 tags: [elixir, fair-training, design, develop]
 
-contributors:
+contacts:
   - name: Bruna Piereck
     email: bruna.piereckmoura@vib.be
   - name: Geert van Geest

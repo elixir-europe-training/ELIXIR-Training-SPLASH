@@ -11,14 +11,14 @@ objective: |
 
 
 
-contributors: [Allegra Via (IT), Krzysztof Poterlowicz (UK), Lisanna Paladin (DE), Patricia Palagi (CH)]
+contributors: [Allegra Via, Krzysztof Poterlowicz, Lisanna Paladin, Patricia Palagi]
 contacts:
   - name: Allegra Via
-    mail: allegra.via@uniroma1.it
+    email: allegra.via@uniroma1.it
   - name: Krzysztof Poterlowicz 
-    mail: K.Poterlowicz1@bradford.ac.uk
+    email: K.Poterlowicz1@bradford.ac.uk
   - name: Lisanna Paladin
-    mail: lisanna.paladin@embl.de
+    email: lisanna.paladin@embl.de
   - name: Patricia Palagi
     email: Patricia.Palagi@sib.swiss
 
