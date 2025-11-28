@@ -12,11 +12,6 @@ tags: [elixir, develop, template]
 
 contributors:
   - Alexia Cardona
-  - Elin Kronander
-  - Geert van Geest
-  - Jose Alejandro Romero Herrera
-coordinators:
-  - Alexia Cardona
   - Geert van Geest
 contacts:
   - name: Geert van Geest
