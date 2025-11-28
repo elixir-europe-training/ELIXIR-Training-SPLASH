@@ -16,6 +16,14 @@ Your resource is eligible for inclusion in SPLASH if it meets the following crit
   * **Community**: A group or network focused on training development or support
   * **Curriculum or handbook**: A structured learning pathway or course tailored to trainers (**must have an active community maintaining it**)
   * **Catalogue**: A collection or repository of training resources
+* **Active and maintained**: The resource should be actively maintained and have a responsive support system (e.g., active community, regular updates)
+
+Further notes and considerations:
+
+- Static documents (e.g., PDFs, slide decks) are not eligible unless they are part of a larger, actively maintained resource (e.g., curriculum or handbook with an active community).
+- Resources primarily aimed at learners rather than trainers are not eligible.
+- Initiatives that have a time span shorter than a year, e.g. open calls and/or programs, and can support trainers are relevant for SPLASH. However, they are not included as a resource. We are happy to feature such opportunities on a to-be-developed page. If you have suggestions for programs, funding opportunities, or the like, please contact the editorial team at [training-splash@elixir-europe.org](mailto:training-splash@elixir-europe.org).
+
 
 ## Contributor responsibilities
 
@@ -24,6 +32,7 @@ As the proposer of a resource, you are responsible for:
 * Ensuring the accuracy and completeness of the resource page information
 * Verifying that the resource meets the eligibility criteria
 * Keeping the resource information up to date (or notifying the editorial team if the resource becomes inactive)
+* Responding to communication from the editorial team
 
 ## How to propose a resource
 
@@ -66,7 +75,7 @@ Once the editorial team has accepted your proposal, **you (the proposer) are res
 * Make sure to follow the [style guide](style_guide) for formatting
 * Submit your pull request for review
 
-The editorial team will review your pull request and, once approved, merge it to include your resource in SPLASH.
+The editorial team will review your pull request and, once approved, merge it to include your resource in SPLASH. If you need assistance during this process, feel free to reach out to the [editorial team](mailto:training-splash@elixir-europe.org).
 
 ## Need help?
 
