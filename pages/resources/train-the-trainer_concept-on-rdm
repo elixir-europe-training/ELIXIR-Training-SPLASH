@@ -1,0 +1,57 @@
+---
+# MANDATORY FIELDS
+id: ttt-concept-rdm # This id should match with the testimonials [ttt, tess, ]
+title: Train-the-Trainer Concept on Research Data Management
+resourceUrl: https://doi.org/10.5281/zenodo.4071470
+description: |
+  ##### Content
+* RDM topics around the life cycle  
+* social components of training
+* didactical components incl. collection of training methods
+* organizational components
+* slide deck and training script for two-day train-the-trainer workshop
+objective: |
+  ##### Objective
+  * provide information for experienced Research Data Management (RDM) professionals
+  * document the train-the-trainer workshop as it was held many times
+  * enable others to mix and match parts and hold their own (train-the-trainer) RDM workshop
+contributors: [Katarzyna Biernacka, Castillo Upiachihua, Claudia Beatriz, Ron Dockhorn, Claudia Engelhardt, Laura Grunwald-Eckhardt, Kerstin Helbig, Juliane Jacob, tereza Kalová, Adienne Karsten, Kristin Meier, Andreas Mühlichen, Janna Neumann, Britta Petersen
+Pascal Scherreiks, Benjamin Slowig, Ute Trautwein-Bruns, Jeanne Wilbrandt, Cord Wiljes]
+coordinators: [Katarzyna Biernacka]
+contacts:
+  - name: Katarzyna Biernacka
+    email: info@discipline-workshops.com
+
+#OPTIONAL FIELDS
+
+# Tags to categorize the resource (see _data/resource_tags.yml for available tags)
+# Available categories: organization (elixir, goblet), lifecycle (plan, design, develop, deliver, evaluate), 
+# topic (fair-training, train-the-trainer, quality-metrics, catalogue, elearning, certification, community)
+tags: [train-the-trainer, plan, design, develop, deliver, evaluate, catalogue]
+
+licenses:
+  - name: CC BY 4.0 Deed
+    icon: ccby.png
+    url: https://creativecommons.org/licenses/by/4.0/deed.en
+publications:
+  - title: Train-the-Trainer Concept on Research Data Management
+    url: https://doi.org/10.5281/zenodo.4071470
+citations: |
+Biernacka, K., Castillo Upiachihua, C. B., Dockhorn, R., Engelhardt, C., Grunwald-Eckhardt, L., Helbig, K., Jacob, J., Kalová, T., Karsten, A., Meier, K., Mühlichen, A., Neumann, J., Petersen, B., Scherreiks, P., Slowig, B., Trautwein-Bruns, U., Wilbrandt, J., & Wiljes, C. (2024). Train-the-Trainer Concept on Research Data Management (5.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.13927614
+---
+
+## General Concept and Application
+
+"This concept is primarily intended for individuals conducting a Train-the-Trainer workshop on research data management. It is divided into 22 units and includes materials, methods, pre- sentation slides, Teaching Script (TS), as well as further information on each topic. To impart the concept in full, two-day workshops should cover all 22 units, with each day lasting seven and a half hours. Workshops should involve at least two people, with units taught over a six- hour period each day. This allows for a lunch break of 60 mins and two shorter breaks of 15 mins.
+
+To prepare your own training workshop, you should work through the relevant unit in the con- cept, understand the teaching script, and go through the slides and other materials. You may also find it helpful to familiarise yourself with the suggested (or other) methods and look them up in the Method Collection. In general, the contents, methods and materials in this concept can also be used by individuals who design and conduct information events and workshops for researchers and other target groups, making any minor adjustments to suit their needs.
+
+The units in this concept are designed to fit into a two-day workshop (see Table 1). In ad- dition to units addressing various aspects of research data management, two-day work-shops should also include units covering social, didactic and organisational components."
+
+## Accompanying Materials
+
+* Slides in PDF and PPTX files for each unit and for both workshop days
+* Detailed teaching script in an XLSX file and excerpts for each unit in a PDF file
+* Working materials in a PDF file and in editable formats (exercise sheets, templates for flip chart sheets, checklists, templates for virtual whiteboards, etc.)
+* Templates for participation certificates and feedback forms
+
