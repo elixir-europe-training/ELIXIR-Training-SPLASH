@@ -18,39 +18,6 @@ objective: |
 tags: [elixir, design, develop, fair-training, community]
     
 contributors:
-  - Alexandra Holinski
-  - Alexia Cardona
-  - Allegra Via
-  - Beatriz Serrano-Solano
-  - Branka Franicevic
-  - Bérénice Batut
-  - Celia van Gelder
-  - Chris Child
-  - David Lloyd
-  - Dayane Araújo
-  - Fotis Psomopoulos
-  - Fred de Lamotte
-  - Geert van Geest
-  - Helen Clare
-  - Helena Schnitzer
-  - Ines Chaves
-  - Jessica Lindvall
-  - Katharina Heil
-  - Krzysztof Poterlowicz
-  - Leyla Jael Castro
-  - Lisanna Paladin
-  - Loredana Le Pera
-  - Manthos Pitoulias
-  - Melissa Burke
-  - Monique Zahn
-  - Olivier Sand
-  - Patricia Palagi
-  - Pedro Fernandes
-  - Roland Krause
-  - Sara Morsey
-  - Xènia Pérez Sitjà
-
-coordinators:
   - Geert Van Geest
   - Sara Morsey
   - Zoi Litou

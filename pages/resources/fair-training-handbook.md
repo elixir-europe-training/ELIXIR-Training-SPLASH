@@ -16,58 +16,8 @@ objective: |
 
 tags: [elixir, design, develop, fair-training, train-the-trainer]
 
-contributors:
-  - Alexandra Holinski
-  - Alexia Cardona
-  - Alice Matimba
-  - Allegra Via
-  - Anastasios Anastasios Papaioannou
-  - Anna Swan
-  - Bruna Piereck
-  - Celia van Gelder
-  - Daniel Thomas Lopez
-  - Daniel Wibberg
-  - Fred de Lamotte
-  - Geert van Geest
-  - Helen Clare
-  - Helena Schnitzer
-  - Hélène Chiapello
-  - Iryna Kuchma
-  - Iulianna van der Lek
-  - Kathryn Unsworth
-  - Krzysztof Poterlowicz
-  - Leyla Jael Castro
-  - Lisanna Paladin
-  - Loredana Le Pera
-  - Lucie Khamvongsa-Charbonnier
-  - Maja Rey
-  - Marcela Davila
-  - Maria Doyle
-  - Marta Lloret
-  - Melissa Burke
-  - Michelle D Brazas
-  - Monique Zahn
-  - Nazeefa Fatima
-  - Nicola Mulder
-  - Olivier Sand
-  - Patricia Carvajal Lopez
-  - Patricia Palagi
-  - Rachel Berkson
-  - Renato Alves
-  - Roland Krause
-  - Russell Schwartz
-  - Sara El-Gebali
-  - Sarah Morgan
-  - Saskia Hiltemann
-  - Shaun Aron
-  - Steven Morgan
-  - Suzanne Duce
-  - Tarcisio Mendes de Farias
-  - Vera Matser
-  - Verena Ras
-  - Wai Keat Yam
 
-coordinators:
+contributors:
   - Bruna Piereck
   - Geert van Geest
 
