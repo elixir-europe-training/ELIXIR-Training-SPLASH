@@ -13,10 +13,6 @@ contributors:
   - Geert van Geest
   - Patricia Palagi
 
-coordinators:
-  - Geert van Geest
-  - Patricia Palagi
-
 contacts:
   - name: Glittr.org contact
     email: info@glittr.org
