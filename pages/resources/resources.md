@@ -7,6 +7,9 @@ sidebar: false
 <div class="row mb-4">
     <div class="col-lg-4 col-xl-3 mb-3">
         <div class="sticky-top" style="top: 6rem;">
+            <a href="propose_resource" class="btn btn-primary w-100 mb-3">
+                <i class="fas fa-plus-circle me-2"></i>Propose your resource
+            </a>
             <input type="text" id="resourceSearch" class="form-control mb-3" placeholder="Search resources...">
             <div id="tagFilters">
                 <div class="mb-3">
