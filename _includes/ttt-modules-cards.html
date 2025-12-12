@@ -2,12 +2,11 @@
 
 <div class="ttt-modules-section mb-5">
   <div class="row g-4">
-    {% assign modules = site.pages | where_exp: "page", "page.path contains 'ttt_modules'" | sort: 'order' %}
+    {% assign modules = site.data.ttt_modules | sort: 'order' %}
     {% for module in modules %}
-    {% if module.title %}
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100 shadow-sm border-0 hover-card module-card">
-        <a href="{{ site.baseurl }}{{ module.url }}" class="text-decoration-none text-dark">
+        <a href="{{ module.external_url }}" class="text-decoration-none text-dark" target="_blank">
           <div class="card-body text-center p-4">
             <div class="mb-3">
               <img src="{{ site.baseurl }}/assets/img/icons/Education-orange.png" alt="{{ module.title }}" class="module-icon">
@@ -35,7 +34,6 @@
         </a>
       </div>
     </div>
-    {% endif %}
     {% endfor %}
   </div>
 </div>
