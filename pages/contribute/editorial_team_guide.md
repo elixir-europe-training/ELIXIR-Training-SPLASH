@@ -1,153 +1,143 @@
 ---
 title: Editorial team guide
-summary: This guide is there to help editors.
+summary: Guidelines for editors managing contributions and pull requests.
 ---
 
-## All you need to know about this GitHub repository
+## Working with the repository
 
-### General rules
+### General workflow
 
-As an editor, try to work as much as possible on a different branch than the main branch. This can be on the ELIXIR Europe Training SPLASH repository or your own fork. Open a pull request if you want to merge your changes with the main branch. This way it is possible for other editors to give feedback on your changes. Typos or other small fixes can of course be done immediately on the main branch.
+* Work on feature branches, not directly on `main`
+* Open pull requests for review before merging to `main`
+* Small fixes (typos) can be committed directly to `main`
 
-### Overview of the file structure in GitHub
+### File structure
 
-The content of the website is built up using markdown files found in the [pages](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/tree/main/pages) directory.
-These markdown files are divided over subdirectories for sorting reasons only.
+* Content pages are in [`pages/`](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/tree/main/pages) directory
+* Sidebar navigation is in [`_data/sidebars/`](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/tree/main/_data/sidebars)
+* Contributors metadata is in [`_data/CONTRIBUTORS.yml`](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/CONTRIBUTORS.yml)
 
 ### Markdown file naming
 
-- Markdown files should be named without capitals and without spaces (replace them with underscores).
-- Make sure that the markdown file has a unique name.
-- If the markdown file is named *example.md*, the page will be found at https://https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH/example.
-- By default a page will not show up in the sidebar. In order to do so you will have to add the link towards the page to the `.yaml` file in the *_data/sidebars* directory or link towards it from another page. More info about this can be found on the [find your page back section](#find-your-newly-added-page-back-on-the-website).
+* Use lowercase with underscores instead of spaces
+* Ensure unique filenames across the entire site
+* File `example.md` renders at `https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH/example`
 
 ### GitHub checks
 
-With each {% glossary PR %} or merge to the master, some checks are done using GitHub actions. One of them checks wether the website builds correctly. The other checks for changes in the tool/resource Excel table. When each of them fails, the {% glossary PR %} will not be able to be merged. Click on the red dot/failed check to understand better what caused the fail. 
+Pull requests trigger automated checks:
+* Website build validation
+* Tool/resource table validation
 
-## Label, discuss and assign issues
+PRs cannot be merged if checks fail. Click the failed check for details.
 
-  * Check open issues regularly or enable notifications by clicking the "WATCH" icon in the top-right side of the [GitHub repository](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/issues).
-  * Assign labels to issues.
-  * Discuss who is going to be responsible for each issue with other editors and reviewers (via issue comments or other communication channels).
-  * Assign at least one editor/reviewer to the issue, who will discuss the possible content with the contributor.
-  * When a Pull Request ({% glossary PR %}) or a draft {% glossary PR %} related to an issue is created, link the {% glossary PR %} to the issue.
-  
-More information about these topics can be found in the GitHub documentation:
-- [commenting on {% glossary PR %}s](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request)
-- [start a review](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/reviewing-proposed-changes-in-a-pull-request)
+## Managing issues and pull requests
 
-## Review pull requests
+### Issues
 
-If contributors make a pull request to make changes, by default the editors that are responsible for files that will be changed by the {% glossary PR %} will be assigned and notified. All {% glossary PR %} should be assigned to one of the editors. Before merging a {% glossary PR %}, pages' tags, and tools and resources' tags should be checked and assigned according to the established tagging system. The editor who provides the last approval to a {% glossary PR %} should also merge it.
-  
-## Link a pull request to an issue
+* Monitor [open issues](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/issues) regularly
+* Apply relevant labels
+* Assign at least one editor to each issue
+* Discuss with contributors via issue comments
+* Link PRs to related issues
 
-When you make a pull request resolving an issue, it is possible to link this pull request to that specific issue. This can be easily done by writing in the conversation of the {% glossary PR %}: `closes #number_of_issue`, or `fixes #number_of_issue` or even `resolves #number_of_issue`. This is definitely applicable when authors first open an issue announcing a change or requesting a new page, followed up by the pull request. 
-For more information about this topic please visit the [GitHub documentation page](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue).
+### Pull requests
 
-## Create a new page
+* Editors responsible for changed files are automatically assigned
+* All PRs must be assigned to at least one editor
+* Review using GitHub's [review features](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests)
+* Verify tags for pages, tools and resources
+* The final approving editor should merge the PR
+* Link PRs to issues using `closes #issue_number`, `fixes #issue_number`, or `resolves #issue_number`
 
-### Simple way: using the GitHub interface
-To generate a new page it is sufficient to simply copy the TEMPLATE file in the subdirectory and rename it. To copy a template you have to:
+Learn more: [Linking pull requests to issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
 
-1. Go to the `TEMPLATE_` file of choice in the [GitHub repo](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/tree/main/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_resource_page.md](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/tree/main/pages/resources/TEMPLATE_resource_page.md) file.
+## Creating new pages
 
-1. Click "Raw" on the GitHub page to open the file 'as is'
-    {% include image.html file="raw_github.png" inline=true alt="Raw button GitHub." %}
+### Via GitHub web interface
 
-1. Select and copy all the content.
+1. Navigate to the appropriate `TEMPLATE_` file in [`pages/`](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/tree/main/pages)
+2. Click "Raw" to view the source
+3. Copy all content
+4. Go to the target directory → "Add file" → "Create new file"
+5. Paste template content
+6. Name the file (lowercase, underscores, unique)
+7. Update frontmatter (see [page metadata guide](https://elixir-belgium.github.io/elixir-toolkit-theme/page_mechanics)):
+   * Remove `search_exclude: true`
+   * Add contributor names
+   * Update title if needed
+8. Commit to a new branch
+9. Create pull request for review
 
-1. Go back to the main section were you want to make the new page, in our example this will be in */pages/resources*. Click on `Add file` on the right followed up by `Create new file`.
-    {% include image.html file="create_new_file_github.png" inline=true alt="Create new file GitHub." %}
+### Via Git
 
-1. Paste the copied content from the template.
+Follow the [Git workflow](contributing_via_github#git-workflow) for local development.
 
-1. Name the file by choosing a unique self explaining short name without capitals and without spaces (replace them with underscores).
-    {% include image.html file="name_file_github.png" inline=true alt="Name the file in GitHub." %}
+## Adding pages to navigation
 
-1. Check the [frontmatter/metadata](page_metadata) of the markdown page:
-    - delete `search_exclude: true` attribute.
-    - add the author names to the contributors list.
-    - optional: change the title into an appropriate one.
+By default, new pages exist as orphans at their URL. Add them to navigation or link from existing pages.
 
-1. Describe shortly which changes you made in the description of your commit below the page. Commit to a new branch and click `Commit new file`.
-     {% include image.html file="commit_to_master_github.png" inline=true alt="Commit new file in GitHub." %}
+### Sidebar navigation
 
-1. Wait till another editor approves your changes. After approval, the branch can be merged and changes will be applied.
-
-1. If the markdown file is named *example.md* the page will be rendered at https://https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH/example. This link can be provided to the contributor through the issue.
-
-{% include callout.html type="note" content="Always make a new branch when making changes to the website, this to prevent little mistakes and to enforce approval from other editors." %}
-
-### Advanced: working on your own feature branch and pushing local changes
-
-Just like with every change you want to make to this repo, it is possible to do this through Git by working on a local copy. For more information on how to do this, please read our [working with Git](working_with_git) page.
-
-
-## Find your newly added page back on the website
-
-By default your page will not be linked in the sidebar on the website, or on the landing page, but it will exist as an orphan at *https://https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH//markdown_file_name*. In order to prevent that people will not find the page back it is better to link towards it in the sidebar or get linked within an existing page. 
-
-### Linking pages in the sidebar and frontpage
-
-Make sure all pages are accessible from the navigation sidebar. Please, avoid generating sub-pages that are not directly accessible from the navigation sidebar.
-
-This website supports multiple sidebars, the one in the main sections of the website is for example different from the one in the contribute section. Both of them are defined by `.yaml` files in the *_data/sidebars* directory. Changing these yaml file will immediately impact the sidebars and the frontpage of the website. The sidebar supports multiple levels and each level in the hierarchy can contain a {% glossary URL %} to a page within this website or an external {% glossary URL %}.
-
-The attributes that define the structure are:
-- `title`: This is the text that will show up in the sidebar.
-- `url`: The {% glossary URL %} to the internal page you want to link to. This is mostly in the form of: */markdown_file_name.html*.
-- `external_url`: Use this instead of {% glossary URL %} if you want to link to an external page.
-- `subitems`: to define a sublevel.
+Edit the relevant `.yml` file in [`_data/sidebars/`](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/tree/main/_data/sidebars):
 
 ```yaml
 - title: Level_1_title
-  url: level_1_url
+  url: /page_name
   subitems:
     - title: Level_2_title
-      url: level_2_url
+      url: /subpage_name
 ```
 
-{% include callout.html type="tip" content="Copy around existing parts in the yaml file to add pages to the same level" %}
+**Attributes:**
+* `title`: Display text in sidebar
+* `url`: Internal page path (e.g., `/example`)  
+* `external_url`: Use for external links instead of `url`
+* `subitems`: Create hierarchy levels
 
-### Link page within existing page
+## Managing contributors
 
-Avoid manual linking to internal pages. If necessary, you can manually link to the pages like this:
-
-If the markdown page is named example_1.md, you can link towards it using:
-
-```md
-[Example 1](example_1)
-```
-
-{% include callout.html type="important" content="If you change the file name, you'll have to update all of your links." %}
-
-
-## Adding extra info to the contributors
-
-Do you want that the GitHub picture of a contributor is shown next to their name? Or maybe you want that the name is clickable and links towards the GitHub page of that person? To enable this please add the name and the necessary metadata to the [CONTRIBUTORS.yaml](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/tree/main/_data/CONTRIBUTORS.yaml) file in the *_data* directory like this:
+Add contributor details to [`_data/CONTRIBUTORS.yml`](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/CONTRIBUTORS.yml):
 
 ```yaml
-Alexia Cordona:
-    git: ac812
-    email: ac812@cam.ac.uk
-    orcid: 0000-0002-7877-5565
-    role: editor
-    affiliation: University of Cambridge
+Name Surname:
+  git: github_username
+  email: email@example.com
+  orcid: 0000-0000-0000-0000
+  role: editor
+  affiliation: Institution Name
 ```
-{% include callout.html type="important" content="Make sure that the name in the yaml file is identically the same as the one used in the metadata of the page." %}
 
+Names in this file must match exactly those used in page metadata.
 
-## Adding an institution, infrastructure, project or funder
+## Managing affiliations
 
-Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/affiliations.yaml) file. The info in this file is used on the support page in the about section, but also for the affiliations in tool assembly pages. Make sure you make use of the same name in those assembly pages. The yaml file has following syntax:
+Institutions, projects, funders and infrastructures are in [`_data/affiliations.yml`](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/affiliations.yml):
+
 ```yaml
-- name: VIB
-  image_url: /images/institutions/vib.svg
-  pid: https://ror.org/03xrhmk39
+- name: Institution Name
+  image_url: /images/institutions/logo.svg
+  pid: https://ror.org/unique_id
   expose: true
   type: institution
+  url: https://www.institution.org
+```
+
+**Attributes:**
+* `name`: Institution name (must match usage in pages)
+* `image_url`: Relative path to logo
+* `pid`: ROR identifier URL
+* `expose`: Set `true` to display in About section
+* `type`: `institution`, `funder`, `infrastructure`, or `project`
+* `url`: Homepage URL
+
+**Logo directories:**
+* `/assets/img/logos/institutions/`
+* `/assets/img/logos/projects/`
+* `/assets/img/logos/infrastructures/`
+* `/assets/img/logos/funders/`
+
+{% include callout.html type="tip" content="Use vector images (SVG) for better quality and smaller file sizes." %}
   url: https://www.vib.be/
 ```
 
