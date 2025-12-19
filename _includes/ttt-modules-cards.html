@@ -6,7 +6,7 @@
     {% for module in modules %}
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100 shadow-sm border-0 hover-card module-card">
-        <a href="{{ module.external_url }}" class="text-decoration-none text-dark" target="_blank">
+        <a href="{{ module.external_url }}" class="text-decoration-none text-dark module-card-link" target="_blank">
           <div class="card-body text-center p-4">
             <div class="mb-3">
               <img src="{{ site.baseurl }}/assets/img/icons/Education-orange.png" alt="{{ module.title }}" class="module-icon">
@@ -109,6 +109,20 @@
   font-size: 0.75rem;
   padding: 0.35em 0.65em;
   border: 1px solid #bee5eb;
+}
+
+.module-card .module-card-link::after {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  margin-left: 0;
+  font-size: 0.9rem !important; 
+  opacity: 0.6;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.module-card:hover .module-card-link::after {
+  opacity: 1;
 }
 
 @media (max-width: 767px) {
