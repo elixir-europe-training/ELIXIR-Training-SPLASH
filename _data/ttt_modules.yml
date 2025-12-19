@@ -1,0 +1,27 @@
+- title: Principles of Learning
+  description: Understanding how people learn and how to apply learning principles to training
+  duration: 3.5 hours
+  level: Beginner
+  order: 1
+  external_url: https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/module_1/
+
+- title: Training Techniques for Engagement
+  description: Methods and strategies for enhancing learner engagement and participation
+  duration: 3.5 hours
+  level: Beginner
+  order: 2
+  external_url: https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/module_2/
+
+- title: Design of Engaging Sessions
+  description: Creating effective training sessions, materials, and complete courses
+  duration: 3.5 hours
+  level: Beginner
+  order: 3
+  external_url: https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/module_3/
+
+- title: Assessment and Feedback
+  description: Strategies for assessing learning and providing effective feedback
+  duration: 3.5 hours
+  level: Beginner
+  order: 4
+  external_url: https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/module_4/
