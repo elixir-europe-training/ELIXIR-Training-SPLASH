@@ -31,7 +31,7 @@ contacts:
 mailingList: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 funding:
   - name: ELIXIR
-    logo: funder_example_1_logo.png
+    logo: elixir-logo.png
     url: https://elixir-europe.org/ 
 logo:
 ---
