@@ -1,34 +1,46 @@
 ---
-title: How to contribute to SPLASH 
+title: How to contribute
 ---
 
-## Ways of contributing
+## Contributing to ELIXIR Training SPLASH
 
-Everyone is welcome to contribute to this site, and we've tried to make it as easy as possible. Choose a way that suits you. The website is hosted on GitHub, so:
+Everyone is welcome to contribute to this site. The website is hosted on [GitHub](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH), and contributions are made through issues and pull requests.
 
-* **If you are not familiar with Git** but want to give it a try on GitHub: follow [our step-by-step instructions](github_way) (no technical knowledge required!).
-* **If you are familiar with Git**: fork the repo and create a pull request (see our [instructions](working_with_git)).
-* **If you just want to make a quick suggestion**: submit your comments/suggestions using an issue as deescribed below.
+## Ways to contribute
 
-## Contributor responsibilities
+### Suggest changes via issues
 
-When writing for this website keep in mind the following:
+The easiest way to suggest improvements, report problems or request new content:
 
-* For the sake of consistency, please follow our [style guide](style_guide).
-* It is your responsibility to make sure that the content you provide respects copyright. Please follow our [Copyright guidelines](copyright).
-* Please read our [Markdown cheat sheet](markdown_cheat_sheet) in order to be able to fill in the page metadata and to format the layout correctly.
-* To avoid having to resolve many issues during the revision process, please check the [Editors checklist](editors_checklist) and make sure you have complied with the requirements.
-* If others were involved in your contribution, by writing up or by providing resources such as diagrams or links, please make sure you acknowledge them in the contributors' section of your page, after receiving their permission.
+1. Go to the [ELIXIR Training SPLASH repository](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/issues)
+2. Check if a similar issue already exists
+3. If not, create a new issue using one of the templates
+4. Discuss your suggestion with the editorial team
 
-## Acknowledgement of contributors
+### Contribute content
 
-Contributors will be shown at the bottom of the page if listed in the metadata of the markdown file. All contributors will also be displayed in the [contributors page](contributors). If you want to link your GitHub account, ORCID or email address, please add your name and corresponding information to the [CONTRIBUTORS file](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/CONTRIBUTORS.yml).
+**New to GitHub?** Follow our [step-by-step guide](contributing_via_github) to contribute using only your web browser.
 
-## Ownership of content
+**Familiar with Git?** Fork the repository and submit a pull request. See our [contributor workflow](contributing_via_github#git-workflow) for details.
 
-No single contributor or editor owns the content of the site, or has the right to dictate what the content should be. The content on the ELIXIR Training SPLASH is a community effort, with many people contributing. Decisions are driven by consensus among the contributors and editors.
+## Before you contribute
 
-The content is periodically updated, which means that if you create content in an ELIXIR training SPLASH page, others can change the content without notifying you. However, the editors ensure that content is only modified for good reasons. The editors try to ensure that the legitimate concerns and different point of views of all contributors are accommodated, and that the content reflects the most popular consensus on any given topic.
+* Follow our [style guide](style_guide) for consistency
+* Respect copyright - see our [copyright guidelines](copyright)
+* Review the [page metadata guide](https://elixir-belgium.github.io/elixir-toolkit-theme/page_mechanics) to understand how to structure your content
+* Acknowledge co-contributors in your page metadata with their permission
 
-If you find any content unsatisfactory, please feel free to [create an issue](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/issues/new/choose) about it.
+## Contributor acknowledgement
+
+Contributors listed in page metadata appear at the bottom of each page and on our [contributors page](contributors). To link your GitHub, ORCID or email, add your details to the [CONTRIBUTORS file](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/CONTRIBUTORS.yml).
+
+## Content ownership and governance
+
+The ELIXIR Training SPLASH is a community effort where:
+* No single contributor owns the content
+* Decisions are made by consensus among contributors and editors
+* Content may be updated by others without prior notification
+* Editors ensure changes are made for valid reasons and reflect community consensus
+
+If you find content unsatisfactory, please [create an issue](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/issues/new/choose).
 
