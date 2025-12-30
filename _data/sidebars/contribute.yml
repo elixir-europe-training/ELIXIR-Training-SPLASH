@@ -1,32 +1,22 @@
 title: Contribute
 title_url: /how_to_contribute
 subitems:
-  - title: Ways to contribute
-    subitems:
-      - title: GitHub way
-        url: /github_way
-      - title: Git way (advanced)
-        url: /working_with_git
-
-  - title: Managing resource tags
-    url: /managing_resource_tags
-  - title: Style guide
-    url: /style_guide
-  - title: Copyright guidelines
-    url: /copyright
-  - title: Markdown cheat sheet
-    url: /markdown_cheat_sheet
-  - title: Page metadata
-    url: /page_metadata
+  - title: Propose a new resource
+    url: /propose_resource
+  - title: Adding resources
+    url: /adding_resources
+  - title: Contributing via GitHub
+    url: /contributing_via_github
   - title: For editors
     subitems:
     - title: Editorial team guide
       url: /editorial_team_guide
     - title: Editors checklist
       url: /editors_checklist
-    - title: Preview changes
-      url: /preview_changes
-  - title: Code of Conduct
-    url: /CODE_OF_CONDUCT
-  - title: List of page IDs
-    url: /website_overview
+  - title: Style guide
+    url: /style_guide
+  - title: Copyright guidelines
+    url: /copyright
+
+
+
