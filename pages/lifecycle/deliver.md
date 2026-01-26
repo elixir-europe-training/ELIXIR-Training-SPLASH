@@ -9,6 +9,7 @@ Below, the key pedagogical and logistical aspects to consider are outlined for e
 
 
 ## What are the pedagogical aspects?
+
 These are the teaching and learning activities that ensure participants gain knowledge and skills effectively. They cover preparation before the training, strategies for engagement during the sessions, and reflection and improvement after the training.
 
 **Before the training event**:
@@ -30,6 +31,7 @@ These are the teaching and learning activities that ensure participants gain kno
 
 
 ## What are the logistical aspects?
+
 These are the practical arrangements that support smooth delivery of the training. They include everything from venue and platform setup to registration, technical resources, scheduling, and post-training follow-up.
 
 This is not an exhaustive listing of items to consider.
