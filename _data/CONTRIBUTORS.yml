@@ -214,6 +214,12 @@ Hélène Chiapello:
     orcid: 
     role: 
 
+Ineke Luijten:
+    node: no
+    git: InekeL
+    orcid: 0000-0001-5768-275X
+    role: 
+
 Ines Chaves:
     node: no
     orcid: 
@@ -241,7 +247,7 @@ Jeanne Wilbrandt:
     orcid: 0000-0002-0363-3837
     role:
     affiliation: Leibniz Institute on Aging - Fritz Lipmann Institute (FLI) Jena
-    role: Data Steward / Trainer
+    role: 
 
 Jessica Lindvall:
     node: SE
