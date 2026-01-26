@@ -11,7 +11,6 @@ Planning brings together the core elements that shape the entire training: asses
 Below, the most important **pedagogical** and **logistical** aspects to consider during the planning phase are outlined.
 
 
-## What are the pedagogical aspects?
 
 ## What are the pedagogical aspects?
 
