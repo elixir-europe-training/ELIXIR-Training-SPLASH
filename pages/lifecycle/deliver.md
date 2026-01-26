@@ -1,6 +1,6 @@
 ---
 title: Deliver
-contributors: [Mark Fernandes, Patricia Palagi, Bruna Piereck, Luciana Peixoto, Alexander Botzki, Alexia Cardona, Helena Schnitzer, Elin Kronander, Jeanne Wilbrandt, Geert van Geest]
+contributors: [Mark Fernandes, Patricia Palagi, Bruna Piereck, Luciana Peixoto, Alexander Botzki, Alexia Cardona, Helena Schnitzer, Elin Kronander, Jeanne Wilbrandt, Geert van Geest, Ineke Luijten]
 ---
 
 The Deliver stage encompasses both pedagogical and logistical tasks, with a primary focus on effective teaching. It covers all arrangements before, during, and after training, revisiting plans, and adapting based on previous stages.
