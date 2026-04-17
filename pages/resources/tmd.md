@@ -5,13 +5,19 @@ title: Training Metrics Database
 resourceUrl: https://tmd.elixir-europe.org
 description: |
   The Training Metrics Database was developed in an effort to streamline data collection, storage, and visualisation for the ELIXIR Training Platform.
+ 
 objective: |
   The Training Metrics Database was developed in an effort to streamline data collection, storage, and visualisation for the Quality and Impact Subtask of the ELIXIR Training Platform, which aims to:
   
     * Describe the audience demographic being reached by ELIXIR-badged training events
     * Assess the quality of ELIXIR-badged training events directly after they have taken place
     * Evaluate the longer term impact that ELIXIR-badged training events have had on the work of training participants.
-
+ 
+  It is also possible to seamlessly integrate training metrics visualisations into other websites by embedding a TMD widget.
+ 
+  ### TMD widget preview:
+  
+  <div class="tmd-widget" id="tmd-widget-container"></div>
 
 contributors: [Eleni Adamidi, Brane Leskosek, Nina Norgren]
 
@@ -35,6 +41,23 @@ publications:
     url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007976
 logo: tmd_logo.png
 screenshots:
-  - tmd.png
-
 ---
+<style>
+  #tmd-widget-container .tmd-widget-question__title {
+    color: #212529;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+</style>
+
+<script src="https://elixir-europe-training.github.io/Training-Metrics-Database-widget/widget.js"></script>
+<script>
+  TMDWidget({
+    container: '#tmd-widget-container',
+    questions: ['impact-recommend_others'],
+    colors: ['#4F1C46', '#005472', '#CA1551', '#03CEA4', '#FF7900', '#4D4848', '#212529'],
+  }).catch((error) => {
+    console.error('TMDWidget failed to initialise', error);
+  });
+</script>
