@@ -1,15 +1,27 @@
 /*-----Theme colors-----*/
-$aubergine: #4F1C46;
-$blue: #005472;
-$red: #CA1551;
-$green: #03CEA4;
-$orange: #FF7900;
+$aubergine: #902A8A;
+$blue: #1F75BA;
+$red: #ED2E7B;
+$green: #D5DD28;
+$orange: #F47D20;
 
 $primary:       $aubergine;
 $primary-light: mix(#fff, $primary, 40%);
 $secondary:     #4D4848;
 $light:         mix(#fff, $primary, 90%);
 $dark:          #212529;
+
+/*-----Bootstrap semantic status mapping-----*/
+$success: $aubergine;
+$danger: $red;
+$warning: $orange;
+$info: $blue;
+
+/*-----Semantic color tokens-----*/
+$color-link: $blue;
+$color-border-accent: $blue;
+$color-tooltip-bg: $dark;
+$color-tooltip-text: #fff;
 
 /*-----Custom values for Bootstrap variables-----*/
 $link-decoration: none;

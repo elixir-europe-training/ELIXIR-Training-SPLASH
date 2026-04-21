@@ -16,7 +16,7 @@ theme_variables:
   # ELIXIR blue
   theme_color: 205a86
   topnav:
-    brand_logo: assets/img/main_logo.svg
+    brand_logo: assets/img/SPLASH_Logo_withoutTagline_RGB.png
   fonts:
     - https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap
 

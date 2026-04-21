@@ -106,7 +106,7 @@ footer {
         transform: translate(-50%);
         height: 100%;
         width: 100vw;
-        background: linear-gradient(135deg, $primary 0%, darken($primary, 10%) 100%);
+        background: linear-gradient(135deg, $primary 0%, darken($primary, 22%) 100%);
         background-size: cover;
         z-index: -1;
     }
@@ -385,15 +385,15 @@ footer {
 .jekyll-glossary {
   position: relative;
   display: inline-block;
-  border-bottom: 2px dotted #0074bd;
+    border-bottom: 2px dotted $color-border-accent;
   cursor: help;
 }
 
 .jekyll-glossary .jekyll-glossary-tooltip {
   visibility: hidden;
   width: 120px;
-  background-color: black;
-  color: #fff;
+    background-color: $color-tooltip-bg;
+    color: $color-tooltip-text;
   text-align: center;
   font-size: 0.5em;
   padding: 5px;
@@ -428,7 +428,7 @@ footer {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: black transparent transparent transparent;
+    border-color: $color-tooltip-bg transparent transparent transparent;
 }
 
 /* Animation from invisible to visible on hover. */
@@ -443,4 +443,25 @@ footer {
 /* HACK: hide surrounding parenthesis on definition. */
 .jekyll-glossary-tooltip-hidden {
     display: none;
+}
+
+/* Lifecycle theme mapping for inline SVG using currentColor. */
+.lifecycle-color-plan {
+    color: var(--color-red);
+}
+
+.lifecycle-color-design {
+    color: var(--color-green);
+}
+
+.lifecycle-color-develop {
+    color: var(--color-aubergine);
+}
+
+.lifecycle-color-deliver {
+    color: var(--color-blue);
+}
+
+.lifecycle-color-evaluate {
+    color: var(--color-orange);
 }
