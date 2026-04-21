@@ -10,7 +10,7 @@
 - id: organization
   label: Organization
   description: Resources affiliated with specific organizations or collaborative networks
-  color: danger
+  color: warning
 
 - id: country
   label: Node
