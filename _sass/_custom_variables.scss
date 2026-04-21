@@ -1,4 +1,21 @@
 // Find out which theme variables you can use to fine tune the styling of your website here: https://github.com/ELIXIR-Belgium/elixir-toolkit-theme/blob/main/_sass/_variables.scss
 // Copy paste theme here and change where necessary .
 
-$topnav-bg: $white;
+$topnav-bg: #fff;
+
+:root {
+	--color-aubergine: #{$aubergine};
+	--color-blue: #{$blue};
+	--color-red: #{$red};
+	--color-green: #{$green};
+	--color-orange: #{$orange};
+	--color-primary: #{$primary};
+	--color-primary-light: #{$primary-light};
+	--color-secondary: #{$secondary};
+	--color-light: #{$light};
+	--color-dark: #{$dark};
+	--color-link: #{$color-link};
+	--color-border-accent: #{$color-border-accent};
+	--color-tooltip-bg: #{$color-tooltip-bg};
+	--color-tooltip-text: #{$color-tooltip-text};
+}

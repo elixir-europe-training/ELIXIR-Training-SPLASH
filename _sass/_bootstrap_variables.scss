@@ -11,6 +11,18 @@ $secondary:     #4D4848;
 $light:         mix(#fff, $primary, 90%);
 $dark:          #212529;
 
+/*-----Bootstrap semantic status mapping-----*/
+$success: $green;
+$danger: $red;
+$warning: $orange;
+$info: $blue;
+
+/*-----Semantic color tokens-----*/
+$color-link: $blue;
+$color-border-accent: $blue;
+$color-tooltip-bg: $dark;
+$color-tooltip-text: #fff;
+
 /*-----Custom values for Bootstrap variables-----*/
 $link-decoration: none;
 $navbar-light-hover-color: $primary;
