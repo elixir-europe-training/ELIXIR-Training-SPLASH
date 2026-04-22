@@ -56,7 +56,7 @@ screenshots:
   TMDWidget({
     container: '#tmd-widget-container',
     questions: ['impact-recommend_others'],
-    colors: ['#4F1C46', '#005472', '#CA1551', '#03CEA4', '#FF7900', '#4D4848', '#212529'],
+    colors: ['#902A8A', '#1F75BA', '#ED2E7B', '#D5DD28', '#F47D20', '#4D4848', '#212529'],
   }).catch((error) => {
     console.error('TMDWidget failed to initialise', error);
   });
