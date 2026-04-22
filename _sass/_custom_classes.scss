@@ -15,6 +15,37 @@ body {
     padding-top: 7rem;
 }
 
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    color: var(--bs-body-color);
+}
+
+#main h1,
+#main .h1,
+#main h2,
+#main .h2,
+#main .h2-like,
+#main h3,
+#main .h3,
+#main h4,
+#main .h4,
+#main h5,
+#main .h5,
+#main h6,
+#main .h6 {
+    color: var(--bs-body-color);
+}
+
 header {
     .navbar {
         position: fixed;
@@ -92,6 +123,13 @@ footer {
     background: $primary-light;
 }
 
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-active-color: #fff;
+    --bs-btn-disabled-color: #fff;
+}
+
 .row-banner {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -106,7 +144,7 @@ footer {
         transform: translate(-50%);
         height: 100%;
         width: 100vw;
-        background: linear-gradient(135deg, $primary 0%, darken($primary, 22%) 100%);
+        background: linear-gradient(135deg, $aubergine 0%, darken($aubergine, 22%) 100%);
         background-size: cover;
         z-index: -1;
     }
@@ -226,7 +264,7 @@ footer {
     }
     
     .card-title {
-        color: $primary;
+        color: var(--bs-body-color);
         font-weight: 600;
         font-size: 0.95rem;
         min-height: 2rem;

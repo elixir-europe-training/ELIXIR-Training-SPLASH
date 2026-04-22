@@ -5,7 +5,7 @@ $red: #ED2E7B;
 $green: #D5DD28;
 $orange: #F47D20;
 
-$primary:       $aubergine;
+$primary:       $red;
 $primary-light: mix(#fff, $primary, 40%);
 $secondary:     #4D4848;
 $light:         mix(#fff, $primary, 90%);
@@ -18,14 +18,18 @@ $warning: $orange;
 $info: $blue;
 
 /*-----Semantic color tokens-----*/
-$color-link: $blue;
+$link-color: $red;
 $color-border-accent: $blue;
 $color-tooltip-bg: $dark;
 $color-tooltip-text: #fff;
 
 /*-----Custom values for Bootstrap variables-----*/
+$btn-primary-color: #fff;
+$btn-primary-hover-color: #fff;
+$btn-primary-active-color: #fff;
+$btn-primary-disabled-color: #fff;
 $link-decoration: none;
-$navbar-light-hover-color: $primary;
+$navbar-light-hover-color: $red;
 
 
 // Font changes
