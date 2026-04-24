@@ -3,7 +3,7 @@ title: Plan
 contributors: [Patricia Palagi, Eva Alloza, Bérénice Batut, Nadja Zlender, Olivier Sand, Daniel Wibberg, Luciana Peixoto, Elin Kronander, Jeanne Wilbrandt, Bruna Piereck, Samantha Wittke]
 ---
 
-**The planning phase is where every successful training begins!**  
+Planning involves identifying and assessing training needs to outline the logistics and pedagogy of the training considering the target audience, setting clear goals and objectives. This stage also includes allocation of funding and resources as well as infrastructure needed to deliver the training. It is also in this phase that retro-planning should be drafted for efficient time management.
 Before any materials are created or sessions are scheduled, this stage helps you clarify **why** the training is needed, **what** its learning focus will be, **who** it is designed for, and **how** it can be delivered effectively.
 
 Planning brings together the core elements that shape the entire training: assessing needs, defining objectives, mapping the curriculum or learning path, allocating resources and funding, setting timelines, and determining both trainers and trainees.
