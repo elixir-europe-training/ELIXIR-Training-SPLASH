@@ -34,6 +34,24 @@
     ],
     "contributors": [
         {
+            "name": "Alloza, Eva",
+            "orcid": "0000-0001-8385-9336",
+            "affiliation": "Barcelona Supercomputing Center",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Lindvall, Jessica",
+            "orcid": "0000-0002-5042-8481",
+            "affiliation": "Science for Life Laboratory",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Psomopoulos, Fotis",
+            "orcid": "0000-0002-0222-4273",
+            "affiliation": "Centre for Research and Technology Hellas",
+            "type": "ProjectMember"
+        },
+        {
             "name": "Hornos Vidal, Albert",
             "orcid": "0000-0002-7330-668X",
             "affiliation": "Barcelona Supercomputing Center",
