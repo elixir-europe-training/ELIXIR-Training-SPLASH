@@ -6,7 +6,7 @@ contributors: [Patricia Palagi, Eva Alloza, Bérénice Batut, Nadja Zlender, Oli
 Planning involves identifying and assessing training needs to outline the logistics and pedagogy of the training considering the target audience, setting clear goals and objectives. This stage also includes allocation of funding and resources as well as infrastructure needed to deliver the training. It is also in this phase that retro-planning should be drafted for efficient time management.
 Before any materials are created or sessions are scheduled, this stage helps you clarify **why** the training is needed, **what** its learning focus will be, **who** it is designed for, and **how** it can be delivered effectively.
 
-Planning brings together the core elements that shape the entire training: assessing needs, defining objectives, mapping the curriculum or learning path, allocating resources and funding, setting timelines, and determining both trainers and trainees.
+By carefully planning these aspects, organisations can ensure that their training initiatives are relevant and aligned with the overall learning and development goals.
 
 Below, the most important **pedagogical** and **logistical** aspects to consider during the planning phase are outlined.
 
