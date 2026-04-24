@@ -5,7 +5,7 @@ $red: #ED2E7B;
 $green: #D5DD28;
 $orange: #F47D20;
 
-$primary:       $red;
+$primary:       $aubergine;
 $primary-light: mix(#fff, $primary, 40%);
 $secondary:     #4D4848;
 $light:         mix(#fff, $primary, 90%);
@@ -18,7 +18,7 @@ $warning: $orange;
 $info: $blue;
 
 /*-----Semantic color tokens-----*/
-$link-color: $red;
+$link-color: $primary;
 $color-border-accent: $blue;
 $color-tooltip-bg: $dark;
 $color-tooltip-text: #fff;
@@ -29,7 +29,7 @@ $btn-primary-hover-color: #fff;
 $btn-primary-active-color: #fff;
 $btn-primary-disabled-color: #fff;
 $link-decoration: none;
-$navbar-light-hover-color: $red;
+$navbar-light-hover-color: $primary;
 
 
 // Font changes
