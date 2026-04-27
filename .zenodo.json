@@ -34,53 +34,229 @@
     ],
     "contributors": [
         {
-            "name": "Alloza, Eva",
-            "orcid": "0000-0001-8385-9336",
-            "affiliation": "Barcelona Supercomputing Center",
+            "name": "Apaolaza, Aitor",
             "type": "ProjectMember"
         },
         {
-            "name": "Lindvall, Jessica",
-            "orcid": "0000-0002-5042-8481",
-            "affiliation": "Science for Life Laboratory",
+            "name": "Mishra, Ajay",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Vidal, Albert Hornos",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-7330-668X",
+            "affiliation": "Barcelona Supercomputing Center"
+        },
+        {
+            "name": "Holinski, Alexandra",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Matimba, Alice",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Via, Allegra",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-3398-5462",
+            "affiliation": "Sapienza University of Rome"
+        },
+        {
+            "name": "Papaioannou, Anastasios",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Swan, Anna",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Bretaudeau, Anthony",
+            "type": "ProjectMember",
+            "orcid": "0000-0003-0914-2470"
+        },
+        {
+            "name": "Serrano-Solano, Beatriz",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-5862-6132"
+        },
+        {
+            "name": "Droesbeke, Bert",
+            "type": "ProjectMember",
+            "orcid": "0000-0003-0522-5674",
+            "affiliation": "Vlaams Instituut voor Biotechnologie"
+        },
+        {
+            "name": "Batut, Bérénice",
+            "type": "ProjectMember",
+            "orcid": "0000-0003-2163-6860",
+            "affiliation": "University of Bradford"
+        },
+        {
+            "name": "Grüning, Björn",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-3079-6586",
+            "affiliation": "University of Freiburg"
+        },
+        {
+            "name": "Franicevic, Branka",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Goble, Carole",
+            "type": "ProjectMember",
+            "orcid": "0000-0003-1219-2137",
+            "affiliation": "The University of Manchester"
+        },
+        {
+            "name": "Gelder, Celia van",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Child, Chris",
+            "type": "ProjectMember",
+            "orcid": "0000-0003-0758-6908",
+            "affiliation": "The University of Manchester"
+        },
+        {
+            "name": "Lopez, Daniel Thomas",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Wibberg, Daniel",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-1331-4311"
+        },
+        {
+            "name": "Lloyd, David",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Araújo, Dayane",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Pilvar, Diana",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-5788-2687",
+            "affiliation": "University of Tartu"
+        },
+        {
+            "name": "Calhoun, Erin",
+            "type": "ProjectMember",
+            "orcid": "0009-0003-3752-7156",
+            "affiliation": "UiT The Arctic University of Norway"
+        },
+        {
+            "name": "Alloza, Eva",
+            "type": "ProjectMember",
+            "orcid": "0000-0001-8385-9336",
+            "affiliation": "Barcelona Supercomputing Center"
+        },
+        {
+            "name": "Bacall, Finn",
             "type": "ProjectMember"
         },
         {
             "name": "Psomopoulos, Fotis",
+            "type": "ProjectMember",
             "orcid": "0000-0002-0222-4273",
-            "affiliation": "Centre for Research and Technology Hellas",
+            "affiliation": "Institute of Applied Biosciences(INAB|CERTH)"
+        },
+        {
+            "name": "Lamotte, Fred de",
             "type": "ProjectMember"
         },
         {
-            "name": "Hornos Vidal, Albert",
-            "orcid": "0000-0002-7330-668X",
-            "affiliation": "Barcelona Supercomputing Center",
+            "name": "Poiares-Oliveira, Gil",
+            "type": "ProjectMember",
+            "orcid": "0000-0003-4638-2879",
+            "affiliation": "BioData.pt | ELIXIR Portugal"
+        },
+        {
+            "name": "Hotz, Hans-Rudolf",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-2799-424X"
+        },
+        {
+            "name": "Peterson, Hedi",
+            "type": "ProjectMember",
+            "orcid": "0000-0001-9951-5116",
+            "affiliation": "University of Tartu"
+        },
+        {
+            "name": "Clare, Helen",
             "type": "ProjectMember"
+        },
+        {
+            "name": "Rasche, Helena",
+            "type": "ProjectMember",
+            "orcid": "0000-0001-9760-8992"
+        },
+        {
+            "name": "Schnitzer, Helena",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-6382-9452"
+        },
+        {
+            "name": "Chiapello, Hélène",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Luijten, Ineke",
+            "type": "ProjectMember",
+            "orcid": "0000-0001-5768-275X"
+        },
+        {
+            "name": "Chaves, Ines",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Kuchma, Iryna",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Lek, Iulianna van der",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Kuzmin, Ivan",
+            "type": "ProjectMember",
+            "orcid": "0000-0001-9138-9901",
+            "affiliation": "University of Tartu"
         },
         {
             "name": "Slifka, Jan",
-            "orcid": "0000-0002-4941-0575",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-4941-0575"
+        },
+        {
+            "name": "Wilbrandt, Jeanne",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-0363-3837",
+            "affiliation": "Leibniz Institute on Aging - Fritz Lipmann Institute (FLI) Jena"
+        },
+        {
+            "name": "Lindvall, Jessica",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-5042-8481",
+            "affiliation": "Science for Life Laboratory"
+        },
+        {
+            "name": "Herrera, Jose Alejandro Romero",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-4765-2087",
+            "affiliation": "Copenhangen University"
+        },
+        {
+            "name": "Kamieniecka, Katarzyna",
             "type": "ProjectMember"
         },
         {
-            "name": "Norgren, Nina",
-            "orcid": "0000-0002-3823-1555",
+            "name": "Heil, Katharina",
             "type": "ProjectMember"
         },
         {
-            "name": "Sand, Olivier",
-            "orcid": "0000-0003-1465-1640",
-            "type": "ProjectMember"
-        },
-        {
-            "name": "Anton, Mihail",
-            "orcid": "0000-0002-7753-9042",
-            "type": "ProjectMember"
-        },
-        {
-            "name": "Droesbeke, Bert",
-            "orcid": "0000-0003-0522-5674",
-            "affiliation": "Vlaams Instituut voor Biotechnologie",
+            "name": "Unsworth, Kathryn",
             "type": "ProjectMember"
         },
         {
@@ -90,80 +266,249 @@
             "affiliation": "University of Bradford"
         },
         {
-            "name": "Le Pera, Loredana",
-            "orcid": "0000-0002-0076-9878",
-            "type": "ProjectMember"
-        },
-        {
-            "name": "Alves, Renato",
-            "orcid": "0000-0002-7212-0234",
-            "affiliation": "European Molecular Biology Laboratory",
-            "type": "ProjectMember"
-        },
-        {
-            "name": "Wibberg, Daniel",
-            "orcid": "0000-0002-1331-4311",
-            "type": "ProjectMember"
-        },
-        {
-            "name": "Via, Allegra",
-            "orcid": "0000-0002-3398-5462",
-            "affiliation": "Sapienza University of Rome",
-            "type": "ProjectMember"
-        },
-        {
-            "name": "Doyle, Maria",
-            "orcid": "0000-0003-4847-8436",
-            "type": "ProjectMember"
-        },
-        {
-            "name": "Schnitzer, Helena",
-            "orcid": "0000-0002-6382-9452",
+            "name": "Gurwitz, Kim",
             "type": "ProjectMember"
         },
         {
             "name": "Schroeder, Kristen",
-            "orcid": "0000-0002-9872-4343",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-9872-4343"
+        },
+        {
+            "name": "Poterlowicz, Krzysztof",
+            "type": "ProjectMember",
+            "orcid": "0000-0001-6173-5674"
+        },
+        {
+            "name": "Castro, Leyla Jael",
             "type": "ProjectMember"
         },
         {
-            "name": "Pilvar, Diana",
-            "orcid": "0000-0002-5788-2687",
-            "affiliation": "University of Tartu",
+            "name": "Paladin, Lisanna",
+            "type": "ProjectMember",
+            "orcid": "0000-0003-0011-9397",
+            "affiliation": "European Molecular Biology Laboratory"
+        },
+        {
+            "name": "Pera, Loredana Le",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-0076-9878"
+        },
+        {
+            "name": "Peixoto, Luciana",
             "type": "ProjectMember"
         },
         {
-            "name": "Luijten, Ineke",
-            "orcid": "0000-0001-5768-275X",
+            "name": "Khamvongsa-Charbonnier, Lucie",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Rey, Maja",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Pitoulias, Manthos",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Davila, Marcela",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Doyle, Maria",
+            "type": "ProjectMember",
+            "orcid": "0000-0003-4847-8436"
+        },
+        {
+            "name": "Fernandes, Mark",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Vidak, Marko",
+            "type": "ProjectMember",
+            "orcid": "0000-0001-7901-3936",
+            "affiliation": "University of Ljubljana, Medical Faculty"
+        },
+        {
+            "name": "Lloret, Marta",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Čech, Martin",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-9318-1781"
+        },
+        {
+            "name": "Burke, Melissa",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Brazas, Michelle D",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Anton, Mihail",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-7753-9042",
+            "affiliation": "ELIXIR Hub"
+        },
+        {
+            "name": "Zahn, Monique",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Andrabi, Munazah",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-7718-5109",
+            "affiliation": "The University of Manchester"
+        },
+        {
+            "name": "Zlender, Nadja",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Fatima, Nazeefa",
+            "type": "ProjectMember",
+            "orcid": "0000-0001-7791-4984",
+            "affiliation": "Centre for Bioinformatics, University of Oslo"
+        },
+        {
+            "name": "Mulder, Nicola",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Soranzo, Nicola",
+            "type": "ProjectMember",
+            "orcid": "0000-0003-3627-5340"
+        },
+        {
+            "name": "Norgren, Nina",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-3823-1555"
+        },
+        {
+            "name": "Sand, Olivier",
+            "type": "ProjectMember",
+            "orcid": "0000-0003-1465-1640"
+        },
+        {
+            "name": "Lopez, Patricia Carvajal",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Palagi, Patricia",
+            "type": "ProjectMember",
+            "orcid": "0000-0001-9062-6303",
+            "affiliation": "SIB Swiss Institute of Bioinformatics"
+        },
+        {
+            "name": "Videm, Pavankumar",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-5192-126X"
+        },
+        {
+            "name": "Fernandes, Pedro",
             "type": "ProjectMember"
         },
         {
             "name": "Reed, Phil",
+            "type": "ProjectMember",
             "orcid": "0000-0002-4479-715X",
-            "affiliation": "University of Manchester",
+            "affiliation": "University of Manchester"
+        },
+        {
+            "name": "Gopalasingam, Piv",
+            "type": "ProjectMember",
+            "affiliation": "European Molecular Biology Laboratory"
+        },
+        {
+            "name": "Berkson, Rachel",
             "type": "ProjectMember"
         },
         {
-            "name": "Batut, Bérénice",
-            "orcid": "0000-0001-9852-1987",
-            "affiliation": "Institut Français de Bioinformatique",
+            "name": "Alves, Renato",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-7212-0234",
+            "affiliation": "European Molecular Biology Laboratory"
+        },
+        {
+            "name": "Krause, Roland",
             "type": "ProjectMember"
         },
         {
-            "name": "Poiares-Oliveira, Gil",
-            "orcid": "0000-0003-4638-2879",
-            "affiliation": "BioData.pt | ELIXIR Portugal",
+            "name": "Schwartz, Russell",
             "type": "ProjectMember"
         },
         {
-            "name": "Poterlowicz, Krzysztof",
-            "orcid": "0000-0001-6173-5674",
+            "name": "Wittke, Samantha",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-9625-7235",
+            "affiliation": "CSC- IT Center for Science"
+        },
+        {
+            "name": "El-Gebali, Sara",
             "type": "ProjectMember"
+        },
+        {
+            "name": "Morsey, Sara",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Morgan, Sarah",
+            "type": "ProjectMember",
+            "affiliation": "European Infrastructure for Translational Medicine (EATRIS)- ERIC"
+        },
+        {
+            "name": "Hiltemann, Saskia",
+            "type": "ProjectMember",
+            "orcid": "0000-0003-3803-468X"
+        },
+        {
+            "name": "Aron, Shaun",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Correard, Solenne",
+            "type": "ProjectMember",
+            "orcid": "0000-0002-0554-5443"
+        },
+        {
+            "name": "Morgan, Steven",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Duce, Suzanne",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Farias, Tarcisio Mendes de",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Matser, Vera",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Ras, Verena",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Yam, Wai Keat",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Sitjà, Xènia Pérez",
+            "type": "ProjectMember",
+            "affiliation": "Earlham Institute"
         },
         {
             "name": "Litou, Zoi",
+            "type": "ProjectMember",
             "orcid": "0000-0002-7442-1137",
-            "affiliation": "National and Kapodistrian University of Athens",
+            "affiliation": "National and Kapodistrian University of Athens"
+        },
+        {
+            "name": "Gáspári, Zoltán",
             "type": "ProjectMember"
         }
     ],

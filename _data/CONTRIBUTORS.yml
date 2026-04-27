@@ -10,6 +10,12 @@ Aitor Apaolaza:
 Ajay Mishra:
     role: 
 
+Albert Hornos Vidal:
+    git: ahornos
+    affiliation: Barcelona Supercomputing Center
+    orcid: 0000-0002-7330-668X
+    role:
+
 Alexander Botzki:
     git: abotzki
     affiliation: VIB Training & Conferences
@@ -33,7 +39,9 @@ Alice Matimba:
 
 Allegra Via:
     email: allegra.via@uniroma1.it
+    affiliation: Sapienza University of Rome
     node: IT
+    orcid: 0000-0002-3398-5462
     role: 
 
 Anastasios Papaioannou:
@@ -51,6 +59,12 @@ Beatriz Serrano-Solano:
     role: 
     git: beatrizserrano
     orcid: 0000-0002-5862-6132
+
+Bert Droesbeke:
+    git: bedroesb
+    affiliation: Vlaams Instituut voor Biotechnologie
+    orcid: 0000-0003-0522-5674
+    role:
 
 Bérénice Batut:
     git: bebatut
@@ -121,6 +135,11 @@ Dayane Araújo:
     orcid: 
     role: 
 
+Diana Pilvar:
+    affiliation: University of Tartu
+    orcid: 0000-0002-5788-2687
+    role:
+
 Elin Kronander:
     git: elinkronander
     affiliation: NBIS National Bioinformatics Infrastructure Sweden
@@ -137,11 +156,12 @@ Erin Calhoun:
     affiliation: UiT The Arctic University of Norway
 
 Eva Alloza:
-    node: no
-    orcid: 
-    role: 
-    email: eva.alloza@bsc.es
     git: EvaAlloza
+    affiliation: Barcelona Supercomputing Center
+    email: eva.alloza@bsc.es
+    node: no
+    orcid: 0000-0001-8385-9336
+    role:
     
 Finn Bacall:
     node: no
@@ -206,7 +226,7 @@ Helena Rasche:
 
 Helena Schnitzer:
     node: no
-    orcid: 
+    orcid: 0000-0002-6382-9452
     role: 
 
 Hélène Chiapello:
@@ -241,7 +261,12 @@ Ivan Kuzmin:
     affiliation: University of Tartu
     orcid:  0000-0001-9138-9901
     role:
-    
+
+Jan Slifka:
+    git: janslifka
+    orcid: 0000-0002-4941-0575
+    role:
+
 Jeanne Wilbrandt:
     node: DE
     orcid: 0000-0002-0363-3837
@@ -250,8 +275,9 @@ Jeanne Wilbrandt:
     role: 
 
 Jessica Lindvall:
+    affiliation: Science for Life Laboratory
     node: SE
-    orcid: 
+    orcid: 0000-0002-5042-8481
     role: 
 
 Jose Alejandro Romero Herrera:
@@ -275,15 +301,28 @@ Kathryn Unsworth:
     orcid: 
     role: 
 
+Khaled Jumah:
+    git: khaled196
+    affiliation: University of Bradford
+    orcid: 0000-0001-5481-8893
+    role:
+
 Kim Gurwitz:
     node: UK
     orcid:
+    role:
+
+Kristen Schroeder:
+    orcid: 0000-0002-9872-4343
+    git: kristen-schroeder
     role:
 
 Krzysztof Poterlowicz:
     node: UK
     role: 
     git: poterlowicz-lab
+    github_aliases:
+        - kpoterlowicz
     orcid: 0000-0001-6173-5674
 
 Leyla Jael Castro:
@@ -300,7 +339,7 @@ Lisanna Paladin:
 
 Loredana Le Pera:
     node: no
-    orcid: 
+    orcid: 0000-0002-0076-9878
     role: 
 
 Luciana Peixoto:
@@ -330,7 +369,7 @@ Marcela Davila:
 
 Maria Doyle:
     node: no
-    orcid: 
+    orcid: 0000-0003-4847-8436
     role: 
 
 Mark Fernandes:
@@ -415,8 +454,9 @@ Nina Norgren:
     role: 
 
 Olivier Sand:
+    git: olisand
     node: no
-    orcid: 
+    orcid: 0000-0003-1465-1640
     role:
 
 Patricia Carvajal Lopez:
@@ -442,6 +482,11 @@ Pedro Fernandes:
     node: no
     orcid: 
     role: 
+
+Phil Reed:
+    affiliation: University of Manchester
+    orcid: 0000-0002-4479-715X
+    role:
 
 Piv Gopalasingam:
     affiliation: European Molecular Biology Laboratory
@@ -549,8 +594,10 @@ Xènia Pérez Sitjà:
     git: sitjart
 
 Zoi Litou:
+    affiliation: National and Kapodistrian University of Athens
+    git: zlitou
     node: no
-    orcid: 
+    orcid: 0000-0002-7442-1137
     role:
 
 Zoltán Gáspári:
