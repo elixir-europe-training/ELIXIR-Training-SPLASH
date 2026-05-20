@@ -50,16 +50,6 @@ Anastasios Papaioannou:
 Anna Swan:
     role: 
 
-Anthony Bretaudeau:
-    role:
-    git: abretaud
-    orcid: 0000-0003-0914-2470
-
-Beatriz Serrano-Solano:
-    role: 
-    git: beatrizserrano
-    orcid: 0000-0002-5862-6132
-
 Bert Droesbeke:
     git: bedroesb
     affiliation: Vlaams Instituut voor Biotechnologie
@@ -72,19 +62,6 @@ Bérénice Batut:
     email: berenice.batut@france-bioinformatique.fr
     node: FR
     orcid: 0000-0001-9852-1987
-    role: 
-    orcid: 0000-0003-2163-6860
-    affiliation: University of Bradford
-
-Björn Grüning:
-    git: bgruening
-    affiliation: University of Freiburg
-    node: DE
-    orcid: 0000-0002-3079-6586 
-    role: 
-
-Branka Franicevic:
-    role: 
 
 Bruna Piereck:
     git: bpiereck
@@ -162,11 +139,6 @@ Eva Alloza:
     node: no
     orcid: 0000-0001-8385-9336
     role:
-    
-Finn Bacall:
-    node: no
-    orcid: 
-    role: 
 
 Fotis Psomopoulos:
     email: fpsom@certh.gr
@@ -199,12 +171,6 @@ Gil Poiares-Oliveira:
     orcid: 0000-0003-4638-2879
     role:
 
-Hans-Rudolf Hotz:
-    node: CH
-    orcid: 0000-0002-2799-424X
-    git: hrhotz
-    role: 
-
 Hedi Peterson:
     node: EE
     git: hedi-ee
@@ -216,12 +182,6 @@ Hedi Peterson:
 Helen Clare:
     node: no
     orcid: 
-    role: 
-
-Helena Rasche:
-    git: hexylena
-    node: NL
-    orcid: 0000-0001-9760-8992
     role: 
 
 Helena Schnitzer:
@@ -278,14 +238,6 @@ Jessica Lindvall:
     affiliation: Science for Life Laboratory
     node: SE
     orcid: 0000-0002-5042-8481
-    role: 
-
-Jose Alejandro Romero Herrera:
-    git: joseale2310
-    email: j.a.romero.herrera@gmail.com
-    node: DK
-    affiliation: Copenhangen University
-    orcid: 0000-0002-4765-2087
     role: 
 
 Katarzyna Kamieniecka:
@@ -348,11 +300,6 @@ Luciana Peixoto:
     role:
 
 Lucie Khamvongsa-Charbonnier:
-    node: no
-    orcid: 
-    role: 
-
-Maja Rey:
     node: no
     orcid: 
     role: 
