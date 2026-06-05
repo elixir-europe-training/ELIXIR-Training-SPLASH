@@ -13,7 +13,7 @@ objective: |
     * Assess the quality of ELIXIR-badged training events directly after they have taken place
     * Evaluate the longer term impact that ELIXIR-badged training events have had on the work of training participants.
  
-  It is also possible to seamlessly integrate training metrics visualisations into other websites by embedding a TMD widget.
+  It is also possible to seamlessly integrate training metrics visualisations into other websites by embedding a [TMD widget](https://github.com/elixir-europe-training/Training-Metrics-Database/wiki/Add-TMD-widget-to-your-own-website).
  
   ### TMD widget preview:
   
