@@ -3,7 +3,7 @@ title: Patricia Palagi
 image: https://avatars.githubusercontent.com/pppalagi?s=300
 organization: ELIXIR-CH / SIB Swiss Institute of Bioinformatics
 location: Switzerland
-github: pppalagi
+github: ppalagi
 sessions: [1,2,3,4]
 email: Patricia.Palagi@sib.swiss
 ---
