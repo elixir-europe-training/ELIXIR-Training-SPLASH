@@ -19,4 +19,3 @@ sidebar: false
     </div>
 </div>
 
-{% include index/splash-in-numbers.html %}
