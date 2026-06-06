@@ -40,7 +40,6 @@ publications:
   - title: A framework to assess the quality and impact of bioinformatics training across ELIXIR
     url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007976
 logo: tmd_logo.png
-screenshots:
 ---
 <style>
   #tmd-widget-container .tmd-widget-question__title {
