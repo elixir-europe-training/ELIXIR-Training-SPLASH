@@ -70,16 +70,6 @@
             "type": "ProjectMember"
         },
         {
-            "name": "Bretaudeau, Anthony",
-            "type": "ProjectMember",
-            "orcid": "0000-0003-0914-2470"
-        },
-        {
-            "name": "Serrano-Solano, Beatriz",
-            "type": "ProjectMember",
-            "orcid": "0000-0002-5862-6132"
-        },
-        {
             "name": "Droesbeke, Bert",
             "type": "ProjectMember",
             "orcid": "0000-0003-0522-5674",
@@ -90,16 +80,6 @@
             "type": "ProjectMember",
             "orcid": "0000-0003-2163-6860",
             "affiliation": "University of Bradford"
-        },
-        {
-            "name": "Grüning, Björn",
-            "type": "ProjectMember",
-            "orcid": "0000-0002-3079-6586",
-            "affiliation": "University of Freiburg"
-        },
-        {
-            "name": "Franicevic, Branka",
-            "type": "ProjectMember"
         },
         {
             "name": "Goble, Carole",
@@ -153,10 +133,6 @@
             "affiliation": "Barcelona Supercomputing Center"
         },
         {
-            "name": "Bacall, Finn",
-            "type": "ProjectMember"
-        },
-        {
             "name": "Psomopoulos, Fotis",
             "type": "ProjectMember",
             "orcid": "0000-0002-0222-4273",
@@ -173,11 +149,6 @@
             "affiliation": "BioData.pt | ELIXIR Portugal"
         },
         {
-            "name": "Hotz, Hans-Rudolf",
-            "type": "ProjectMember",
-            "orcid": "0000-0002-2799-424X"
-        },
-        {
             "name": "Peterson, Hedi",
             "type": "ProjectMember",
             "orcid": "0000-0001-9951-5116",
@@ -186,11 +157,6 @@
         {
             "name": "Clare, Helen",
             "type": "ProjectMember"
-        },
-        {
-            "name": "Rasche, Helena",
-            "type": "ProjectMember",
-            "orcid": "0000-0001-9760-8992"
         },
         {
             "name": "Schnitzer, Helena",
@@ -240,12 +206,6 @@
             "type": "ProjectMember",
             "orcid": "0000-0002-5042-8481",
             "affiliation": "Science for Life Laboratory"
-        },
-        {
-            "name": "Herrera, Jose Alejandro Romero",
-            "type": "ProjectMember",
-            "orcid": "0000-0002-4765-2087",
-            "affiliation": "Copenhangen University"
         },
         {
             "name": "Kamieniecka, Katarzyna",
@@ -300,10 +260,6 @@
         },
         {
             "name": "Khamvongsa-Charbonnier, Lucie",
-            "type": "ProjectMember"
-        },
-        {
-            "name": "Rey, Maja",
             "type": "ProjectMember"
         },
         {
