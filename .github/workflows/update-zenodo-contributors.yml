@@ -1,0 +1,51 @@
+name: Update .zenodo.json contributors
+
+on:
+  push:
+    branches:
+      - main
+      - 315-include-a-metadata-file-for-the-repository
+    paths:
+      - '_data/CONTRIBUTORS.yml'
+  workflow_dispatch:
+
+jobs:
+  update-zenodo:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install PyYAML
+        run: pip install pyyaml
+
+      - name: Run consistency checks
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_zenodo_contributors.py --check-only
+
+      - name: Update contributors in .zenodo.json
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_zenodo_contributors.py
+
+      - name: Commit updated .zenodo.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet .zenodo.json || (
+            git add .zenodo.json &&
+            git commit -m "chore: update .zenodo.json contributors from CONTRIBUTORS.yml [skip ci]"
+          )
+
+      - name: Push changes
+        run: git push
