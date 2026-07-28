@@ -20,7 +20,13 @@ contributors:
   - Jessica Lindvall
   - Loredana Le Pera
 contacts:
-  - name: Learning Paths
+  - name: Alexia Cardona
+    email: ac812@cam.ac.uk
+  - name: Jessica Lindvall
+    email: essica.lindvall@scilifelab.se
+  - name: Loredana Le Pera
+    email: loredana.lepera@iss.it
+  - name: Learning Paths Email
     email: learning-paths@elixir-europe.org
 #publications:
   - title: Publication example 1
