@@ -1,6 +1,9 @@
 source "https://rubygems.org"
 
-gem "webrick"
+gem "elixir-toolkit-theme-plugins", "~> 1.1.0"
+gem "webrick", "~> 1.9.1"
+gem "jekyll", "~> 4.4.1"
+gem "jemoji", "~> 0.13.0"
 
 group :jekyll_plugins do
     gem "github-pages"
