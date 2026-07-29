@@ -52,4 +52,6 @@ logo:
   
 * Events:
   - [Developing Learning Paths for the ELIXIR RDM Community](https://elixir-europe.org/events/developing-learning-paths-elixir-rdm-community)
-
+ 
+## Contacts for ELIXIR Learning Paths in TeSS
+Each ELIXIR Learning Path in TeSS has designated key contacts who serve as the authors and maintainers of the respective learning path. If you have any questions or feedback about a specific learning path, you are encouraged to contact the relevant key contacts directly. Details of the key contacts for each ELIXIR Learning Path can be found [here](https://docs.google.com/spreadsheets/d/1M64LvBM-bt0pfVmiSiEgkq9p7CzfF0WHWdXRfG2J3y8/edit?usp=sharing).  For any other queries about learning paths in general, please contact the ELIXIR Learning Paths group leads via <learning-paths@elixir-europe.org>.
