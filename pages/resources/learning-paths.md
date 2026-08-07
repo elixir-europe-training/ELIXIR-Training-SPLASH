@@ -4,11 +4,11 @@ id: learning-paths # This id should match with the testimonial ToolId
 title: Learning Paths
 resourceUrl: https://elixir-europe.org/focus-groups/learning-paths
 description: |
-   Learning Paths are structured pathways that guide learners through a series of courses and training materials, enabling them to progressively develop the knowledge and skills required in a particular subject area. By providing a clear and coherent sequence of learning activities, Learning Paths support learners in achieving their professional development and career goals.
-
-Within ELIXIR, the primary objective of the Learning Paths project is to foster the exchange of knowledge, ideas, and experiences with the aim of identifying needs, devising solutions, and advocating the widespread adoption of learning paths across ELIXIR, its Nodes, Communities, and beyond. This effort will address the current lack of guidance in developing curricula or structured training programs, with the ultimate goal of enhancing the learning experience for end users.
-
-The Learning Paths project has collaborated with different stakeholders from across the ELIXIR ecosystem to establish a process for developing Learning Paths (the Learning Paths Protocol). The project has also worked closely with the TeSS development team to design and implement the Learning Paths functionality within TeSS, enabling the creation and dissemination of learning paths.
+  Learning Paths are structured pathways that guide learners through a series of courses and training materials, enabling them to progressively develop the knowledge and skills required in a particular subject area. By providing a clear and coherent sequence of learning activities, Learning Paths support learners in achieving their professional development and career goals.
+  
+  Within ELIXIR, the primary objective of the Learning Paths project is to foster the exchange of knowledge, ideas, and experiences with the aim of identifying needs, devising solutions, and advocating the widespread adoption of learning paths across ELIXIR, its Nodes, Communities, and beyond. This effort will address the current lack of guidance in developing curricula or structured training programs, with the ultimate goal of enhancing the learning experience for end users.
+  
+  The Learning Paths project has collaborated with different stakeholders from across the ELIXIR ecosystem to establish a process for developing Learning Paths (the Learning Paths Protocol). The project has also worked closely with the TeSS development team to design and implement the Learning Paths functionality within TeSS, enabling the creation and dissemination of learning paths.
 
 objective: |
   The main aims of the ELIXIR Learning Paths project are:
@@ -46,7 +46,7 @@ funding:
   - name: ELIXIR
     logo: elixir-logo.png
     url: https://elixir-europe.org/ 
-#logo:
+logo:
 ---
 
 ## Resources
