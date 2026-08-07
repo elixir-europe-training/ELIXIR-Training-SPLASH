@@ -50,15 +50,15 @@ logo:
 ---
 
 ## Resources
-* Developing Learning Paths guidelines, [The Learning Paths Protocol](https://zenodo.org/records/10082795)
+* Developing Learning Paths guidelines: [The Learning Paths Protocol](https://zenodo.org/records/10082795)
 * [Learning Paths in TeSS](https://tess.elixir-europe.org/learning_paths)
-* ELIXIR Learning Paths Standard Operating Procedure: this describes the operational procedure to create an new ELIXIR Learning Path.
+* [ELIXIR Learning Paths Standard Operating Procedure](https://doi.org/10.5281/zenodo.21822148): this describes the operational procedure to create an new ELIXIR Learning Path in TeSS.
 
 
 ## Collaborations and use cases
-* The EOSC4Cancer project adopted the ELIXIR Learning Paths protocol to develop learning paths ([see details here])[https://zenodo.org/records/10200523](https://zenodo.org/records/10200523)].
-* Collaboration with the Plant Sciences Community to establish a Plant Data Management Learning Path ([see poster for details])(https://doi.org/10.7490/f1000research.1119444.1).
-* The ELIXIR Learning Paths protocol was also used outside of the life sciences domain, such as this example in astrophysics: Towards a FAIR path for the Einstein Telescope which was presented at the XV Einstein Telescope Symposium. The poster describes a strategy to build a FAIR Learning Path for astrophysics of gravitational waves([see poster here])(https://dataverse.bsc.es/dataset.xhtml?persistentId=perma:BSC/HCRTFY).
+* The EOSC4Cancer project adopted the ELIXIR Learning Paths protocol to develop learning paths ([see details here](https://zenodo.org/records/10200523)).
+* Collaboration with the Plant Sciences Community to establish a Plant Data Management Learning Path ([see poster for details](https://doi.org/10.7490/f1000research.1119444.1)).
+* The ELIXIR Learning Paths protocol was also used outside of the life sciences domain, such as this example in astrophysics: Towards a FAIR path for the Einstein Telescope which was presented at the XV Einstein Telescope Symposium. The poster describes a strategy to build a FAIR Learning Path for astrophysics of gravitational waves([see poster here](https://dataverse.bsc.es/dataset.xhtml?persistentId=perma:BSC/HCRTFY)).
 * The ELIXIR Learning Paths group has inspired other projects and groups via the ELIXIR Learning Paths Protocol who engaged with the group via the monthly ELIXIR Learning Path Focus Group meetings.  Some examples are: the [Galaxy Training Network Learning Paths](https://training.galaxyproject.org/training-material/learning-pathways/), [SIB Learning Paths](https://www.sib.swiss/training/learning-paths), [VIB Learning Paths](https://www.vibtrainingandconferences.be/sites/default/files/2026-03/Lifelong_learning_at_VIB.pdf).
 * More examples of ELIXIR Learning Paths can be found [here](https://tess.elixir-europe.org/learning_paths)
      
