@@ -62,9 +62,10 @@ tags: [elixir, goblet, train-the-trainer, plan, design, develop, deliver, evalua
 #  - screenshot_example_2.png
 ---
 
-{% include ttt-community-cards.html %}
-
 {% include ttt-modules-cards.html %}
+
+## TtT training materials
+  The dedicated [TtT GitHub repository](https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/) is where you'll find the handbook and supporting materials for the ELIXIR-GOBLET TtT course, optional lessons that complement the core course, information about the TtT Instructors' community, and any other TtT-related resources.
 
 ## Publications
 
@@ -86,4 +87,4 @@ tags: [elixir, goblet, train-the-trainer, plan, design, develop, deliver, evalua
 
 ## UPCOMING ELIXIR-GOBLET TtT EVENTS
 
-{% include tess-widget.html query="Train-the-Trainer" page_size=5 empty_text="There are currently no scheduled Train the Trainer events in the near future." %}
+{% include tess-widget.html query="Train-the-Trainer" page_size=5 empty_text="There are currently no scheduled Train-the-Trainer events in the near future." %}
