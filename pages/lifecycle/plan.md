@@ -45,4 +45,25 @@ Below, the most important **pedagogical** and **logistical** aspects to consider
 
 ## References	
 - [Train-the-Trainer Concept on Research Data Management](https://doi.org/10.5281/zenodo.13927613)
+ 
+**Learning Needs Analysis**
+- [Research Trends in Learning Needs Assessment: A Review of Publications in Selected Journals from 1997 to 2023](https://www.mdpi.com/2071-1050/16/1/382)
+- [Targeting student learning needs: The development and preliminary validation of the Learning Needs Questionnaire for a diverse university student population](https://www.tandfonline.com/doi/abs/10.1080/07294360.2020.1818062)
+
+**Learning objectives**
+- [Backward design](https://pdfs.semanticscholar.org/03e8/20730a873e7f44dbb1f64e4f047b9b321460.pdf)
+- [Formulation of Learning objectives](https://www.uvm.edu/ctl/backward-design-and-learning-objectives)
+
+**Learning design**
+- [Instructional Design Made Easy! Instructional Design Models, Categories, Frameworks, Educational Context, and Recommendations for Future Work](https://pmc.ncbi.nlm.nih.gov/articles/PMC10137401/)
+- [Instructional Design Models for Digital Learning in Higher Education — A Scoping Review](https://files.eric.ed.gov/fulltext/EJ1423548.pdf)
+
+**Curriculum design**
+- [Agile Backward Design: A Framework for planning higher education curriculum](https://doi.org/10.1007/s13384-024-00772-7)
+
+**Train-the-trainers**
+- [Development of a Train-the-Trainer Quality Improvement Curriculum](https://pmc.ncbi.nlm.nih.gov/articles/PMC11249715/)
+
+**Evaluation**
+- [The Kirkpatrick model: A useful tool for evaluating training outcomes](https://www.tandfonline.com/doi/abs/10.1080/13668250903093125)
 
