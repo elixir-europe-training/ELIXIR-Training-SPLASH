@@ -9,7 +9,7 @@ __What:__
 Before evaluating your training, consider what long-term benefits you want to achieve for both trainees and society: ‘What do we want our training to enable for our target audience in the long term and for society at large?’. Consult key stakeholders to align expectations and identify their desired outcomes to define an impact statement. The [ELIXIR Training Platform](https://elixir-europe.org/platforms/training), defines impact as ‘a measure of how participation in a training course improves someone’s understanding and awareness of a particular domain/topic, leading to change in their research/professional development as well as passing on of the knowledge/skills acquired to others’ (2018). 
 
 __How:__
-There are many elements to consider when designing and implementing evaluation processes in order to link your training activities to the impact that you hope your work contributes towards. This includes: identifying impact pathways, identifying the key performance indicators to collect, streamlining evaluation-data collection, its storage, its analysis, and reporting. 
+There are many elements to consider when designing and implementing evaluation processes in order to link your training activities to the impact that you hope your work contributes towards. This includes: identifying [impact pathways](https://ri-paths-tool.eu/en/impact-pathways), identifying the key performance indicators to collect, streamlining evaluation-data collection, its storage, its analysis, and reporting. 
 
 __When:__
 We can build a picture of the quality and impact of training by evaluating different elements at different timepoints, namely:
@@ -32,7 +32,7 @@ Evaluating training poses a major challenge; most learning starts once our train
 
 Additional things to consider when you evaluate training:
 
-* **Peer Review:** Collaborate with colleagues to receive valuable feedback and improve training materials and delivery methods - do not train alone
+* **Peer Review:** [Collaborate](https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/session_4#session-4---part-vii---leveraging-assessment-to-become-a-better-trainer) with colleagues to receive [valuable feedback](https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/session_4#session-4---part-vi---feedback-mechanisms-and-giving-good-feedback) and improve training materials and delivery methods - do not train alone
 * **Balanced Evaluation:** Combine quantitative and qualitative data to gain a comprehensive understanding of training effectiveness. 
 * **Prerequisites and aligned exercises:** Evaluate if the prerequisites defined allowed the participants to benefit from the training and if the exercises supported and reinforced the stated learning objectives.
 * **Tailored Evaluation:** Determine the appropriate level of detail for your evaluation, considering the specific needs and interests of your stakeholders.
@@ -59,6 +59,11 @@ Additional things to consider when you evaluate training:
 {% include related-resources.html tag="evaluate" %}
 
 ## References
-* [A framework to assess the quality and impact of bioinformatics training across ELIXIR](https://doi.org/10.1371/journal.pcbi.1007976)
-* [ELIXIR impact toolkit](https://elixir-europe.org/about-us/impact/toolkit)
-* [A framework to assess the quality and impact of bioinformatics training across ELIXIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007976)
+- [A framework to assess the quality and impact of bioinformatics training across ELIXIR](https://doi.org/10.1371/journal.pcbi.1007976)
+- [ELIXIR impact toolkit](https://elixir-europe.org/about-us/impact/toolkit)
+- [A framework to assess the quality and impact of bioinformatics training across ELIXIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007976)
+- [Techniques for Evaluating Training Programs](https://www.tandfonline.com/doi/abs/10.1080/13668250903093125) - evaluation of Kirkpatrick model
+- [Evaluations of training programs to improve capacity in knowledge translation: a scoping review](https://www.nature.com/articles/s41599-023-02403-5)
+- [Mixed Methods Research: A Research Paradigm Whose Time Has Come](https://journals.sagepub.com/doi/10.3102/0013189X033007014)
+- [Training Transfer: An Integrative Literature Review](https://journals.sagepub.com/doi/10.1177/1534484307303035)
+- [Transfer of Training: A Meta-Analytic Review](https://journals.sagepub.com/doi/10.1177/0149206309352880)
