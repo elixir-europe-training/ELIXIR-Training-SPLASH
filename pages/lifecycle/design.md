@@ -12,7 +12,7 @@ Get inspired in your adventure by accessing [TeSS](https://tess.elixir-europe.or
 When designing a training course, the Nicholls’ paradigm should be considered for curriculum development, in combination with models of learning, such as the model from Döring.  
 
 More specifically:
-- Phase I. [Define the learning outcomes (LOs)][(https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/session_2#session-2---part-ii---learning-outcomes-three-frameworks). These should be simple, measurable, achievable realistic and time-bound (SMART). For writing down the specific LOs, you utilise the Bloom taxonomy that will help you specify KSA (Knowledge, Skills, Abilities) that learners are able to demonstrate after the Deliver stage. This allow creating tangible evidence that learners have achieved during the learning process.
+- Phase I. [Define the learning outcomes (LOs)](https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/session_2#session-2---part-ii---learning-outcomes-three-frameworks). These should be simple, measurable, achievable realistic and time-bound (SMART). For writing down the specific LOs, you utilise the Bloom taxonomy that will help you specify KSA (Knowledge, Skills, Abilities) that learners are able to demonstrate after the Deliver stage. This allow creating tangible evidence that learners have achieved during the learning process.
 - Phase II. Define the learning experiences (LEs). Each LOs should be related to at least one learning experience which is any setting like lectures, games, acitivities, ... in which learning takes place. 
 
 ![Nicoll's paradidm](assets/img/screenshots/allegra-via-f1000.png)
