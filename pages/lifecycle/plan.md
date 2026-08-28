@@ -14,17 +14,17 @@ Below, the most important **pedagogical** and **logistical** aspects to consider
 
 ## What are the pedagogical aspects?
 
-- **Training needs analysis:** Identify the specific skills, knowledge, or competencies that the training should address. This involves consulting stakeholders, reviewing existing performance data, and assessing current pedagogical, technical, and logistical requirements to ensure the training is targeted and relevant.
+- **Training needs analysis:** Identify the specific skills, knowledge, or [competencies](https://competency.ebi.ac.uk/) that the training should address. This involves consulting stakeholders, reviewing existing performance data, and assessing current pedagogical, technical, and logistical requirements to ensure the training is targeted and relevant.
 
 - **Target audience:** Clearly define who will benefit from the training. Consider factors such as their current skill level, prior experience, role, learning preferences, and any prerequisites. Understanding the audience helps tailor the content, examples, and delivery style to maximize engagement and learning outcomes.
 
-- **Learning objectives:** Articulate the intended outcomes of the training in clear, measurable terms. Well-defined objectives guide both the design of the curriculum and the evaluation of success, ensuring that participants gain the knowledge or skills the training set out to provide.
+- **Learning objectives:** Articulate the intended [outcomes](https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/session_2#session-2---part-ii---learning-outcomes-three-frameworks) of the training in clear, measurable terms. Well-defined objectives guide both the design of the curriculum and the evaluation of success, ensuring that participants gain the knowledge or skills the training set out to provide.
 
-- **Curriculum development:** Design a structured curriculum that aligns with the learning objectives. This includes selecting the content, sequencing topics logically, determining the balance between theory and practice, and integrating activities or exercises that reinforce learning.
+- **Curriculum development:** Design a structured curriculum that aligns with the learning objectives. This includes selecting the content, sequencing topics logically, determining the balance between theory and practice, and integrating activities or exercises that reinforce [learning](https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/session_1#session-1---part-ii---how-learning-works-fundamental-concepts).
 
-- **[Learning paths](../resources/learning-paths.md):** Review related learning paths to see how this training complements or fits into broader programmes. Decide whether the training is standalone or part of a sequence, and ensure it follows any established guidelines or standards for learning progression.
+- **[Learning paths](../resources/learning-paths.md):** Review related learning paths to see how this training complements or fits into broader programmes. Decide whether the training is standalone or part of a sequence, and ensure it follows any established [guidelines or standards for learning progression](https://skillsengland.education.gov.uk/apprenticeships/st0149-v1-4).
 
-- **[Train the Trainer](../resources/train-the-trainer.md):** Support the development of trainers who will deliver the course. This includes providing guidance, resources, and opportunities to practice teaching methods, ensuring that trainers can effectively facilitate learning and maintain consistent quality across sessions.
+- **[Train the Trainer](../resources/train-the-trainer.md):** Support the [development of trainers](https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer) who will deliver the course. This includes providing guidance, resources, and opportunities to practice teaching methods, ensuring that trainers can effectively facilitate learning and maintain consistent quality across sessions.
 
 
 ## What are the logistical aspects?
@@ -45,4 +45,25 @@ Below, the most important **pedagogical** and **logistical** aspects to consider
 
 ## References	
 - [Train-the-Trainer Concept on Research Data Management](https://doi.org/10.5281/zenodo.13927613)
+ 
+**Learning Needs Analysis**
+- [Research Trends in Learning Needs Assessment: A Review of Publications in Selected Journals from 1997 to 2023](https://www.mdpi.com/2071-1050/16/1/382)
+- [Targeting student learning needs: The development and preliminary validation of the Learning Needs Questionnaire for a diverse university student population](https://www.tandfonline.com/doi/abs/10.1080/07294360.2020.1818062)
+
+**Learning objectives**
+- [Backward design](https://pdfs.semanticscholar.org/03e8/20730a873e7f44dbb1f64e4f047b9b321460.pdf)
+- [Formulation of Learning objectives](https://www.uvm.edu/ctl/backward-design-and-learning-objectives)
+
+**Learning design**
+- [Instructional Design Made Easy! Instructional Design Models, Categories, Frameworks, Educational Context, and Recommendations for Future Work](https://pmc.ncbi.nlm.nih.gov/articles/PMC10137401/)
+- [Instructional Design Models for Digital Learning in Higher Education — A Scoping Review](https://files.eric.ed.gov/fulltext/EJ1423548.pdf)
+
+**Curriculum design**
+- [Agile Backward Design: A Framework for planning higher education curriculum](https://doi.org/10.1007/s13384-024-00772-7)
+
+**Train-the-trainers**
+- [Development of a Train-the-Trainer Quality Improvement Curriculum](https://pmc.ncbi.nlm.nih.gov/articles/PMC11249715/)
+
+**Evaluation**
+- [The Kirkpatrick model: A useful tool for evaluating training outcomes](https://www.tandfonline.com/doi/abs/10.1080/13668250903093125)
 
