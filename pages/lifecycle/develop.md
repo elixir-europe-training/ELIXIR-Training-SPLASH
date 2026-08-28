@@ -13,17 +13,17 @@ The [FAIR principles](https://go-fair.org) (Findability, Accessibility, Interope
 
 ## What are the pedagogical aspects?
 
-Pedagogical aspects of developing training include organizing for and building in inclusivity, engagement, effective content, and mechanisms for improvement.
+[Pedagogical aspects of developing training](https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/session_1#session-1---part-v---six-strategies-for-effective-learning) include organizing for and building in inclusivity, engagement, effective content, and mechanisms for improvement.
 
-- **Assessing Learning Outcomes**: Use to develop content and if needed revisit the LO’s definition. 
+- **Assessing Learning Outcomes**: Use to develop content and if needed revisit the learning outcomes definition. 
 - **Logical Structure**: Organise training content in a logical and coherent manner, ensuring smooth progression from one topic to the next.
 - **Effective Signposting**: Use clear headings, subheadings, and visual cues to guide learners through the material.
 - **Diverse Learning Materials**: Utilise a variety of material formats, such as text, visuals, videos, and interactive exercises, to promote learning.
 - **Engaging Activities**: Incorporate hands-on activities and interactive elements to enhance learner engagement and retention.
-- **Formative Assessment**: Regularly assess learner understanding through quizzes, polls, or short exercises to identify knowledge gaps and provide timely feedback.
+- **Formative Assessment**: Regularly [assess learner understanding](https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/session_4#session-4---part-ii---what-is-assessment) through quizzes, polls, or short exercises to identify knowledge gaps and provide timely feedback.
 - **Teaching aides**: Instructor notes and presenters notes or transcripts should be developed and stored in the same location as presentations and exercises, to facilitate future reuse.
 - **Inclusive Design**: Consider the needs of diverse learners by providing alternative formats and accessibility features - e.g. video captions, colourblind-safe colour palettes...
-- **Continuous Improvement**: Revisit the lesson plan frequently to guide effective development. Integrate mechanisms to gather feedback from learners and trainers to identify areas for further development of the materials (see also [evaluate](evaluate.md)).
+- **Continuous Improvement**: Revisit the [lesson plan](https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/lesson_plan) frequently to guide effective development. Integrate mechanisms to gather feedback from learners and trainers to identify areas for further development of the materials (see also [evaluate](evaluate.md)).
 
 
 ## What are the logistical aspects?
@@ -32,7 +32,7 @@ Logistical considerations during training material development include choices o
 
 - **Team Coordination** Plan regular meetings and use common channels. Clearly define roles and responsibilities in the team for accountability and to streamline workflows.
 - **Asset Overviews** Create a list of necessary items or assets required for all exercises and interactions, e.g. Mentimeter, pens, games, flipcharts, web applications for exercises, etc.
-- **FAIR** Use the FAIR by Design approach to organise and manage training assets. Use standard vocabulary and define structured metadata (e.g. Bioschemas) for your materials. Include full citations and define clear licenses for reused and newly developed materials. 
+- **FAIR** Use the [FAIR by Design approach](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/) to organise and manage training assets. Use standard vocabulary and define structured metadata (e.g. [Bioschemas](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011120)) for your materials. Include full citations and define clear licenses for reused and newly developed materials. 
 - **Content Organization** Choose a structured organization for organizing and managing training content, such as a [GitHub](https://github.com) repository or e-learning platform.
 - **Quality Assurance**: Build in a review process to ensure quality and accuracy of developed training materials. 
 - **Citations and Findability** Define the release version of the material and store it in a repository like [Zenodo](https://zenodo.org) to ensure version control and accessibility. Additionally, register material in a web-accessible aggregator like [TeSS](https://tess.elixir-europe.org/).
@@ -52,4 +52,13 @@ Technical infrastructure is a large logistical consideration during development:
 ## References	
 - [Train-the-Trainer Concept on Research Data Management](https://doi.org/10.5281/zenodo.13927613)
 - [FAIR training by design course](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/)
+- [Bioschemas training profiles: A set of specifications for standardizing training information to facilitate the discovery of training programs and resources.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011120)
+- [Methodology for FAIR-by-Design Training Materials Filiposka, S., Green, D., Mishev, A., et al. (2023)](https://zenodo.org/records/8305540)
+- [Backward design](https://pdfs.semanticscholar.org/03e8/20730a873e7f44dbb1f64e4f047b9b321460.pdf)
+- [Active learning increases student performance in science, engineering, and mathematics](https://www.pnas.org/doi/10.1073/pnas.1319030111)
+- [The Tyranny of Content: “Content Coverage” as a Barrier to Evidence-Based Teaching Approaches and Ways to Overcome It](https://pmc.ncbi.nlm.nih.gov/articles/PMC8697669/)
+- [The power of feedback](https://journals.sagepub.com/doi/abs/10.3102/003465430298487)
+- [Inclusive instructional practices: Course design, implementation, and discourse](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.602639/full)
+- [Universal Design for Learning Guidelines](https://udlguidelines.cast.org/)
+
 
