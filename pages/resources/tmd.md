@@ -7,7 +7,7 @@ description: |
   The Training Metrics Database was developed in an effort to streamline data collection, storage, and visualisation for the ELIXIR Training Platform.
  
 objective: |
-  The Training Metrics Database was developed in an effort to streamline data collection, storage, and visualisation for the Quality and Impact Subtask of the ELIXIR Training Platform, which aims to:
+  The Training Metrics Database aims to:
   
     * Describe the audience demographic being reached by ELIXIR-badged training events
     * Assess the quality of ELIXIR-badged training events directly after they have taken place
