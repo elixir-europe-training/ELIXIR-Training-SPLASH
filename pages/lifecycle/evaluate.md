@@ -61,7 +61,6 @@ Additional things to consider when you evaluate training:
 ## References
 - [A framework to assess the quality and impact of bioinformatics training across ELIXIR](https://doi.org/10.1371/journal.pcbi.1007976)
 - [ELIXIR impact toolkit](https://elixir-europe.org/about-us/impact/toolkit)
-- [A framework to assess the quality and impact of bioinformatics training across ELIXIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007976)
 - [Techniques for Evaluating Training Programs](https://www.tandfonline.com/doi/abs/10.1080/13668250903093125) - evaluation of Kirkpatrick model
 - [Evaluations of training programs to improve capacity in knowledge translation: a scoping review](https://www.nature.com/articles/s41599-023-02403-5)
 - [Mixed Methods Research: A Research Paradigm Whose Time Has Come](https://journals.sagepub.com/doi/10.3102/0013189X033007014)
