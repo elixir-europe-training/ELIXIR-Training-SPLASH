@@ -10,6 +10,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * Make use of headings and bullet points to break text up so it is easy to scan.
   * Remember that the site is there to help people, so make it clear to the readers how the information can benefit them.
   * Use the words your readers would use. Think of the terms they would use when searching for their problem, and use those terms.
+  * Whenever possible, prioritise referencing open access articles. 
 
 ## Text
   * **Acronyms:** use the [glossary file](_data/glossary.yml) and [these instructions](https://github.com/erikw/jekyll-glossary_tooltip#usage) to spell out acronyms in an accessible way.
@@ -43,8 +44,9 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc.).
   * **Quotations:** use double quotes for quotations, and single quotes for quotes within quotes.
   * **References:** use the [Nature Author instructions](https://www.nature.com/srep/author-instructions/submission-guidelines#references) for books and papers. Use "*et al.*" for more than five authors.
-    * Bellin, D. L. *et al.* Electrochemical camera chip for simultaneous imaging of multiple metabolites in biofilms. Nat. Commun. 7, 10535; [10.1038/ncomms10535](http://www.nature.com/articles/ncomms10535) (2016).
+    * Bellin, D. L. *et al.* Electrochemical camera chip for simultaneous imaging of multiple metabolites in biofilms. Nat. Commun. 7, 10535; [10.1038/ncomms10535](https://doi.org/10.1038/ncomms10535) (2016).
     * Lam, J. <cite>Data Management</cite>. (John Wiley & Sons, Inc., 2019).
+    * Use an actionable doi link by prepending the doi with "https://doi.org/" e.g.: https://doi.org/10.1038/ncomms10535
   * **That/which:** use "that" when you are defining something and "which" when you are adding extra information about it e.g.:
     * "The cat that was on the table suddenly got up" is telling us which cat it was. It is important to the meaning of the sentence because you are not talking about any cat, just the cat on the table.
     * "The cat, which was sitting on the table, suddenly got up" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause and the sentence will still be clear. Clauses starting with "which" usually begin with a comma.
@@ -59,13 +61,13 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
     
     | Color Sample | Hex Code | Name | Usage |
     |--------------|----------|------|-------|
-    | <span style="display: inline-block; width: 20px; height: 20px; background: #4F1C46;"></span> | #4F1C46 | Aubergine | Primary theme color, buttons, highlights |
-    | <span style="display: inline-block; width: 20px; height: 20px; background: #005472;"></span> | #005472 | Blue | Links, secondary accents |
-    | <span style="display: inline-block; width: 20px; height: 20px; background: #CA1551;"></span> | #CA1551 | Red | Alerts, important notices |
-    | <span style="display: inline-block; width: 20px; height: 20px; background: #03CEA4;"></span> | #03CEA4 | Green | Success messages, positive actions |
-    | <span style="display: inline-block; width: 20px; height: 20px; background: #FF7900;"></span> | #FF7900 | Orange | Warnings, highlights |
-    | <span style="display: inline-block; width: 20px; height: 20px; background: #4D4848;"></span> | #4D4848 | Dark gray | Secondary text, subtle elements |
-    | <span style="display: inline-block; width: 20px; height: 20px; background: #212529;"></span> | #212529 | Dark | Body text, headings |
+    | <span style="display: inline-block; width: 20px; height: 20px; background: #902A8A;"></span> | #902A8A | Aubergine | Primary theme color, buttons|
+    | <span style="display: inline-block; width: 20px; height: 20px; background: #1F75BA;"></span> | #1F75BA | Blue | Information messages, accent borders |
+    | <span style="display: inline-block; width: 20px; height: 20px; background: #ED2E7B;"></span> | #ED2E7B | Raspberry | Danger messages and alerts |
+    | <span style="display: inline-block; width: 20px; height: 20px; background: #D5DD28;"></span> | #D5DD28 | Lime | Lifecycle diagram |
+    | <span style="display: inline-block; width: 20px; height: 20px; background: #F47D20;"></span> | #F47D20 | Orange | Warning messages, lifecycle diagram |
+    | <span style="display: inline-block; width: 20px; height: 20px; background: #4D4848;"></span> | #4D4848 | Dark Grey | Secondary text, subtle elements |
+    | <span style="display: inline-block; width: 20px; height: 20px; background: #212529;"></span> | #212529 | Dark  | Body text, headings |
     
   * **Fonts:** Lato is used for both headings and body text across the site.
   * **Icons:** Icons on this site come from [Font Awesome](https://fontawesome.com/).
