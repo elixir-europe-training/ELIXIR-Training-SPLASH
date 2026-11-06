@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21451772.svg)](https://doi.org/10.5281/zenodo.21451772)
+
 
 # SPLASH
 The ELIXIR Training SPLASH has been designed to guide the trainer in their efforts to plan, design, develop, deliver and evaluate training activties. It is based on the various steps of the training lifecycle, although not all the steps will be relevant to everyone.
