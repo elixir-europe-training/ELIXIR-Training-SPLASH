@@ -52,13 +52,13 @@ Technical infrastructure is a large logistical consideration during development:
 ## References	
 - [Train-the-Trainer Concept on Research Data Management](https://doi.org/10.5281/zenodo.13927613)
 - [FAIR training by design course](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/)
-- [Bioschemas training profiles: A set of specifications for standardizing training information to facilitate the discovery of training programs and resources.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011120)
+- [Bioschemas training profiles: A set of specifications for standardizing training information to facilitate the discovery of training programs and resources.](https://doi.org/10.1371/journal.pcbi.1011120)
 - [Methodology for FAIR-by-Design Training Materials Filiposka, S., Green, D., Mishev, A., et al. (2023)](https://zenodo.org/records/8305540)
 - [Backward design](https://pdfs.semanticscholar.org/03e8/20730a873e7f44dbb1f64e4f047b9b321460.pdf)
-- [Active learning increases student performance in science, engineering, and mathematics](https://www.pnas.org/doi/10.1073/pnas.1319030111)
-- [The Tyranny of Content: “Content Coverage” as a Barrier to Evidence-Based Teaching Approaches and Ways to Overcome It](https://pmc.ncbi.nlm.nih.gov/articles/PMC8697669/)
-- [The power of feedback](https://journals.sagepub.com/doi/abs/10.3102/003465430298487)
-- [Inclusive instructional practices: Course design, implementation, and discourse](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.602639/full)
+- [Active learning increases student performance in science, engineering, and mathematics](https://doi.org/10.1073/pnas.1319030111)
+- [The Tyranny of Content: “Content Coverage” as a Barrier to Evidence-Based Teaching Approaches and Ways to Overcome It](https://doi.org/10.1187/cbe.19-04-0079)
+- [The power of feedback](https://doi.org/10.3102/003465430298487)
+- [Inclusive instructional practices: Course design, implementation, and discourse](https://doi.org/10.3102/003465430298487)
 - [Universal Design for Learning Guidelines](https://udlguidelines.cast.org/)
 
 
