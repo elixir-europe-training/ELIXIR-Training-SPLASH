@@ -10,6 +10,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * Make use of headings and bullet points to break text up so it is easy to scan.
   * Remember that the site is there to help people, so make it clear to the readers how the information can benefit them.
   * Use the words your readers would use. Think of the terms they would use when searching for their problem, and use those terms.
+  * Whenever possible, prioritise referencing open access articles. 
 
 ## Text
   * **Acronyms:** use the [glossary file](_data/glossary.yml) and [these instructions](https://github.com/erikw/jekyll-glossary_tooltip#usage) to spell out acronyms in an accessible way.
