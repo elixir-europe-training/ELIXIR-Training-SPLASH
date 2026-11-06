@@ -59,13 +59,13 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
     
     | Color Sample | Hex Code | Name | Usage |
     |--------------|----------|------|-------|
-    | <span style="display: inline-block; width: 20px; height: 20px; background: #4F1C46;"></span> | #4F1C46 | Aubergine | Primary theme color, buttons, highlights |
-    | <span style="display: inline-block; width: 20px; height: 20px; background: #005472;"></span> | #005472 | Blue | Links, secondary accents |
-    | <span style="display: inline-block; width: 20px; height: 20px; background: #CA1551;"></span> | #CA1551 | Red | Alerts, important notices |
-    | <span style="display: inline-block; width: 20px; height: 20px; background: #03CEA4;"></span> | #03CEA4 | Green | Success messages, positive actions |
-    | <span style="display: inline-block; width: 20px; height: 20px; background: #FF7900;"></span> | #FF7900 | Orange | Warnings, highlights |
-    | <span style="display: inline-block; width: 20px; height: 20px; background: #4D4848;"></span> | #4D4848 | Dark gray | Secondary text, subtle elements |
-    | <span style="display: inline-block; width: 20px; height: 20px; background: #212529;"></span> | #212529 | Dark | Body text, headings |
+    | <span style="display: inline-block; width: 20px; height: 20px; background: #902A8A;"></span> | #902A8A | Aubergine | Primary theme color, buttons|
+    | <span style="display: inline-block; width: 20px; height: 20px; background: #1F75BA;"></span> | #1F75BA | Blue | Information messages, accent borders |
+    | <span style="display: inline-block; width: 20px; height: 20px; background: #ED2E7B;"></span> | #ED2E7B | Raspberry | Danger messages and alerts |
+    | <span style="display: inline-block; width: 20px; height: 20px; background: #D5DD28;"></span> | #D5DD28 | Lime | Lifecycle diagram |
+    | <span style="display: inline-block; width: 20px; height: 20px; background: #F47D20;"></span> | #F47D20 | Orange | Warning messages, lifecycle diagram |
+    | <span style="display: inline-block; width: 20px; height: 20px; background: #4D4848;"></span> | #4D4848 | Dark Grey | Secondary text, subtle elements |
+    | <span style="display: inline-block; width: 20px; height: 20px; background: #212529;"></span> | #212529 | Dark  | Body text, headings |
     
   * **Fonts:** Lato is used for both headings and body text across the site.
   * **Icons:** Icons on this site come from [Font Awesome](https://fontawesome.com/).
