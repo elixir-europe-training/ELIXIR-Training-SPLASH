@@ -15,13 +15,15 @@ More specifically:
 - Phase I. [Define the learning outcomes (LOs)](https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/session_2#session-2---part-ii---learning-outcomes-three-frameworks). These should be simple, measurable, achievable realistic and time-bound (SMART). For writing down the specific LOs, you utilise the Bloom taxonomy that will help you specify KSA (Knowledge, Skills, Abilities) that learners are able to demonstrate after the Deliver stage. This allow creating tangible evidence that learners have achieved during the learning process.
 - Phase II. Define the learning experiences (LEs). Each LOs should be related to at least one learning experience which is any setting like lectures, games, acitivities, ... in which learning takes place. 
 
-![Nicoll's paradidm](assets/img/screenshots/allegra-via-f1000.png)
+{% include image.html file="../assets/img/screenshots/allegra-via-f1000.png" alt="Nicholls' paradigm model" caption="Nicholls’ phases of curriculum design & their dependencies. Figure 2 from
+Via A, Palagi PM, Lindvall JM et al. [Course design: Considerations for trainers – a Professional Guide F1000Research 2020, 9:1377](https://doi.org/10.7490/f1000research.1118395.1) Used under CC-BY." %}
 
 Döring models divides learning in two phases that should be intercalated
 - (I) Perceive, process, memorize
 - (II) Remember, transfer, apply
 
-![Doering Learning models](assets/img/screenshots/breath-in-breath-out.png)
+{% include image.html file="../assets/img/screenshots/breath-in-breath-out.png" alt="Döring learning model" caption="Döring's learning model showing the two intercalated phases of learning. From  Biernacka, K., Castillo Upiachihua, C. B., Dockhorn, R., et al. [Train-the-Trainer Concept on Research Data Management (5.1) Zenodo.](https://doi.org/10.5281/zenodo.13927614) Used under CC-BY" %}
+
 
 * Identify a suitable delivery format depending on the topic, the level of the trainees, target audience and the course duration.
 * Design exercises or quiz questions which will assess whether the learning outcome has been met or not, considering the training format.
@@ -45,6 +47,4 @@ Döring models divides learning in two phases that should be intercalated
 - [Course design: Considerations for trainers – a Professional Guide](https://f1000research.com/documents/9-1377)
 - [Train-the-Trainer Concept on Research Data Management](https://doi.org/10.5281/zenodo.13927613) 
 - [Learning objective matrix for research data management](https://doi.org/10.5281/zenodo.7034477) 
-
-
 
