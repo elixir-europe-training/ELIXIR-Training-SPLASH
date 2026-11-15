@@ -63,8 +63,8 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
     |--------------|----------|------|-------|
     | <span style="display: inline-block; width: 20px; height: 20px; background: #902A8A;"></span> | #902A8A | Aubergine | Primary theme color, buttons|
     | <span style="display: inline-block; width: 20px; height: 20px; background: #1F75BA;"></span> | #1F75BA | Blue | Information messages, accent borders |
-    | <span style="display: inline-block; width: 20px; height: 20px; background: #ED2E7B;"></span> | #ED2E7B | Raspberry | Danger messages and alerts |
-    | <span style="display: inline-block; width: 20px; height: 20px; background: #D5DD28;"></span> | #D5DD28 | Lime | Lifecycle diagram |
+    | <span style="display: inline-block; width: 20px; height: 20px; background: #ED2E7B;"></span> | #ED2E7B | Red | Danger messages and alerts |
+    | <span style="display: inline-block; width: 20px; height: 20px; background: #D5DD28;"></span> | #D5DD28 | Green | Lifecycle diagram |
     | <span style="display: inline-block; width: 20px; height: 20px; background: #F47D20;"></span> | #F47D20 | Orange | Warning messages, lifecycle diagram |
     | <span style="display: inline-block; width: 20px; height: 20px; background: #4D4848;"></span> | #4D4848 | Dark Grey | Secondary text, subtle elements |
     | <span style="display: inline-block; width: 20px; height: 20px; background: #212529;"></span> | #212529 | Dark  | Body text, headings |
