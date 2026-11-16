@@ -1,10 +1,8 @@
 copyright: '&copy; ELIXIR Training Platform'
 columns:
-  - type: image
-    image_width: 300px
+  - type: text
     width: 8
-    src: 'assets/img/logos/ELIXIR_logo_footer_wtext.svg'
-    alt: ELIXIR logo
+    content: '[![ELIXIR logo](/assets/img/logos/ELIXIR_logo_footer_wtext.svg){: width="300px"}](https://elixir-europe.org/platforms/training)'
   - type: links
     width: 3
     children:
