@@ -9,7 +9,7 @@ description: |
 objective: |
   The programme objective is to give instructors tools and tips for providing an enriching learning experience to trainees, irrespective of topic, and to include best-practice guidance on course and training material development. 
 
-
+joinLink: https://signup.aai.lifescience-ri.eu/fed/registrar/?vo=elixir&group=Community:Training:Train-the-Trainer%20Instructors&targetexisting=https://www.elixir-europe.org/alreadyregistered&targetnew=https://www.elixir-europe.org/registration-successful
 
 contributors: [Allegra Via, Krzysztof Poterlowicz, Lisanna Paladin, Patricia Palagi]
 contacts:
