@@ -142,7 +142,9 @@
         },
         {
             "name": "Lamotte, Fred de",
-            "type": "ProjectMember"
+            "type": "ProjectMember",
+            "orcid": "0000-0003-4234-1172",
+            "affiliation": "Department Biologie et Amélioration des Plantes - INRAE"
         },
         {
             "name": "Poiares-Oliveira, Gil",
@@ -163,7 +165,8 @@
         {
             "name": "Schnitzer, Helena",
             "type": "ProjectMember",
-            "orcid": "0000-0002-6382-9452"
+            "orcid": "0000-0002-6382-9452",
+            "affiliation": "Forschungszentrum Jülich GmbH"
         },
         {
             "name": "Chiapello, Hélène",
@@ -215,7 +218,9 @@
         },
         {
             "name": "Heil, Katharina",
-            "type": "ProjectMember"
+            "type": "ProjectMember",
+            "orcid": "0000-0003-3341-3736",
+            "affiliation": "ELIXIR HUB"
         },
         {
             "name": "Unsworth, Kathryn",
@@ -229,7 +234,9 @@
         },
         {
             "name": "Gurwitz, Kim",
-            "type": "ProjectMember"
+            "type": "ProjectMember",
+            "orcid": "0000-0003-1992-5073",
+            "affiliation": "EMBL-EBI"
         },
         {
             "name": "Schroeder, Kristen",
