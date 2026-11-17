@@ -515,27 +515,28 @@ Suzanne Duce:
 
 Tarcisio Mendes de Farias:
     node: no
-    orcid: 
+    orcid: 0000-0002-3175-5372
     role: 
 
 Vera Matser:
     node: no
-    orcid: 
+    orcid: 0000-0002-2010-6844
     role: 
 
 Verena Ras:
     node: no
-    orcid: 
+    orcid: 0000-0003-3938-7241
     role: 
+    git: Verena90
 
 Wai Keat Yam:
     node: no
-    orcid: 
+    orcid: 0000-0003-4595-2796
     role: 
 
 Xènia Pérez Sitjà:
     node: UK
-    orcid: 
+    orcid: 0000-0002-7166-0183
     role: 
     affiliation: Earlham Institute
     git: sitjart
@@ -543,11 +544,12 @@ Xènia Pérez Sitjà:
 Zoi Litou:
     affiliation: National and Kapodistrian University of Athens
     git: zlitou
-    node: no
+    node: GR
     orcid: 0000-0002-7442-1137
-    role:
+    role: Dept Training Coordinator
 
 Zoltán Gáspári:
     node: no
-    orcid: 
+    git: szpari
+    orcid: 0000-0002-8692-740X
     role: 
