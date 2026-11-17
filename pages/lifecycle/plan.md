@@ -49,6 +49,7 @@ Below, the most important **pedagogical** and **logistical** aspects to consider
 **Learning Needs Analysis**
 - [Research Trends in Learning Needs Assessment: A Review of Publications in Selected Journals from 1997 to 2023](https://doi.org/10.3390/su16010382)
 - [Targeting student learning needs: The development and preliminary validation of the Learning Needs Questionnaire for a diverse university student population](https://doi.org/10.1080/07294360.2020.1818062)
+- [Training needs assessment: tool utilization and global impact](https://link.springer.com/article/10.1186/s12909-021-02748-y)
 
 **Learning objectives**
 - [Backward design](https://pdfs.semanticscholar.org/03e8/20730a873e7f44dbb1f64e4f047b9b321460.pdf)
@@ -60,10 +61,12 @@ Below, the most important **pedagogical** and **logistical** aspects to consider
 
 **Curriculum design**
 - [Agile Backward Design: A Framework for planning higher education curriculum](https://doi.org/10.1007/s13384-024-00772-7)
+- [Using a Logic Model to Direct Backward Design of Curriculum](https://doi.org/10.1128/jmbe.v19i3.1638)
 
 **Train-the-trainers**
 - [Development of a Train-the-Trainer Quality Improvement Curriculum](https://doi.org/10.1007/s13384-024-00772-7)
 
 **Evaluation**
 - [The Kirkpatrick model: A useful tool for evaluating training outcomes](https://doi.org/10.1007/s13384-024-00772-7)
+- [Designing evaluation studies to optimally inform policy: what factors do policy-makers in China consider when making resource allocation decisions on healthcare worker training programmes?](https://doi.org/10.1186/s12961-018-0292-2)
 
