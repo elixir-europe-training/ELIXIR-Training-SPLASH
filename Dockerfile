@@ -7,7 +7,7 @@ ENV LANGUAGE en_US.UTF-8
 WORKDIR /usr/src/app
 
 # Copy Gemfile and Gemfile.lock so bundle install during build uses the lockfile
-COPY Gemfile Gemfile.lock ./
+COPY Gemfile ./
 # install bundler and gems during image build so container has all dependencies
 RUN gem install bundler:2.4.21 \
  && bundle config set --local path /usr/local/bundle \

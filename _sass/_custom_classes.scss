@@ -315,6 +315,17 @@ footer {
     }
 }
 
+// Black text on orange badges (e.g. organisation tags) for colour-blind friendly contrast
+.badge.bg-warning,
+.badge.bg-orange {
+    color: #000;
+
+    &:hover,
+    &:focus {
+        color: #000;
+    }
+}
+
 // Resource search and filter
 #resourceSearch {
     border-radius: 0.5rem;
