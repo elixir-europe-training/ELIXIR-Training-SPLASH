@@ -108,9 +108,9 @@ David Lloyd:
     role: 
     
 Dayane Araújo:
-    node: no
-    orcid: 
-    role: 
+    git: DayaneRAraujo
+    affiliation: EMBL-EBI
+    orcid: 0000-0003-2211-0107
 
 Diana Pilvar:
     affiliation: University of Tartu
