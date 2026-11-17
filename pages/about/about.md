@@ -2,7 +2,11 @@
 title: About
 ---
 ## What is Training SPLASH?
-**_Training SPLASH - Your companion for impactful training_** is a one-stop-shop for training resources structured around the five stages of the training lifecycle: plan, design, develop, deliver and evaluate. Adding resources to Training SPLASH will increase their visibility, accessibility and usage and enable broader adoption and participation both within and outside the ELIXIR community.
+**_Training SPLASH - Your companion for impactful training_** is a one-stop-shop for training resources structured around the training lifecycle. Adding resources to Training SPLASH will increase their visibility, accessibility and usage and enable broader adoption and participation both within and outside the ELIXIR community.
+
+## What is the Training Lifecycle?
+The **Training Lifecycle** is common framework for understanding research training as a continuous, interconnected and iterative educational process. The framework comprises five stages: Plan, Design, Develop, Deliver and Evaluate, with evaluation informing continuous improvement.  The Training Life Cycle was conceived during the ELIXIR Training Platform annual meeting in Rome in 2023 to bring together the different training resources including, guidelines and tools, enabling synergy, visibility and collabrations amongst different training projects.  It aims create instutional awareness and recognition about research training as a discipline requiring pedagogical expertise, methodological rigour and sustained institutional commitment. More information can be found [here](https://training-splash.org/lifecycle). 
+
 
 ## Who is the Training SPLASH for?
 The Training SPLASH is connecting trainers to practical guidance, tools and best practices for developing and delivering high-quality training in life sciences and beyond. The site is developed and maintained by the ELIXIR Training Platform, with governance and sustainability provided through the ELIXIR Scientific Programme 2024-28. If you would like to invite us to present Training SPLASH, please check the [contact](https://training-splash.org/contact) page.
@@ -40,6 +44,16 @@ along the training life cycle.
 <script>
   document.getElementById("year").innerHTML = new Date().getFullYear();
 </script>
+
+## How to cite the Training Lifecycle
+
+<div class="card bg-light my-4">
+  <div class="card-body">
+    <p class="card-text"><i>The Training Lifecycle (coming soon...)<i>
+    </p>
+  </div>
+</div>
+
 
 
 The Training SPLASH makes all of their materials publicly available under [Open Source Initiative](https://opensource.org/licenses) licenses.
