@@ -7,7 +7,7 @@ description: |
   TeSS is a one-stop shop for trainers and trainees to discover online training related information and content. 
 
 objective: |
-  For training providers, TeSS provides opportunities to promote training events and news; for trainers, the portal offers an environment for sharing materials and event information; for trainees, it offers a convenient gateway via which to identify relevant training events and resources.
+  For training providers, TeSS provides opportunities to promote training events and news; for trainers, the portal offers an environment for sharing materials and event information; for trainees, it offers a convenient gateway via which to identify relevant training events and resources. 
 
 
 contributors:
