@@ -34,10 +34,10 @@ Below, the most important **pedagogical** and **logistical** aspects to consider
 * **Trainer recruitment**:  Recruitment processes to hire new trainers when applicable. 
 * **Size of training team for one training**: Might vary according e.g. to the number of participants, format of training, audience level, etc. Ideally a minimum of two trainers are available per training for good support and backup for unforeseen events.
 * **Training format and delivery**: Selecting the most appropriate format (e.g., classroom, online, blended) and delivery method and training schedule (e.g.: duration, spread of lessons, time of offering) according to level, audience availability and topic.
-* **Preliminary logistical arrangements**: Planning for venue, equipment, and other available general resources for participants during the training session (e.g. restaurantes, meeting rooms, break rooms, etc …) that might have  logistical requirements in order to establish budget etc. 
-* **Marketing and promotion**: Developing or integrating to already existing  communication strategies to attract and inform potential participants.
+* **Preliminary logistical arrangements**: Planning for venue, equipment, and other available general resources for participants during the training session (e.g. restaurants, meeting rooms, break rooms, etc.) that might have  logistical requirements in order to establish budget etc. 
+* **Marketing and promotion**: Developing or integrating into already existing  communication strategies to attract and inform potential participants.
 * **Code of Conduct**: Establish a code of conduct for training events to adhere to
-* **Evaluate**: Developing or reusing already existing strategies to l evaluate the training and include that in your plan.
+* **Evaluation**: Developing or reusing already existing strategies to l evaluate the training and include that in your plan.
 
 ## Related resources: 
 
