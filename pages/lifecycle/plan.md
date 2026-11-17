@@ -1,6 +1,6 @@
 ---
 title: Plan
-contributors: [Patricia Palagi, Eva Alloza, Bérénice Batut, Nadja Zlender, Olivier Sand, Daniel Wibberg, Luciana Peixoto, Elin Kronander, Jeanne Wilbrandt, Bruna Piereck, Samantha Wittke]
+contributors: [Patricia Palagi, Eva Alloza, Bérénice Batut, Nadja Zlender, Olivier Sand, Daniel Wibberg, Luciana Peixoto, Elin Kronander, Jeanne Wilbrandt, Bruna Piereck, Samantha Wittke, Loredana Le Pera]
 ---
 
 Planning involves identifying and assessing training needs to outline the logistics and pedagogy of the training considering the target audience, setting clear goals and objectives. This stage also includes allocation of funding and resources as well as infrastructure needed to deliver the training. It is also in this phase that retro-planning should be drafted for efficient time management.
@@ -37,7 +37,7 @@ Below, the most important **pedagogical** and **logistical** aspects to consider
 * **Preliminary logistical arrangements**: Planning for venue, equipment, and other available general resources for participants during the training session (e.g. restaurants, meeting rooms, break rooms, etc.) that might have  logistical requirements in order to establish budget etc. 
 * **Marketing and promotion**: Developing or integrating into already existing  communication strategies to attract and inform potential participants.
 * **Code of Conduct**: Establish a code of conduct for training events to adhere to
-* **Evaluation**: Developing or reusing already existing strategies to l evaluate the training and include that in your plan.
+* **Evaluation strategy (planning)**: Developing or reusing existing evaluation frameworks and metrics to define in advance how training outcomes and impact will be assessed. For actual data collection and post-training evaluation, see the [Evaluate stage](https://training-splash.org/evaluate).
 
 ## Related resources: 
 
@@ -49,6 +49,7 @@ Below, the most important **pedagogical** and **logistical** aspects to consider
 **Learning Needs Analysis**
 - [Research Trends in Learning Needs Assessment: A Review of Publications in Selected Journals from 1997 to 2023](https://doi.org/10.3390/su16010382)
 - [Targeting student learning needs: The development and preliminary validation of the Learning Needs Questionnaire for a diverse university student population](https://doi.org/10.1080/07294360.2020.1818062)
+- [Training needs assessment: tool utilization and global impact](https://link.springer.com/article/10.1186/s12909-021-02748-y)
 
 **Learning objectives**
 - [Backward design](https://pdfs.semanticscholar.org/03e8/20730a873e7f44dbb1f64e4f047b9b321460.pdf)
@@ -60,10 +61,12 @@ Below, the most important **pedagogical** and **logistical** aspects to consider
 
 **Curriculum design**
 - [Agile Backward Design: A Framework for planning higher education curriculum](https://doi.org/10.1007/s13384-024-00772-7)
+- [Using a Logic Model to Direct Backward Design of Curriculum](https://doi.org/10.1128/jmbe.v19i3.1638)
 
 **Train-the-trainers**
 - [Development of a Train-the-Trainer Quality Improvement Curriculum](https://doi.org/10.1007/s13384-024-00772-7)
 
-**Evaluation**
+**Evaluation strategy (planning)**
 - [The Kirkpatrick model: A useful tool for evaluating training outcomes](https://doi.org/10.1007/s13384-024-00772-7)
+- [Designing evaluation studies to optimally inform policy: what factors do policy-makers in China consider when making resource allocation decisions on healthcare worker training programmes?](https://doi.org/10.1186/s12961-018-0292-2)
 
