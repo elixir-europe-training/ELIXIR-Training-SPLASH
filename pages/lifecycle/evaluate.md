@@ -7,9 +7,11 @@ The overall goal with the Evaluate stage is to continuously improve training act
 
 __What:__ 
 Before evaluating your training, consider what long-term benefits you want to achieve for both trainees and society: ‘What do we want our training to enable for our target audience in the long term and for society at large?’. Consult key stakeholders to align expectations and identify their desired outcomes to define an impact statement. The [ELIXIR Training Platform](https://elixir-europe.org/platforms/training), defines impact as ‘a measure of how participation in a training course improves someone’s understanding and awareness of a particular domain/topic, leading to change in their research/professional development as well as passing on of the knowledge/skills acquired to others’ (2018). 
+Evaluation should therefore go beyond participant satisfaction and assess whether the intended learning outcomes and longer-term changes have been achieved.
 
 __How:__
 There are many elements to consider when designing and implementing evaluation processes in order to link your training activities to the impact that you hope your work contributes towards. This includes: identifying [impact pathways](https://ri-paths-tool.eu/en/impact-pathways), identifying the key performance indicators to collect, streamlining evaluation-data collection, its storage, its analysis, and reporting. 
+Combining quantitative and qualitative methods can provide a more complete picture of training effectiveness. While quantitative data can help identify trends and measure progress, qualitative feedback can provide insights into participants' experiences, learning and the application of new skills.
 
 __When:__
 We can build a picture of the quality and impact of training by evaluating different elements at different timepoints, namely:
