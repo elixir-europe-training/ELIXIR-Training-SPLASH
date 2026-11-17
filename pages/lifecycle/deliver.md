@@ -14,14 +14,14 @@ These are the teaching and learning activities that ensure participants gain kno
 
 **Before the training event**:
 * Participant selection assessment: Define criteria for prioritization and assessment of trainees application in order to select participants that can benefit the most from the training and training format.
-* Didactics: Align strategy based on the pre-course survey and needed resources to enable and facilitate learning
+* Didactics: Align strategy based on the pre-course survey and needed resources to enable and [facilitate learning](https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/session_1#session-1---part-ii---how-learning-works-fundamental-concepts)
 * Accessibility: Check with participants and trainers if they have special needs (dyslexia, color blindness, etc …)
-* Trainer-the-trainer: When needed trainers must take the course in advance to update, improve or learn the theory of teaching and some strategies.
+* Trainer-the-trainer: When needed trainers must take the [TtT course](https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/) in advance to update, improve or learn the theory of teaching and some strategies.
 * Trainer setup: It is preferable to teach in partnership, that allows for more support to trainees. However you must consider the delivery format and learning experiences to define an ideal number of trainers and trainees. Conduct a pre-course meeting with collaborators to align expectations and address any questions, define roles, align time, didactic strategies, ...
   
 **During the training event**:
 * Ice breaker: Introduce trainers and start with an ice breaker activity to enhance engagement.
-* Interactive: Deliver course content in an interactive and variable manner to increase learning opportunities..
+* Interactive: Deliver course content in an interactive and variable manner to increase learning opportunities.
 * Adapt: Monitor the participant engagement and address questions promptly and adapt instructions and content to meet learner needs. 
 * Practical Exercises: Provide clear written instructions for hands-on exercises and offer guidance and support to participants as needed.
 * Assessments: Conduct formative or summative assessments, such as quizzes, learner reflections or assignments, to evaluate learning. 
@@ -104,6 +104,14 @@ Technical considerations for online or hybrid events:
 ## References	
 - [Course design: Considerations for trainers – a Professional Guide](https://f1000research.com/documents/9-1377)
 - [Train-the-Trainer Concept on Research Data Management](https://doi.org/10.5281/zenodo.13927613) 
-- [Learning objective matrix for research data management](https://doi.org/10.5281/zenodo.7034477) 
+- [Learning objective matrix for research data management](https://doi.org/10.5281/zenodo.7034477)
+- [Assessment and Classroom Learning](https://doi.org/10.1080/0969595980050102)
+- [Does Active Learning Work? A Review of the Research](https://doi.org/10.1002/j.2168-9830.2004.tb00809.x)
+- [Enhancing Teaching through Constructive Alignment](https://www.jstor.org/stable/3448076)
+- [A Review of Research on Universal Design Educational Models](https://files.eric.ed.gov/fulltext/EJ1027540.pdf)
+- [Pre-course surveys Motivation to Learn: An Overview of Contemporary Theories](https://doi.org/10.1111/medu.13074)
+- [From Teacher to Teacher-Trainer: A Qualitative Study Exploring Factors Contributing to a Successful Train-the-Trainer Digital Education Program.](https://doi.org/10.1016/j.ssaho.2023.100518)
+- [Evaluations of Training Programs to Improve Capacity in Knowledge Brokering: A Systematic Scoping Review](https://doi.org/10.1016/j.ssaho.2023.100518)
+- [Enhancing Student Engagement and Learning Outcomes in Life Sciences: Implementing Interactive Learning Environments and Flipped Classroom Models](https://doi.org/10.1007/s44217-025-00501-x) 
 
 
