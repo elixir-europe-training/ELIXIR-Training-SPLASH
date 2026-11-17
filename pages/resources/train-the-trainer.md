@@ -9,7 +9,7 @@ description: |
 objective: |
   The programme objective is to give instructors tools and tips for providing an enriching learning experience to trainees, irrespective of topic, and to include best-practice guidance on course and training material development. 
 
-
+mailingList: https://signup.aai.lifescience-ri.eu/fed/registrar/?vo=elixir&group=Community:Training:Train-the-Trainer%20Instructors&targetexisting=https://www.elixir-europe.org/alreadyregistered&targetnew=https://www.elixir-europe.org/registration-successful
 
 contributors: [Allegra Via, Krzysztof Poterlowicz, Lisanna Paladin, Patricia Palagi]
 contacts:
@@ -21,8 +21,6 @@ contacts:
     email: lisanna.paladin@embl.de
   - name: Patricia Palagi
     email: Patricia.Palagi@sib.swiss
-
-# joinLink: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 
 #OPTIONAL FIELDS
 tags: [elixir, goblet, train-the-trainer, plan, design, develop, deliver, evaluate, community]
