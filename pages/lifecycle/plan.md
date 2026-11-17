@@ -37,7 +37,7 @@ Below, the most important **pedagogical** and **logistical** aspects to consider
 * **Preliminary logistical arrangements**: Planning for venue, equipment, and other available general resources for participants during the training session (e.g. restaurants, meeting rooms, break rooms, etc.) that might have  logistical requirements in order to establish budget etc. 
 * **Marketing and promotion**: Developing or integrating into already existing  communication strategies to attract and inform potential participants.
 * **Code of Conduct**: Establish a code of conduct for training events to adhere to
-* **Evaluation**: Developing or reusing already existing strategies to l evaluate the training and include that in your plan.
+* **Evaluation strategy (planning)**: Developing or reusing existing evaluation frameworks and metrics to define in advance how training outcomes and impact will be assessed. For actual data collection and post-training evaluation, see the [Evaluate stage](https://training-splash.org/evaluate).
 
 ## Related resources: 
 
@@ -66,7 +66,7 @@ Below, the most important **pedagogical** and **logistical** aspects to consider
 **Train-the-trainers**
 - [Development of a Train-the-Trainer Quality Improvement Curriculum](https://doi.org/10.1007/s13384-024-00772-7)
 
-**Evaluation**
+**Evaluation strategy (planning)**
 - [The Kirkpatrick model: A useful tool for evaluating training outcomes](https://doi.org/10.1007/s13384-024-00772-7)
 - [Designing evaluation studies to optimally inform policy: what factors do policy-makers in China consider when making resource allocation decisions on healthcare worker training programmes?](https://doi.org/10.1186/s12961-018-0292-2)
 
