@@ -5,7 +5,7 @@ title: About
 **_Training SPLASH - Your companion for impactful training_** is a one-stop-shop for training resources structured around the five stages of the training lifecycle: plan, design, develop, deliver and evaluate. Adding resources to Training SPLASH will increase their visibility, accessibility and usage and enable broader adoption and participation both within and outside the ELIXIR community.
 
 ## Who is the Training SPLASH for?
-The Training SPLASH is connecting trainers to practical guidance, tools and best practices for developing and delivering high-quality training in life sciences and beyond. The site is developed and maintained by the ELIXIR Training Platform, with governance and sustainability provided through the ELIXIR Scientific Programme 2024-28.
+The Training SPLASH is connecting trainers to practical guidance, tools and best practices for developing and delivering high-quality training in life sciences and beyond. The site is developed and maintained by the ELIXIR Training Platform, with governance and sustainability provided through the ELIXIR Scientific Programme 2024-28. If you would like to invite us to present Training SPLASH, please check the [contact](https://training-splash.org/contact) page.
 
 ## What is the ELIXIR Training Platform?
 The ELIXIR Training Platform brings together experts, resources and services to support life science training across Europe. It develops best practices, coordinates training programmes and provides access to high-quality materials and trainers, ensuring that researchers and professionals can build the skills they need to make the most of data, tools and technologies.
