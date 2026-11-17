@@ -58,7 +58,7 @@ Technical infrastructure is a large logistical consideration during development:
 - [Active learning increases student performance in science, engineering, and mathematics](https://doi.org/10.1073/pnas.1319030111)
 - [The Tyranny of Content: “Content Coverage” as a Barrier to Evidence-Based Teaching Approaches and Ways to Overcome It](https://doi.org/10.1187/cbe.19-04-0079)
 - [The power of feedback](https://doi.org/10.3102/003465430298487)
-- [Inclusive instructional practices: Course design, implementation, and discourse](https://doi.org/10.3102/003465430298487)
+- [Inclusive instructional practices: Course design, implementation, and discourse](https://doi.org/10.3389/feduc.2021.602639)
 - [Universal Design for Learning Guidelines](https://udlguidelines.cast.org/)
 
 
