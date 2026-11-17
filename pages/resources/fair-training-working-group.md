@@ -47,5 +47,7 @@ publications:
   - title: Ten simple rules for making training materials FAIR
     url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854
   - title: Ten simple rules for making training materials FAIR (Webinar)
-    url: https://elixir-europe.org/events/elixir-webinar-fair-training    
+    url: https://elixir-europe.org/events/elixir-webinar-fair-training   
+  - title: The ELIXIR Training material made FAIR by design course.
+    url: https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design  
 ---
