@@ -52,3 +52,10 @@ logo: tess_logo.png
 screenshots:
   - screenshot_tess_1.png
 ---
+
+## Documentation
+
+The TeSS Platform powers ELIXIR TeSS and other training registries. See the
+[TeSS Platform documentation](https://elixirtess.github.io/docs/) for help
+finding training, registering events and materials, or choosing between running
+your own registry and requesting a space in TeSSHub.
