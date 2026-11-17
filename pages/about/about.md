@@ -30,7 +30,7 @@ SPLASH is an acronym that stands for:
 
 along the training life cycle.
 
-## How to cite Training SPLASH
+## How to cite Training SPLASH and the Training Lifecycle
 
 <div class="card bg-light my-4">
   <div class="card-body">
@@ -38,23 +38,14 @@ along the training life cycle.
       <span id="year"></span>
       )</i>
     </p>
+    <p class="card-text"><i>The Training Lifecycle (coming soon...)</i>
+    </p>
   </div>
 </div>
 
 <script>
   document.getElementById("year").innerHTML = new Date().getFullYear();
 </script>
-
-## How to cite the Training Lifecycle
-
-<div class="card bg-light my-4">
-  <div class="card-body">
-    <p class="card-text"><i>The Training Lifecycle (coming soon...)</i>
-    </p>
-  </div>
-</div>
-
-
 
 The Training SPLASH makes all of their materials publicly available under [Open Source Initiative](https://opensource.org/licenses) licenses.
 The process documents and data are made available under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
