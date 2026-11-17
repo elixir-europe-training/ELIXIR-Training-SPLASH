@@ -49,7 +49,7 @@ along the training life cycle.
 
 <div class="card bg-light my-4">
   <div class="card-body">
-    <p class="card-text"><i>The Training Lifecycle (coming soon...)<i>
+    <p class="card-text"><i>The Training Lifecycle (coming soon...)</i>
     </p>
   </div>
 </div>
