@@ -78,8 +78,8 @@
         {
             "name": "Batut, Bérénice",
             "type": "ProjectMember",
-            "orcid": "0000-0003-2163-6860",
-            "affiliation": "University of Bradford"
+            "orcid": "0000-0001-9852-1987",
+            "affiliation": "Institut Francais de Bioinformatique"
         },
         {
             "name": "Goble, Carole",
@@ -112,7 +112,9 @@
         },
         {
             "name": "Araújo, Dayane",
-            "type": "ProjectMember"
+            "type": "ProjectMember",
+            "orcid": "0000-0003-2211-0107",
+            "affiliation": "EMBL-EBI"
         },
         {
             "name": "Pilvar, Diana",
